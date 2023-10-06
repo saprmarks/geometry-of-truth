@@ -63,4 +63,4 @@ If we want to see separation into true/false clusters, we can borrow one of the 
 
 So far, we've only been looking at layer 12. But by sweeping over the layers of LLaMA-13B, we can watch as the features which distinguish true statements from false ones emerge. Interestingly, there's a 4-layer offset between when `cities` separates and when `cities_cities_conj` (conjunctions of statements about cities) separates. This might be due to LLaMA-13B hierarchically building up concepts, with more composite concepts taking longer to emerge.
 
-[!Separation emerges over layers](https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.gif)
+![Separation emerges over layers](https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.gif)
