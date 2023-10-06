@@ -22,3 +22,7 @@ This directory contains the following files:
 * `interventions.ipynb`: for reproducing the causal intervention experiments from the text.
 * `probes.py`: contains definitions of probe classes.
 * `utils.py` and `visualization_utils.py`: utilities for managing datasets and producing visualizations. 
+
+## Testing
+
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/basic_datasets.html" width="800" height="600"></iframe>
