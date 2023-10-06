@@ -12,8 +12,10 @@ Let's start off with our basic datasets, containing simple statements like "The 
 
 We're not sure why the `smaller_than` dataset doesn't look as separated as the rest. But things look better when you go to 3D (below, right).
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/cities_3d.html" width="500" height="500"></iframe>
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="500" height="500"></iframe>
+<div style="display: flex; justify-content: space-between;">
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/cities_3d.html" width="48%" height="500"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="48%" height="500"></iframe>
+</div>
 
 Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, can you figure out how the statements vary as you run move along the point clouds (up and to the right)? See below for the answer.
 
@@ -30,3 +32,8 @@ How do the visually apparent "truth directions" of the negated statements compar
 
 Here we've done PCA on the two datsets together (after independently centering each; otherwise there would also be a translational displacement between them). You can toggle which datasets are shown by clicking on the plot legends.
 
+Now for the conjunctions and disjunctions.
+
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/conj_disj.html" width="800" height="500"></iframe>
+
+Does it look like the circled points form a bit of a separate cluster? We thought so, and indeed there's a pattern to those statements. See if you can figure out what it is (answer below).
