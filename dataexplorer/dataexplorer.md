@@ -38,3 +38,17 @@ Now for the conjunctions and disjunctions.
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/conj_disj.html" width="100%" height="500"></iframe>
 
 Does it look like the circled points form a bit of a separate cluster? We thought so, and indeed there's a pattern to those statements. See if you can figure out what it is (answer below).
+
+## More diverse datasets
+
+All of the datasets above were curated to contain statements which are *uncontroversial*, *unambiguous*, and *simple*. They are also not very diverse -- each dataset is formed from a single template.
+
+In contrast, we'll now look at some *uncurated* datasets adapted <a href="https://arxiv.org/abs/2304.13734">from</a> <a href="https://github.com/Algorithmic-Alignment-Lab/CommonClaim/tree/main">other</a> <a href="https://rome.baulab.info/">sources</a>. Mouse over the plots below to get a sampling of the statements in these datasets.
+
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/uncurated_datasets.html" width="100%" height="500"></iframe>
+
+The first thing to note about these visualizations is that we don't see a clear separation into true and false clusters. This is because the datasets are more diverse. Recall that PCA identifies the most salient axes of variation for a dataset; in more diverse datasets, these axes are more likely to encode some truth-independent feature. For instance, the statements in `companies_true_false` are formed using three different templates, and the top 2 principal components mostly encode the difference between these templates. It's quite shocking that `common_claim_true_false`, consisting of statements as diverse as "Rabbits can partially digest memories" or "Dolphins are capable of acts of impressive intelligence" has as much true/false separation as it does.
+
+If we want to see separation into true/false clusters, we can borrow one of the PCA bases identified from our cleaner datasets. For instance, here are our uncurated datasets visualized in the PCA basis extracted from our `cities` dataset.
+
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/uncurated_datasets_cities_basis.html" width="100%" height="500"></iframe>
