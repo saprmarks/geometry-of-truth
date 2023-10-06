@@ -1,0 +1,1497 @@
+statement,label,city,country,correct_country
+The city of Krasnodar is in Russia.,1,Krasnodar,Russia,Russia
+The city of Krasnodar is in South Africa.,0,Krasnodar,South Africa,Russia
+The city of Lodz is in Poland.,1,Lodz,Poland,Poland
+The city of Lodz is in the Dominican Republic.,0,Lodz,the Dominican Republic,Poland
+The city of Maracay is in Venezuela.,1,Maracay,Venezuela,Venezuela
+The city of Maracay is in China.,0,Maracay,China,Venezuela
+The city of Baku is in Azerbaijan.,1,Baku,Azerbaijan,Azerbaijan
+The city of Baku is in Ukraine.,0,Baku,Ukraine,Azerbaijan
+The city of Baoji is in China.,1,Baoji,China,China
+The city of Baoji is in Guatemala.,0,Baoji,Guatemala,China
+The city of Addis Ababa is in Ethiopia.,1,Addis Ababa,Ethiopia,Ethiopia
+The city of Addis Ababa is in Indonesia.,0,Addis Ababa,Indonesia,Ethiopia
+The city of Abidjan is in Côte d'Ivoire.,1,Abidjan,Côte d'Ivoire,Côte d'Ivoire
+The city of Abidjan is in China.,0,Abidjan,China,Côte d'Ivoire
+The city of Yongzhou is in China.,1,Yongzhou,China,China
+The city of Yongzhou is in Ukraine.,0,Yongzhou,Ukraine,China
+The city of Nanchong is in China.,1,Nanchong,China,China
+The city of Nanchong is in Nigeria.,0,Nanchong,Nigeria,China
+The city of Lu'an is in China.,1,Lu'an,China,China
+The city of Lu'an is in Turkey.,0,Lu'an,Turkey,China
+The city of Jiaxing is in China.,1,Jiaxing,China,China
+The city of Jiaxing is in Ukraine.,0,Jiaxing,Ukraine,China
+The city of Huaihua is in China.,1,Huaihua,China,China
+The city of Huaihua is in South Africa.,0,Huaihua,South Africa,China
+The city of Anqing is in China.,1,Anqing,China,China
+The city of Anqing is in Brazil.,0,Anqing,Brazil,China
+The city of Yingkou is in China.,1,Yingkou,China,China
+The city of Yingkou is in the Philippines.,0,Yingkou,the Philippines,China
+The city of Panshan is in China.,1,Panshan,China,China
+The city of Panshan is in Japan.,0,Panshan,Japan,China
+The city of Guatemala City is in Guatemala.,1,Guatemala City,Guatemala,Guatemala
+The city of Guatemala City is in Croatia.,0,Guatemala City,Croatia,Guatemala
+The city of Bauchi is in Nigeria.,1,Bauchi,Nigeria,Nigeria
+The city of Bauchi is in Iran.,0,Bauchi,Iran,Nigeria
+The city of Tokyo is in Japan.,1,Tokyo,Japan,Japan
+The city of Tokyo is in Pakistan.,0,Tokyo,Pakistan,Japan
+The city of Mombasa is in Kenya.,1,Mombasa,Kenya,Kenya
+The city of Mombasa is in India.,0,Mombasa,India,Kenya
+The city of Ulsan is in South Korea.,1,Ulsan,South Korea,South Korea
+The city of Ulsan is in South Africa.,0,Ulsan,South Africa,South Korea
+The city of Warangal is in India.,1,Warangal,India,India
+The city of Warangal is in Yemen.,0,Warangal,Yemen,India
+The city of Tiruchirappalli is in India.,1,Tiruchirappalli,India,India
+The city of Tiruchirappalli is in Iraq.,0,Tiruchirappalli,Iraq,India
+The city of Nowrangapur is in India.,1,Nowrangapur,India,India
+The city of Nowrangapur is in Vietnam.,0,Nowrangapur,Vietnam,India
+The city of Sambhaji Nagar is in India.,1,Sambhaji Nagar,India,India
+The city of Sambhaji Nagar is in China.,0,Sambhaji Nagar,China,India
+The city of Ajmer is in India.,1,Ajmer,India,India
+The city of Ajmer is in Russia.,0,Ajmer,Russia,India
+The city of Rohini is in India.,1,Rohini,India,India
+The city of Rohini is in Russia.,0,Rohini,Russia,India
+The city of Serang is in Indonesia.,1,Serang,Indonesia,Indonesia
+The city of Serang is in Poland.,0,Serang,Poland,Indonesia
+The city of Niigata is in Japan.,1,Niigata,Japan,Japan
+The city of Niigata is in Yemen.,0,Niigata,Yemen,Japan
+The city of Marrakesh is in Morocco.,1,Marrakesh,Morocco,Morocco
+The city of Marrakesh is in Malaysia.,0,Marrakesh,Malaysia,Morocco
+The city of Makati City is in the Philippines.,1,Makati City,the Philippines,the Philippines
+The city of Makati City is in India.,0,Makati City,India,the Philippines
+The city of Tirunelveli is in India.,1,Tirunelveli,India,India
+The city of Tirunelveli is in China.,0,Tirunelveli,China,India
+The city of Thane is in India.,1,Thane,India,India
+The city of Thane is in China.,0,Thane,China,India
+The city of Solapur is in India.,1,Solapur,India,India
+The city of Solapur is in the United States.,0,Solapur,the United States,India
+The city of Najafgarh is in India.,1,Najafgarh,India,India
+The city of Najafgarh is in Brazil.,0,Najafgarh,Brazil,India
+The city of Borivli is in India.,1,Borivli,India,India
+The city of Borivli is in Ukraine.,0,Borivli,Ukraine,India
+The city of Zhabei is in China.,1,Zhabei,China,China
+The city of Zhabei is in Afghanistan.,0,Zhabei,Afghanistan,China
+The city of Liaocheng is in China.,1,Liaocheng,China,China
+The city of Liaocheng is in South Korea.,0,Liaocheng,South Korea,China
+The city of Jiaozhou is in China.,1,Jiaozhou,China,China
+The city of Jiaozhou is in Latvia.,0,Jiaozhou,Latvia,China
+The city of Guilin is in China.,1,Guilin,China,China
+The city of Guilin is in the Dominican Republic.,0,Guilin,the Dominican Republic,China
+The city of Chaozhou is in China.,1,Chaozhou,China,China
+The city of Chaozhou is in South Korea.,0,Chaozhou,South Korea,China
+The city of Panzhihua is in China.,1,Panzhihua,China,China
+The city of Panzhihua is in Iran.,0,Panzhihua,Iran,China
+The city of Bucaramanga is in Colombia.,1,Bucaramanga,Colombia,Colombia
+The city of Bucaramanga is in Brazil.,0,Bucaramanga,Brazil,Colombia
+The city of Niamey is in Niger.,1,Niamey,Niger,Niger
+The city of Niamey is in China.,0,Niamey,China,Niger
+The city of Sokoto is in Nigeria.,1,Sokoto,Nigeria,Nigeria
+The city of Sokoto is in South Korea.,0,Sokoto,South Korea,Nigeria
+The city of Abuja is in Nigeria.,1,Abuja,Nigeria,Nigeria
+The city of Abuja is in China.,0,Abuja,China,Nigeria
+The city of South Tangerang is in Indonesia.,1,South Tangerang,Indonesia,Indonesia
+The city of South Tangerang is in India.,0,South Tangerang,India,Indonesia
+The city of Odesa is in Ukraine.,1,Odesa,Ukraine,Ukraine
+The city of Odesa is in China.,0,Odesa,China,Ukraine
+The city of Fort Worth is in the United States.,1,Fort Worth,the United States,the United States
+The city of Fort Worth is in Russia.,0,Fort Worth,Russia,the United States
+The city of Boumerdes is in Algeria.,1,Boumerdes,Algeria,Algeria
+The city of Boumerdes is in Iran.,0,Boumerdes,Iran,Algeria
+The city of Asmara is in Eritrea.,1,Asmara,Eritrea,Eritrea
+The city of Asmara is in Indonesia.,0,Asmara,Indonesia,Eritrea
+The city of Santiago de Queretaro is in Mexico.,1,Santiago de Queretaro,Mexico,Mexico
+The city of Santiago de Queretaro is in Ecuador.,0,Santiago de Queretaro,Ecuador,Mexico
+The city of Perm is in Russia.,1,Perm,Russia,Russia
+The city of Perm is in China.,0,Perm,China,Russia
+The city of Jeddah is in Saudi Arabia.,1,Jeddah,Saudi Arabia,Saudi Arabia
+The city of Jeddah is in Myanmar.,0,Jeddah,Myanmar,Saudi Arabia
+The city of Konya is in Turkey.,1,Konya,Turkey,Turkey
+The city of Konya is in Russia.,0,Konya,Russia,Turkey
+The city of Macapa is in Brazil.,1,Macapa,Brazil,Brazil
+The city of Macapa is in China.,0,Macapa,China,Brazil
+The city of Belo Horizonte is in Brazil.,1,Belo Horizonte,Brazil,Brazil
+The city of Belo Horizonte is in North Korea.,0,Belo Horizonte,North Korea,Brazil
+The city of Poznan is in Poland.,1,Poznan,Poland,Poland
+The city of Poznan is in Mexico.,0,Poznan,Mexico,Poland
+The city of Linyi is in China.,1,Linyi,China,China
+The city of Linyi is in Iraq.,0,Linyi,Iraq,China
+The city of Hohhot is in China.,1,Hohhot,China,China
+The city of Hohhot is in Indonesia.,0,Hohhot,Indonesia,China
+The city of Malacca is in Malaysia.,1,Malacca,Malaysia,Malaysia
+The city of Malacca is in China.,0,Malacca,China,Malaysia
+The city of Busan is in South Korea.,1,Busan,South Korea,South Korea
+The city of Busan is in Brazil.,0,Busan,Brazil,South Korea
+The city of Seongnam-si is in South Korea.,1,Seongnam-si,South Korea,South Korea
+The city of Seongnam-si is in Russia.,0,Seongnam-si,Russia,South Korea
+The city of Matsuyama is in Japan.,1,Matsuyama,Japan,Japan
+The city of Matsuyama is in Burkina Faso.,0,Matsuyama,Burkina Faso,Japan
+The city of Suwon is in South Korea.,1,Suwon,South Korea,South Korea
+The city of Suwon is in Russia.,0,Suwon,Russia,South Korea
+The city of Incheon is in South Korea.,1,Incheon,South Korea,South Korea
+The city of Incheon is in India.,0,Incheon,India,South Korea
+The city of Hwaseong-si is in South Korea.,1,Hwaseong-si,South Korea,South Korea
+The city of Hwaseong-si is in Brazil.,0,Hwaseong-si,Brazil,South Korea
+The city of Changwon is in South Korea.,1,Changwon,South Korea,South Korea
+The city of Changwon is in Indonesia.,0,Changwon,Indonesia,South Korea
+The city of Bamako is in Mali.,1,Bamako,Mali,Mali
+The city of Bamako is in India.,0,Bamako,India,Mali
+The city of Acapulco de Juarez is in Mexico.,1,Acapulco de Juarez,Mexico,Mexico
+The city of Acapulco de Juarez is in Morocco.,0,Acapulco de Juarez,Morocco,Mexico
+The city of Mosul is in Iraq.,1,Mosul,Iraq,Iraq
+The city of Mosul is in China.,0,Mosul,China,Iraq
+The city of Basrah is in Iraq.,1,Basrah,Iraq,Iraq
+The city of Basrah is in China.,0,Basrah,China,Iraq
+The city of Qom is in Iran.,1,Qom,Iran,Iran
+The city of Qom is in Vietnam.,0,Qom,Vietnam,Iran
+The city of Torreon is in Mexico.,1,Torreon,Mexico,Mexico
+The city of Torreon is in India.,0,Torreon,India,Mexico
+The city of Beira is in Mozambique.,1,Beira,Mozambique,Mozambique
+The city of Beira is in India.,0,Beira,India,Mozambique
+The city of Naucalpan de Juarez is in Mexico.,1,Naucalpan de Juarez,Mexico,Mexico
+The city of Naucalpan de Juarez is in Honduras.,0,Naucalpan de Juarez,Honduras,Mexico
+The city of Dehra Dun is in India.,1,Dehra Dun,India,India
+The city of Dehra Dun is in China.,0,Dehra Dun,China,India
+The city of Bhubaneswar is in India.,1,Bhubaneswar,India,India
+The city of Bhubaneswar is in China.,0,Bhubaneswar,China,India
+The city of Ahvaz is in Iran.,1,Ahvaz,Iran,Iran
+The city of Ahvaz is in China.,0,Ahvaz,China,Iran
+The city of Kumasi is in Ghana.,1,Kumasi,Ghana,Ghana
+The city of Kumasi is in India.,0,Kumasi,India,Ghana
+The city of Palembang is in Indonesia.,1,Palembang,Indonesia,Indonesia
+The city of Palembang is in Brazil.,0,Palembang,Brazil,Indonesia
+The city of Novokuznetsk is in Russia.,1,Novokuznetsk,Russia,Russia
+The city of Novokuznetsk is in China.,0,Novokuznetsk,China,Russia
+The city of Izmir is in Turkey.,1,Izmir,Turkey,Turkey
+The city of Izmir is in Iran.,0,Izmir,Iran,Turkey
+The city of Lahore is in Pakistan.,1,Lahore,Pakistan,Pakistan
+The city of Lahore is in China.,0,Lahore,China,Pakistan
+The city of Zhenjiang is in China.,1,Zhenjiang,China,China
+The city of Zhenjiang is in Germany.,0,Zhenjiang,Germany,China
+The city of Zhaotong is in China.,1,Zhaotong,China,China
+The city of Zhaotong is in Iraq.,0,Zhaotong,Iraq,China
+The city of Weifang is in China.,1,Weifang,China,China
+The city of Weifang is in Indonesia.,0,Weifang,Indonesia,China
+The city of Tianjin is in China.,1,Tianjin,China,China
+The city of Tianjin is in Bangladesh.,0,Tianjin,Bangladesh,China
+The city of Shaoxing is in China.,1,Shaoxing,China,China
+The city of Shaoxing is in the Philippines.,0,Shaoxing,the Philippines,China
+The city of Hangzhou is in China.,1,Hangzhou,China,China
+The city of Hangzhou is in Russia.,0,Hangzhou,Russia,China
+The city of Mudanjiang is in China.,1,Mudanjiang,China,China
+The city of Mudanjiang is in Turkey.,0,Mudanjiang,Turkey,China
+The city of Anshan is in China.,1,Anshan,China,China
+The city of Anshan is in Cameroon.,0,Anshan,Cameroon,China
+The city of Porto Velho is in Brazil.,1,Porto Velho,Brazil,Brazil
+The city of Porto Velho is in Algeria.,0,Porto Velho,Algeria,Brazil
+The city of N'Djamena is in Chad.,1,N'Djamena,Chad,Chad
+The city of N'Djamena is in China.,0,N'Djamena,China,Chad
+The city of Kayseri is in Turkey.,1,Kayseri,Turkey,Turkey
+The city of Kayseri is in Iraq.,0,Kayseri,Iraq,Turkey
+The city of Marseille is in France.,1,Marseille,France,France
+The city of Marseille is in Russia.,0,Marseille,Russia,France
+The city of Lyon is in France.,1,Lyon,France,France
+The city of Lyon is in Canada.,0,Lyon,Canada,France
+The city of Suez is in Egypt.,1,Suez,Egypt,Egypt
+The city of Suez is in Brazil.,0,Suez,Brazil,Egypt
+The city of Giza is in Egypt.,1,Giza,Egypt,Egypt
+The city of Giza is in India.,0,Giza,India,Egypt
+The city of Naberezhnyye Chelny is in Russia.,1,Naberezhnyye Chelny,Russia,Russia
+The city of Naberezhnyye Chelny is in Brazil.,0,Naberezhnyye Chelny,Brazil,Russia
+The city of Mukalla is in Yemen.,1,Mukalla,Yemen,Yemen
+The city of Mukalla is in Iran.,0,Mukalla,Iran,Yemen
+The city of Harare is in Zimbabwe.,1,Harare,Zimbabwe,Zimbabwe
+The city of Harare is in Turkey.,0,Harare,Turkey,Zimbabwe
+The city of Sevastopol is in Ukraine.,1,Sevastopol,Ukraine,Ukraine
+The city of Sevastopol is in Pakistan.,0,Sevastopol,Pakistan,Ukraine
+The city of Lipetsk is in Russia.,1,Lipetsk,Russia,Russia
+The city of Lipetsk is in China.,0,Lipetsk,China,Russia
+The city of Istanbul is in Turkey.,1,Istanbul,Turkey,Turkey
+The city of Istanbul is in Ghana.,0,Istanbul,Ghana,Turkey
+The city of Callao is in Peru.,1,Callao,Peru,Peru
+The city of Callao is in Myanmar.,0,Callao,Myanmar,Peru
+The city of Cebu City is in the Philippines.,1,Cebu City,the Philippines,the Philippines
+The city of Cebu City is in China.,0,Cebu City,China,the Philippines
+The city of Tashkent is in Uzbekistan.,1,Tashkent,Uzbekistan,Uzbekistan
+The city of Tashkent is in Mexico.,0,Tashkent,Mexico,Uzbekistan
+The city of Maturin is in Venezuela.,1,Maturin,Venezuela,Venezuela
+The city of Maturin is in Saudi Arabia.,0,Maturin,Saudi Arabia,Venezuela
+The city of Hanoi is in Vietnam.,1,Hanoi,Vietnam,Vietnam
+The city of Hanoi is in Poland.,0,Hanoi,Poland,Vietnam
+The city of Xuzhou is in China.,1,Xuzhou,China,China
+The city of Xuzhou is in Mexico.,0,Xuzhou,Mexico,China
+The city of Cucuta is in Colombia.,1,Cucuta,Colombia,Colombia
+The city of Cucuta is in India.,0,Cucuta,India,Colombia
+The city of Santo Domingo Oeste is in the Dominican Republic.,1,Santo Domingo Oeste,the Dominican Republic,the Dominican Republic
+The city of Santo Domingo Oeste is in Zambia.,0,Santo Domingo Oeste,Zambia,the Dominican Republic
+The city of Tangshan is in China.,1,Tangshan,China,China
+The city of Tangshan is in India.,0,Tangshan,India,China
+The city of Neijiang is in China.,1,Neijiang,China,China
+The city of Neijiang is in Ghana.,0,Neijiang,Ghana,China
+The city of Linfen is in China.,1,Linfen,China,China
+The city of Linfen is in India.,0,Linfen,India,China
+The city of Yiwu is in China.,1,Yiwu,China,China
+The city of Yiwu is in India.,0,Yiwu,India,China
+The city of Qiqihar is in China.,1,Qiqihar,China,China
+The city of Qiqihar is in India.,0,Qiqihar,India,China
+The city of Baotou is in China.,1,Baotou,China,China
+The city of Baotou is in Japan.,0,Baotou,Japan,China
+The city of Aparecida de Goiania is in Brazil.,1,Aparecida de Goiania,Brazil,Brazil
+The city of Aparecida de Goiania is in China.,0,Aparecida de Goiania,China,Brazil
+The city of Kinshasa is in the Democratic Republic of the Congo.,1,Kinshasa,the Democratic Republic of the Congo,the Democratic Republic of the Congo
+The city of Kinshasa is in Brazil.,0,Kinshasa,Brazil,the Democratic Republic of the Congo
+The city of Ciudad Nezahualcoyotl is in Mexico.,1,Ciudad Nezahualcoyotl,Mexico,Mexico
+The city of Ciudad Nezahualcoyotl is in Senegal.,0,Ciudad Nezahualcoyotl,Senegal,Mexico
+The city of Mexicali is in Mexico.,1,Mexicali,Mexico,Mexico
+The city of Mexicali is in South Africa.,0,Mexicali,South Africa,Mexico
+The city of Ciudad Juarez is in Mexico.,1,Ciudad Juarez,Mexico,Mexico
+The city of Ciudad Juarez is in India.,0,Ciudad Juarez,India,Mexico
+The city of Kampung Baru Subang is in Malaysia.,1,Kampung Baru Subang,Malaysia,Malaysia
+The city of Kampung Baru Subang is in the Philippines.,0,Kampung Baru Subang,the Philippines,Malaysia
+The city of Subang Jaya is in Malaysia.,1,Subang Jaya,Malaysia,Malaysia
+The city of Subang Jaya is in Germany.,0,Subang Jaya,Germany,Malaysia
+The city of Maputo is in Mozambique.,1,Maputo,Mozambique,Mozambique
+The city of Maputo is in Japan.,0,Maputo,Japan,Mozambique
+The city of Kumamoto is in Japan.,1,Kumamoto,Japan,Japan
+The city of Kumamoto is in China.,0,Kumamoto,China,Japan
+The city of Daegu is in South Korea.,1,Daegu,South Korea,South Korea
+The city of Daegu is in the United States.,0,Daegu,the United States,South Korea
+The city of Vilnius is in Lithuania.,1,Vilnius,Lithuania,Lithuania
+The city of Vilnius is in China.,0,Vilnius,China,Lithuania
+The city of Ranchi is in India.,1,Ranchi,India,India
+The city of Ranchi is in Venezuela.,0,Ranchi,Venezuela,India
+The city of Jalandhar is in India.,1,Jalandhar,India,India
+The city of Jalandhar is in Iraq.,0,Jalandhar,Iraq,India
+The city of Bhayandar is in India.,1,Bhayandar,India,India
+The city of Bhayandar is in China.,0,Bhayandar,China,India
+The city of Bareilly is in India.,1,Bareilly,India,India
+The city of Bareilly is in Mozambique.,0,Bareilly,Mozambique,India
+The city of Santo Domingo Este is in the Dominican Republic.,1,Santo Domingo Este,the Dominican Republic,the Dominican Republic
+The city of Santo Domingo Este is in India.,0,Santo Domingo Este,India,the Dominican Republic
+The city of Al Fayyum is in Egypt.,1,Al Fayyum,Egypt,Egypt
+The city of Al Fayyum is in Chile.,0,Al Fayyum,Chile,Egypt
+The city of Rizhao is in China.,1,Rizhao,China,China
+The city of Rizhao is in Iraq.,0,Rizhao,Iraq,China
+"The city of Mianzhu, Deyang, Sichuan is in China.",1,"Mianzhu, Deyang, Sichuan",China,China
+"The city of Mianzhu, Deyang, Sichuan is in India.",0,"Mianzhu, Deyang, Sichuan",India,China
+The city of Jabalpur is in India.,1,Jabalpur,India,India
+The city of Jabalpur is in Ukraine.,0,Jabalpur,Ukraine,India
+The city of Bilimora is in India.,1,Bilimora,India,India
+The city of Bilimora is in Uzbekistan.,0,Bilimora,Uzbekistan,India
+The city of Accra is in Ghana.,1,Accra,Ghana,Ghana
+The city of Accra is in China.,0,Accra,China,Ghana
+The city of Bogor is in Indonesia.,1,Bogor,Indonesia,Indonesia
+The city of Bogor is in South Korea.,0,Bogor,South Korea,Indonesia
+The city of Nyala is in Sudan.,1,Nyala,Sudan,Sudan
+The city of Nyala is in Mozambique.,0,Nyala,Mozambique,Sudan
+The city of Eskisehir is in Turkey.,1,Eskisehir,Turkey,Turkey
+The city of Eskisehir is in China.,0,Eskisehir,China,Turkey
+The city of Antalya is in Turkey.,1,Antalya,Turkey,Turkey
+The city of Antalya is in Germany.,0,Antalya,Germany,Turkey
+The city of Dnipro is in Ukraine.,1,Dnipro,Ukraine,Ukraine
+The city of Dnipro is in Russia.,0,Dnipro,Russia,Ukraine
+The city of Khabarovsk is in Russia.,1,Khabarovsk,Russia,Russia
+The city of Khabarovsk is in Saudi Arabia.,0,Khabarovsk,Saudi Arabia,Russia
+The city of Irkutsk is in Russia.,1,Irkutsk,Russia,Russia
+The city of Irkutsk is in Morocco.,0,Irkutsk,Morocco,Russia
+The city of Libreville is in Gabon.,1,Libreville,Gabon,Gabon
+The city of Libreville is in the United States.,0,Libreville,the United States,Gabon
+The city of Santiago de los Caballeros is in the Dominican Republic.,1,Santiago de los Caballeros,the Dominican Republic,the Dominican Republic
+The city of Santiago de los Caballeros is in India.,0,Santiago de los Caballeros,India,the Dominican Republic
+The city of Algiers is in Algeria.,1,Algiers,Algeria,Algeria
+The city of Algiers is in China.,0,Algiers,China,Algeria
+The city of Nashik is in India.,1,Nashik,India,India
+The city of Nashik is in China.,0,Nashik,China,India
+The city of Karol Bagh is in India.,1,Karol Bagh,India,India
+The city of Karol Bagh is in Syria.,0,Karol Bagh,Syria,India
+The city of Orumiyeh is in Iran.,1,Orumiyeh,Iran,Iran
+The city of Orumiyeh is in Saudi Arabia.,0,Orumiyeh,Saudi Arabia,Iran
+The city of Zahedan is in Iran.,1,Zahedan,Iran,Iran
+The city of Zahedan is in Nicaragua.,0,Zahedan,Nicaragua,Iran
+The city of Xuchang is in China.,1,Xuchang,China,China
+The city of Xuchang is in Japan.,0,Xuchang,Japan,China
+The city of Changde is in China.,1,Changde,China,China
+The city of Changde is in Mexico.,0,Changde,Mexico,China
+The city of Shaoguan is in China.,1,Shaoguan,China,China
+The city of Shaoguan is in Pakistan.,0,Shaoguan,Pakistan,China
+The city of Jilin is in China.,1,Jilin,China,China
+The city of Jilin is in the United States.,0,Jilin,the United States,China
+The city of Manaus is in Brazil.,1,Manaus,Brazil,Brazil
+The city of Manaus is in Turkey.,0,Manaus,Turkey,Brazil
+The city of Jaboatao dos Guararapes is in Brazil.,1,Jaboatao dos Guararapes,Brazil,Brazil
+The city of Jaboatao dos Guararapes is in Myanmar.,0,Jaboatao dos Guararapes,Myanmar,Brazil
+The city of Kakamega is in Kenya.,1,Kakamega,Kenya,Kenya
+The city of Kakamega is in Russia.,0,Kakamega,Russia,Kenya
+The city of Agadir is in Morocco.,1,Agadir,Morocco,Morocco
+The city of Agadir is in Bangladesh.,0,Agadir,Bangladesh,Morocco
+The city of Ulan Bator is in Mongolia.,1,Ulan Bator,Mongolia,Mongolia
+The city of Ulan Bator is in Ukraine.,0,Ulan Bator,Ukraine,Mongolia
+The city of Muscat is in Oman.,1,Muscat,Oman,Oman
+The city of Muscat is in Bangladesh.,0,Muscat,Bangladesh,Oman
+The city of Paranaque City is in the Philippines.,1,Paranaque City,the Philippines,the Philippines
+The city of Paranaque City is in India.,0,Paranaque City,India,the Philippines
+The city of Rahim Yar Khan is in Pakistan.,1,Rahim Yar Khan,Pakistan,Pakistan
+The city of Rahim Yar Khan is in Lithuania.,0,Rahim Yar Khan,Lithuania,Pakistan
+The city of Balikpapan is in Indonesia.,1,Balikpapan,Indonesia,Indonesia
+The city of Balikpapan is in Japan.,0,Balikpapan,Japan,Indonesia
+The city of Guarulhos is in Brazil.,1,Guarulhos,Brazil,Brazil
+The city of Guarulhos is in China.,0,Guarulhos,China,Brazil
+The city of Volgograd is in Russia.,1,Volgograd,Russia,Russia
+The city of Volgograd is in Nigeria.,0,Volgograd,Nigeria,Russia
+The city of Ulyanovsk is in Russia.,1,Ulyanovsk,Russia,Russia
+The city of Ulyanovsk is in Ukraine.,0,Ulyanovsk,Ukraine,Russia
+The city of Kota Bharu is in Malaysia.,1,Kota Bharu,Malaysia,Malaysia
+The city of Kota Bharu is in Norway.,0,Kota Bharu,Norway,Malaysia
+The city of Sarajevo is in Bosnia and Herzegovina.,1,Sarajevo,Bosnia and Herzegovina,Bosnia and Herzegovina
+The city of Sarajevo is in South Africa.,0,Sarajevo,South Africa,Bosnia and Herzegovina
+The city of Maceio is in Brazil.,1,Maceio,Brazil,Brazil
+The city of Maceio is in China.,0,Maceio,China,Brazil
+The city of Joao Pessoa is in Brazil.,1,Joao Pessoa,Brazil,Brazil
+The city of Joao Pessoa is in South Africa.,0,Joao Pessoa,South Africa,Brazil
+The city of Shangqiu is in China.,1,Shangqiu,China,China
+The city of Shangqiu is in South Korea.,0,Shangqiu,South Korea,China
+The city of Zhangye is in China.,1,Zhangye,China,China
+The city of Zhangye is in Venezuela.,0,Zhangye,Venezuela,China
+The city of Xuanzhou is in China.,1,Xuanzhou,China,China
+The city of Xuanzhou is in Tanzania.,0,Xuanzhou,Tanzania,China
+The city of Wuhan is in China.,1,Wuhan,China,China
+The city of Wuhan is in Egypt.,0,Wuhan,Egypt,China
+The city of Nanchang is in China.,1,Nanchang,China,China
+The city of Nanchang is in Malaysia.,0,Nanchang,Malaysia,China
+The city of Luancheng is in China.,1,Luancheng,China,China
+The city of Luancheng is in Brazil.,0,Luancheng,Brazil,China
+The city of Liuzhou is in China.,1,Liuzhou,China,China
+The city of Liuzhou is in Russia.,0,Liuzhou,Russia,China
+The city of Guangyuan is in China.,1,Guangyuan,China,China
+The city of Guangyuan is in Mexico.,0,Guangyuan,Mexico,China
+The city of Bijie is in China.,1,Bijie,China,China
+The city of Bijie is in Indonesia.,0,Bijie,Indonesia,China
+The city of Zhoushan is in China.,1,Zhoushan,China,China
+The city of Zhoushan is in the Philippines.,0,Zhoushan,the Philippines,China
+The city of Hegang is in China.,1,Hegang,China,China
+The city of Hegang is in Russia.,0,Hegang,Russia,China
+The city of E'zhou is in China.,1,E'zhou,China,China
+The city of E'zhou is in Malaysia.,0,E'zhou,Malaysia,China
+The city of Campos dos Goytacazes is in Brazil.,1,Campos dos Goytacazes,Brazil,Brazil
+The city of Campos dos Goytacazes is in Vietnam.,0,Campos dos Goytacazes,Vietnam,Brazil
+The city of Bucharest is in Romania.,1,Bucharest,Romania,Romania
+The city of Bucharest is in Italy.,0,Bucharest,Italy,Romania
+The city of Ansan-si is in South Korea.,1,Ansan-si,South Korea,South Korea
+The city of Ansan-si is in Canada.,0,Ansan-si,Canada,South Korea
+The city of Casablanca is in Morocco.,1,Casablanca,Morocco,Morocco
+The city of Casablanca is in Russia.,0,Casablanca,Russia,Morocco
+The city of Coyoacan is in Mexico.,1,Coyoacan,Mexico,Mexico
+The city of Coyoacan is in Kenya.,0,Coyoacan,Kenya,Mexico
+The city of Oyo is in Nigeria.,1,Oyo,Nigeria,Nigeria
+The city of Oyo is in China.,0,Oyo,China,Nigeria
+The city of Pasig City is in the Philippines.,1,Pasig City,the Philippines,the Philippines
+The city of Pasig City is in Morocco.,0,Pasig City,Morocco,the Philippines
+The city of Kano is in Nigeria.,1,Kano,Nigeria,Nigeria
+The city of Kano is in China.,0,Kano,China,Nigeria
+The city of Bahawalpur is in Pakistan.,1,Bahawalpur,Pakistan,Pakistan
+The city of Bahawalpur is in China.,0,Bahawalpur,China,Pakistan
+The city of New Kingston is in Jamaica.,1,New Kingston,Jamaica,Jamaica
+The city of New Kingston is in South Africa.,0,New Kingston,South Africa,Jamaica
+The city of Pyongyang is in North Korea.,1,Pyongyang,North Korea,North Korea
+The city of Pyongyang is in Argentina.,0,Pyongyang,Argentina,North Korea
+The city of Shymkent is in Kazakhstan.,1,Shymkent,Kazakhstan,Kazakhstan
+The city of Shymkent is in China.,0,Shymkent,China,Kazakhstan
+The city of Tlalpan is in Mexico.,1,Tlalpan,Mexico,Mexico
+The city of Tlalpan is in Egypt.,0,Tlalpan,Egypt,Mexico
+The city of Kemerovo is in Russia.,1,Kemerovo,Russia,Russia
+The city of Kemerovo is in India.,0,Kemerovo,India,Russia
+The city of Zaporizhzhya is in Ukraine.,1,Zaporizhzhya,Ukraine,Ukraine
+The city of Zaporizhzhya is in South Korea.,0,Zaporizhzhya,South Korea,Ukraine
+The city of Iztapalapa is in Mexico.,1,Iztapalapa,Mexico,Mexico
+The city of Iztapalapa is in Yemen.,0,Iztapalapa,Yemen,Mexico
+The city of Aguascalientes is in Mexico.,1,Aguascalientes,Mexico,Mexico
+The city of Aguascalientes is in China.,0,Aguascalientes,China,Mexico
+The city of Kuala Lumpur is in Malaysia.,1,Kuala Lumpur,Malaysia,Malaysia
+The city of Kuala Lumpur is in Oman.,0,Kuala Lumpur,Oman,Malaysia
+The city of Warri is in Nigeria.,1,Warri,Nigeria,Nigeria
+The city of Warri is in China.,0,Warri,China,Nigeria
+The city of Peshawar is in Pakistan.,1,Peshawar,Pakistan,Pakistan
+The city of Peshawar is in Tanzania.,0,Peshawar,Tanzania,Pakistan
+The city of Kagoshima is in Japan.,1,Kagoshima,Japan,Japan
+The city of Kagoshima is in India.,0,Kagoshima,India,Japan
+The city of Hamamatsu is in Japan.,1,Hamamatsu,Japan,Japan
+The city of Hamamatsu is in Russia.,0,Hamamatsu,Russia,Japan
+The city of Cheongju-si is in South Korea.,1,Cheongju-si,South Korea,South Korea
+The city of Cheongju-si is in India.,0,Cheongju-si,India,South Korea
+The city of Ghaziabad is in India.,1,Ghaziabad,India,India
+The city of Ghaziabad is in South Korea.,0,Ghaziabad,South Korea,India
+The city of Cochin is in India.,1,Cochin,India,India
+The city of Cochin is in China.,0,Cochin,China,India
+The city of Ahmedabad is in India.,1,Ahmedabad,India,India
+The city of Ahmedabad is in China.,0,Ahmedabad,China,India
+The city of Sulaymaniyah is in Iraq.,1,Sulaymaniyah,Iraq,Iraq
+The city of Sulaymaniyah is in Turkey.,0,Sulaymaniyah,Turkey,Iraq
+The city of Hamadan is in Iran.,1,Hamadan,Iran,Iran
+The city of Hamadan is in Pakistan.,0,Hamadan,Pakistan,Iran
+The city of Omsk is in Russia.,1,Omsk,Russia,Russia
+The city of Omsk is in China.,0,Omsk,China,Russia
+The city of Ta'if is in Saudi Arabia.,1,Ta'if,Saudi Arabia,Saudi Arabia
+The city of Ta'if is in Venezuela.,0,Ta'if,Venezuela,Saudi Arabia
+The city of Stockholm is in Sweden.,1,Stockholm,Sweden,Sweden
+The city of Stockholm is in Russia.,0,Stockholm,Russia,Sweden
+The city of Siliguri is in India.,1,Siliguri,India,India
+The city of Siliguri is in China.,0,Siliguri,China,India
+The city of Baghdad is in Iraq.,1,Baghdad,Iraq,Iraq
+The city of Baghdad is in China.,0,Baghdad,China,Iraq
+The city of Al Basrah al Qadimah is in Iraq.,1,Al Basrah al Qadimah,Iraq,Iraq
+The city of Al Basrah al Qadimah is in China.,0,Al Basrah al Qadimah,China,Iraq
+The city of Krakow is in Poland.,1,Krakow,Poland,Poland
+The city of Krakow is in South Korea.,0,Krakow,South Korea,Poland
+The city of Tolyatti is in Russia.,1,Tolyatti,Russia,Russia
+The city of Tolyatti is in Ghana.,0,Tolyatti,Ghana,Russia
+The city of Bandar Lampung is in Indonesia.,1,Bandar Lampung,Indonesia,Indonesia
+The city of Bandar Lampung is in South Africa.,0,Bandar Lampung,South Africa,Indonesia
+The city of Tucson is in the United States.,1,Tucson,the United States,the United States
+The city of Tucson is in Canada.,0,Tucson,Canada,the United States
+The city of Can Tho is in Vietnam.,1,Can Tho,Vietnam,Vietnam
+The city of Can Tho is in Venezuela.,0,Can Tho,Venezuela,Vietnam
+The city of Bouake is in Côte d'Ivoire.,1,Bouake,Côte d'Ivoire,Côte d'Ivoire
+The city of Bouake is in China.,0,Bouake,China,Côte d'Ivoire
+The city of Abobo is in Côte d'Ivoire.,1,Abobo,Côte d'Ivoire,Côte d'Ivoire
+The city of Abobo is in India.,0,Abobo,India,Côte d'Ivoire
+The city of Shihezi is in China.,1,Shihezi,China,China
+The city of Shihezi is in Russia.,0,Shihezi,Russia,China
+The city of Yunfu is in China.,1,Yunfu,China,China
+The city of Yunfu is in Honduras.,0,Yunfu,Honduras,China
+The city of Xiangtan is in China.,1,Xiangtan,China,China
+The city of Xiangtan is in Brazil.,0,Xiangtan,Brazil,China
+The city of Qionghai is in China.,1,Qionghai,China,China
+The city of Qionghai is in Ecuador.,0,Qionghai,Ecuador,China
+The city of Chuzhou is in China.,1,Chuzhou,China,China
+The city of Chuzhou is in India.,0,Chuzhou,India,China
+The city of Taiz is in Yemen.,1,Taiz,Yemen,Yemen
+The city of Taiz is in Burkina Faso.,0,Taiz,Burkina Faso,Yemen
+The city of Tembisa is in South Africa.,1,Tembisa,South Africa,South Africa
+The city of Tembisa is in the Philippines.,0,Tembisa,the Philippines,South Africa
+The city of Puente Alto is in Chile.,1,Puente Alto,Chile,Chile
+The city of Puente Alto is in China.,0,Puente Alto,China,Chile
+The city of Zhumadian is in China.,1,Zhumadian,China,China
+The city of Zhumadian is in Brazil.,0,Zhumadian,Brazil,China
+The city of Zhengzhou is in China.,1,Zhengzhou,China,China
+The city of Zhengzhou is in Brazil.,0,Zhengzhou,Brazil,China
+The city of Ya'an is in China.,1,Ya'an,China,China
+The city of Ya'an is in Morocco.,0,Ya'an,Morocco,China
+The city of Xianyang is in China.,1,Xianyang,China,China
+The city of Xianyang is in Russia.,0,Xianyang,Russia,China
+The city of Weihai is in China.,1,Weihai,China,China
+The city of Weihai is in Russia.,0,Weihai,Russia,China
+The city of Pingdingshan is in China.,1,Pingdingshan,China,China
+The city of Pingdingshan is in South Africa.,0,Pingdingshan,South Africa,China
+The city of Bengbu is in China.,1,Bengbu,China,China
+The city of Bengbu is in India.,0,Bengbu,India,China
+The city of Zhangjiakou is in China.,1,Zhangjiakou,China,China
+The city of Zhangjiakou is in India.,0,Zhangjiakou,India,China
+The city of Mississauga is in Canada.,1,Mississauga,Canada,Canada
+The city of Mississauga is in India.,0,Mississauga,India,Canada
+The city of Yerevan is in Armenia.,1,Yerevan,Armenia,Armenia
+The city of Yerevan is in Bangladesh.,0,Yerevan,Bangladesh,Armenia
+The city of Albuquerque is in the United States.,1,Albuquerque,the United States,the United States
+The city of Albuquerque is in Egypt.,0,Albuquerque,Egypt,the United States
+The city of New South Memphis is in the United States.,1,New South Memphis,the United States,the United States
+The city of New South Memphis is in China.,0,New South Memphis,China,the United States
+The city of Calgary is in Canada.,1,Calgary,Canada,Canada
+The city of Calgary is in India.,0,Calgary,India,Canada
+The city of Kisangani is in the Democratic Republic of the Congo.,1,Kisangani,the Democratic Republic of the Congo,the Democratic Republic of the Congo
+The city of Kisangani is in China.,0,Kisangani,China,the Democratic Republic of the Congo
+The city of Bobo-Dioulasso is in Burkina Faso.,1,Bobo-Dioulasso,Burkina Faso,Burkina Faso
+The city of Bobo-Dioulasso is in China.,0,Bobo-Dioulasso,China,Burkina Faso
+The city of Sao Jose dos Campos is in Brazil.,1,Sao Jose dos Campos,Brazil,Brazil
+The city of Sao Jose dos Campos is in Iran.,0,Sao Jose dos Campos,Iran,Brazil
+The city of Florianopolis is in Brazil.,1,Florianopolis,Brazil,Brazil
+The city of Florianopolis is in Ecuador.,0,Florianopolis,Ecuador,Brazil
+The city of Cuiaba is in Brazil.,1,Cuiaba,Brazil,Brazil
+The city of Cuiaba is in Latvia.,0,Cuiaba,Latvia,Brazil
+The city of Chattogram is in Bangladesh.,1,Chattogram,Bangladesh,Bangladesh
+The city of Chattogram is in China.,0,Chattogram,China,Bangladesh
+The city of Nanjing is in China.,1,Nanjing,China,China
+The city of Nanjing is in Germany.,0,Nanjing,Germany,China
+The city of Kaifeng is in China.,1,Kaifeng,China,China
+The city of Kaifeng is in Mexico.,0,Kaifeng,Mexico,China
+The city of Heze is in China.,1,Heze,China,China
+The city of Heze is in Yemen.,0,Heze,Yemen,China
+The city of Sendai is in Japan.,1,Sendai,Japan,Japan
+The city of Sendai is in Brazil.,0,Sendai,Brazil,Japan
+The city of Jeonju is in South Korea.,1,Jeonju,South Korea,South Korea
+The city of Jeonju is in the United States.,0,Jeonju,the United States,South Korea
+The city of Almaty is in Kazakhstan.,1,Almaty,Kazakhstan,Kazakhstan
+The city of Almaty is in Iraq.,0,Almaty,Iraq,Kazakhstan
+The city of Pimpri is in India.,1,Pimpri,India,India
+The city of Pimpri is in China.,0,Pimpri,China,India
+The city of Navi Mumbai is in India.,1,Navi Mumbai,India,India
+The city of Navi Mumbai is in China.,0,Navi Mumbai,China,India
+The city of Novosibirsk is in Russia.,1,Novosibirsk,Russia,Russia
+The city of Novosibirsk is in the Philippines.,0,Novosibirsk,the Philippines,Russia
+The city of Goeteborg is in Sweden.,1,Goeteborg,Sweden,Sweden
+The city of Goeteborg is in South Korea.,0,Goeteborg,South Korea,Sweden
+The city of Bursa is in Turkey.,1,Bursa,Turkey,Turkey
+The city of Bursa is in Bosnia and Herzegovina.,0,Bursa,Bosnia and Herzegovina,Turkey
+The city of Dar es Salaam is in Tanzania.,1,Dar es Salaam,Tanzania,Tanzania
+The city of Dar es Salaam is in Italy.,0,Dar es Salaam,Italy,Tanzania
+The city of Mbuji-Mayi is in the Democratic Republic of the Congo.,1,Mbuji-Mayi,the Democratic Republic of the Congo,the Democratic Republic of the Congo
+The city of Mbuji-Mayi is in Pakistan.,0,Mbuji-Mayi,Pakistan,the Democratic Republic of the Congo
+The city of Goiania is in Brazil.,1,Goiania,Brazil,Brazil
+The city of Goiania is in China.,0,Goiania,China,Brazil
+The city of Yaroslavl is in Russia.,1,Yaroslavl,Russia,Russia
+The city of Yaroslavl is in India.,0,Yaroslavl,India,Russia
+The city of Kigali is in Rwanda.,1,Kigali,Rwanda,Rwanda
+The city of Kigali is in Indonesia.,0,Kigali,Indonesia,Rwanda
+The city of Diyarbakir is in Turkey.,1,Diyarbakir,Turkey,Turkey
+The city of Diyarbakir is in Colombia.,0,Diyarbakir,Colombia,Turkey
+The city of Tyumen is in Russia.,1,Tyumen,Russia,Russia
+The city of Tyumen is in Mexico.,0,Tyumen,Mexico,Russia
+The city of Orenburg is in Russia.,1,Orenburg,Russia,Russia
+The city of Orenburg is in Malaysia.,0,Orenburg,Malaysia,Russia
+The city of Osaka is in Japan.,1,Osaka,Japan,Japan
+The city of Osaka is in India.,0,Osaka,India,Japan
+The city of Sapporo is in Japan.,1,Sapporo,Japan,Japan
+The city of Sapporo is in Mexico.,0,Sapporo,Mexico,Japan
+The city of Kimhae is in South Korea.,1,Kimhae,South Korea,South Korea
+The city of Kimhae is in Senegal.,0,Kimhae,Senegal,South Korea
+The city of Cheonan is in South Korea.,1,Cheonan,South Korea,South Korea
+The city of Cheonan is in Myanmar.,0,Cheonan,Myanmar,South Korea
+The city of San Luis Potosi is in Mexico.,1,San Luis Potosi,Mexico,Mexico
+The city of San Luis Potosi is in the Democratic Republic of the Congo.,0,San Luis Potosi,the Democratic Republic of the Congo,Mexico
+The city of Culiacan is in Mexico.,1,Culiacan,Mexico,Mexico
+The city of Culiacan is in China.,0,Culiacan,China,Mexico
+The city of Kaduna is in Nigeria.,1,Kaduna,Nigeria,Nigeria
+The city of Kaduna is in Turkey.,0,Kaduna,Turkey,Nigeria
+The city of General Santos is in the Philippines.,1,General Santos,the Philippines,the Philippines
+The city of General Santos is in China.,0,General Santos,China,the Philippines
+The city of Ebute Ikorodu is in Nigeria.,1,Ebute Ikorodu,Nigeria,Nigeria
+The city of Ebute Ikorodu is in China.,0,Ebute Ikorodu,China,Nigeria
+The city of Benin City is in Nigeria.,1,Benin City,Nigeria,Nigeria
+The city of Benin City is in China.,0,Benin City,China,Nigeria
+The city of Kanpur is in India.,1,Kanpur,India,India
+The city of Kanpur is in Brazil.,0,Kanpur,Brazil,India
+The city of Indore is in India.,1,Indore,India,India
+The city of Indore is in Turkey.,0,Indore,Turkey,India
+The city of Zunyi is in China.,1,Zunyi,China,China
+The city of Zunyi is in Senegal.,0,Zunyi,Senegal,China
+The city of Zhanjiang is in China.,1,Zhanjiang,China,China
+The city of Zhanjiang is in India.,0,Zhanjiang,India,China
+The city of Wenzhou is in China.,1,Wenzhou,China,China
+The city of Wenzhou is in Moldova.,0,Wenzhou,Moldova,China
+The city of Luohe is in China.,1,Luohe,China,China
+The city of Luohe is in Brazil.,0,Luohe,Brazil,China
+The city of Kunming is in China.,1,Kunming,China,China
+The city of Kunming is in Mexico.,0,Kunming,Mexico,China
+The city of Cixi is in China.,1,Cixi,China,China
+The city of Cixi is in Indonesia.,0,Cixi,Indonesia,China
+The city of Hanzhong is in China.,1,Hanzhong,China,China
+The city of Hanzhong is in Iran.,0,Hanzhong,Iran,China
+The city of Guangzhou is in China.,1,Guangzhou,China,China
+The city of Guangzhou is in India.,0,Guangzhou,India,China
+The city of Munich is in Germany.,1,Munich,Germany,Germany
+The city of Munich is in China.,0,Munich,China,Germany
+The city of Pekanbaru is in Indonesia.,1,Pekanbaru,Indonesia,Indonesia
+The city of Pekanbaru is in India.,0,Pekanbaru,India,Indonesia
+The city of Malang is in Indonesia.,1,Malang,Indonesia,Indonesia
+The city of Malang is in Morocco.,0,Malang,Morocco,Indonesia
+The city of Douala is in Cameroon.,1,Douala,Cameroon,Cameroon
+The city of Douala is in Russia.,0,Douala,Russia,Cameroon
+The city of Kashgar is in China.,1,Kashgar,China,China
+The city of Kashgar is in Turkey.,0,Kashgar,Turkey,China
+The city of Zibo is in China.,1,Zibo,China,China
+The city of Zibo is in India.,0,Zibo,India,China
+The city of Tianshui is in China.,1,Tianshui,China,China
+The city of Tianshui is in Canada.,0,Tianshui,Canada,China
+The city of Laibin is in China.,1,Laibin,China,China
+The city of Laibin is in Ethiopia.,0,Laibin,Ethiopia,China
+The city of Deyang is in China.,1,Deyang,China,China
+The city of Deyang is in Japan.,0,Deyang,Japan,China
+The city of Teresina is in Brazil.,1,Teresina,Brazil,Brazil
+The city of Teresina is in Vietnam.,0,Teresina,Vietnam,Brazil
+The city of Leipzig is in Germany.,1,Leipzig,Germany,Germany
+The city of Leipzig is in Russia.,0,Leipzig,Russia,Germany
+The city of Duesseldorf is in Germany.,1,Duesseldorf,Germany,Germany
+The city of Duesseldorf is in Mexico.,0,Duesseldorf,Mexico,Germany
+The city of Zagreb is in Croatia.,1,Zagreb,Croatia,Croatia
+The city of Zagreb is in Japan.,0,Zagreb,Japan,Croatia
+The city of Hannover is in Germany.,1,Hannover,Germany,Germany
+The city of Hannover is in China.,0,Hannover,China,Germany
+The city of Penza is in Russia.,1,Penza,Russia,Russia
+The city of Penza is in China.,0,Penza,China,Russia
+The city of Matola is in Mozambique.,1,Matola,Mozambique,Mozambique
+The city of Matola is in India.,0,Matola,India,Mozambique
+The city of Enugu is in Nigeria.,1,Enugu,Nigeria,Nigeria
+The city of Enugu is in South Korea.,0,Enugu,South Korea,Nigeria
+The city of Shizuoka is in Japan.,1,Shizuoka,Japan,Japan
+The city of Shizuoka is in China.,0,Shizuoka,China,Japan
+The city of Himeji is in Japan.,1,Himeji,Japan,Japan
+The city of Himeji is in the Democratic Republic of the Congo.,0,Himeji,the Democratic Republic of the Congo,Japan
+The city of Hamhung is in North Korea.,1,Hamhung,North Korea,North Korea
+The city of Hamhung is in China.,0,Hamhung,China,North Korea
+The city of Seoul is in South Korea.,1,Seoul,South Korea,South Korea
+The city of Seoul is in Nicaragua.,0,Seoul,Nicaragua,South Korea
+The city of Meerut is in India.,1,Meerut,India,India
+The city of Meerut is in Nigeria.,0,Meerut,Nigeria,India
+The city of Hubli is in India.,1,Hubli,India,India
+The city of Hubli is in Indonesia.,0,Hubli,Indonesia,India
+The city of Dubai is in the United Arab Emirates.,1,Dubai,the United Arab Emirates,the United Arab Emirates
+The city of Dubai is in the United States.,0,Dubai,the United States,the United Arab Emirates
+The city of Astrakhan is in Russia.,1,Astrakhan,Russia,Russia
+The city of Astrakhan is in India.,0,Astrakhan,India,Russia
+The city of Aleppo is in Syria.,1,Aleppo,Syria,Syria
+The city of Aleppo is in China.,0,Aleppo,China,Syria
+The city of Ar Raqqah is in Syria.,1,Ar Raqqah,Syria,Syria
+The city of Ar Raqqah is in Iraq.,0,Ar Raqqah,Iraq,Syria
+The city of Saint Petersburg is in Russia.,1,Saint Petersburg,Russia,Russia
+The city of Saint Petersburg is in Canada.,0,Saint Petersburg,Canada,Russia
+The city of Johannesburg is in South Africa.,1,Johannesburg,South Africa,South Africa
+The city of Johannesburg is in China.,0,Johannesburg,China,South Africa
+The city of Wanzhou is in China.,1,Wanzhou,China,China
+The city of Wanzhou is in India.,0,Wanzhou,India,China
+The city of Anyang is in China.,1,Anyang,China,China
+The city of Anyang is in Kuwait.,0,Anyang,Kuwait,China
+The city of Qinhuangdao is in China.,1,Qinhuangdao,China,China
+The city of Qinhuangdao is in Eritrea.,0,Qinhuangdao,Eritrea,China
+The city of Meizhou is in China.,1,Meizhou,China,China
+The city of Meizhou is in Russia.,0,Meizhou,Russia,China
+The city of Yangjiang is in China.,1,Yangjiang,China,China
+The city of Yangjiang is in Indonesia.,0,Yangjiang,Indonesia,China
+The city of Beijing is in China.,1,Beijing,China,China
+The city of Beijing is in Ghana.,0,Beijing,Ghana,China
+The city of Shah Alam is in Malaysia.,1,Shah Alam,Malaysia,Malaysia
+The city of Shah Alam is in China.,0,Shah Alam,China,Malaysia
+The city of Vadodara is in India.,1,Vadodara,India,India
+The city of Vadodara is in Russia.,0,Vadodara,Russia,India
+The city of Sangli is in India.,1,Sangli,India,India
+The city of Sangli is in Japan.,0,Sangli,Japan,India
+The city of Guwahati is in India.,1,Guwahati,India,India
+The city of Guwahati is in China.,0,Guwahati,China,India
+The city of Prayagraj is in India.,1,Prayagraj,India,India
+The city of Prayagraj is in Kenya.,0,Prayagraj,Kenya,India
+The city of Aligarh is in India.,1,Aligarh,India,India
+The city of Aligarh is in China.,0,Aligarh,China,India
+The city of Kermanshah is in Iran.,1,Kermanshah,Iran,Iran
+The city of Kermanshah is in China.,0,Kermanshah,China,Iran
+The city of Semarang is in Indonesia.,1,Semarang,Indonesia,Indonesia
+The city of Semarang is in Saudi Arabia.,0,Semarang,Saudi Arabia,Indonesia
+The city of Khulna is in Bangladesh.,1,Khulna,Bangladesh,Bangladesh
+The city of Khulna is in Japan.,0,Khulna,Japan,Bangladesh
+The city of Korla is in China.,1,Korla,China,China
+The city of Korla is in Azerbaijan.,0,Korla,Azerbaijan,China
+The city of Zaozhuang is in China.,1,Zaozhuang,China,China
+The city of Zaozhuang is in Belarus.,0,Zaozhuang,Belarus,China
+The city of Xiamen is in China.,1,Xiamen,China,China
+The city of Xiamen is in Pakistan.,0,Xiamen,Pakistan,China
+The city of Shenzhen is in China.,1,Shenzhen,China,China
+The city of Shenzhen is in Mexico.,0,Shenzhen,Mexico,China
+The city of Maoming is in China.,1,Maoming,China,China
+The city of Maoming is in Brazil.,0,Maoming,Brazil,China
+The city of Anshun is in China.,1,Anshun,China,China
+The city of Anshun is in Brazil.,0,Anshun,Brazil,China
+The city of Siping is in China.,1,Siping,China,China
+The city of Siping is in Iraq.,0,Siping,Iraq,China
+The city of Shuangyashan is in China.,1,Shuangyashan,China,China
+The city of Shuangyashan is in India.,0,Shuangyashan,India,China
+The city of Jiamusi is in China.,1,Jiamusi,China,China
+The city of Jiamusi is in Germany.,0,Jiamusi,Germany,China
+The city of Minsk is in Belarus.,1,Minsk,Belarus,Belarus
+The city of Minsk is in South Korea.,0,Minsk,South Korea,Belarus
+The city of Lubumbashi is in the Democratic Republic of the Congo.,1,Lubumbashi,the Democratic Republic of the Congo,the Democratic Republic of the Congo
+The city of Lubumbashi is in India.,0,Lubumbashi,India,the Democratic Republic of the Congo
+The city of San Miguel de Tucuman is in Argentina.,1,San Miguel de Tucuman,Argentina,Argentina
+The city of San Miguel de Tucuman is in China.,0,San Miguel de Tucuman,China,Argentina
+The city of Cotonou is in Benin.,1,Cotonou,Benin,Benin
+The city of Cotonou is in China.,0,Cotonou,China,Benin
+The city of Comilla is in Bangladesh.,1,Comilla,Bangladesh,Bangladesh
+The city of Comilla is in China.,0,Comilla,China,Bangladesh
+The city of Sao Bernardo do Campo is in Brazil.,1,Sao Bernardo do Campo,Brazil,Brazil
+The city of Sao Bernardo do Campo is in Zambia.,0,Sao Bernardo do Campo,Zambia,Brazil
+The city of Feira de Santana is in Brazil.,1,Feira de Santana,Brazil,Brazil
+The city of Feira de Santana is in China.,0,Feira de Santana,China,Brazil
+The city of Porto Alegre is in Brazil.,1,Porto Alegre,Brazil,Brazil
+The city of Porto Alegre is in Belarus.,0,Porto Alegre,Belarus,Brazil
+The city of Juiz de Fora is in Brazil.,1,Juiz de Fora,Brazil,Brazil
+The city of Juiz de Fora is in India.,0,Juiz de Fora,India,Brazil
+The city of Nagoya is in Japan.,1,Nagoya,Japan,Japan
+The city of Nagoya is in China.,0,Nagoya,China,Japan
+The city of Al Ahmadi is in Kuwait.,1,Al Ahmadi,Kuwait,Kuwait
+The city of Al Ahmadi is in Japan.,0,Al Ahmadi,Japan,Kuwait
+The city of Beirut is in Lebanon.,1,Beirut,Lebanon,Lebanon
+The city of Beirut is in Algeria.,0,Beirut,Algeria,Lebanon
+The city of Lilongwe is in Malawi.,1,Lilongwe,Malawi,Malawi
+The city of Lilongwe is in Turkey.,0,Lilongwe,Turkey,Malawi
+The city of Ecatepec de Morelos is in Mexico.,1,Ecatepec de Morelos,Mexico,Mexico
+The city of Ecatepec de Morelos is in India.,0,Ecatepec de Morelos,India,Mexico
+The city of Cancun is in Mexico.,1,Cancun,Mexico,Mexico
+The city of Cancun is in Myanmar.,0,Cancun,Myanmar,Mexico
+The city of Isfahan is in Iran.,1,Isfahan,Iran,Iran
+The city of Isfahan is in China.,0,Isfahan,China,Iran
+The city of Conakry is in Guinea.,1,Conakry,Guinea,Guinea
+The city of Conakry is in Belarus.,0,Conakry,Belarus,Guinea
+The city of Petaling Jaya is in Malaysia.,1,Petaling Jaya,Malaysia,Malaysia
+The city of Petaling Jaya is in Bosnia and Herzegovina.,0,Petaling Jaya,Bosnia and Herzegovina,Malaysia
+The city of Zaria is in Nigeria.,1,Zaria,Nigeria,Nigeria
+The city of Zaria is in India.,0,Zaria,India,Nigeria
+The city of Cimahi is in Indonesia.,1,Cimahi,Indonesia,Indonesia
+The city of Cimahi is in Germany.,0,Cimahi,Germany,Indonesia
+The city of Arequipa is in Peru.,1,Arequipa,Peru,Peru
+The city of Arequipa is in India.,0,Arequipa,India,Peru
+The city of Multan is in Pakistan.,1,Multan,Pakistan,Pakistan
+The city of Multan is in Ecuador.,0,Multan,Ecuador,Pakistan
+The city of Bahcelievler is in Turkey.,1,Bahcelievler,Turkey,Turkey
+The city of Bahcelievler is in Germany.,0,Bahcelievler,Germany,Turkey
+The city of Saratov is in Russia.,1,Saratov,Russia,Russia
+The city of Saratov is in Indonesia.,0,Saratov,Indonesia,Russia
+The city of Kharkiv is in Ukraine.,1,Kharkiv,Ukraine,Ukraine
+The city of Kharkiv is in Moldova.,0,Kharkiv,Moldova,Ukraine
+The city of Malatya is in Turkey.,1,Malatya,Turkey,Turkey
+The city of Malatya is in Russia.,0,Malatya,Russia,Turkey
+The city of Lviv is in Ukraine.,1,Lviv,Ukraine,Ukraine
+The city of Lviv is in China.,0,Lviv,China,Ukraine
+The city of Kyiv is in Ukraine.,1,Kyiv,Ukraine,Ukraine
+The city of Kyiv is in Russia.,0,Kyiv,Russia,Ukraine
+The city of Kitakyushu is in Japan.,1,Kitakyushu,Japan,Japan
+The city of Kitakyushu is in Yemen.,0,Kitakyushu,Yemen,Japan
+The city of Onitsha is in Nigeria.,1,Onitsha,Nigeria,Nigeria
+The city of Onitsha is in China.,0,Onitsha,China,Nigeria
+The city of Anyang-si is in South Korea.,1,Anyang-si,South Korea,South Korea
+The city of Anyang-si is in Iraq.,0,Anyang-si,Iraq,South Korea
+The city of Kobe is in Japan.,1,Kobe,Japan,Japan
+The city of Kobe is in China.,0,Kobe,China,Japan
+The city of Chiclayo is in Peru.,1,Chiclayo,Peru,Peru
+The city of Chiclayo is in Venezuela.,0,Chiclayo,Venezuela,Peru
+The city of Phnom Penh is in Cambodia.,1,Phnom Penh,Cambodia,Cambodia
+The city of Phnom Penh is in Senegal.,0,Phnom Penh,Senegal,Cambodia
+The city of Nouakchott is in Mauritania.,1,Nouakchott,Mauritania,Mauritania
+The city of Nouakchott is in China.,0,Nouakchott,China,Mauritania
+The city of Vijayawada is in India.,1,Vijayawada,India,India
+The city of Vijayawada is in Nigeria.,0,Vijayawada,Nigeria,India
+The city of Theni is in India.,1,Theni,India,India
+The city of Theni is in Nigeria.,0,Theni,Nigeria,India
+The city of Narela is in India.,1,Narela,India,India
+The city of Narela is in Turkey.,0,Narela,Turkey,India
+The city of Quetta is in Pakistan.,1,Quetta,Pakistan,Pakistan
+The city of Quetta is in Kenya.,0,Quetta,Kenya,Pakistan
+The city of Chennai is in India.,1,Chennai,India,India
+The city of Chennai is in China.,0,Chennai,China,India
+The city of Changshu is in China.,1,Changshu,China,China
+The city of Changshu is in the Philippines.,0,Changshu,the Philippines,China
+The city of Tehran is in Iran.,1,Tehran,Iran,Iran
+The city of Tehran is in Niger.,0,Tehran,Niger,Iran
+The city of Bayannur is in China.,1,Bayannur,China,China
+The city of Bayannur is in Russia.,0,Bayannur,Russia,China
+The city of Barranquilla is in Colombia.,1,Barranquilla,Colombia,Colombia
+The city of Barranquilla is in Pakistan.,0,Barranquilla,Pakistan,Colombia
+The city of Budapest is in Hungary.,1,Budapest,Hungary,Hungary
+The city of Budapest is in Iraq.,0,Budapest,Iraq,Hungary
+The city of Pontianak is in Indonesia.,1,Pontianak,Indonesia,Indonesia
+The city of Pontianak is in India.,0,Pontianak,India,Indonesia
+The city of Recife is in Brazil.,1,Recife,Brazil,Brazil
+The city of Recife is in North Korea.,0,Recife,North Korea,Brazil
+The city of Contagem is in Brazil.,1,Contagem,Brazil,Brazil
+The city of Contagem is in Indonesia.,0,Contagem,Indonesia,Brazil
+The city of Port Said is in Egypt.,1,Port Said,Egypt,Egypt
+The city of Port Said is in China.,0,Port Said,China,Egypt
+The city of Asyut is in Egypt.,1,Asyut,Egypt,Egypt
+The city of Asyut is in Japan.,0,Asyut,Japan,Egypt
+The city of Ziyang is in China.,1,Ziyang,China,China
+The city of Ziyang is in Belgium.,0,Ziyang,Belgium,China
+The city of Yinchuan is in China.,1,Yinchuan,China,China
+The city of Yinchuan is in Bangladesh.,0,Yinchuan,Bangladesh,China
+The city of Zhangjiagang is in China.,1,Zhangjiagang,China,China
+The city of Zhangjiagang is in Brazil.,0,Zhangjiagang,Brazil,China
+The city of Shanghai is in China.,1,Shanghai,China,China
+The city of Shanghai is in Mexico.,0,Shanghai,Mexico,China
+The city of Jieyang is in China.,1,Jieyang,China,China
+The city of Jieyang is in the Philippines.,0,Jieyang,the Philippines,China
+The city of Longyan is in China.,1,Longyan,China,China
+The city of Longyan is in Benin.,0,Longyan,Benin,China
+The city of Dandong is in China.,1,Dandong,China,China
+The city of Dandong is in Niger.,0,Dandong,Niger,China
+The city of Frankfurt am Main is in Germany.,1,Frankfurt am Main,Germany,Germany
+The city of Frankfurt am Main is in Vietnam.,0,Frankfurt am Main,Vietnam,Germany
+The city of Lusaka is in Zambia.,1,Lusaka,Zambia,Zambia
+The city of Lusaka is in Poland.,0,Lusaka,Poland,Zambia
+The city of Aden is in Yemen.,1,Aden,Yemen,Yemen
+The city of Aden is in Japan.,0,Aden,Japan,Yemen
+The city of Jaboatao is in Brazil.,1,Jaboatao,Brazil,Brazil
+The city of Jaboatao is in Syria.,0,Jaboatao,Syria,Brazil
+The city of Aracaju is in Brazil.,1,Aracaju,Brazil,Brazil
+The city of Aracaju is in Russia.,0,Aracaju,Russia,Brazil
+The city of Londrina is in Brazil.,1,Londrina,Brazil,Brazil
+The city of Londrina is in India.,0,Londrina,India,Brazil
+The city of Zigong is in China.,1,Zigong,China,China
+The city of Zigong is in Turkey.,0,Zigong,Turkey,China
+The city of Kunshan is in China.,1,Kunshan,China,China
+The city of Kunshan is in Russia.,0,Kunshan,Russia,China
+The city of Yichang is in China.,1,Yichang,China,China
+The city of Yichang is in Japan.,0,Yichang,Japan,China
+The city of Sanming is in China.,1,Sanming,China,China
+The city of Sanming is in Bulgaria.,0,Sanming,Bulgaria,China
+The city of Guang'an is in China.,1,Guang'an,China,China
+The city of Guang'an is in Germany.,0,Guang'an,Germany,China
+The city of Ma'anshan is in China.,1,Ma'anshan,China,China
+The city of Ma'anshan is in India.,0,Ma'anshan,India,China
+The city of Dongying is in China.,1,Dongying,China,China
+The city of Dongying is in India.,0,Dongying,India,China
+The city of Fushun is in China.,1,Fushun,China,China
+The city of Fushun is in Mexico.,0,Fushun,Mexico,China
+The city of Rajshahi is in Bangladesh.,1,Rajshahi,Bangladesh,Bangladesh
+The city of Rajshahi is in Russia.,0,Rajshahi,Russia,Bangladesh
+The city of Rangpur is in Bangladesh.,1,Rangpur,Bangladesh,Bangladesh
+The city of Rangpur is in Russia.,0,Rangpur,Russia,Bangladesh
+The city of Dortmund is in Germany.,1,Dortmund,Germany,Germany
+The city of Dortmund is in India.,0,Dortmund,India,Germany
+The city of Detroit is in the United States.,1,Detroit,the United States,the United States
+The city of Detroit is in China.,0,Detroit,China,the United States
+The city of Latakia is in Syria.,1,Latakia,Syria,Syria
+The city of Latakia is in Somalia.,0,Latakia,Somalia,Syria
+The city of Ashgabat is in Turkmenistan.,1,Ashgabat,Turkmenistan,Turkmenistan
+The city of Ashgabat is in Bangladesh.,0,Ashgabat,Bangladesh,Turkmenistan
+The city of Maracaibo is in Venezuela.,1,Maracaibo,Venezuela,Venezuela
+The city of Maracaibo is in Russia.,0,Maracaibo,Russia,Venezuela
+The city of Erode is in India.,1,Erode,India,India
+The city of Erode is in China.,0,Erode,China,India
+The city of Mumbai is in India.,1,Mumbai,India,India
+The city of Mumbai is in China.,0,Mumbai,China,India
+The city of Nasiriyah is in Iraq.,1,Nasiriyah,Iraq,Iraq
+The city of Nasiriyah is in Rwanda.,0,Nasiriyah,Rwanda,Iraq
+The city of Kahriz is in Iran.,1,Kahriz,Iran,Iran
+The city of Kahriz is in Uzbekistan.,0,Kahriz,Uzbekistan,Iran
+The city of Surakarta is in Indonesia.,1,Surakarta,Indonesia,Indonesia
+The city of Surakarta is in India.,0,Surakarta,India,Indonesia
+The city of Banjarmasin is in Indonesia.,1,Banjarmasin,Indonesia,Indonesia
+The city of Banjarmasin is in South Korea.,0,Banjarmasin,South Korea,Indonesia
+The city of Vladivostok is in Russia.,1,Vladivostok,Russia,Russia
+The city of Vladivostok is in Romania.,0,Vladivostok,Romania,Russia
+The city of Adana is in Turkey.,1,Adana,Turkey,Turkey
+The city of Adana is in Togo.,0,Adana,Togo,Turkey
+The city of Voronezh is in Russia.,1,Voronezh,Russia,Russia
+The city of Voronezh is in Romania.,0,Voronezh,Romania,Russia
+The city of Namangan is in Uzbekistan.,1,Namangan,Uzbekistan,Uzbekistan
+The city of Namangan is in India.,0,Namangan,India,Uzbekistan
+The city of Ordos is in China.,1,Ordos,China,China
+The city of Ordos is in Brazil.,0,Ordos,Brazil,China
+The city of Moradabad is in India.,1,Moradabad,India,India
+The city of Moradabad is in China.,0,Moradabad,China,India
+The city of Bengaluru is in India.,1,Bengaluru,India,India
+The city of Bengaluru is in China.,0,Bengaluru,China,India
+The city of Shivaji Nagar is in India.,1,Shivaji Nagar,India,India
+The city of Shivaji Nagar is in China.,0,Shivaji Nagar,China,India
+The city of Turin is in Italy.,1,Turin,Italy,Italy
+The city of Turin is in China.,0,Turin,China,Italy
+The city of Okayama is in Japan.,1,Okayama,Japan,Japan
+The city of Okayama is in Russia.,0,Okayama,Russia,Japan
+The city of Daejeon is in South Korea.,1,Daejeon,South Korea,South Korea
+The city of Daejeon is in India.,0,Daejeon,India,South Korea
+The city of Battagram is in Pakistan.,1,Battagram,Pakistan,Pakistan
+The city of Battagram is in Tanzania.,0,Battagram,Tanzania,Pakistan
+The city of Yaounde is in Cameroon.,1,Yaounde,Cameroon,Cameroon
+The city of Yaounde is in China.,0,Yaounde,China,Cameroon
+The city of Zhangzhou is in China.,1,Zhangzhou,China,China
+The city of Zhangzhou is in Nicaragua.,0,Zhangzhou,Nicaragua,China
+The city of Yangquan is in China.,1,Yangquan,China,China
+The city of Yangquan is in Hungary.,0,Yangquan,Hungary,China
+The city of Sanya is in China.,1,Sanya,China,China
+The city of Sanya is in India.,0,Sanya,India,China
+The city of Foshan is in China.,1,Foshan,China,China
+The city of Foshan is in Mozambique.,0,Foshan,Mozambique,China
+The city of Sharjah is in the United Arab Emirates.,1,Sharjah,the United Arab Emirates,the United Arab Emirates
+The city of Sharjah is in China.,0,Sharjah,China,the United Arab Emirates
+The city of Al Ain City is in the United Arab Emirates.,1,Al Ain City,the United Arab Emirates,the United Arab Emirates
+The city of Al Ain City is in India.,0,Al Ain City,India,the United Arab Emirates
+The city of Kalininskiy is in Russia.,1,Kalininskiy,Russia,Russia
+The city of Kalininskiy is in Japan.,0,Kalininskiy,Japan,Russia
+The city of Mersin is in Turkey.,1,Mersin,Turkey,Turkey
+The city of Mersin is in the United States.,0,Mersin,the United States,Turkey
+The city of Guayaquil is in Ecuador.,1,Guayaquil,Ecuador,Ecuador
+The city of Guayaquil is in China.,0,Guayaquil,China,Ecuador
+The city of Tegucigalpa is in Honduras.,1,Tegucigalpa,Honduras,Honduras
+The city of Tegucigalpa is in China.,0,Tegucigalpa,China,Honduras
+The city of Koeln is in Germany.,1,Koeln,Germany,Germany
+The city of Koeln is in Nigeria.,0,Koeln,Nigeria,Germany
+The city of Nuernberg is in Germany.,1,Nuernberg,Germany,Germany
+The city of Nuernberg is in China.,0,Nuernberg,China,Germany
+The city of Zarqa is in Jordan.,1,Zarqa,Jordan,Jordan
+The city of Zarqa is in India.,0,Zarqa,India,Jordan
+The city of Riga is in Latvia.,1,Riga,Latvia,Latvia
+The city of Riga is in Japan.,0,Riga,Japan,Latvia
+The city of Nanded is in India.,1,Nanded,India,India
+The city of Nanded is in China.,0,Nanded,China,India
+The city of Gwalior is in India.,1,Gwalior,India,India
+The city of Gwalior is in China.,0,Gwalior,China,India
+The city of Dombivli is in India.,1,Dombivli,India,India
+The city of Dombivli is in Mali.,0,Dombivli,Mali,India
+The city of Kallakurichi is in India.,1,Kallakurichi,India,India
+The city of Kallakurichi is in Iraq.,0,Kallakurichi,Iraq,India
+The city of Bekasi is in Indonesia.,1,Bekasi,Indonesia,Indonesia
+The city of Bekasi is in China.,0,Bekasi,China,Indonesia
+The city of Johor Bahru is in Malaysia.,1,Johor Bahru,Malaysia,Malaysia
+The city of Johor Bahru is in Cuba.,0,Johor Bahru,Cuba,Malaysia
+The city of Santa Maria Chimalhuacan is in Mexico.,1,Santa Maria Chimalhuacan,Mexico,Mexico
+The city of Santa Maria Chimalhuacan is in Saudi Arabia.,0,Santa Maria Chimalhuacan,Saudi Arabia,Mexico
+The city of Urumqi is in China.,1,Urumqi,China,China
+The city of Urumqi is in Vietnam.,0,Urumqi,Vietnam,China
+The city of Qingdao is in China.,1,Qingdao,China,China
+The city of Qingdao is in India.,0,Qingdao,India,China
+The city of Sofia is in Bulgaria.,1,Sofia,Bulgaria,Bulgaria
+The city of Sofia is in South Korea.,0,Sofia,South Korea,Bulgaria
+The city of Nova Iguacu is in Brazil.,1,Nova Iguacu,Brazil,Brazil
+The city of Nova Iguacu is in India.,0,Nova Iguacu,India,Brazil
+The city of Abeokuta is in Nigeria.,1,Abeokuta,Nigeria,Nigeria
+The city of Abeokuta is in Mozambique.,0,Abeokuta,Mozambique,Nigeria
+The city of Amman is in Jordan.,1,Amman,Jordan,Jordan
+The city of Amman is in Malaysia.,0,Amman,Malaysia,Jordan
+The city of Hachioji is in Japan.,1,Hachioji,Japan,Japan
+The city of Hachioji is in Mexico.,0,Hachioji,Mexico,Japan
+The city of Fukuoka is in Japan.,1,Fukuoka,Japan,Japan
+The city of Fukuoka is in Senegal.,0,Fukuoka,Senegal,Japan
+The city of Goyang-si is in South Korea.,1,Goyang-si,South Korea,South Korea
+The city of Goyang-si is in Russia.,0,Goyang-si,Russia,South Korea
+The city of Meknes is in Morocco.,1,Meknes,Morocco,Morocco
+The city of Meknes is in China.,0,Meknes,China,Morocco
+The city of Antananarivo is in Madagascar.,1,Antananarivo,Madagascar,Madagascar
+The city of Antananarivo is in Germany.,0,Antananarivo,Germany,Madagascar
+The city of Kalyan is in India.,1,Kalyan,India,India
+The city of Kalyan is in South Korea.,0,Kalyan,South Korea,India
+The city of Jaipur is in India.,1,Jaipur,India,India
+The city of Jaipur is in China.,0,Jaipur,China,India
+The city of Guntur is in India.,1,Guntur,India,India
+The city of Guntur is in China.,0,Guntur,China,India
+The city of Bhilai is in India.,1,Bhilai,India,India
+The city of Bhilai is in Venezuela.,0,Bhilai,Venezuela,India
+The city of Bhavnagar is in India.,1,Bhavnagar,India,India
+The city of Bhavnagar is in Japan.,0,Bhavnagar,Japan,India
+The city of Amravati is in India.,1,Amravati,India,India
+The city of Amravati is in China.,0,Amravati,China,India
+The city of Shiraz is in Iran.,1,Shiraz,Iran,Iran
+The city of Shiraz is in China.,0,Shiraz,China,Iran
+The city of Lome is in Togo.,1,Lome,Togo,Togo
+The city of Lome is in Yemen.,0,Lome,Yemen,Togo
+The city of Erzurum is in Turkey.,1,Erzurum,Turkey,Turkey
+The city of Erzurum is in the Democratic Republic of the Congo.,0,Erzurum,the Democratic Republic of the Congo,Turkey
+The city of Seattle is in the United States.,1,Seattle,the United States,the United States
+The city of Seattle is in Yemen.,0,Seattle,Yemen,the United States
+The city of Barquisimeto is in Venezuela.,1,Barquisimeto,Venezuela,Venezuela
+The city of Barquisimeto is in Poland.,0,Barquisimeto,Poland,Venezuela
+The city of Kryvyy Rih is in Ukraine.,1,Kryvyy Rih,Ukraine,Ukraine
+The city of Kryvyy Rih is in China.,0,Kryvyy Rih,China,Ukraine
+The city of Krasnoyarsk is in Russia.,1,Krasnoyarsk,Russia,Russia
+The city of Krasnoyarsk is in India.,0,Krasnoyarsk,India,Russia
+The city of Quzhou is in China.,1,Quzhou,China,China
+The city of Quzhou is in Vietnam.,0,Quzhou,Vietnam,China
+The city of Pingliang is in China.,1,Pingliang,China,China
+The city of Pingliang is in Tanzania.,0,Pingliang,Tanzania,China
+The city of Puning is in China.,1,Puning,China,China
+The city of Puning is in India.,0,Puning,India,China
+The city of Huzhou is in China.,1,Huzhou,China,China
+The city of Huzhou is in Germany.,0,Huzhou,Germany,China
+The city of Chizhou is in China.,1,Chizhou,China,China
+The city of Chizhou is in the Republic of the Congo.,0,Chizhou,the Republic of the Congo,China
+The city of Chengdu is in China.,1,Chengdu,China,China
+The city of Chengdu is in South Korea.,0,Chengdu,South Korea,China
+The city of Cangzhou is in China.,1,Cangzhou,China,China
+The city of Cangzhou is in Germany.,0,Cangzhou,Germany,China
+The city of Samarinda is in Indonesia.,1,Samarinda,Indonesia,Indonesia
+The city of Samarinda is in Iraq.,0,Samarinda,Iraq,Indonesia
+The city of Helsinki is in Finland.,1,Helsinki,Finland,Finland
+The city of Helsinki is in Pakistan.,0,Helsinki,Pakistan,Finland
+The city of Khabarovsk Vtoroy is in Russia.,1,Khabarovsk Vtoroy,Russia,Russia
+The city of Khabarovsk Vtoroy is in China.,0,Khabarovsk Vtoroy,China,Russia
+The city of Wroclaw is in Poland.,1,Wroclaw,Poland,Poland
+The city of Wroclaw is in Mexico.,0,Wroclaw,Mexico,Poland
+The city of Oslo is in Norway.,1,Oslo,Norway,Norway
+The city of Oslo is in Venezuela.,0,Oslo,Venezuela,Norway
+The city of Caloocan City is in the Philippines.,1,Caloocan City,the Philippines,the Philippines
+The city of Caloocan City is in China.,0,Caloocan City,China,the Philippines
+The city of Ryazan' is in Russia.,1,Ryazan',Russia,Russia
+The city of Ryazan' is in South Korea.,0,Ryazan',South Korea,Russia
+The city of Ciudad Guayana is in Venezuela.,1,Ciudad Guayana,Venezuela,Venezuela
+The city of Ciudad Guayana is in South Africa.,0,Ciudad Guayana,South Africa,Venezuela
+The city of Ho Chi Minh City is in Vietnam.,1,Ho Chi Minh City,Vietnam,Vietnam
+The city of Ho Chi Minh City is in Gabon.,0,Ho Chi Minh City,Gabon,Vietnam
+The city of Al Hudaydah is in Yemen.,1,Al Hudaydah,Yemen,Yemen
+The city of Al Hudaydah is in South Korea.,0,Al Hudaydah,South Korea,Yemen
+The city of Soweto is in South Africa.,1,Soweto,South Africa,South Africa
+The city of Soweto is in Gabon.,0,Soweto,Gabon,South Africa
+The city of Benoni is in South Africa.,1,Benoni,South Africa,South Africa
+The city of Benoni is in the Philippines.,0,Benoni,the Philippines,South Africa
+The city of Wuzhou is in China.,1,Wuzhou,China,China
+The city of Wuzhou is in Syria.,0,Wuzhou,Syria,China
+The city of Wanxian is in China.,1,Wanxian,China,China
+The city of Wanxian is in Algeria.,0,Wanxian,Algeria,China
+The city of Qinzhou is in China.,1,Qinzhou,China,China
+The city of Qinzhou is in India.,0,Qinzhou,India,China
+The city of Wuwei is in China.,1,Wuwei,China,China
+The city of Wuwei is in India.,0,Wuwei,India,China
+The city of Hefei is in China.,1,Hefei,China,China
+The city of Hefei is in Germany.,0,Hefei,Germany,China
+The city of Handan is in China.,1,Handan,China,China
+The city of Handan is in Russia.,0,Handan,Russia,China
+The city of Jiangyin is in China.,1,Jiangyin,China,China
+The city of Jiangyin is in Bulgaria.,0,Jiangyin,Bulgaria,China
+The city of Brazzaville is in the Republic of the Congo.,1,Brazzaville,the Republic of the Congo,the Republic of the Congo
+The city of Brazzaville is in Nigeria.,0,Brazzaville,Nigeria,the Republic of the Congo
+The city of Sorocaba is in Brazil.,1,Sorocaba,Brazil,Brazil
+The city of Sorocaba is in Mexico.,0,Sorocaba,Mexico,Brazil
+The city of Aktobe is in Kazakhstan.,1,Aktobe,Kazakhstan,Kazakhstan
+The city of Aktobe is in Afghanistan.,0,Aktobe,Afghanistan,Kazakhstan
+The city of Chisinau is in Moldova.,1,Chisinau,Moldova,Moldova
+The city of Chisinau is in Germany.,0,Chisinau,Germany,Moldova
+The city of Tiruppur is in India.,1,Tiruppur,India,India
+The city of Tiruppur is in Japan.,0,Tiruppur,Japan,India
+The city of Kozhikode is in India.,1,Kozhikode,India,India
+The city of Kozhikode is in the United States.,0,Kozhikode,the United States,India
+The city of Asansol is in India.,1,Asansol,India,India
+The city of Asansol is in China.,0,Asansol,China,India
+The city of Suizhou is in China.,1,Suizhou,China,China
+The city of Suizhou is in Japan.,0,Suizhou,Japan,China
+The city of Jingmen is in China.,1,Jingmen,China,China
+The city of Jingmen is in Japan.,0,Jingmen,Japan,China
+The city of Huangshi is in China.,1,Huangshi,China,China
+The city of Huangshi is in India.,0,Huangshi,India,China
+The city of Huaibei is in China.,1,Huaibei,China,China
+The city of Huaibei is in Brazil.,0,Huaibei,Brazil,China
+The city of Hebi is in China.,1,Hebi,China,China
+The city of Hebi is in Nigeria.,0,Hebi,Nigeria,China
+The city of Benxi is in China.,1,Benxi,China,China
+The city of Benxi is in Brazil.,0,Benxi,Brazil,China
+The city of Fortaleza is in Brazil.,1,Fortaleza,Brazil,Brazil
+The city of Fortaleza is in Honduras.,0,Fortaleza,Honduras,Brazil
+The city of Antwerpen is in Belgium.,1,Antwerpen,Belgium,Belgium
+The city of Antwerpen is in Japan.,0,Antwerpen,Japan,Belgium
+The city of Pikine is in Senegal.,1,Pikine,Senegal,Senegal
+The city of Pikine is in Pakistan.,0,Pikine,Pakistan,Senegal
+The city of Dakar is in Senegal.,1,Dakar,Senegal,Senegal
+The city of Dakar is in India.,0,Dakar,India,Senegal
+The city of Faisalabad is in Pakistan.,1,Faisalabad,Pakistan,Pakistan
+The city of Faisalabad is in India.,0,Faisalabad,India,Pakistan
+The city of Kyoto is in Japan.,1,Kyoto,Japan,Japan
+The city of Kyoto is in China.,0,Kyoto,China,Japan
+The city of Port Harcourt is in Nigeria.,1,Port Harcourt,Nigeria,Nigeria
+The city of Port Harcourt is in Eritrea.,0,Port Harcourt,Eritrea,Nigeria
+The city of Makhachkala is in Russia.,1,Makhachkala,Russia,Russia
+The city of Makhachkala is in Indonesia.,0,Makhachkala,Indonesia,Russia
+The city of Thiruvananthapuram is in India.,1,Thiruvananthapuram,India,India
+The city of Thiruvananthapuram is in Japan.,0,Thiruvananthapuram,Japan,India
+The city of Madurai is in India.,1,Madurai,India,India
+The city of Madurai is in Burundi.,0,Madurai,Burundi,India
+The city of Abu Ghurayb is in Iraq.,1,Abu Ghurayb,Iraq,Iraq
+The city of Abu Ghurayb is in Indonesia.,0,Abu Ghurayb,Indonesia,Iraq
+The city of Karaj is in Iran.,1,Karaj,Iran,Iran
+The city of Karaj is in India.,0,Karaj,India,Iran
+The city of Kampala is in Uganda.,1,Kampala,Uganda,Uganda
+The city of Kampala is in Turkey.,0,Kampala,Turkey,Uganda
+The city of Chicago is in the United States.,1,Chicago,the United States,the United States
+The city of Chicago is in Madagascar.,0,Chicago,Madagascar,the United States
+The city of Milwaukee is in the United States.,1,Milwaukee,the United States,the United States
+The city of Milwaukee is in China.,0,Milwaukee,China,the United States
+The city of Bloemfontein is in South Africa.,1,Bloemfontein,South Africa,South Africa
+The city of Bloemfontein is in China.,0,Bloemfontein,China,South Africa
+The city of Uberlandia is in Brazil.,1,Uberlandia,Brazil,Brazil
+The city of Uberlandia is in India.,0,Uberlandia,India,Brazil
+The city of Curitiba is in Brazil.,1,Curitiba,Brazil,Brazil
+The city of Curitiba is in India.,0,Curitiba,India,Brazil
+The city of Rio de Janeiro is in Brazil.,1,Rio de Janeiro,Brazil,Brazil
+The city of Rio de Janeiro is in Japan.,0,Rio de Janeiro,Japan,Brazil
+The city of Ribeirao Preto is in Brazil.,1,Ribeirao Preto,Brazil,Brazil
+The city of Ribeirao Preto is in China.,0,Ribeirao Preto,China,Brazil
+The city of The Bronx is in the United States.,1,The Bronx,the United States,the United States
+The city of The Bronx is in South Korea.,0,The Bronx,South Korea,the United States
+The city of Samarkand is in Uzbekistan.,1,Samarkand,Uzbekistan,Uzbekistan
+The city of Samarkand is in China.,0,Samarkand,China,Uzbekistan
+The city of Da Nang is in Vietnam.,1,Da Nang,Vietnam,Vietnam
+The city of Da Nang is in China.,0,Da Nang,China,Vietnam
+The city of Tomsk is in Russia.,1,Tomsk,Russia,Russia
+The city of Tomsk is in Ghana.,0,Tomsk,Ghana,Russia
+The city of Najran is in Saudi Arabia.,1,Najran,Saudi Arabia,Saudi Arabia
+The city of Najran is in India.,0,Najran,India,Saudi Arabia
+The city of Bangkok is in Thailand.,1,Bangkok,Thailand,Thailand
+The city of Bangkok is in China.,0,Bangkok,China,Thailand
+The city of Oklahoma City is in the United States.,1,Oklahoma City,the United States,the United States
+The city of Oklahoma City is in China.,0,Oklahoma City,China,the United States
+The city of Izhevsk is in Russia.,1,Izhevsk,Russia,Russia
+The city of Izhevsk is in Nigeria.,0,Izhevsk,Nigeria,Russia
+The city of Madinat an Nasr is in Egypt.,1,Madinat an Nasr,Egypt,Egypt
+The city of Madinat an Nasr is in India.,0,Madinat an Nasr,India,Egypt
+The city of Yibin is in China.,1,Yibin,China,China
+The city of Yibin is in Brazil.,0,Yibin,Brazil,China
+The city of Sanmenxia is in China.,1,Sanmenxia,China,China
+The city of Sanmenxia is in Brazil.,0,Sanmenxia,Brazil,China
+The city of Rui'an is in China.,1,Rui'an,China,China
+The city of Rui'an is in Indonesia.,0,Rui'an,Indonesia,China
+The city of Ningbo is in China.,1,Ningbo,China,China
+The city of Ningbo is in South Korea.,0,Ningbo,South Korea,China
+The city of Jiujiang is in China.,1,Jiujiang,China,China
+The city of Jiujiang is in Indonesia.,0,Jiujiang,Indonesia,China
+The city of Jiaozuo is in China.,1,Jiaozuo,China,China
+The city of Jiaozuo is in Bangladesh.,0,Jiaozuo,Bangladesh,China
+The city of Jiangmen is in China.,1,Jiangmen,China,China
+The city of Jiangmen is in South Korea.,0,Jiangmen,South Korea,China
+The city of Huizhou is in China.,1,Huizhou,China,China
+The city of Huizhou is in the United States.,0,Huizhou,the United States,China
+The city of Harbin is in China.,1,Harbin,China,China
+The city of Harbin is in Russia.,0,Harbin,Russia,China
+The city of Herat is in Afghanistan.,1,Herat,Afghanistan,Afghanistan
+The city of Herat is in China.,0,Herat,China,Afghanistan
+The city of Kleinzschocher is in Germany.,1,Kleinzschocher,Germany,Germany
+The city of Kleinzschocher is in Brazil.,0,Kleinzschocher,Brazil,Germany
+The city of Davao is in the Philippines.,1,Davao,the Philippines,the Philippines
+The city of Davao is in Brazil.,0,Davao,Brazil,the Philippines
+The city of Sargodha is in Pakistan.,1,Sargodha,Pakistan,Pakistan
+The city of Sargodha is in India.,0,Sargodha,India,Pakistan
+The city of Islamabad is in Pakistan.,1,Islamabad,Pakistan,Pakistan
+The city of Islamabad is in Japan.,0,Islamabad,Japan,Pakistan
+The city of Zapopan is in Mexico.,1,Zapopan,Mexico,Mexico
+The city of Zapopan is in China.,0,Zapopan,China,Mexico
+The city of Visakhapatnam is in India.,1,Visakhapatnam,India,India
+The city of Visakhapatnam is in Indonesia.,0,Visakhapatnam,Indonesia,India
+The city of Rourkela is in India.,1,Rourkela,India,India
+The city of Rourkela is in Brazil.,0,Rourkela,Brazil,India
+The city of Dhanbad is in India.,1,Dhanbad,India,India
+The city of Dhanbad is in Kenya.,0,Dhanbad,Kenya,India
+The city of Bokaro is in India.,1,Bokaro,India,India
+The city of Bokaro is in China.,0,Bokaro,China,India
+The city of Tabriz is in Iran.,1,Tabriz,Iran,Iran
+The city of Tabriz is in India.,0,Tabriz,India,Iran
+The city of Tlaquepaque is in Mexico.,1,Tlaquepaque,Mexico,Mexico
+The city of Tlaquepaque is in Japan.,0,Tlaquepaque,Japan,Mexico
+The city of Victoria de Durango is in Mexico.,1,Victoria de Durango,Mexico,Mexico
+The city of Victoria de Durango is in Ghana.,0,Victoria de Durango,Ghana,Mexico
+The city of Kota Kinabalu is in Malaysia.,1,Kota Kinabalu,Malaysia,Malaysia
+The city of Kota Kinabalu is in the United States.,0,Kota Kinabalu,the United States,Malaysia
+The city of Nairobi is in Kenya.,1,Nairobi,Kenya,Kenya
+The city of Nairobi is in Mexico.,0,Nairobi,Mexico,Kenya
+The city of Taguig is in the Philippines.,1,Taguig,the Philippines,the Philippines
+The city of Taguig is in India.,0,Taguig,India,the Philippines
+The city of Rajkot is in India.,1,Rajkot,India,India
+The city of Rajkot is in Russia.,0,Rajkot,Russia,India
+The city of Pune is in India.,1,Pune,India,India
+The city of Pune is in South Korea.,0,Pune,South Korea,India
+The city of Ludhiana is in India.,1,Ludhiana,India,India
+The city of Ludhiana is in Togo.,0,Ludhiana,Togo,India
+The city of Jamshedpur is in India.,1,Jamshedpur,India,India
+The city of Jamshedpur is in China.,0,Jamshedpur,China,India
+The city of Bhiwandi is in India.,1,Bhiwandi,India,India
+The city of Bhiwandi is in China.,0,Bhiwandi,China,India
+The city of Erbil is in Iraq.,1,Erbil,Iraq,Iraq
+The city of Erbil is in Cuba.,0,Erbil,Cuba,Iraq
+The city of Chelyabinsk is in Russia.,1,Chelyabinsk,Russia,Russia
+The city of Chelyabinsk is in China.,0,Chelyabinsk,China,Russia
+The city of Uskudar is in Turkey.,1,Uskudar,Turkey,Turkey
+The city of Uskudar is in Bulgaria.,0,Uskudar,Bulgaria,Turkey
+The city of Bagcilar is in Turkey.,1,Bagcilar,Turkey,Turkey
+The city of Bagcilar is in Iran.,0,Bagcilar,Iran,Turkey
+The city of Quezon City is in the Philippines.,1,Quezon City,the Philippines,the Philippines
+The city of Quezon City is in China.,0,Quezon City,China,the Philippines
+The city of Mexico City is in Mexico.,1,Mexico City,Mexico,Mexico
+The city of Mexico City is in China.,0,Mexico City,China,Mexico
+The city of Leon de los Aldama is in Mexico.,1,Leon de los Aldama,Mexico,Mexico
+The city of Leon de los Aldama is in China.,0,Leon de los Aldama,China,Mexico
+The city of Fes is in Morocco.,1,Fes,Morocco,Morocco
+The city of Fes is in Mali.,0,Fes,Mali,Morocco
+The city of Surat is in India.,1,Surat,India,India
+The city of Surat is in Burkina Faso.,0,Surat,Burkina Faso,India
+The city of Barnaul is in Russia.,1,Barnaul,Russia,Russia
+The city of Barnaul is in South Africa.,0,Barnaul,South Africa,Russia
+The city of Buraydah is in Saudi Arabia.,1,Buraydah,Saudi Arabia,Saudi Arabia
+The city of Buraydah is in Rwanda.,0,Buraydah,Rwanda,Saudi Arabia
+The city of Bikaner is in India.,1,Bikaner,India,India
+The city of Bikaner is in South Korea.,0,Bikaner,South Korea,India
+The city of Mogadishu is in Somalia.,1,Mogadishu,Somalia,Somalia
+The city of Mogadishu is in Iran.,0,Mogadishu,Iran,Somalia
+The city of Homs is in Syria.,1,Homs,Syria,Syria
+The city of Homs is in Indonesia.,0,Homs,Indonesia,Syria
+The city of Port-au-Prince is in Haiti.,1,Port-au-Prince,Haiti,Haiti
+The city of Port-au-Prince is in South Korea.,0,Port-au-Prince,South Korea,Haiti
+The city of Thuan An is in Vietnam.,1,Thuan An,Vietnam,Vietnam
+The city of Thuan An is in Mozambique.,0,Thuan An,Mozambique,Vietnam
+The city of Sanaa is in Yemen.,1,Sanaa,Yemen,Yemen
+The city of Sanaa is in China.,0,Sanaa,China,Yemen
+The city of Pretoria is in South Africa.,1,Pretoria,South Africa,South Africa
+The city of Pretoria is in India.,0,Pretoria,India,South Africa
+The city of Pietermaritzburg is in South Africa.,1,Pietermaritzburg,South Africa,South Africa
+The city of Pietermaritzburg is in China.,0,Pietermaritzburg,China,South Africa
+The city of Abu Dhabi is in the United Arab Emirates.,1,Abu Dhabi,the United Arab Emirates,the United Arab Emirates
+The city of Abu Dhabi is in Oman.,0,Abu Dhabi,Oman,the United Arab Emirates
+The city of Sao Paulo is in Brazil.,1,Sao Paulo,Brazil,Brazil
+The city of Sao Paulo is in China.,0,Sao Paulo,China,Brazil
+The city of Lianyungang is in China.,1,Lianyungang,China,China
+The city of Lianyungang is in the Philippines.,0,Lianyungang,the Philippines,China
+The city of Xiaogan is in China.,1,Xiaogan,China,China
+The city of Xiaogan is in Ukraine.,0,Xiaogan,Ukraine,China
+The city of Taicang is in China.,1,Taicang,China,China
+The city of Taicang is in Madagascar.,0,Taicang,Madagascar,China
+The city of Guiyang is in China.,1,Guiyang,China,China
+The city of Guiyang is in South Korea.,0,Guiyang,South Korea,China
+The city of Ganzhou is in China.,1,Ganzhou,China,China
+The city of Ganzhou is in South Korea.,0,Ganzhou,South Korea,China
+The city of Shangyu is in China.,1,Shangyu,China,China
+The city of Shangyu is in the United Arab Emirates.,0,Shangyu,the United Arab Emirates,China
+The city of Jambi City is in Indonesia.,1,Jambi City,Indonesia,Indonesia
+The city of Jambi City is in China.,0,Jambi City,China,Indonesia
+The city of Indianapolis is in the United States.,1,Indianapolis,the United States,the United States
+The city of Indianapolis is in Côte d'Ivoire.,0,Indianapolis,Côte d'Ivoire,the United States
+The city of New York City is in the United States.,1,New York City,the United States,the United States
+The city of New York City is in India.,0,New York City,India,the United States
+The city of Bulawayo is in Zimbabwe.,1,Bulawayo,Zimbabwe,Zimbabwe
+The city of Bulawayo is in China.,0,Bulawayo,China,Zimbabwe
+The city of Santiago de Cuba is in Cuba.,1,Santiago de Cuba,Cuba,Cuba
+The city of Santiago de Cuba is in India.,0,Santiago de Cuba,India,Cuba
+The city of Quito is in Ecuador.,1,Quito,Ecuador,Ecuador
+The city of Quito is in China.,0,Quito,China,Ecuador
+The city of Shubra al Khaymah is in Egypt.,1,Shubra al Khaymah,Egypt,Egypt
+The city of Shubra al Khaymah is in Nigeria.,0,Shubra al Khaymah,Nigeria,Egypt
+The city of Al Mahallah al Kubra is in Egypt.,1,Al Mahallah al Kubra,Egypt,Egypt
+The city of Al Mahallah al Kubra is in Afghanistan.,0,Al Mahallah al Kubra,Afghanistan,Egypt
+The city of Suining is in China.,1,Suining,China,China
+The city of Suining is in Algeria.,0,Suining,Algeria,China
+The city of Guankou is in China.,1,Guankou,China,China
+The city of Guankou is in Pakistan.,0,Guankou,Pakistan,China
+The city of Langfang is in China.,1,Langfang,China,China
+The city of Langfang is in India.,0,Langfang,India,China
+The city of Jinan is in China.,1,Jinan,China,China
+The city of Jinan is in Rwanda.,0,Jinan,Rwanda,China
+The city of Guigang is in China.,1,Guigang,China,China
+The city of Guigang is in Japan.,0,Guigang,Japan,China
+The city of Dalian is in China.,1,Dalian,China,China
+The city of Dalian is in Saudi Arabia.,0,Dalian,Saudi Arabia,China
+The city of Chongqing is in China.,1,Chongqing,China,China
+The city of Chongqing is in Sweden.,0,Chongqing,Sweden,China
+The city of Homyel' is in Belarus.,1,Homyel',Belarus,Belarus
+The city of Homyel' is in Iran.,0,Homyel',Iran,Belarus
+The city of Winnipeg is in Canada.,1,Winnipeg,Canada,Canada
+The city of Winnipeg is in Mexico.,0,Winnipeg,Mexico,Canada
+The city of Klang is in Malaysia.,1,Klang,Malaysia,Malaysia
+The city of Klang is in China.,0,Klang,China,Malaysia
+The city of Irbid is in Jordan.,1,Irbid,Jordan,Jordan
+The city of Irbid is in India.,0,Irbid,India,Jordan
+The city of Bishkek is in Kyrgyzstan.,1,Bishkek,Kyrgyzstan,Kyrgyzstan
+The city of Bishkek is in Germany.,0,Bishkek,Germany,Kyrgyzstan
+The city of Muzaffarabad is in Pakistan.,1,Muzaffarabad,Pakistan,Pakistan
+The city of Muzaffarabad is in China.,0,Muzaffarabad,China,Pakistan
+The city of Kotli is in Pakistan.,1,Kotli,Pakistan,Pakistan
+The city of Kotli is in the United States.,0,Kotli,the United States,Pakistan
+The city of Nagpur is in India.,1,Nagpur,India,India
+The city of Nagpur is in Denmark.,0,Nagpur,Denmark,India
+The city of Kolhapur is in India.,1,Kolhapur,India,India
+The city of Kolhapur is in Mozambique.,0,Kolhapur,Mozambique,India
+The city of Cuttack is in India.,1,Cuttack,India,India
+The city of Cuttack is in Pakistan.,0,Cuttack,Pakistan,India
+The city of Makassar is in Indonesia.,1,Makassar,Indonesia,Indonesia
+The city of Makassar is in China.,0,Makassar,China,Indonesia
+The city of Yekaterinburg is in Russia.,1,Yekaterinburg,Russia,Russia
+The city of Yekaterinburg is in Lithuania.,0,Yekaterinburg,Lithuania,Russia
+The city of Dammam is in Saudi Arabia.,1,Dammam,Saudi Arabia,Saudi Arabia
+The city of Dammam is in Russia.,0,Dammam,Russia,Saudi Arabia
+The city of Dushanbe is in Tajikistan.,1,Dushanbe,Tajikistan,Tajikistan
+The city of Dushanbe is in Nigeria.,0,Dushanbe,Nigeria,Tajikistan
+The city of Gaziantep is in Turkey.,1,Gaziantep,Turkey,Turkey
+The city of Gaziantep is in Mexico.,0,Gaziantep,Mexico,Turkey
+The city of Asuncion is in Paraguay.,1,Asuncion,Paraguay,Paraguay
+The city of Asuncion is in Nigeria.,0,Asuncion,Nigeria,Paraguay
+The city of Tebessa is in Algeria.,1,Tebessa,Algeria,Algeria
+The city of Tebessa is in India.,0,Tebessa,India,Algeria
+The city of Zhuzhou is in China.,1,Zhuzhou,China,China
+The city of Zhuzhou is in France.,0,Zhuzhou,France,China
+The city of Xining is in China.,1,Xining,China,China
+The city of Xining is in the United Arab Emirates.,0,Xining,the United Arab Emirates,China
+The city of Tanggu is in China.,1,Tanggu,China,China
+The city of Tanggu is in South Korea.,0,Tanggu,South Korea,China
+The city of Shantou is in China.,1,Shantou,China,China
+The city of Shantou is in Pakistan.,0,Shantou,Pakistan,China
+The city of Shangluo is in China.,1,Shangluo,China,China
+The city of Shangluo is in Honduras.,0,Shangluo,Honduras,China
+The city of Putian is in China.,1,Putian,China,China
+The city of Putian is in Vietnam.,0,Putian,Vietnam,China
+The city of Luzhou is in China.,1,Luzhou,China,China
+The city of Luzhou is in Peru.,0,Luzhou,Peru,China
+The city of Lanzhou is in China.,1,Lanzhou,China,China
+The city of Lanzhou is in Mexico.,0,Lanzhou,Mexico,China
+The city of Chenzhou is in China.,1,Chenzhou,China,China
+The city of Chenzhou is in Brazil.,0,Chenzhou,Brazil,China
+The city of Baise is in China.,1,Baise,China,China
+The city of Baise is in Japan.,0,Baise,Japan,China
+The city of Shenyang is in China.,1,Shenyang,China,China
+The city of Shenyang is in Somalia.,0,Shenyang,Somalia,China
+The city of Daqing is in China.,1,Daqing,China,China
+The city of Daqing is in Brazil.,0,Daqing,Brazil,China
+The city of Brasilia is in Brazil.,1,Brasilia,Brazil,Brazil
+The city of Brasilia is in South Korea.,0,Brasilia,South Korea,Brazil
+The city of Kandahar is in Afghanistan.,1,Kandahar,Afghanistan,Afghanistan
+The city of Kandahar is in China.,0,Kandahar,China,Afghanistan
+The city of Gold Coast is in Australia.,1,Gold Coast,Australia,Australia
+The city of Gold Coast is in China.,0,Gold Coast,China,Australia
+The city of Ouagadougou is in Burkina Faso.,1,Ouagadougou,Burkina Faso,Burkina Faso
+The city of Ouagadougou is in China.,0,Ouagadougou,China,Burkina Faso
+The city of Duque de Caxias is in Brazil.,1,Duque de Caxias,Brazil,Brazil
+The city of Duque de Caxias is in Côte d'Ivoire.,0,Duque de Caxias,Côte d'Ivoire,Brazil
+The city of Hiroshima is in Japan.,1,Hiroshima,Japan,Japan
+The city of Hiroshima is in Malaysia.,0,Hiroshima,Malaysia,Japan
+The city of Saitama is in Japan.,1,Saitama,Japan,Japan
+The city of Saitama is in India.,0,Saitama,India,Japan
+The city of Mandalay is in Myanmar.,1,Mandalay,Myanmar,Myanmar
+The city of Mandalay is in Algeria.,0,Mandalay,Algeria,Myanmar
+The city of Nampula is in Mozambique.,1,Nampula,Mozambique,Mozambique
+The city of Nampula is in India.,0,Nampula,India,Mozambique
+The city of Mysore is in India.,1,Mysore,India,India
+The city of Mysore is in Mexico.,0,Mysore,Mexico,India
+The city of Coimbatore is in India.,1,Coimbatore,India,India
+The city of Coimbatore is in Malaysia.,0,Coimbatore,Malaysia,India
+The city of Chandigarh is in India.,1,Chandigarh,India,India
+The city of Chandigarh is in China.,0,Chandigarh,China,India
+The city of Amritsar is in India.,1,Amritsar,India,India
+The city of Amritsar is in Moldova.,0,Amritsar,Moldova,India
+The city of Arak is in Iran.,1,Arak,Iran,Iran
+The city of Arak is in India.,0,Arak,India,Iran
+The city of Ilorin is in Nigeria.,1,Ilorin,Nigeria,Nigeria
+The city of Ilorin is in Ukraine.,0,Ilorin,Ukraine,Nigeria
+The city of Omdurman is in Sudan.,1,Omdurman,Sudan,Sudan
+The city of Omdurman is in South Korea.,0,Omdurman,South Korea,Sudan
+The city of Khartoum is in Sudan.,1,Khartoum,Sudan,Sudan
+The city of Khartoum is in China.,0,Khartoum,China,Sudan
+The city of Gujranwala is in Pakistan.,1,Gujranwala,Pakistan,Pakistan
+The city of Gujranwala is in China.,0,Gujranwala,China,Pakistan
+The city of Nizhniy Novgorod is in Russia.,1,Nizhniy Novgorod,Russia,Russia
+The city of Nizhniy Novgorod is in China.,0,Nizhniy Novgorod,China,Russia
+The city of Zhaoqing is in China.,1,Zhaoqing,China,China
+The city of Zhaoqing is in Brazil.,0,Zhaoqing,Brazil,China
+The city of Xianning is in China.,1,Xianning,China,China
+The city of Xianning is in Lebanon.,0,Xianning,Lebanon,China
+The city of Suqian is in China.,1,Suqian,China,China
+The city of Suqian is in Mexico.,0,Suqian,Mexico,China
+The city of Tonghua is in China.,1,Tonghua,China,China
+The city of Tonghua is in Venezuela.,0,Tonghua,Venezuela,China
+The city of Hezhou is in China.,1,Hezhou,China,China
+The city of Hezhou is in India.,0,Hezhou,India,China
+The city of Grosszschocher is in Germany.,1,Grosszschocher,Germany,Germany
+The city of Grosszschocher is in China.,0,Grosszschocher,China,Germany
+The city of San Pedro Sula is in Honduras.,1,San Pedro Sula,Honduras,Honduras
+The city of San Pedro Sula is in India.,0,San Pedro Sula,India,Honduras
+The city of Queens is in the United States.,1,Queens,the United States,the United States
+The city of Queens is in India.,0,Queens,India,the United States
+The city of Caracas is in Venezuela.,1,Caracas,Venezuela,Venezuela
+The city of Caracas is in Sudan.,0,Caracas,Sudan,Venezuela
+The city of Bien Hoa is in Vietnam.,1,Bien Hoa,Vietnam,Vietnam
+The city of Bien Hoa is in South Korea.,0,Bien Hoa,South Korea,Vietnam
+The city of Durban is in South Africa.,1,Durban,South Africa,South Africa
+The city of Durban is in Ukraine.,0,Durban,Ukraine,South Africa
+The city of Kawaguchi is in Japan.,1,Kawaguchi,Japan,Japan
+The city of Kawaguchi is in Indonesia.,0,Kawaguchi,Indonesia,Japan
+The city of Bucheon-si is in South Korea.,1,Bucheon-si,South Korea,South Korea
+The city of Bucheon-si is in Romania.,0,Bucheon-si,Romania,South Korea
+The city of Tangier is in Morocco.,1,Tangier,Morocco,Morocco
+The city of Tangier is in Ecuador.,0,Tangier,Ecuador,Morocco
+The city of Nay Pyi Taw is in Myanmar.,1,Nay Pyi Taw,Myanmar,Myanmar
+The city of Nay Pyi Taw is in Mozambique.,0,Nay Pyi Taw,Mozambique,Myanmar
+The city of Ulhasnagar is in India.,1,Ulhasnagar,India,India
+The city of Ulhasnagar is in Senegal.,0,Ulhasnagar,Senegal,India
+The city of Faridabad is in India.,1,Faridabad,India,India
+The city of Faridabad is in the United States.,0,Faridabad,the United States,India
+The city of Kolkata is in India.,1,Kolkata,India,India
+The city of Kolkata is in Japan.,0,Kolkata,Japan,India
+The city of Karbala is in Iraq.,1,Karbala,Iraq,Iraq
+The city of Karbala is in Turkey.,0,Karbala,Turkey,Iraq
+The city of Jakarta is in Indonesia.,1,Jakarta,Indonesia,Indonesia
+The city of Jakarta is in Colombia.,0,Jakarta,Colombia,Indonesia
+The city of Denpasar is in Indonesia.,1,Denpasar,Indonesia,Indonesia
+The city of Denpasar is in Brazil.,0,Denpasar,Brazil,Indonesia
+The city of Batam is in Indonesia.,1,Batam,Indonesia,Indonesia
+The city of Batam is in Turkey.,0,Batam,Turkey,Indonesia
+The city of Liupanshui is in China.,1,Liupanshui,China,China
+The city of Liupanshui is in the Philippines.,0,Liupanshui,the Philippines,China
+The city of Shangrao is in China.,1,Shangrao,China,China
+The city of Shangrao is in Russia.,0,Shangrao,Russia,China
+The city of Xingtai is in China.,1,Xingtai,China,China
+The city of Xingtai is in Russia.,0,Xingtai,Russia,China
+The city of Qujing is in China.,1,Qujing,China,China
+The city of Qujing is in India.,0,Qujing,India,China
+The city of Nanning is in China.,1,Nanning,China,China
+The city of Nanning is in Japan.,0,Nanning,Japan,China
+The city of Huainan is in China.,1,Huainan,China,China
+The city of Huainan is in Egypt.,0,Huainan,Egypt,China
+The city of Binzhou is in China.,1,Binzhou,China,China
+The city of Binzhou is in Brazil.,0,Binzhou,Brazil,China
+The city of Fuxin is in China.,1,Fuxin,China,China
+The city of Fuxin is in Pakistan.,0,Fuxin,Pakistan,China
+The city of Quebec is in Canada.,1,Quebec,Canada,Canada
+The city of Quebec is in Zimbabwe.,0,Quebec,Zimbabwe,Canada
+The city of Mazar-e Sharif is in Afghanistan.,1,Mazar-e Sharif,Afghanistan,Afghanistan
+The city of Mazar-e Sharif is in India.,0,Mazar-e Sharif,India,Afghanistan
+The city of Mar del Plata is in Argentina.,1,Mar del Plata,Argentina,Argentina
+The city of Mar del Plata is in Nigeria.,0,Mar del Plata,Nigeria,Argentina
+The city of Salta is in Argentina.,1,Salta,Argentina,Argentina
+The city of Salta is in India.,0,Salta,India,Argentina
+The city of Bujumbura is in Burundi.,1,Bujumbura,Burundi,Burundi
+The city of Bujumbura is in Nigeria.,0,Bujumbura,Nigeria,Burundi
+The city of Ankara is in Turkey.,1,Ankara,Turkey,Turkey
+The city of Ankara is in Japan.,0,Ankara,Japan,Turkey
+The city of Esenler is in Turkey.,1,Esenler,Turkey,Turkey
+The city of Esenler is in India.,0,Esenler,India,Turkey
+The city of Cankaya is in Turkey.,1,Cankaya,Turkey,Turkey
+The city of Cankaya is in the United States.,0,Cankaya,the United States,Turkey
+The city of Ufa is in Russia.,1,Ufa,Russia,Russia
+The city of Ufa is in South Korea.,0,Ufa,South Korea,Russia
+The city of Rawalpindi is in Pakistan.,1,Rawalpindi,Pakistan,Pakistan
+The city of Rawalpindi is in Brazil.,0,Rawalpindi,Brazil,Pakistan
+The city of Karachi is in Pakistan.,1,Karachi,Pakistan,Pakistan
+The city of Karachi is in India.,0,Karachi,India,Pakistan
+The city of Tijuana is in Mexico.,1,Tijuana,Mexico,Mexico
+The city of Tijuana is in the United Arab Emirates.,0,Tijuana,the United Arab Emirates,Mexico
+The city of Jos is in Nigeria.,1,Jos,Nigeria,Nigeria
+The city of Jos is in India.,0,Jos,India,Nigeria
+The city of Ibadan is in Nigeria.,1,Ibadan,Nigeria,Nigeria
+The city of Ibadan is in Malaysia.,0,Ibadan,Malaysia,Nigeria
+The city of Managua is in Nicaragua.,1,Managua,Nicaragua,Nicaragua
+The city of Managua is in Turkey.,0,Managua,Turkey,Nicaragua
+The city of Ha'il is in Saudi Arabia.,1,Ha'il,Saudi Arabia,Saudi Arabia
+The city of Ha'il is in China.,0,Ha'il,China,Saudi Arabia
+The city of Haiphong is in Vietnam.,1,Haiphong,Vietnam,Vietnam
+The city of Haiphong is in the Dominican Republic.,0,Haiphong,the Dominican Republic,Vietnam
+The city of Cape Town is in South Africa.,1,Cape Town,South Africa,South Africa
+The city of Cape Town is in China.,0,Cape Town,China,South Africa
+The city of Ipoh is in Malaysia.,1,Ipoh,Malaysia,Malaysia
+The city of Ipoh is in Brazil.,0,Ipoh,Brazil,Malaysia
+The city of Kuantan is in Malaysia.,1,Kuantan,Malaysia,Malaysia
+The city of Kuantan is in India.,0,Kuantan,India,Malaysia
+The city of Maiduguri is in Nigeria.,1,Maiduguri,Nigeria,Nigeria
+The city of Maiduguri is in China.,0,Maiduguri,China,Nigeria
+The city of Yangon is in Myanmar.,1,Yangon,Myanmar,Myanmar
+The city of Yangon is in Kenya.,0,Yangon,Kenya,Myanmar
+The city of Kathmandu is in Nepal.,1,Kathmandu,Nepal,Nepal
+The city of Kathmandu is in China.,0,Kathmandu,China,Nepal
+The city of Las Pinas is in the Philippines.,1,Las Pinas,the Philippines,the Philippines
+The city of Las Pinas is in Yemen.,0,Las Pinas,Yemen,the Philippines
+The city of Reynosa is in Mexico.,1,Reynosa,Mexico,Mexico
+The city of Reynosa is in China.,0,Reynosa,China,Mexico
+The city of Rostov-na-Donu is in Russia.,1,Rostov-na-Donu,Russia,Russia
+The city of Rostov-na-Donu is in the United Arab Emirates.,0,Rostov-na-Donu,the United Arab Emirates,Russia
+The city of Ibague is in Colombia.,1,Ibague,Colombia,Colombia
+The city of Ibague is in Finland.,0,Ibague,Finland,Colombia
+The city of Copenhagen is in Denmark.,1,Copenhagen,Denmark,Denmark
+The city of Copenhagen is in China.,0,Copenhagen,China,Denmark
+The city of Xinyang is in China.,1,Xinyang,China,China
+The city of Xinyang is in Japan.,0,Xinyang,Japan,China
+The city of Weinan is in China.,1,Weinan,China,China
+The city of Weinan is in Colombia.,0,Weinan,Colombia,China
+The city of Wanning is in China.,1,Wanning,China,China
+The city of Wanning is in the United States.,0,Wanning,the United States,China
+The city of Shijiazhuang is in China.,1,Shijiazhuang,China,China
+The city of Shijiazhuang is in Uzbekistan.,0,Shijiazhuang,Uzbekistan,China
+The city of Laiwu is in China.,1,Laiwu,China,China
+The city of Laiwu is in the United States.,0,Laiwu,the United States,China
+The city of Hengyang is in China.,1,Hengyang,China,China
+The city of Hengyang is in Turkey.,0,Hengyang,Turkey,China
+The city of Changchun is in China.,1,Changchun,China,China
+The city of Changchun is in Germany.,0,Changchun,Germany,China
+The city of Varanasi is in India.,1,Varanasi,India,India
+The city of Varanasi is in Turkey.,0,Varanasi,Turkey,India
+The city of Puducherry is in India.,1,Puducherry,India,India
+The city of Puducherry is in Brazil.,0,Puducherry,Brazil,India
+The city of Bhopal is in India.,1,Bhopal,India,India
+The city of Bhopal is in Russia.,0,Bhopal,Russia,India
+The city of Kanayannur is in India.,1,Kanayannur,India,India
+The city of Kanayannur is in Saudi Arabia.,0,Kanayannur,Saudi Arabia,India
+The city of Kirkuk is in Iraq.,1,Kirkuk,Iraq,Iraq
+The city of Kirkuk is in China.,0,Kirkuk,China,Iraq
+The city of Al Mawsil al Jadidah is in Iraq.,1,Al Mawsil al Jadidah,Iraq,Iraq
+The city of Al Mawsil al Jadidah is in India.,0,Al Mawsil al Jadidah,India,Iraq
+The city of Tangerang is in Indonesia.,1,Tangerang,Indonesia,Indonesia
+The city of Tangerang is in China.,0,Tangerang,China,Indonesia
