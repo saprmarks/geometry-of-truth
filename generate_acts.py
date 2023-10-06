@@ -4,8 +4,14 @@ import argparse
 import pandas as pd
 from tqdm import tqdm
 import os
+import configparser
 
-LLAMA_DIRECTORY = "/home/ubuntu/llama_hf/" # change to where you store your LLaMA weights
+config = configparser.ConfigParser()
+config.read('config.ini')
+LLAMA_DIRECTORY = config['LLaMA']['weights_directory']
+
+if not os.path.exists(LLAMA_DIRECTORY):
+    raise Exception("Make sure you've set the path to your LLaMA weights in config.ini")
 
 class Hook:
     def __init__(self):

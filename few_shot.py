@@ -5,12 +5,17 @@ from transformers import LlamaForCausalLM, LlamaTokenizer
 from tqdm import tqdm
 import argparse
 import json
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+LLAMA_DIRECTORY = config['LLaMA']['weights_directory']
+if not os.path.exists(LLAMA_DIRECTORY):
+    raise ValueError("Make sure you've set the path to your LLAMA weights in config.ini")
+ROOT = os.path.dirname(os.path.abspath(__file__))
+
 
 t.set_grad_enabled(False)
-
-LLAMA_DIRECTORY = '/home/ubuntu/llama_hf/'
-ROOT = '/home/ubuntu/statement_reps/' # change to the location of this folder (geometry_of_truth)
-
 
 def get_few_shot_accuracy(datasets, model_size, n_shots=5, calibrated=True, device='cpu'):
     """Compute the few-shot accuracy of the model on the given datasets.

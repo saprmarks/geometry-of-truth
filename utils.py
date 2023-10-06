@@ -4,7 +4,7 @@ import os
 from glob import glob
 import random
 
-ROOT = '/home/ubuntu/geometry_of_truth'
+ROOT = os.path.dirname(os.path.abspath(__file__))
 ACTS_BATCH_SIZE = 25
 
 
