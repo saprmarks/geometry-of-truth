@@ -19,7 +19,7 @@ We're not sure why the `smaller_than` dataset doesn't look as separated as the r
 
 Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, can you figure out how the statements vary as you run move along the point clouds (up and to the right)? See below for the answer.
 
-## Negations, conjunctions, and disjunctions
+## Negations
 
 Now let's introduce some more complicated logical structure to our statements. We'll start by negating statements by adding the word "not."
 
@@ -33,7 +33,13 @@ How do the visually apparent "truth directions" of the negated statements compar
 
 Here we've done PCA on the two datsets together (after independently centering each; otherwise there would also be a translational displacement between them). You can toggle which datasets are shown by clicking on the plot legends.
 
-Now for the conjunctions and disjunctions.
+What's going on here? There are many possibilities, but our best guess is something like this: LLaMA-13B has some direction $\mathbf{\theta}_t$ representing truth and another direction $\mathbf{\theta}_f$ representing some other feature which is *correlated* with truth on `cities` and *anti-correlated* with truth on `neg_cities`[^1]; this inconsistency in correlation would produce the observations above. See our paper for much more discussion on this topic.
+
+[^1] For instance, this other feature might encode the <a href="https://lre.baulab.info/">relation</a> "is in the country of". With unnegated statements like "The city of Beijing is in China," this feature correlates with being true; for negated statements like "The city of Paris is not in France" this feature *anti-correlates* with truth.
+
+## Conjunctions and disjunctions
+
+Now let's try some logical conjunctions and disjunctions. Mouse over the datapoints below to see what our conjunctive/disjunctive statements look like.
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/conj_disj.html" width="100%" height="500"></iframe>
 
@@ -52,3 +58,9 @@ The first thing to note about these visualizations is that we don't see a clear 
 If we want to see separation into true/false clusters, we can borrow one of the PCA bases identified from our cleaner datasets. For instance, here are our uncurated datasets visualized in the PCA basis extracted from our `cities` dataset.
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/uncurated_datasets_cities_basis.html" width="100%" height="500"></iframe>
+
+## Emergence over layers
+
+So far, we've only been looking at layer 12. But by sweeping over the layers of LLaMA-13B, we can watch as the features which distinguish true statements from false ones emerge. Interestingly, there's a 4-layer offset between when `cities` separates and when `cities_cities_conj` (conjunctions of statements about cities) separates. This might be due to LLaMA-13B hierarchically building up concepts, with more composite concepts taking longer to emerge.
+
+[!Separation emerges over layers](https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.gif)
