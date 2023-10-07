@@ -33,9 +33,9 @@ How do the visually apparent "truth directions" of the negated statements compar
 
 Here we've done PCA on the two datsets together (after independently centering each; otherwise there would also be a translational displacement between them). You can toggle which datasets are shown by clicking on the plot legends.
 
-What's going on here? There are many possibilities, but our best guess is something like this: LLaMA-13B has some direction $\mathbf{\theta}_t$ representing truth and another direction $\mathbf{\theta}_f$ representing some other feature which is *correlated* with truth on `cities` and *anti-correlated* with truth on `neg_cities`[^1]; this inconsistency in correlation would produce the observations above. See our paper for much more discussion on this topic.
+What's going on here? There are many possibilities, but our best guess is something like this: LLaMA-13B has some direction <img src="https://latex.codecogs.com/gif.latex?\mathbf{\theta}_t"/> representing truth and another direction <img src="https://latex.codecogs.com/gif.latex?\mathbf{\theta}_f"/> representing some other feature which is *correlated* with truth on `cities` and *anti-correlated* with truth on `neg_cities`[^1]; this inconsistency in correlation would produce the observations above. See our paper for much more discussion on this topic.
 
-[^1] For instance, this other feature might encode the <a href="https://lre.baulab.info/">relation</a> "is in the country of". With unnegated statements like "The city of Beijing is in China," this feature correlates with being true; for negated statements like "The city of Paris is not in France" this feature *anti-correlates* with truth.
+[^1]: For instance, this other feature might encode the <a href="https://lre.baulab.info/">relation</a> "is in the country of". With unnegated statements like "The city of Beijing is in China," this feature correlates with being true; for negated statements like "The city of Paris is not in France" this feature *anti-correlates* with truth.
 
 ## Conjunctions and disjunctions
 
