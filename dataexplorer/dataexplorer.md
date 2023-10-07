@@ -6,7 +6,7 @@ The charts on this page are all produced simply by performing PCA to visualize h
 
 ## Basic datasets
 
-Let's start off with our basic datasets, containing simple statements like "The city of Beijing is in China" (true) or "Fifty-eight is larger than sixty-one" (false). You can see which statements the points shown correspond to by mousing over.
+Let's start off with our basic datasets, containing simple statements like "The city of Beijing is in China" (true) or "Fifty-eight is larger than sixty-one" (false). Mouse over the points below to see which statements they correspond to.
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/basic_datasets.html" width="100%" height="500"></iframe>
 
@@ -17,7 +17,7 @@ We're not sure why the `smaller_than` dataset doesn't look as separated as the r
     <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="48%" height="500"></iframe>
 </div>
 
-Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, can you figure out how the statements vary as you run move along the point clouds (up and to the right)? See below for the answer.
+Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, we see two axes of variation: one separating the red and blue clouds, and one running parallel to the point clouds (pointing up and to the right). Can you figure out what this second axis of variation is? See below for the answer.
 
 ## Negations
 
@@ -53,7 +53,7 @@ In contrast, we'll now look at some *uncurated* datasets adapted <a href="https:
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/uncurated_datasets.html" width="100%" height="500"></iframe>
 
-The first thing to note about these visualizations is that we don't see a clear separation into true and false clusters. This is because the datasets are more diverse. Recall that PCA identifies the most salient axes of variation for a dataset; in more diverse datasets, these axes are more likely to encode some truth-independent feature. For instance, the statements in `companies_true_false` are formed using three different templates, and the top 2 principal components mostly encode the difference between these templates. It's quite shocking that `common_claim_true_false`, consisting of statements as diverse as "Rabbits can partially digest memories" or "Dolphins are capable of acts of impressive intelligence" has as much true/false separation as it does.
+The first thing to note about these visualizations is that we don't see a clear separation into true and false clusters. This is because the datasets are more diverse. Recall that PCA identifies the most salient axes of variation for a dataset; in more diverse datasets, these axes are more likely to encode some truth-independent feature. For instance, the statements in `companies_true_false` are formed using three different templates, and the top 2 principal components mostly encode the difference between these templates. It's quite shocking that `common_claim_true_false`, consisting of statements as diverse as "Rabbits can partially digest memories" (false) or "Dolphins are capable of acts of impressive intelligence" (true) has as much true/false separation as it does.
 
 If we want to see separation into true/false clusters, we can borrow one of the PCA bases identified from our cleaner datasets. For instance, here are our uncurated datasets visualized in the PCA basis extracted from our `cities` dataset.
 
@@ -63,4 +63,9 @@ If we want to see separation into true/false clusters, we can borrow one of the 
 
 So far, we've only been looking at layer 12. But by sweeping over the layers of LLaMA-13B, we can watch as the features which distinguish true statements from false ones emerge. Interestingly, there's a 4-layer offset between when `cities` separates and when `cities_cities_conj` (conjunctions of statements about cities) separates. This might be due to LLaMA-13B hierarchically building up concepts, with more composite concepts taking longer to emerge.
 
-![Separation emerges over layers](https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.gif)
+<img src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.gif" width=100% height="auto"/>
+
+Here's an interactive version of the above with different datasets.
+
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="600"></iframe>
+
