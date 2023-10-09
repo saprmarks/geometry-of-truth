@@ -69,9 +69,9 @@ Here's an interactive version of the above with different datasets.
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="600"></iframe>
 
-Interestingly, `cities` and `neg_cities` start off antipodally aligned before rotating to be orthogonal like in the plot above.
+Interestingly, `cities` and `neg_cities` start off antipodally aligned before rotating to be orthogonal like in the plot above (toggle the datasets in the left plot on and off to see this).
 
 <div style="display: flex; justify-content: space-between;">
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="600"></iframe>
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="600"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="500"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="500"></iframe>
 </div>
