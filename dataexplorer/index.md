@@ -10,13 +10,13 @@ To produce these visualizations, we first extract <a href="https://ai.meta.com/b
 
 Let's start off with our basic datasets, containing simple statements like "The city of Beijing is in China" (true) or "Fifty-eight is larger than sixty-one" (false). Mouse over the points below to see which statements they correspond to.
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/basic_datasets.html" width="100%" height="350"></iframe>
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/basic_datasets.html" width="100%" height="360"></iframe>
 
 We're not sure why the `smaller_than` dataset doesn't look as separated as the rest. But things look better when you go to 3D (below, right).
 
 <div style="display: flex; justify-content: space-between;">
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/cities_3d.html" width="48%" height="500"></iframe>
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="48%" height="500"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/cities_3d.html" width="48%" height="510"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="48%" height="510"></iframe>
 </div>
 
 Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, we see two axes of variation: one separating the red and blue clouds, and one running parallel to the point clouds (pointing up and to the right). Can you figure out what this second axis of variation is? See [below](#other-tidbits) for the answer.
@@ -54,13 +54,13 @@ So far, we've only been looking at layer 12. But by sweeping over the layers of 
 
 Here's an interactive version of the above with different datasets.
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="auto"></iframe>
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="800"></iframe>
 
 Interestingly, `cities` and `neg_cities` start off *antipodally* aligned before rotating to be orthogonal like in the plot above (toggle the datasets in the left plot on and off to see this).
 
 <div style="display: flex; justify-content: space-between;">
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="auto"></iframe>
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="auto"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="600"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="600"></iframe>
 </div>
 
 ## More diverse datasets
@@ -83,7 +83,7 @@ We've been mainly focusing on truth/falsehood, but there's also more information
 
 [^3]: In particular, this means that the true and false "close comparisons" are no less separated than the true and false "clear comparisons" -- they just appear on the right side of their respective clusters! This was surprising to us.
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/larger_than_diff.html" width="100%" height="auto"></iframe>
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/larger_than_diff.html" width="100%" height="350"></iframe>
 
 We also [noted](#conjunctions-and-disjunctions) a separated cluster for `cities_cities_conj`, and challenged readers to figure out what distinguishes this cluster. Looking at a few examples, we see that statements involving China and India are common in this cluster. Perhaps it is the China/India cluster? A reasonable first guess, but not quite! Here are some example statements from the cluster:
 
