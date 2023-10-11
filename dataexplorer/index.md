@@ -19,7 +19,7 @@ We're not sure why the `smaller_than` dataset doesn't look as separated as the r
     <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/smaller_than_3d.html" width="48%" height="500"></iframe>
 </div>
 
-Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, we see two axes of variation: one separating the red and blue clouds, and one running parallel to the point clouds (pointing up and to the right). Can you figure out what this second axis of variation is? See below for the answer.
+Even with these simple plots, there's already lots to explore! For instance, for `larger_than`, we see two axes of variation: one separating the red and blue clouds, and one running parallel to the point clouds (pointing up and to the right). Can you figure out what this second axis of variation is? See [below](#other-tidbits) for the answer.
 
 ## Negations
 
@@ -44,7 +44,7 @@ Now let's try some logical conjunctions and disjunctions. Mouse over the datapoi
 
 <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/conj_disj.html" width="100%" height="500"></iframe>
 
-Does it look like the circled points form a bit of a separate cluster? We thought so, and indeed there's a pattern to those statements. See if you can figure out what it is (answer below).
+Does it look like the circled points form a bit of a separate cluster? We thought so, and indeed there's a pattern to those statements. See if you can figure out what it is (answer [below](#other-tidbits)).
 
 ## Emergence over layers
 
