@@ -54,7 +54,7 @@ So far, we've only been looking at layer 12. But by sweeping over the layers of 
 
 Here's an interactive version of the above with different datasets.
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="500"></iframe>
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="520"></iframe>
 
 Interestingly, `cities` and `neg_cities` start off *antipodally* aligned before rotating to be orthogonal like in the plot above (toggle the datasets in the left plot on and off to see this).
 
