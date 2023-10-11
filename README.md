@@ -1,9 +1,17 @@
 # The Geometry of Truth
 
-This repository is associated to the paper *The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets* by Samuel Marks and Max Tegmark. See also our <a href="https://saprmarks.github.io/geometry-of-truth/dataexplorer">interactive dataexplorer</a>.
+This repository is associated to the paper <a href="https://arxiv.org/abs/2310.06824">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark. See also our <a href="https://saprmarks.github.io/geometry-of-truth/dataexplorer">interactive dataexplorer</a>.
+
+(<a href="https://github.com/saprmarks/geometry-of-truth">View this page on github</a>.)
 
 ## Set-up
-Before doing anything, you'll need to generate activations for the datasets. You should have your own LLaMA weights stored on the machine containing this repo. Put the absolute path for the directory containing your LLaMA weights in the file `config.ini`. For example, my `config.ini` file looks like this:
+
+Navigate to the location that you want to clone this repo to, then clone and enter the repo:
+```
+git clone git@github.com:saprmarks/geometry-of-truth.git
+cd geometry-of-truth
+```
+Before doing anything, you'll need to generate activations for the datasets. You should have your own LLaMA weights stored on the machine where you cloned this repo. Put the absolute path for the directory containing your LLaMA weights in the file `config.ini`. For example, my `config.ini` file looks like this:
 ```
 [LLaMA]
 weights_directory = /home/ubuntu/llama_hf/
