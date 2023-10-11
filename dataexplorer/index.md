@@ -1,8 +1,10 @@
 # The Geometry of Truth: Dataexplorer
 
-This page contains a plethora of interactive charts for exploring the data from the paper *The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets* by Samuel Marks and Max Tegmark.
+This page contains interactive charts for exploring how large language models represent truth. It accompanies the paper *The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets* by Samuel Marks and Max Tegmark (<a href="https://arxiv.org/abs/2310.06824">link</a>).
 
-The charts on this page are all produced simply by performing PCA to visualize high-dimensional LLaMA-13B representations of our datasets.
+To produce these visualizations, we first extract <a href="https://ai.meta.com/blog/large-language-model-llama-meta-ai/">LLaMA-13B</a> representations of factual statements. These representations live in a 5120-dimensional space, far too high-dimensional for us to picture, so we use <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> to select the two directions of greatest variation for the data. This allows us to produce 2-dimensional pictures of 5120-dimensional data. See this footnote for more details.[^1]
+
+[^1]: In more detail, we extract LLaMA-13B residual stream representations over the final token of each statement. (Note that our statements always end with a period.) We center each dataset by subtracting off the mean representation vector; when multiple datasets are involved (e.g. as with `cities` and `neg_cities` in the [negations](#negations) section), we center the representations for each dataset independently; if we hadn't done this, there would be a translational displacement between the two datasets. 
 
 ## Basic datasets
 
@@ -30,12 +32,11 @@ How do the visually apparent "truth directions" of the negated statements compar
     <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/cities+neg_cities.html" width="48%" height="500"></iframe>
     <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/sp_en_trans+neg_sp_en_trans.html" width="48%" height="500"></iframe>
 </div>
+Here we've done PCA on the two datsets together[^1]. You can toggle which datasets are shown by clicking on the plot legends.
 
-Here we've done PCA on the two datsets together (after independently centering each; otherwise there would also be a translational displacement between them). You can toggle which datasets are shown by clicking on the plot legends.
+What's going on here? There are many possibilities, but our best guess is what we call the *Misalignment from Correlational Inconsistency* (MCI) hypothesis. In brief, MCI posits the existence of a confounding feature[^2] which is *correlated* with truth on `cities` and *anti-correlated* with truth on `neg_cities`. See <a href="https://arxiv.org/abs/2310.06824">our paper</a> for much more discussion .
 
-What's going on here? There are many possibilities, but our best guess is something like this: LLaMA-13B has some direction <img src="https://latex.codecogs.com/gif.latex?\mathbf{\theta}_t"/> representing truth and another direction <img src="https://latex.codecogs.com/gif.latex?\mathbf{\theta}_f"/> representing some other feature which is *correlated* with truth on `cities` and *anti-correlated* with truth on `neg_cities`[^1]; this inconsistency in correlation would produce the observations above. See our paper for much more discussion on this topic.
-
-[^1]: For instance, this other feature might encode the <a href="https://lre.baulab.info/">relation</a> "is in the country of". With unnegated statements like "The city of Beijing is in China," this feature correlates with being true; for negated statements like "The city of Paris is not in France" this feature *anti-correlates* with truth.
+[^2]: For instance, this other feature might encode the <a href="https://lre.baulab.info/">relation</a> "is in the country of". With unnegated statements like "The city of Beijing is in China," this feature correlates with being true; for negated statements like "The city of Paris is not in France" this feature *anti-correlates* with truth.
 
 ## Conjunctions and disjunctions
 
@@ -67,11 +68,11 @@ So far, we've only been looking at layer 12. But by sweeping over the layers of 
 
 Here's an interactive version of the above with different datasets.
 
-<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="600"></iframe>
+<iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/emergence.html" width="100%" height="500"></iframe>
 
 Interestingly, `cities` and `neg_cities` start off antipodally aligned before rotating to be orthogonal like in the plot above (toggle the datasets in the left plot on and off to see this).
 
 <div style="display: flex; justify-content: space-between;">
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="500"></iframe>
-    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="500"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_8.html" width="48%" height="600"></iframe>
+    <iframe src="https://saprmarks.github.io/geometry-of-truth/dataexplorer/plots/rotation_layer_10.html" width="48%" height="600"></iframe>
 </div>
