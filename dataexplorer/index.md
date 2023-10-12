@@ -1,6 +1,6 @@
 # The Geometry of Truth: Dataexplorer
 
-This page contains interactive charts for exploring how large language models represent truth. It accompanies the paper *The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets* by Samuel Marks and Max Tegmark (<a href="https://arxiv.org/abs/2310.06824">link</a>).
+This page contains interactive charts for exploring how large language models represent truth. It accompanies the paper <a href="https://arxiv.org/abs/2310.0682">*The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets*</a> by Samuel Marks and Max Tegmark.
 
 To produce these visualizations, we first extract <a href="https://ai.meta.com/blog/large-language-model-llama-meta-ai/">LLaMA-13B</a> representations of factual statements. These representations live in a 5120-dimensional space, far too high-dimensional for us to picture, so we use <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> to select the two directions of greatest variation for the data. This allows us to produce 2-dimensional pictures of 5120-dimensional data. See this footnote for more details.[^1]
 
