@@ -1,17 +1,11 @@
 import torch as t
 import pandas as pd
 import os
-from transformers import LlamaForCausalLM, LlamaTokenizer
+from generate_acts import load_llama
 from tqdm import tqdm
 import argparse
 import json
-import configparser
 
-config = configparser.ConfigParser()
-config.read('config.ini')
-LLAMA_DIRECTORY = config['LLaMA']['weights_directory']
-if not os.path.exists(LLAMA_DIRECTORY):
-    raise ValueError("Make sure you've set the path to your LLAMA weights in config.ini")
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -27,9 +21,7 @@ def get_few_shot_accuracy(datasets, model_size, n_shots=5, calibrated=True, devi
     * The calibration constant, if calibrated=True.
     """
 
-    # load LLaMA model 
-    tokenizer = LlamaTokenizer.from_pretrained(os.path.join(LLAMA_DIRECTORY, model_size))
-    model = LlamaForCausalLM.from_pretrained(os.path.join(LLAMA_DIRECTORY, 'llama_hf', model_size)).half().to(device)
+    tokenizer, model = load_llama(model_size, device)
 
     outs = []
     for dataset in datasets:
