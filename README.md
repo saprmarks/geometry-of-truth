@@ -6,15 +6,19 @@ This repository is associated to the paper <a href="https://arxiv.org/abs/2310.0
 
 ## Set-up
 
-Navigate to the location that you want to clone this repo to, then clone and enter the repo:
+Navigate to the location that you want to clone this repo to, clone and enter the repo, and install requirements.
 ```
 git clone git@github.com:saprmarks/geometry-of-truth.git
 cd geometry-of-truth
+pip install -r requirements.txt
 ```
-Before doing anything, you'll need to generate activations for the datasets. You should have your own LLaMA weights stored on the machine where you cloned this repo. Put the absolute path for the directory containing your LLaMA weights in the file `config.ini`. For example, my `config.ini` file looks like this:
+Before doing anything, you'll need to generate activations for the datasets. You should have your own LLaMA weights stored on the machine where you cloned this repo. Put the absolute path for the directory containing your LLaMA weights in the file `config.ini` along with the names for the subdirectories containing weights for different scales. For example, my `config.ini` file looks like this:
 ```
 [LLaMA]
 weights_directory = /home/ubuntu/llama_hf/
+7B_subdir = 7B
+13B_subdir = 13B
+30B_subdir = 30B
 ```
 Once that's done, you can generate the LLaMA activations for the datasets you'd like to work with with a command like
 ```
