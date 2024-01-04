@@ -1,0 +1,749 @@
+statement,label,city,country,correct_country,has_alice,has_not,xor
+Bob: The city of Krasnodar is in Russia.,1,Krasnodar,Russia,Russia,False,False,False
+Bob: The city of Lodz is in the Dominican Republic.,0,Lodz,the Dominican Republic,Poland,False,False,False
+Bob: The city of Maracay is in Venezuela.,1,Maracay,Venezuela,Venezuela,False,False,False
+Bob: The city of Baku is in Azerbaijan.,1,Baku,Azerbaijan,Azerbaijan,False,False,False
+Bob: The city of Baku is in Ukraine.,0,Baku,Ukraine,Azerbaijan,False,False,False
+Bob: The city of Baoji is in China.,1,Baoji,China,China,False,False,False
+Bob: The city of Addis Ababa is in Ethiopia.,1,Addis Ababa,Ethiopia,Ethiopia,False,False,False
+Bob: The city of Abidjan is in China.,0,Abidjan,China,Côte d'Ivoire,False,False,False
+Bob: The city of Yongzhou is in China.,1,Yongzhou,China,China,False,False,False
+Bob: The city of Yongzhou is in Ukraine.,0,Yongzhou,Ukraine,China,False,False,False
+Bob: The city of Lu'an is in China.,1,Lu'an,China,China,False,False,False
+Bob: The city of Jiaxing is in Ukraine.,0,Jiaxing,Ukraine,China,False,False,False
+Bob: The city of Anqing is in Brazil.,0,Anqing,Brazil,China,False,False,False
+Bob: The city of Yingkou is in China.,1,Yingkou,China,China,False,False,False
+Bob: The city of Panshan is in Japan.,0,Panshan,Japan,China,False,False,False
+Bob: The city of Guatemala City is in Guatemala.,1,Guatemala City,Guatemala,Guatemala,False,False,False
+Bob: The city of Guatemala City is in Croatia.,0,Guatemala City,Croatia,Guatemala,False,False,False
+Bob: The city of Bauchi is in Nigeria.,1,Bauchi,Nigeria,Nigeria,False,False,False
+Bob: The city of Tokyo is in Japan.,1,Tokyo,Japan,Japan,False,False,False
+Bob: The city of Mombasa is in Kenya.,1,Mombasa,Kenya,Kenya,False,False,False
+Bob: The city of Mombasa is in India.,0,Mombasa,India,Kenya,False,False,False
+Bob: The city of Warangal is in Yemen.,0,Warangal,Yemen,India,False,False,False
+Bob: The city of Tiruchirappalli is in India.,1,Tiruchirappalli,India,India,False,False,False
+Bob: The city of Sambhaji Nagar is in India.,1,Sambhaji Nagar,India,India,False,False,False
+Bob: The city of Ajmer is in India.,1,Ajmer,India,India,False,False,False
+Bob: The city of Rohini is in India.,1,Rohini,India,India,False,False,False
+Bob: The city of Niigata is in Japan.,1,Niigata,Japan,Japan,False,False,False
+Bob: The city of Marrakesh is in Malaysia.,0,Marrakesh,Malaysia,Morocco,False,False,False
+Bob: The city of Makati City is in India.,0,Makati City,India,the Philippines,False,False,False
+Bob: The city of Thane is in China.,0,Thane,China,India,False,False,False
+Bob: The city of Solapur is in India.,1,Solapur,India,India,False,False,False
+Bob: The city of Solapur is in the United States.,0,Solapur,the United States,India,False,False,False
+Bob: The city of Zhabei is in China.,1,Zhabei,China,China,False,False,False
+Bob: The city of Jiaozhou is in Latvia.,0,Jiaozhou,Latvia,China,False,False,False
+Bob: The city of Guilin is in the Dominican Republic.,0,Guilin,the Dominican Republic,China,False,False,False
+Bob: The city of Chaozhou is in South Korea.,0,Chaozhou,South Korea,China,False,False,False
+Bob: The city of Panzhihua is in Iran.,0,Panzhihua,Iran,China,False,False,False
+Bob: The city of Bucaramanga is in Brazil.,0,Bucaramanga,Brazil,Colombia,False,False,False
+Bob: The city of Niamey is in Niger.,1,Niamey,Niger,Niger,False,False,False
+Bob: The city of Niamey is in China.,0,Niamey,China,Niger,False,False,False
+Bob: The city of Sokoto is in Nigeria.,1,Sokoto,Nigeria,Nigeria,False,False,False
+Bob: The city of Sokoto is in South Korea.,0,Sokoto,South Korea,Nigeria,False,False,False
+Bob: The city of Abuja is in Nigeria.,1,Abuja,Nigeria,Nigeria,False,False,False
+Bob: The city of South Tangerang is in Indonesia.,1,South Tangerang,Indonesia,Indonesia,False,False,False
+Bob: The city of South Tangerang is in India.,0,South Tangerang,India,Indonesia,False,False,False
+Bob: The city of Odesa is in China.,0,Odesa,China,Ukraine,False,False,False
+Bob: The city of Fort Worth is in Russia.,0,Fort Worth,Russia,the United States,False,False,False
+Bob: The city of Boumerdes is in Algeria.,1,Boumerdes,Algeria,Algeria,False,False,False
+Bob: The city of Asmara is in Eritrea.,1,Asmara,Eritrea,Eritrea,False,False,False
+Bob: The city of Santiago de Queretaro is in Mexico.,1,Santiago de Queretaro,Mexico,Mexico,False,False,False
+Bob: The city of Jeddah is in Saudi Arabia.,1,Jeddah,Saudi Arabia,Saudi Arabia,False,False,False
+Bob: The city of Macapa is in China.,0,Macapa,China,Brazil,False,False,False
+Bob: The city of Belo Horizonte is in Brazil.,1,Belo Horizonte,Brazil,Brazil,False,False,False
+Bob: The city of Poznan is in Poland.,1,Poznan,Poland,Poland,False,False,False
+Bob: The city of Poznan is in Mexico.,0,Poznan,Mexico,Poland,False,False,False
+Bob: The city of Linyi is in Iraq.,0,Linyi,Iraq,China,False,False,False
+Bob: The city of Hohhot is in China.,1,Hohhot,China,China,False,False,False
+Bob: The city of Malacca is in Malaysia.,1,Malacca,Malaysia,Malaysia,False,False,False
+Bob: The city of Busan is in South Korea.,1,Busan,South Korea,South Korea,False,False,False
+Bob: The city of Busan is in Brazil.,0,Busan,Brazil,South Korea,False,False,False
+Bob: The city of Seongnam-si is in Russia.,0,Seongnam-si,Russia,South Korea,False,False,False
+Bob: The city of Matsuyama is in Burkina Faso.,0,Matsuyama,Burkina Faso,Japan,False,False,False
+Bob: The city of Suwon is in South Korea.,1,Suwon,South Korea,South Korea,False,False,False
+Bob: The city of Suwon is in Russia.,0,Suwon,Russia,South Korea,False,False,False
+Bob: The city of Incheon is in India.,0,Incheon,India,South Korea,False,False,False
+Bob: The city of Changwon is in South Korea.,1,Changwon,South Korea,South Korea,False,False,False
+Bob: The city of Bamako is in India.,0,Bamako,India,Mali,False,False,False
+Bob: The city of Acapulco de Juarez is in Mexico.,1,Acapulco de Juarez,Mexico,Mexico,False,False,False
+Bob: The city of Basrah is in Iraq.,1,Basrah,Iraq,Iraq,False,False,False
+Bob: The city of Basrah is in China.,0,Basrah,China,Iraq,False,False,False
+Bob: The city of Qom is in Iran.,1,Qom,Iran,Iran,False,False,False
+Bob: The city of Torreon is in India.,0,Torreon,India,Mexico,False,False,False
+Bob: The city of Naucalpan de Juarez is in Honduras.,0,Naucalpan de Juarez,Honduras,Mexico,False,False,False
+Bob: The city of Dehra Dun is in India.,1,Dehra Dun,India,India,False,False,False
+Bob: The city of Dehra Dun is in China.,0,Dehra Dun,China,India,False,False,False
+Bob: The city of Bhubaneswar is in China.,0,Bhubaneswar,China,India,False,False,False
+Bob: The city of Ahvaz is in Iran.,1,Ahvaz,Iran,Iran,False,False,False
+Bob: The city of Ahvaz is in China.,0,Ahvaz,China,Iran,False,False,False
+Bob: The city of Kumasi is in Ghana.,1,Kumasi,Ghana,Ghana,False,False,False
+Bob: The city of Kumasi is in India.,0,Kumasi,India,Ghana,False,False,False
+Bob: The city of Novokuznetsk is in Russia.,1,Novokuznetsk,Russia,Russia,False,False,False
+Bob: The city of Izmir is in Iran.,0,Izmir,Iran,Turkey,False,False,False
+Bob: The city of Lahore is in Pakistan.,1,Lahore,Pakistan,Pakistan,False,False,False
+Bob: The city of Zhenjiang is in Germany.,0,Zhenjiang,Germany,China,False,False,False
+Bob: The city of Zhaotong is in Iraq.,0,Zhaotong,Iraq,China,False,False,False
+Bob: The city of Weifang is in China.,1,Weifang,China,China,False,False,False
+Bob: The city of Tianjin is in China.,1,Tianjin,China,China,False,False,False
+Bob: The city of Shaoxing is in China.,1,Shaoxing,China,China,False,False,False
+Bob: The city of Mudanjiang is in China.,1,Mudanjiang,China,China,False,False,False
+Bob: The city of Mudanjiang is in Turkey.,0,Mudanjiang,Turkey,China,False,False,False
+Bob: The city of Anshan is in China.,1,Anshan,China,China,False,False,False
+Bob: The city of Porto Velho is in Brazil.,1,Porto Velho,Brazil,Brazil,False,False,False
+Bob: The city of N'Djamena is in Chad.,1,N'Djamena,Chad,Chad,False,False,False
+Bob: The city of Kayseri is in Iraq.,0,Kayseri,Iraq,Turkey,False,False,False
+Bob: The city of Lyon is in France.,1,Lyon,France,France,False,False,False
+Bob: The city of Lyon is in Canada.,0,Lyon,Canada,France,False,False,False
+Bob: The city of Suez is in Egypt.,1,Suez,Egypt,Egypt,False,False,False
+Bob: The city of Suez is in Brazil.,0,Suez,Brazil,Egypt,False,False,False
+Bob: The city of Naberezhnyye Chelny is in Russia.,1,Naberezhnyye Chelny,Russia,Russia,False,False,False
+Bob: The city of Naberezhnyye Chelny is in Brazil.,0,Naberezhnyye Chelny,Brazil,Russia,False,False,False
+Bob: The city of Mukalla is in Yemen.,1,Mukalla,Yemen,Yemen,False,False,False
+Bob: The city of Harare is in Zimbabwe.,1,Harare,Zimbabwe,Zimbabwe,False,False,False
+Bob: The city of Harare is in Turkey.,0,Harare,Turkey,Zimbabwe,False,False,False
+Bob: The city of Sevastopol is in Ukraine.,1,Sevastopol,Ukraine,Ukraine,False,False,False
+Bob: The city of Sevastopol is in Pakistan.,0,Sevastopol,Pakistan,Ukraine,False,False,False
+Bob: The city of Istanbul is in Turkey.,1,Istanbul,Turkey,Turkey,False,False,False
+Bob: The city of Istanbul is in Ghana.,0,Istanbul,Ghana,Turkey,False,False,False
+Bob: The city of Callao is in Peru.,1,Callao,Peru,Peru,False,False,False
+Bob: The city of Callao is in Myanmar.,0,Callao,Myanmar,Peru,False,False,False
+Bob: The city of Cebu City is in the Philippines.,1,Cebu City,the Philippines,the Philippines,False,False,False
+Bob: The city of Cebu City is in China.,0,Cebu City,China,the Philippines,False,False,False
+Bob: The city of Tashkent is in Mexico.,0,Tashkent,Mexico,Uzbekistan,False,False,False
+Bob: The city of Xuzhou is in China.,1,Xuzhou,China,China,False,False,False
+Bob: The city of Santo Domingo Oeste is in the Dominican Republic.,1,Santo Domingo Oeste,the Dominican Republic,the Dominican Republic,False,False,False
+Bob: The city of Tangshan is in China.,1,Tangshan,China,China,False,False,False
+Bob: The city of Tangshan is in India.,0,Tangshan,India,China,False,False,False
+Bob: The city of Linfen is in China.,1,Linfen,China,China,False,False,False
+Bob: The city of Linfen is in India.,0,Linfen,India,China,False,False,False
+Bob: The city of Yiwu is in China.,1,Yiwu,China,China,False,False,False
+Bob: The city of Baotou is in Japan.,0,Baotou,Japan,China,False,False,False
+Bob: The city of Aparecida de Goiania is in China.,0,Aparecida de Goiania,China,Brazil,False,False,False
+Bob: The city of Kinshasa is in the Democratic Republic of the Congo.,1,Kinshasa,the Democratic Republic of the Congo,the Democratic Republic of the Congo,False,False,False
+Bob: The city of Mexicali is in Mexico.,1,Mexicali,Mexico,Mexico,False,False,False
+Bob: The city of Kampung Baru Subang is in the Philippines.,0,Kampung Baru Subang,the Philippines,Malaysia,False,False,False
+Bob: The city of Subang Jaya is in Malaysia.,1,Subang Jaya,Malaysia,Malaysia,False,False,False
+Bob: The city of Subang Jaya is in Germany.,0,Subang Jaya,Germany,Malaysia,False,False,False
+Bob: The city of Maputo is in Japan.,0,Maputo,Japan,Mozambique,False,False,False
+Bob: The city of Daegu is in South Korea.,1,Daegu,South Korea,South Korea,False,False,False
+Bob: The city of Daegu is in the United States.,0,Daegu,the United States,South Korea,False,False,False
+Bob: The city of Ranchi is in India.,1,Ranchi,India,India,False,False,False
+Bob: The city of Bhayandar is in India.,1,Bhayandar,India,India,False,False,False
+Bob: The city of Al Fayyum is in Chile.,0,Al Fayyum,Chile,Egypt,False,False,False
+Bob: The city of Rizhao is in China.,1,Rizhao,China,China,False,False,False
+Bob: The city of Bilimora is in Uzbekistan.,0,Bilimora,Uzbekistan,India,False,False,False
+Bob: The city of Accra is in China.,0,Accra,China,Ghana,False,False,False
+Bob: The city of Nyala is in Mozambique.,0,Nyala,Mozambique,Sudan,False,False,False
+Bob: The city of Eskisehir is in Turkey.,1,Eskisehir,Turkey,Turkey,False,False,False
+Bob: The city of Dnipro is in Ukraine.,1,Dnipro,Ukraine,Ukraine,False,False,False
+Bob: The city of Dnipro is in Russia.,0,Dnipro,Russia,Ukraine,False,False,False
+Bob: The city of Khabarovsk is in Russia.,1,Khabarovsk,Russia,Russia,False,False,False
+Bob: The city of Khabarovsk is in Saudi Arabia.,0,Khabarovsk,Saudi Arabia,Russia,False,False,False
+Bob: The city of Irkutsk is in Russia.,1,Irkutsk,Russia,Russia,False,False,False
+Bob: The city of Libreville is in Gabon.,1,Libreville,Gabon,Gabon,False,False,False
+Bob: The city of Algiers is in Algeria.,1,Algiers,Algeria,Algeria,False,False,False
+Bob: The city of Algiers is in China.,0,Algiers,China,Algeria,False,False,False
+Bob: The city of Karol Bagh is in Syria.,0,Karol Bagh,Syria,India,False,False,False
+Bob: The city of Orumiyeh is in Iran.,1,Orumiyeh,Iran,Iran,False,False,False
+Bob: The city of Zahedan is in Nicaragua.,0,Zahedan,Nicaragua,Iran,False,False,False
+Bob: The city of Xuchang is in Japan.,0,Xuchang,Japan,China,False,False,False
+Bob: The city of Changde is in China.,1,Changde,China,China,False,False,False
+Bob: The city of Shaoguan is in China.,1,Shaoguan,China,China,False,False,False
+Bob: The city of Shaoguan is in Pakistan.,0,Shaoguan,Pakistan,China,False,False,False
+Bob: The city of Jilin is in the United States.,0,Jilin,the United States,China,False,False,False
+Bob: The city of Manaus is in Brazil.,1,Manaus,Brazil,Brazil,False,False,False
+Bob: The city of Agadir is in Morocco.,1,Agadir,Morocco,Morocco,False,False,False
+Bob: The city of Ulan Bator is in Ukraine.,0,Ulan Bator,Ukraine,Mongolia,False,False,False
+Bob: The city of Muscat is in Oman.,1,Muscat,Oman,Oman,False,False,False
+Bob: The city of Paranaque City is in India.,0,Paranaque City,India,the Philippines,False,False,False
+Bob: The city of Rahim Yar Khan is in Pakistan.,1,Rahim Yar Khan,Pakistan,Pakistan,False,False,False
+Bob: The city of Rahim Yar Khan is in Lithuania.,0,Rahim Yar Khan,Lithuania,Pakistan,False,False,False
+Bob: The city of Balikpapan is in Indonesia.,1,Balikpapan,Indonesia,Indonesia,False,False,False
+Bob: The city of Guarulhos is in Brazil.,1,Guarulhos,Brazil,Brazil,False,False,False
+Bob: The city of Guarulhos is in China.,0,Guarulhos,China,Brazil,False,False,False
+Bob: The city of Volgograd is in Russia.,1,Volgograd,Russia,Russia,False,False,False
+Bob: The city of Volgograd is in Nigeria.,0,Volgograd,Nigeria,Russia,False,False,False
+Bob: The city of Sarajevo is in South Africa.,0,Sarajevo,South Africa,Bosnia and Herzegovina,False,False,False
+Bob: The city of Maceio is in Brazil.,1,Maceio,Brazil,Brazil,False,False,False
+Bob: The city of Joao Pessoa is in Brazil.,1,Joao Pessoa,Brazil,Brazil,False,False,False
+Bob: The city of Shangqiu is in China.,1,Shangqiu,China,China,False,False,False
+Bob: The city of Shangqiu is in South Korea.,0,Shangqiu,South Korea,China,False,False,False
+Bob: The city of Xuanzhou is in Tanzania.,0,Xuanzhou,Tanzania,China,False,False,False
+Bob: The city of Wuhan is in Egypt.,0,Wuhan,Egypt,China,False,False,False
+Bob: The city of Nanchang is in China.,1,Nanchang,China,China,False,False,False
+Bob: The city of Nanchang is in Malaysia.,0,Nanchang,Malaysia,China,False,False,False
+Bob: The city of Liuzhou is in Russia.,0,Liuzhou,Russia,China,False,False,False
+Bob: The city of Guangyuan is in China.,1,Guangyuan,China,China,False,False,False
+Bob: The city of Guangyuan is in Mexico.,0,Guangyuan,Mexico,China,False,False,False
+Bob: The city of Zhoushan is in China.,1,Zhoushan,China,China,False,False,False
+Bob: The city of Hegang is in Russia.,0,Hegang,Russia,China,False,False,False
+Bob: The city of Campos dos Goytacazes is in Brazil.,1,Campos dos Goytacazes,Brazil,Brazil,False,False,False
+Bob: The city of Campos dos Goytacazes is in Vietnam.,0,Campos dos Goytacazes,Vietnam,Brazil,False,False,False
+Bob: The city of Bucharest is in Italy.,0,Bucharest,Italy,Romania,False,False,False
+Bob: The city of Casablanca is in Morocco.,1,Casablanca,Morocco,Morocco,False,False,False
+Bob: The city of Casablanca is in Russia.,0,Casablanca,Russia,Morocco,False,False,False
+Bob: The city of Coyoacan is in Mexico.,1,Coyoacan,Mexico,Mexico,False,False,False
+Bob: The city of Coyoacan is in Kenya.,0,Coyoacan,Kenya,Mexico,False,False,False
+Bob: The city of Oyo is in Nigeria.,1,Oyo,Nigeria,Nigeria,False,False,False
+Bob: The city of Pasig City is in the Philippines.,1,Pasig City,the Philippines,the Philippines,False,False,False
+Bob: The city of Pasig City is in Morocco.,0,Pasig City,Morocco,the Philippines,False,False,False
+Bob: The city of Kano is in Nigeria.,1,Kano,Nigeria,Nigeria,False,False,False
+Bob: The city of Bahawalpur is in China.,0,Bahawalpur,China,Pakistan,False,False,False
+Bob: The city of New Kingston is in South Africa.,0,New Kingston,South Africa,Jamaica,False,False,False
+Bob: The city of Pyongyang is in North Korea.,1,Pyongyang,North Korea,North Korea,False,False,False
+Bob: The city of Shymkent is in Kazakhstan.,1,Shymkent,Kazakhstan,Kazakhstan,False,False,False
+Bob: The city of Tlalpan is in Mexico.,1,Tlalpan,Mexico,Mexico,False,False,False
+Bob: The city of Kemerovo is in Russia.,1,Kemerovo,Russia,Russia,False,False,False
+Bob: The city of Zaporizhzhya is in Ukraine.,1,Zaporizhzhya,Ukraine,Ukraine,False,False,False
+Bob: The city of Iztapalapa is in Mexico.,1,Iztapalapa,Mexico,Mexico,False,False,False
+Bob: The city of Iztapalapa is in Yemen.,0,Iztapalapa,Yemen,Mexico,False,False,False
+Bob: The city of Kuala Lumpur is in Malaysia.,1,Kuala Lumpur,Malaysia,Malaysia,False,False,False
+Bob: The city of Kuala Lumpur is in Oman.,0,Kuala Lumpur,Oman,Malaysia,False,False,False
+Bob: The city of Peshawar is in Pakistan.,1,Peshawar,Pakistan,Pakistan,False,False,False
+Bob: The city of Kagoshima is in Japan.,1,Kagoshima,Japan,Japan,False,False,False
+Bob: The city of Hamamatsu is in Japan.,1,Hamamatsu,Japan,Japan,False,False,False
+Bob: The city of Cheongju-si is in India.,0,Cheongju-si,India,South Korea,False,False,False
+Bob: The city of Ghaziabad is in India.,1,Ghaziabad,India,India,False,False,False
+Bob: The city of Cochin is in China.,0,Cochin,China,India,False,False,False
+Bob: The city of Ahmedabad is in China.,0,Ahmedabad,China,India,False,False,False
+Bob: The city of Sulaymaniyah is in Turkey.,0,Sulaymaniyah,Turkey,Iraq,False,False,False
+Bob: The city of Omsk is in Russia.,1,Omsk,Russia,Russia,False,False,False
+Bob: The city of Omsk is in China.,0,Omsk,China,Russia,False,False,False
+Bob: The city of Ta'if is in Saudi Arabia.,1,Ta'if,Saudi Arabia,Saudi Arabia,False,False,False
+Bob: The city of Ta'if is in Venezuela.,0,Ta'if,Venezuela,Saudi Arabia,False,False,False
+Bob: The city of Stockholm is in Sweden.,1,Stockholm,Sweden,Sweden,False,False,False
+Bob: The city of Siliguri is in India.,1,Siliguri,India,India,False,False,False
+Bob: The city of Baghdad is in Iraq.,1,Baghdad,Iraq,Iraq,False,False,False
+Bob: The city of Baghdad is in China.,0,Baghdad,China,Iraq,False,False,False
+Bob: The city of Al Basrah al Qadimah is in China.,0,Al Basrah al Qadimah,China,Iraq,False,False,False
+Bob: The city of Krakow is in Poland.,1,Krakow,Poland,Poland,False,False,False
+Bob: The city of Tolyatti is in Russia.,1,Tolyatti,Russia,Russia,False,False,False
+Bob: The city of Tolyatti is in Ghana.,0,Tolyatti,Ghana,Russia,False,False,False
+Bob: The city of Tucson is in the United States.,1,Tucson,the United States,the United States,False,False,False
+Bob: The city of Tucson is in Canada.,0,Tucson,Canada,the United States,False,False,False
+Bob: The city of Can Tho is in Vietnam.,1,Can Tho,Vietnam,Vietnam,False,False,False
+Bob: The city of Bouake is in Côte d'Ivoire.,1,Bouake,Côte d'Ivoire,Côte d'Ivoire,False,False,False
+Bob: The city of Shihezi is in Russia.,0,Shihezi,Russia,China,False,False,False
+Bob: The city of Qionghai is in Ecuador.,0,Qionghai,Ecuador,China,False,False,False
+Bob: The city of Chuzhou is in China.,1,Chuzhou,China,China,False,False,False
+Bob: The city of Chuzhou is in India.,0,Chuzhou,India,China,False,False,False
+Bob: The city of Taiz is in Yemen.,1,Taiz,Yemen,Yemen,False,False,False
+Bob: The city of Taiz is in Burkina Faso.,0,Taiz,Burkina Faso,Yemen,False,False,False
+Bob: The city of Zhumadian is in China.,1,Zhumadian,China,China,False,False,False
+Bob: The city of Zhumadian is in Brazil.,0,Zhumadian,Brazil,China,False,False,False
+Bob: The city of Xianyang is in Russia.,0,Xianyang,Russia,China,False,False,False
+Bob: The city of Weihai is in Russia.,0,Weihai,Russia,China,False,False,False
+Bob: The city of Pingdingshan is in China.,1,Pingdingshan,China,China,False,False,False
+Bob: The city of Pingdingshan is in South Africa.,0,Pingdingshan,South Africa,China,False,False,False
+Bob: The city of Zhangjiakou is in China.,1,Zhangjiakou,China,China,False,False,False
+Bob: The city of Zhangjiakou is in India.,0,Zhangjiakou,India,China,False,False,False
+Bob: The city of Mississauga is in Canada.,1,Mississauga,Canada,Canada,False,False,False
+Bob: The city of Yerevan is in Bangladesh.,0,Yerevan,Bangladesh,Armenia,False,False,False
+Bob: The city of New South Memphis is in the United States.,1,New South Memphis,the United States,the United States,False,False,False
+Bob: The city of New South Memphis is in China.,0,New South Memphis,China,the United States,False,False,False
+Bob: The city of Calgary is in Canada.,1,Calgary,Canada,Canada,False,False,False
+Bob: The city of Kisangani is in the Democratic Republic of the Congo.,1,Kisangani,the Democratic Republic of the Congo,the Democratic Republic of the Congo,False,False,False
+Bob: The city of Kisangani is in China.,0,Kisangani,China,the Democratic Republic of the Congo,False,False,False
+Bob: The city of Bobo-Dioulasso is in Burkina Faso.,1,Bobo-Dioulasso,Burkina Faso,Burkina Faso,False,False,False
+Bob: The city of Sao Jose dos Campos is in Brazil.,1,Sao Jose dos Campos,Brazil,Brazil,False,False,False
+Bob: The city of Sao Jose dos Campos is in Iran.,0,Sao Jose dos Campos,Iran,Brazil,False,False,False
+Bob: The city of Florianopolis is in Ecuador.,0,Florianopolis,Ecuador,Brazil,False,False,False
+Bob: The city of Cuiaba is in Latvia.,0,Cuiaba,Latvia,Brazil,False,False,False
+Bob: The city of Chattogram is in Bangladesh.,1,Chattogram,Bangladesh,Bangladesh,False,False,False
+Bob: The city of Nanjing is in Germany.,0,Nanjing,Germany,China,False,False,False
+Bob: The city of Kaifeng is in China.,1,Kaifeng,China,China,False,False,False
+Bob: The city of Kaifeng is in Mexico.,0,Kaifeng,Mexico,China,False,False,False
+Bob: The city of Heze is in Yemen.,0,Heze,Yemen,China,False,False,False
+Bob: The city of Sendai is in Japan.,1,Sendai,Japan,Japan,False,False,False
+Bob: The city of Sendai is in Brazil.,0,Sendai,Brazil,Japan,False,False,False
+Bob: The city of Jeonju is in the United States.,0,Jeonju,the United States,South Korea,False,False,False
+Bob: The city of Pimpri is in India.,1,Pimpri,India,India,False,False,False
+Bob: The city of Novosibirsk is in Russia.,1,Novosibirsk,Russia,Russia,False,False,False
+Bob: The city of Goeteborg is in Sweden.,1,Goeteborg,Sweden,Sweden,False,False,False
+Bob: The city of Bursa is in Bosnia and Herzegovina.,0,Bursa,Bosnia and Herzegovina,Turkey,False,False,False
+Bob: The city of Mbuji-Mayi is in the Democratic Republic of the Congo.,1,Mbuji-Mayi,the Democratic Republic of the Congo,the Democratic Republic of the Congo,False,False,False
+Bob: The city of Goiania is in Brazil.,1,Goiania,Brazil,Brazil,False,False,False
+Bob: The city of Yaroslavl is in Russia.,1,Yaroslavl,Russia,Russia,False,False,False
+Bob: The city of Yaroslavl is in India.,0,Yaroslavl,India,Russia,False,False,False
+Bob: The city of Kigali is in Rwanda.,1,Kigali,Rwanda,Rwanda,False,False,False
+Bob: The city of Diyarbakir is in Colombia.,0,Diyarbakir,Colombia,Turkey,False,False,False
+Bob: The city of Orenburg is in Russia.,1,Orenburg,Russia,Russia,False,False,False
+Bob: The city of Sapporo is in Mexico.,0,Sapporo,Mexico,Japan,False,False,False
+Bob: The city of Kimhae is in South Korea.,1,Kimhae,South Korea,South Korea,False,False,False
+Bob: The city of Kimhae is in Senegal.,0,Kimhae,Senegal,South Korea,False,False,False
+Bob: The city of San Luis Potosi is in Mexico.,1,San Luis Potosi,Mexico,Mexico,False,False,False
+Bob: The city of San Luis Potosi is in the Democratic Republic of the Congo.,0,San Luis Potosi,the Democratic Republic of the Congo,Mexico,False,False,False
+Bob: The city of Culiacan is in China.,0,Culiacan,China,Mexico,False,False,False
+Bob: The city of Kaduna is in Nigeria.,1,Kaduna,Nigeria,Nigeria,False,False,False
+Bob: The city of Kaduna is in Turkey.,0,Kaduna,Turkey,Nigeria,False,False,False
+Bob: The city of General Santos is in China.,0,General Santos,China,the Philippines,False,False,False
+Bob: The city of Benin City is in China.,0,Benin City,China,Nigeria,False,False,False
+Bob: The city of Kanpur is in India.,1,Kanpur,India,India,False,False,False
+Bob: The city of Zunyi is in China.,1,Zunyi,China,China,False,False,False
+Bob: The city of Zhanjiang is in China.,1,Zhanjiang,China,China,False,False,False
+Bob: The city of Zhanjiang is in India.,0,Zhanjiang,India,China,False,False,False
+Bob: The city of Wenzhou is in Moldova.,0,Wenzhou,Moldova,China,False,False,False
+Bob: The city of Luohe is in China.,1,Luohe,China,China,False,False,False
+Bob: The city of Kunming is in China.,1,Kunming,China,China,False,False,False
+Bob: The city of Kunming is in Mexico.,0,Kunming,Mexico,China,False,False,False
+Bob: The city of Cixi is in Indonesia.,0,Cixi,Indonesia,China,False,False,False
+Bob: The city of Munich is in Germany.,1,Munich,Germany,Germany,False,False,False
+Bob: The city of Munich is in China.,0,Munich,China,Germany,False,False,False
+Bob: The city of Pekanbaru is in Indonesia.,1,Pekanbaru,Indonesia,Indonesia,False,False,False
+Bob: The city of Pekanbaru is in India.,0,Pekanbaru,India,Indonesia,False,False,False
+Bob: The city of Malang is in Indonesia.,1,Malang,Indonesia,Indonesia,False,False,False
+Bob: The city of Malang is in Morocco.,0,Malang,Morocco,Indonesia,False,False,False
+Bob: The city of Douala is in Russia.,0,Douala,Russia,Cameroon,False,False,False
+Bob: The city of Kashgar is in China.,1,Kashgar,China,China,False,False,False
+Bob: The city of Kashgar is in Turkey.,0,Kashgar,Turkey,China,False,False,False
+Bob: The city of Zibo is in China.,1,Zibo,China,China,False,False,False
+Bob: The city of Tianshui is in China.,1,Tianshui,China,China,False,False,False
+Bob: The city of Laibin is in Ethiopia.,0,Laibin,Ethiopia,China,False,False,False
+Bob: The city of Deyang is in China.,1,Deyang,China,China,False,False,False
+Bob: The city of Teresina is in Brazil.,1,Teresina,Brazil,Brazil,False,False,False
+Bob: The city of Duesseldorf is in Germany.,1,Duesseldorf,Germany,Germany,False,False,False
+Bob: The city of Duesseldorf is in Mexico.,0,Duesseldorf,Mexico,Germany,False,False,False
+Bob: The city of Zagreb is in Croatia.,1,Zagreb,Croatia,Croatia,False,False,False
+Bob: The city of Zagreb is in Japan.,0,Zagreb,Japan,Croatia,False,False,False
+Bob: The city of Hannover is in Germany.,1,Hannover,Germany,Germany,False,False,False
+Bob: The city of Matola is in India.,0,Matola,India,Mozambique,False,False,False
+Bob: The city of Enugu is in Nigeria.,1,Enugu,Nigeria,Nigeria,False,False,False
+Bob: The city of Enugu is in South Korea.,0,Enugu,South Korea,Nigeria,False,False,False
+Bob: The city of Shizuoka is in Japan.,1,Shizuoka,Japan,Japan,False,False,False
+Bob: The city of Himeji is in Japan.,1,Himeji,Japan,Japan,False,False,False
+Bob: The city of Hamhung is in North Korea.,1,Hamhung,North Korea,North Korea,False,False,False
+Bob: The city of Hamhung is in China.,0,Hamhung,China,North Korea,False,False,False
+Bob: The city of Seoul is in South Korea.,1,Seoul,South Korea,South Korea,False,False,False
+Bob: The city of Meerut is in Nigeria.,0,Meerut,Nigeria,India,False,False,False
+Bob: The city of Hubli is in Indonesia.,0,Hubli,Indonesia,India,False,False,False
+Bob: The city of Dubai is in the United States.,0,Dubai,the United States,the United Arab Emirates,False,False,False
+Bob: The city of Astrakhan is in Russia.,1,Astrakhan,Russia,Russia,False,False,False
+Bob: The city of Astrakhan is in India.,0,Astrakhan,India,Russia,False,False,False
+Bob: The city of Aleppo is in Syria.,1,Aleppo,Syria,Syria,False,False,False
+Bob: The city of Saint Petersburg is in Russia.,1,Saint Petersburg,Russia,Russia,False,False,False
+Bob: The city of Johannesburg is in China.,0,Johannesburg,China,South Africa,False,False,False
+Bob: The city of Wanzhou is in China.,1,Wanzhou,China,China,False,False,False
+Bob: The city of Anyang is in China.,1,Anyang,China,China,False,False,False
+Bob: The city of Qinhuangdao is in China.,1,Qinhuangdao,China,China,False,False,False
+Bob: The city of Qinhuangdao is in Eritrea.,0,Qinhuangdao,Eritrea,China,False,False,False
+Bob: The city of Meizhou is in Russia.,0,Meizhou,Russia,China,False,False,False
+Bob: The city of Yangjiang is in Indonesia.,0,Yangjiang,Indonesia,China,False,False,False
+Bob: The city of Shah Alam is in China.,0,Shah Alam,China,Malaysia,False,False,False
+Bob: The city of Sangli is in India.,1,Sangli,India,India,False,False,False
+Bob: The city of Guwahati is in India.,1,Guwahati,India,India,False,False,False
+Bob: The city of Guwahati is in China.,0,Guwahati,China,India,False,False,False
+Bob: The city of Semarang is in Indonesia.,1,Semarang,Indonesia,Indonesia,False,False,False
+Bob: The city of Korla is in China.,1,Korla,China,China,False,False,False
+Bob: The city of Korla is in Azerbaijan.,0,Korla,Azerbaijan,China,False,False,False
+Bob: The city of Zaozhuang is in China.,1,Zaozhuang,China,China,False,False,False
+Bob: The city of Shenzhen is in China.,1,Shenzhen,China,China,False,False,False
+Bob: The city of Maoming is in China.,1,Maoming,China,China,False,False,False
+Bob: The city of Siping is in China.,1,Siping,China,China,False,False,False
+Bob: The city of Siping is in Iraq.,0,Siping,Iraq,China,False,False,False
+Bob: The city of Jiamusi is in China.,1,Jiamusi,China,China,False,False,False
+Bob: The city of Minsk is in Belarus.,1,Minsk,Belarus,Belarus,False,False,False
+Bob: The city of Minsk is in South Korea.,0,Minsk,South Korea,Belarus,False,False,False
+Bob: The city of San Miguel de Tucuman is in Argentina.,1,San Miguel de Tucuman,Argentina,Argentina,False,False,False
+Bob: The city of Cotonou is in Benin.,1,Cotonou,Benin,Benin,False,False,False
+Bob: The city of Cotonou is in China.,0,Cotonou,China,Benin,False,False,False
+Bob: The city of Sao Bernardo do Campo is in Brazil.,1,Sao Bernardo do Campo,Brazil,Brazil,False,False,False
+Bob: The city of Feira de Santana is in Brazil.,1,Feira de Santana,Brazil,Brazil,False,False,False
+Bob: The city of Porto Alegre is in Brazil.,1,Porto Alegre,Brazil,Brazil,False,False,False
+Bob: The city of Juiz de Fora is in India.,0,Juiz de Fora,India,Brazil,False,False,False
+Bob: The city of Al Ahmadi is in Japan.,0,Al Ahmadi,Japan,Kuwait,False,False,False
+Bob: The city of Beirut is in Lebanon.,1,Beirut,Lebanon,Lebanon,False,False,False
+Bob: The city of Ecatepec de Morelos is in India.,0,Ecatepec de Morelos,India,Mexico,False,False,False
+Bob: The city of Isfahan is in Iran.,1,Isfahan,Iran,Iran,False,False,False
+Bob: The city of Isfahan is in China.,0,Isfahan,China,Iran,False,False,False
+Bob: The city of Conakry is in Guinea.,1,Conakry,Guinea,Guinea,False,False,False
+Bob: The city of Conakry is in Belarus.,0,Conakry,Belarus,Guinea,False,False,False
+Bob: The city of Petaling Jaya is in Malaysia.,1,Petaling Jaya,Malaysia,Malaysia,False,False,False
+Bob: The city of Zaria is in Nigeria.,1,Zaria,Nigeria,Nigeria,False,False,False
+Bob: The city of Multan is in Ecuador.,0,Multan,Ecuador,Pakistan,False,False,False
+Bob: The city of Bahcelievler is in Germany.,0,Bahcelievler,Germany,Turkey,False,False,False
+Bob: The city of Saratov is in Indonesia.,0,Saratov,Indonesia,Russia,False,False,False
+Bob: The city of Kharkiv is in Moldova.,0,Kharkiv,Moldova,Ukraine,False,False,False
+Bob: The city of Kyiv is in Ukraine.,1,Kyiv,Ukraine,Ukraine,False,False,False
+Bob: The city of Kyiv is in Russia.,0,Kyiv,Russia,Ukraine,False,False,False
+Bob: The city of Kitakyushu is in Japan.,1,Kitakyushu,Japan,Japan,False,False,False
+Bob: The city of Kitakyushu is in Yemen.,0,Kitakyushu,Yemen,Japan,False,False,False
+Bob: The city of Onitsha is in China.,0,Onitsha,China,Nigeria,False,False,False
+Bob: The city of Kobe is in China.,0,Kobe,China,Japan,False,False,False
+Bob: The city of Chiclayo is in Peru.,1,Chiclayo,Peru,Peru,False,False,False
+Bob: The city of Chiclayo is in Venezuela.,0,Chiclayo,Venezuela,Peru,False,False,False
+Bob: The city of Phnom Penh is in Senegal.,0,Phnom Penh,Senegal,Cambodia,False,False,False
+Bob: The city of Nouakchott is in China.,0,Nouakchott,China,Mauritania,False,False,False
+Bob: The city of Vijayawada is in India.,1,Vijayawada,India,India,False,False,False
+Bob: The city of Vijayawada is in Nigeria.,0,Vijayawada,Nigeria,India,False,False,False
+Bob: The city of Theni is in Nigeria.,0,Theni,Nigeria,India,False,False,False
+Bob: The city of Narela is in India.,1,Narela,India,India,False,False,False
+Bob: The city of Narela is in Turkey.,0,Narela,Turkey,India,False,False,False
+Bob: The city of Quetta is in Pakistan.,1,Quetta,Pakistan,Pakistan,False,False,False
+Bob: The city of Quetta is in Kenya.,0,Quetta,Kenya,Pakistan,False,False,False
+Bob: The city of Chennai is in India.,1,Chennai,India,India,False,False,False
+Bob: The city of Chennai is in China.,0,Chennai,China,India,False,False,False
+Bob: The city of Tehran is in Iran.,1,Tehran,Iran,Iran,False,False,False
+Bob: The city of Budapest is in Hungary.,1,Budapest,Hungary,Hungary,False,False,False
+Bob: The city of Recife is in Brazil.,1,Recife,Brazil,Brazil,False,False,False
+Bob: The city of Port Said is in China.,0,Port Said,China,Egypt,False,False,False
+Bob: The city of Asyut is in Japan.,0,Asyut,Japan,Egypt,False,False,False
+Bob: The city of Ziyang is in Belgium.,0,Ziyang,Belgium,China,False,False,False
+Bob: The city of Yinchuan is in China.,1,Yinchuan,China,China,False,False,False
+Bob: The city of Zhangjiagang is in Brazil.,0,Zhangjiagang,Brazil,China,False,False,False
+Bob: The city of Shanghai is in Mexico.,0,Shanghai,Mexico,China,False,False,False
+Bob: The city of Jieyang is in China.,1,Jieyang,China,China,False,False,False
+Bob: The city of Longyan is in China.,1,Longyan,China,China,False,False,False
+Bob: The city of Longyan is in Benin.,0,Longyan,Benin,China,False,False,False
+Bob: The city of Frankfurt am Main is in Germany.,1,Frankfurt am Main,Germany,Germany,False,False,False
+Bob: The city of Frankfurt am Main is in Vietnam.,0,Frankfurt am Main,Vietnam,Germany,False,False,False
+Bob: The city of Lusaka is in Zambia.,1,Lusaka,Zambia,Zambia,False,False,False
+Bob: The city of Lusaka is in Poland.,0,Lusaka,Poland,Zambia,False,False,False
+Bob: The city of Jaboatao is in Syria.,0,Jaboatao,Syria,Brazil,False,False,False
+Bob: The city of Aracaju is in Russia.,0,Aracaju,Russia,Brazil,False,False,False
+Bob: The city of Londrina is in Brazil.,1,Londrina,Brazil,Brazil,False,False,False
+Bob: The city of Londrina is in India.,0,Londrina,India,Brazil,False,False,False
+Bob: The city of Kunshan is in China.,1,Kunshan,China,China,False,False,False
+Bob: The city of Yichang is in China.,1,Yichang,China,China,False,False,False
+Bob: The city of Yichang is in Japan.,0,Yichang,Japan,China,False,False,False
+Bob: The city of Sanming is in China.,1,Sanming,China,China,False,False,False
+Bob: The city of Guang'an is in China.,1,Guang'an,China,China,False,False,False
+Bob: The city of Dongying is in China.,1,Dongying,China,China,False,False,False
+Bob: The city of Fushun is in China.,1,Fushun,China,China,False,False,False
+Bob: The city of Rajshahi is in Russia.,0,Rajshahi,Russia,Bangladesh,False,False,False
+Bob: The city of Dortmund is in India.,0,Dortmund,India,Germany,False,False,False
+Bob: The city of Detroit is in China.,0,Detroit,China,the United States,False,False,False
+Bob: The city of Ashgabat is in Turkmenistan.,1,Ashgabat,Turkmenistan,Turkmenistan,False,False,False
+Bob: The city of Maracaibo is in Venezuela.,1,Maracaibo,Venezuela,Venezuela,False,False,False
+Bob: The city of Erode is in China.,0,Erode,China,India,False,False,False
+Bob: The city of Mumbai is in China.,0,Mumbai,China,India,False,False,False
+Bob: The city of Nasiriyah is in Iraq.,1,Nasiriyah,Iraq,Iraq,False,False,False
+Bob: The city of Kahriz is in Uzbekistan.,0,Kahriz,Uzbekistan,Iran,False,False,False
+Bob: The city of Surakarta is in India.,0,Surakarta,India,Indonesia,False,False,False
+Bob: The city of Banjarmasin is in South Korea.,0,Banjarmasin,South Korea,Indonesia,False,False,False
+Bob: The city of Vladivostok is in Romania.,0,Vladivostok,Romania,Russia,False,False,False
+Bob: The city of Namangan is in Uzbekistan.,1,Namangan,Uzbekistan,Uzbekistan,False,False,False
+Bob: The city of Ordos is in China.,1,Ordos,China,China,False,False,False
+Bob: The city of Moradabad is in China.,0,Moradabad,China,India,False,False,False
+Bob: The city of Bengaluru is in India.,1,Bengaluru,India,India,False,False,False
+Bob: The city of Shivaji Nagar is in India.,1,Shivaji Nagar,India,India,False,False,False
+Bob: The city of Shivaji Nagar is in China.,0,Shivaji Nagar,China,India,False,False,False
+Bob: The city of Okayama is in Japan.,1,Okayama,Japan,Japan,False,False,False
+Bob: The city of Okayama is in Russia.,0,Okayama,Russia,Japan,False,False,False
+Bob: The city of Daejeon is in India.,0,Daejeon,India,South Korea,False,False,False
+Bob: The city of Yaounde is in China.,0,Yaounde,China,Cameroon,False,False,False
+Bob: The city of Zhangzhou is in China.,1,Zhangzhou,China,China,False,False,False
+Bob: The city of Yangquan is in China.,1,Yangquan,China,China,False,False,False
+Bob: The city of Yangquan is in Hungary.,0,Yangquan,Hungary,China,False,False,False
+Bob: The city of Sanya is in India.,0,Sanya,India,China,False,False,False
+Bob: The city of Foshan is in Mozambique.,0,Foshan,Mozambique,China,False,False,False
+Bob: The city of Sharjah is in China.,0,Sharjah,China,the United Arab Emirates,False,False,False
+Bob: The city of Al Ain City is in the United Arab Emirates.,1,Al Ain City,the United Arab Emirates,the United Arab Emirates,False,False,False
+Bob: The city of Al Ain City is in India.,0,Al Ain City,India,the United Arab Emirates,False,False,False
+Bob: The city of Kalininskiy is in Russia.,1,Kalininskiy,Russia,Russia,False,False,False
+Bob: The city of Kalininskiy is in Japan.,0,Kalininskiy,Japan,Russia,False,False,False
+Bob: The city of Mersin is in Turkey.,1,Mersin,Turkey,Turkey,False,False,False
+Bob: The city of Mersin is in the United States.,0,Mersin,the United States,Turkey,False,False,False
+Bob: The city of Guayaquil is in Ecuador.,1,Guayaquil,Ecuador,Ecuador,False,False,False
+Bob: The city of Tegucigalpa is in Honduras.,1,Tegucigalpa,Honduras,Honduras,False,False,False
+Bob: The city of Tegucigalpa is in China.,0,Tegucigalpa,China,Honduras,False,False,False
+Bob: The city of Zarqa is in Jordan.,1,Zarqa,Jordan,Jordan,False,False,False
+Bob: The city of Riga is in Japan.,0,Riga,Japan,Latvia,False,False,False
+Bob: The city of Nanded is in India.,1,Nanded,India,India,False,False,False
+Bob: The city of Nanded is in China.,0,Nanded,China,India,False,False,False
+Bob: The city of Gwalior is in India.,1,Gwalior,India,India,False,False,False
+Bob: The city of Dombivli is in India.,1,Dombivli,India,India,False,False,False
+Bob: The city of Dombivli is in Mali.,0,Dombivli,Mali,India,False,False,False
+Bob: The city of Bekasi is in China.,0,Bekasi,China,Indonesia,False,False,False
+Bob: The city of Johor Bahru is in Malaysia.,1,Johor Bahru,Malaysia,Malaysia,False,False,False
+Bob: The city of Santa Maria Chimalhuacan is in Mexico.,1,Santa Maria Chimalhuacan,Mexico,Mexico,False,False,False
+Bob: The city of Santa Maria Chimalhuacan is in Saudi Arabia.,0,Santa Maria Chimalhuacan,Saudi Arabia,Mexico,False,False,False
+Bob: The city of Qingdao is in China.,1,Qingdao,China,China,False,False,False
+Bob: The city of Qingdao is in India.,0,Qingdao,India,China,False,False,False
+Bob: The city of Sofia is in Bulgaria.,1,Sofia,Bulgaria,Bulgaria,False,False,False
+Bob: The city of Sofia is in South Korea.,0,Sofia,South Korea,Bulgaria,False,False,False
+Bob: The city of Nova Iguacu is in Brazil.,1,Nova Iguacu,Brazil,Brazil,False,False,False
+Bob: The city of Fukuoka is in Senegal.,0,Fukuoka,Senegal,Japan,False,False,False
+Bob: The city of Goyang-si is in Russia.,0,Goyang-si,Russia,South Korea,False,False,False
+Bob: The city of Meknes is in Morocco.,1,Meknes,Morocco,Morocco,False,False,False
+Bob: The city of Antananarivo is in Madagascar.,1,Antananarivo,Madagascar,Madagascar,False,False,False
+Bob: The city of Antananarivo is in Germany.,0,Antananarivo,Germany,Madagascar,False,False,False
+Bob: The city of Kalyan is in India.,1,Kalyan,India,India,False,False,False
+Bob: The city of Jaipur is in China.,0,Jaipur,China,India,False,False,False
+Bob: The city of Guntur is in India.,1,Guntur,India,India,False,False,False
+Bob: The city of Bhavnagar is in Japan.,0,Bhavnagar,Japan,India,False,False,False
+Bob: The city of Amravati is in India.,1,Amravati,India,India,False,False,False
+Bob: The city of Shiraz is in China.,0,Shiraz,China,Iran,False,False,False
+Bob: The city of Erzurum is in Turkey.,1,Erzurum,Turkey,Turkey,False,False,False
+Bob: The city of Erzurum is in the Democratic Republic of the Congo.,0,Erzurum,the Democratic Republic of the Congo,Turkey,False,False,False
+Bob: The city of Barquisimeto is in Venezuela.,1,Barquisimeto,Venezuela,Venezuela,False,False,False
+Bob: The city of Barquisimeto is in Poland.,0,Barquisimeto,Poland,Venezuela,False,False,False
+Bob: The city of Kryvyy Rih is in China.,0,Kryvyy Rih,China,Ukraine,False,False,False
+Bob: The city of Quzhou is in China.,1,Quzhou,China,China,False,False,False
+Bob: The city of Quzhou is in Vietnam.,0,Quzhou,Vietnam,China,False,False,False
+Bob: The city of Pingliang is in China.,1,Pingliang,China,China,False,False,False
+Bob: The city of Puning is in China.,1,Puning,China,China,False,False,False
+Bob: The city of Huzhou is in China.,1,Huzhou,China,China,False,False,False
+Bob: The city of Huzhou is in Germany.,0,Huzhou,Germany,China,False,False,False
+Bob: The city of Chizhou is in China.,1,Chizhou,China,China,False,False,False
+Bob: The city of Chengdu is in South Korea.,0,Chengdu,South Korea,China,False,False,False
+Bob: The city of Cangzhou is in China.,1,Cangzhou,China,China,False,False,False
+Bob: The city of Cangzhou is in Germany.,0,Cangzhou,Germany,China,False,False,False
+Bob: The city of Helsinki is in Finland.,1,Helsinki,Finland,Finland,False,False,False
+Bob: The city of Khabarovsk Vtoroy is in Russia.,1,Khabarovsk Vtoroy,Russia,Russia,False,False,False
+Bob: The city of Wroclaw is in Mexico.,0,Wroclaw,Mexico,Poland,False,False,False
+Bob: The city of Oslo is in Norway.,1,Oslo,Norway,Norway,False,False,False
+Bob: The city of Caloocan City is in China.,0,Caloocan City,China,the Philippines,False,False,False
+Bob: The city of Ryazan' is in Russia.,1,Ryazan',Russia,Russia,False,False,False
+Bob: The city of Ryazan' is in South Korea.,0,Ryazan',South Korea,Russia,False,False,False
+Bob: The city of Ciudad Guayana is in Venezuela.,1,Ciudad Guayana,Venezuela,Venezuela,False,False,False
+Bob: The city of Ciudad Guayana is in South Africa.,0,Ciudad Guayana,South Africa,Venezuela,False,False,False
+Bob: The city of Al Hudaydah is in Yemen.,1,Al Hudaydah,Yemen,Yemen,False,False,False
+Bob: The city of Al Hudaydah is in South Korea.,0,Al Hudaydah,South Korea,Yemen,False,False,False
+Bob: The city of Soweto is in South Africa.,1,Soweto,South Africa,South Africa,False,False,False
+Bob: The city of Soweto is in Gabon.,0,Soweto,Gabon,South Africa,False,False,False
+Bob: The city of Benoni is in South Africa.,1,Benoni,South Africa,South Africa,False,False,False
+Bob: The city of Benoni is in the Philippines.,0,Benoni,the Philippines,South Africa,False,False,False
+Bob: The city of Qinzhou is in India.,0,Qinzhou,India,China,False,False,False
+Bob: The city of Wuwei is in China.,1,Wuwei,China,China,False,False,False
+Bob: The city of Wuwei is in India.,0,Wuwei,India,China,False,False,False
+Bob: The city of Hefei is in Germany.,0,Hefei,Germany,China,False,False,False
+Bob: The city of Jiangyin is in China.,1,Jiangyin,China,China,False,False,False
+Bob: The city of Brazzaville is in the Republic of the Congo.,1,Brazzaville,the Republic of the Congo,the Republic of the Congo,False,False,False
+Bob: The city of Brazzaville is in Nigeria.,0,Brazzaville,Nigeria,the Republic of the Congo,False,False,False
+Bob: The city of Sorocaba is in Mexico.,0,Sorocaba,Mexico,Brazil,False,False,False
+Bob: The city of Aktobe is in Kazakhstan.,1,Aktobe,Kazakhstan,Kazakhstan,False,False,False
+Bob: The city of Chisinau is in Moldova.,1,Chisinau,Moldova,Moldova,False,False,False
+Bob: The city of Tiruppur is in Japan.,0,Tiruppur,Japan,India,False,False,False
+Bob: The city of Asansol is in India.,1,Asansol,India,India,False,False,False
+Bob: The city of Asansol is in China.,0,Asansol,China,India,False,False,False
+Bob: The city of Jingmen is in China.,1,Jingmen,China,China,False,False,False
+Bob: The city of Huaibei is in Brazil.,0,Huaibei,Brazil,China,False,False,False
+Bob: The city of Hebi is in Nigeria.,0,Hebi,Nigeria,China,False,False,False
+Bob: The city of Benxi is in Brazil.,0,Benxi,Brazil,China,False,False,False
+Bob: The city of Fortaleza is in Brazil.,1,Fortaleza,Brazil,Brazil,False,False,False
+Bob: The city of Antwerpen is in Belgium.,1,Antwerpen,Belgium,Belgium,False,False,False
+Bob: The city of Pikine is in Senegal.,1,Pikine,Senegal,Senegal,False,False,False
+Bob: The city of Pikine is in Pakistan.,0,Pikine,Pakistan,Senegal,False,False,False
+Bob: The city of Faisalabad is in Pakistan.,1,Faisalabad,Pakistan,Pakistan,False,False,False
+Bob: The city of Faisalabad is in India.,0,Faisalabad,India,Pakistan,False,False,False
+Bob: The city of Kyoto is in Japan.,1,Kyoto,Japan,Japan,False,False,False
+Bob: The city of Port Harcourt is in Nigeria.,1,Port Harcourt,Nigeria,Nigeria,False,False,False
+Bob: The city of Port Harcourt is in Eritrea.,0,Port Harcourt,Eritrea,Nigeria,False,False,False
+Bob: The city of Makhachkala is in Russia.,1,Makhachkala,Russia,Russia,False,False,False
+Bob: The city of Makhachkala is in Indonesia.,0,Makhachkala,Indonesia,Russia,False,False,False
+Bob: The city of Thiruvananthapuram is in India.,1,Thiruvananthapuram,India,India,False,False,False
+Bob: The city of Thiruvananthapuram is in Japan.,0,Thiruvananthapuram,Japan,India,False,False,False
+Bob: The city of Madurai is in India.,1,Madurai,India,India,False,False,False
+Bob: The city of Abu Ghurayb is in Iraq.,1,Abu Ghurayb,Iraq,Iraq,False,False,False
+Bob: The city of Abu Ghurayb is in Indonesia.,0,Abu Ghurayb,Indonesia,Iraq,False,False,False
+Bob: The city of Kampala is in Uganda.,1,Kampala,Uganda,Uganda,False,False,False
+Bob: The city of Kampala is in Turkey.,0,Kampala,Turkey,Uganda,False,False,False
+Bob: The city of Chicago is in the United States.,1,Chicago,the United States,the United States,False,False,False
+Bob: The city of Chicago is in Madagascar.,0,Chicago,Madagascar,the United States,False,False,False
+Bob: The city of Milwaukee is in the United States.,1,Milwaukee,the United States,the United States,False,False,False
+Bob: The city of Bloemfontein is in South Africa.,1,Bloemfontein,South Africa,South Africa,False,False,False
+Bob: The city of Bloemfontein is in China.,0,Bloemfontein,China,South Africa,False,False,False
+Bob: The city of Curitiba is in India.,0,Curitiba,India,Brazil,False,False,False
+Bob: The city of Ribeirao Preto is in China.,0,Ribeirao Preto,China,Brazil,False,False,False
+Bob: The city of The Bronx is in South Korea.,0,The Bronx,South Korea,the United States,False,False,False
+Bob: The city of Samarkand is in Uzbekistan.,1,Samarkand,Uzbekistan,Uzbekistan,False,False,False
+Bob: The city of Da Nang is in China.,0,Da Nang,China,Vietnam,False,False,False
+Bob: The city of Tomsk is in Ghana.,0,Tomsk,Ghana,Russia,False,False,False
+Bob: The city of Izhevsk is in Nigeria.,0,Izhevsk,Nigeria,Russia,False,False,False
+Bob: The city of Madinat an Nasr is in India.,0,Madinat an Nasr,India,Egypt,False,False,False
+Bob: The city of Yibin is in China.,1,Yibin,China,China,False,False,False
+Bob: The city of Yibin is in Brazil.,0,Yibin,Brazil,China,False,False,False
+Bob: The city of Sanmenxia is in China.,1,Sanmenxia,China,China,False,False,False
+Bob: The city of Sanmenxia is in Brazil.,0,Sanmenxia,Brazil,China,False,False,False
+Bob: The city of Rui'an is in Indonesia.,0,Rui'an,Indonesia,China,False,False,False
+Bob: The city of Ningbo is in China.,1,Ningbo,China,China,False,False,False
+Bob: The city of Jiujiang is in China.,1,Jiujiang,China,China,False,False,False
+Bob: The city of Jiujiang is in Indonesia.,0,Jiujiang,Indonesia,China,False,False,False
+Bob: The city of Jiaozuo is in China.,1,Jiaozuo,China,China,False,False,False
+Bob: The city of Jiangmen is in China.,1,Jiangmen,China,China,False,False,False
+Bob: The city of Huizhou is in China.,1,Huizhou,China,China,False,False,False
+Bob: The city of Huizhou is in the United States.,0,Huizhou,the United States,China,False,False,False
+Bob: The city of Harbin is in China.,1,Harbin,China,China,False,False,False
+Bob: The city of Harbin is in Russia.,0,Harbin,Russia,China,False,False,False
+Bob: The city of Herat is in China.,0,Herat,China,Afghanistan,False,False,False
+Bob: The city of Kleinzschocher is in Germany.,1,Kleinzschocher,Germany,Germany,False,False,False
+Bob: The city of Davao is in Brazil.,0,Davao,Brazil,the Philippines,False,False,False
+Bob: The city of Sargodha is in Pakistan.,1,Sargodha,Pakistan,Pakistan,False,False,False
+Bob: The city of Islamabad is in Pakistan.,1,Islamabad,Pakistan,Pakistan,False,False,False
+Bob: The city of Islamabad is in Japan.,0,Islamabad,Japan,Pakistan,False,False,False
+Bob: The city of Zapopan is in China.,0,Zapopan,China,Mexico,False,False,False
+Bob: The city of Visakhapatnam is in India.,1,Visakhapatnam,India,India,False,False,False
+Bob: The city of Dhanbad is in Kenya.,0,Dhanbad,Kenya,India,False,False,False
+Bob: The city of Tabriz is in India.,0,Tabriz,India,Iran,False,False,False
+Bob: The city of Tlaquepaque is in Mexico.,1,Tlaquepaque,Mexico,Mexico,False,False,False
+Bob: The city of Victoria de Durango is in Ghana.,0,Victoria de Durango,Ghana,Mexico,False,False,False
+Bob: The city of Taguig is in India.,0,Taguig,India,the Philippines,False,False,False
+Bob: The city of Rajkot is in India.,1,Rajkot,India,India,False,False,False
+Bob: The city of Ludhiana is in Togo.,0,Ludhiana,Togo,India,False,False,False
+Bob: The city of Bhiwandi is in India.,1,Bhiwandi,India,India,False,False,False
+Bob: The city of Chelyabinsk is in Russia.,1,Chelyabinsk,Russia,Russia,False,False,False
+Bob: The city of Uskudar is in Bulgaria.,0,Uskudar,Bulgaria,Turkey,False,False,False
+Bob: The city of Bagcilar is in Turkey.,1,Bagcilar,Turkey,Turkey,False,False,False
+Bob: The city of Bagcilar is in Iran.,0,Bagcilar,Iran,Turkey,False,False,False
+Bob: The city of Quezon City is in the Philippines.,1,Quezon City,the Philippines,the Philippines,False,False,False
+Bob: The city of Mexico City is in China.,0,Mexico City,China,Mexico,False,False,False
+Bob: The city of Leon de los Aldama is in Mexico.,1,Leon de los Aldama,Mexico,Mexico,False,False,False
+Bob: The city of Leon de los Aldama is in China.,0,Leon de los Aldama,China,Mexico,False,False,False
+Bob: The city of Fes is in Morocco.,1,Fes,Morocco,Morocco,False,False,False
+Bob: The city of Fes is in Mali.,0,Fes,Mali,Morocco,False,False,False
+Bob: The city of Surat is in India.,1,Surat,India,India,False,False,False
+Bob: The city of Barnaul is in Russia.,1,Barnaul,Russia,Russia,False,False,False
+Bob: The city of Barnaul is in South Africa.,0,Barnaul,South Africa,Russia,False,False,False
+Bob: The city of Buraydah is in Saudi Arabia.,1,Buraydah,Saudi Arabia,Saudi Arabia,False,False,False
+Bob: The city of Buraydah is in Rwanda.,0,Buraydah,Rwanda,Saudi Arabia,False,False,False
+Bob: The city of Bikaner is in India.,1,Bikaner,India,India,False,False,False
+Bob: The city of Bikaner is in South Korea.,0,Bikaner,South Korea,India,False,False,False
+Bob: The city of Homs is in Indonesia.,0,Homs,Indonesia,Syria,False,False,False
+Bob: The city of Port-au-Prince is in Haiti.,1,Port-au-Prince,Haiti,Haiti,False,False,False
+Bob: The city of Thuan An is in Mozambique.,0,Thuan An,Mozambique,Vietnam,False,False,False
+Bob: The city of Sanaa is in Yemen.,1,Sanaa,Yemen,Yemen,False,False,False
+Bob: The city of Sanaa is in China.,0,Sanaa,China,Yemen,False,False,False
+Bob: The city of Pretoria is in India.,0,Pretoria,India,South Africa,False,False,False
+Bob: The city of Pietermaritzburg is in China.,0,Pietermaritzburg,China,South Africa,False,False,False
+Bob: The city of Sao Paulo is in Brazil.,1,Sao Paulo,Brazil,Brazil,False,False,False
+Bob: The city of Xiaogan is in China.,1,Xiaogan,China,China,False,False,False
+Bob: The city of Guiyang is in China.,1,Guiyang,China,China,False,False,False
+Bob: The city of Guiyang is in South Korea.,0,Guiyang,South Korea,China,False,False,False
+Bob: The city of Ganzhou is in China.,1,Ganzhou,China,China,False,False,False
+Bob: The city of Ganzhou is in South Korea.,0,Ganzhou,South Korea,China,False,False,False
+Bob: The city of Shangyu is in the United Arab Emirates.,0,Shangyu,the United Arab Emirates,China,False,False,False
+Bob: The city of Indianapolis is in the United States.,1,Indianapolis,the United States,the United States,False,False,False
+Bob: The city of Indianapolis is in Côte d'Ivoire.,0,Indianapolis,Côte d'Ivoire,the United States,False,False,False
+Bob: The city of Bulawayo is in China.,0,Bulawayo,China,Zimbabwe,False,False,False
+Bob: The city of Santiago de Cuba is in Cuba.,1,Santiago de Cuba,Cuba,Cuba,False,False,False
+Bob: The city of Santiago de Cuba is in India.,0,Santiago de Cuba,India,Cuba,False,False,False
+Bob: The city of Al Mahallah al Kubra is in Egypt.,1,Al Mahallah al Kubra,Egypt,Egypt,False,False,False
+Bob: The city of Suining is in China.,1,Suining,China,China,False,False,False
+Bob: The city of Guankou is in China.,1,Guankou,China,China,False,False,False
+Bob: The city of Guigang is in China.,1,Guigang,China,China,False,False,False
+Bob: The city of Dalian is in China.,1,Dalian,China,China,False,False,False
+Bob: The city of Dalian is in Saudi Arabia.,0,Dalian,Saudi Arabia,China,False,False,False
+Bob: The city of Homyel' is in Belarus.,1,Homyel',Belarus,Belarus,False,False,False
+Bob: The city of Winnipeg is in Canada.,1,Winnipeg,Canada,Canada,False,False,False
+Bob: The city of Irbid is in India.,0,Irbid,India,Jordan,False,False,False
+Bob: The city of Bishkek is in Kyrgyzstan.,1,Bishkek,Kyrgyzstan,Kyrgyzstan,False,False,False
+Bob: The city of Bishkek is in Germany.,0,Bishkek,Germany,Kyrgyzstan,False,False,False
+Bob: The city of Kotli is in the United States.,0,Kotli,the United States,Pakistan,False,False,False
+Bob: The city of Nagpur is in India.,1,Nagpur,India,India,False,False,False
+Bob: The city of Kolhapur is in India.,1,Kolhapur,India,India,False,False,False
+Bob: The city of Cuttack is in India.,1,Cuttack,India,India,False,False,False
+Bob: The city of Cuttack is in Pakistan.,0,Cuttack,Pakistan,India,False,False,False
+Bob: The city of Makassar is in Indonesia.,1,Makassar,Indonesia,Indonesia,False,False,False
+Bob: The city of Makassar is in China.,0,Makassar,China,Indonesia,False,False,False
+Bob: The city of Yekaterinburg is in Russia.,1,Yekaterinburg,Russia,Russia,False,False,False
+Bob: The city of Dammam is in Saudi Arabia.,1,Dammam,Saudi Arabia,Saudi Arabia,False,False,False
+Bob: The city of Dammam is in Russia.,0,Dammam,Russia,Saudi Arabia,False,False,False
+Bob: The city of Dushanbe is in Nigeria.,0,Dushanbe,Nigeria,Tajikistan,False,False,False
+Bob: The city of Gaziantep is in Mexico.,0,Gaziantep,Mexico,Turkey,False,False,False
+Bob: The city of Asuncion is in Nigeria.,0,Asuncion,Nigeria,Paraguay,False,False,False
+Bob: The city of Tebessa is in Algeria.,1,Tebessa,Algeria,Algeria,False,False,False
+Bob: The city of Tebessa is in India.,0,Tebessa,India,Algeria,False,False,False
+Bob: The city of Zhuzhou is in China.,1,Zhuzhou,China,China,False,False,False
+Bob: The city of Xining is in the United Arab Emirates.,0,Xining,the United Arab Emirates,China,False,False,False
+Bob: The city of Shantou is in China.,1,Shantou,China,China,False,False,False
+Bob: The city of Shantou is in Pakistan.,0,Shantou,Pakistan,China,False,False,False
+Bob: The city of Shangluo is in China.,1,Shangluo,China,China,False,False,False
+Bob: The city of Putian is in China.,1,Putian,China,China,False,False,False
+Bob: The city of Putian is in Vietnam.,0,Putian,Vietnam,China,False,False,False
+Bob: The city of Lanzhou is in China.,1,Lanzhou,China,China,False,False,False
+Bob: The city of Chenzhou is in China.,1,Chenzhou,China,China,False,False,False
+Bob: The city of Chenzhou is in Brazil.,0,Chenzhou,Brazil,China,False,False,False
+Bob: The city of Daqing is in Brazil.,0,Daqing,Brazil,China,False,False,False
+Bob: The city of Kandahar is in Afghanistan.,1,Kandahar,Afghanistan,Afghanistan,False,False,False
+Bob: The city of Kandahar is in China.,0,Kandahar,China,Afghanistan,False,False,False
+Bob: The city of Gold Coast is in China.,0,Gold Coast,China,Australia,False,False,False
+Bob: The city of Ouagadougou is in Burkina Faso.,1,Ouagadougou,Burkina Faso,Burkina Faso,False,False,False
+Bob: The city of Duque de Caxias is in Brazil.,1,Duque de Caxias,Brazil,Brazil,False,False,False
+Bob: The city of Hiroshima is in Japan.,1,Hiroshima,Japan,Japan,False,False,False
+Bob: The city of Saitama is in Japan.,1,Saitama,Japan,Japan,False,False,False
+Bob: The city of Saitama is in India.,0,Saitama,India,Japan,False,False,False
+Bob: The city of Nampula is in Mozambique.,1,Nampula,Mozambique,Mozambique,False,False,False
+Bob: The city of Nampula is in India.,0,Nampula,India,Mozambique,False,False,False
+Bob: The city of Mysore is in Mexico.,0,Mysore,Mexico,India,False,False,False
+Bob: The city of Chandigarh is in China.,0,Chandigarh,China,India,False,False,False
+Bob: The city of Amritsar is in India.,1,Amritsar,India,India,False,False,False
+Bob: The city of Arak is in Iran.,1,Arak,Iran,Iran,False,False,False
+Bob: The city of Ilorin is in Nigeria.,1,Ilorin,Nigeria,Nigeria,False,False,False
+Bob: The city of Omdurman is in South Korea.,0,Omdurman,South Korea,Sudan,False,False,False
+Bob: The city of Khartoum is in Sudan.,1,Khartoum,Sudan,Sudan,False,False,False
+Bob: The city of Khartoum is in China.,0,Khartoum,China,Sudan,False,False,False
+Bob: The city of Gujranwala is in Pakistan.,1,Gujranwala,Pakistan,Pakistan,False,False,False
+Bob: The city of Zhaoqing is in Brazil.,0,Zhaoqing,Brazil,China,False,False,False
+Bob: The city of Xianning is in China.,1,Xianning,China,China,False,False,False
+Bob: The city of Xianning is in Lebanon.,0,Xianning,Lebanon,China,False,False,False
+Bob: The city of Tonghua is in China.,1,Tonghua,China,China,False,False,False
+Bob: The city of Tonghua is in Venezuela.,0,Tonghua,Venezuela,China,False,False,False
+Bob: The city of Hezhou is in China.,1,Hezhou,China,China,False,False,False
+Bob: The city of San Pedro Sula is in India.,0,San Pedro Sula,India,Honduras,False,False,False
+Bob: The city of Queens is in the United States.,1,Queens,the United States,the United States,False,False,False
+Bob: The city of Caracas is in Venezuela.,1,Caracas,Venezuela,Venezuela,False,False,False
+Bob: The city of Caracas is in Sudan.,0,Caracas,Sudan,Venezuela,False,False,False
+Bob: The city of Bucheon-si is in South Korea.,1,Bucheon-si,South Korea,South Korea,False,False,False
+Bob: The city of Tangier is in Morocco.,1,Tangier,Morocco,Morocco,False,False,False
+Bob: The city of Nay Pyi Taw is in Myanmar.,1,Nay Pyi Taw,Myanmar,Myanmar,False,False,False
+Bob: The city of Ulhasnagar is in Senegal.,0,Ulhasnagar,Senegal,India,False,False,False
+Bob: The city of Kolkata is in Japan.,0,Kolkata,Japan,India,False,False,False
+Bob: The city of Karbala is in Iraq.,1,Karbala,Iraq,Iraq,False,False,False
+Bob: The city of Jakarta is in Indonesia.,1,Jakarta,Indonesia,Indonesia,False,False,False
+Bob: The city of Denpasar is in Indonesia.,1,Denpasar,Indonesia,Indonesia,False,False,False
+Bob: The city of Denpasar is in Brazil.,0,Denpasar,Brazil,Indonesia,False,False,False
+Bob: The city of Liupanshui is in the Philippines.,0,Liupanshui,the Philippines,China,False,False,False
+Bob: The city of Shangrao is in China.,1,Shangrao,China,China,False,False,False
+Bob: The city of Shangrao is in Russia.,0,Shangrao,Russia,China,False,False,False
+Bob: The city of Xingtai is in Russia.,0,Xingtai,Russia,China,False,False,False
+Bob: The city of Qujing is in China.,1,Qujing,China,China,False,False,False
+Bob: The city of Qujing is in India.,0,Qujing,India,China,False,False,False
+Bob: The city of Nanning is in Japan.,0,Nanning,Japan,China,False,False,False
+Bob: The city of Huainan is in China.,1,Huainan,China,China,False,False,False
+Bob: The city of Huainan is in Egypt.,0,Huainan,Egypt,China,False,False,False
+Bob: The city of Binzhou is in China.,1,Binzhou,China,China,False,False,False
+Bob: The city of Fuxin is in China.,1,Fuxin,China,China,False,False,False
+Bob: The city of Fuxin is in Pakistan.,0,Fuxin,Pakistan,China,False,False,False
+Bob: The city of Quebec is in Canada.,1,Quebec,Canada,Canada,False,False,False
+Bob: The city of Quebec is in Zimbabwe.,0,Quebec,Zimbabwe,Canada,False,False,False
+Bob: The city of Mar del Plata is in Argentina.,1,Mar del Plata,Argentina,Argentina,False,False,False
+Bob: The city of Bujumbura is in Nigeria.,0,Bujumbura,Nigeria,Burundi,False,False,False
+Bob: The city of Esenler is in Turkey.,1,Esenler,Turkey,Turkey,False,False,False
+Bob: The city of Esenler is in India.,0,Esenler,India,Turkey,False,False,False
+Bob: The city of Cankaya is in Turkey.,1,Cankaya,Turkey,Turkey,False,False,False
+Bob: The city of Cankaya is in the United States.,0,Cankaya,the United States,Turkey,False,False,False
+Bob: The city of Ufa is in Russia.,1,Ufa,Russia,Russia,False,False,False
+Bob: The city of Ufa is in South Korea.,0,Ufa,South Korea,Russia,False,False,False
+Bob: The city of Jos is in Nigeria.,1,Jos,Nigeria,Nigeria,False,False,False
+Bob: The city of Ibadan is in Nigeria.,1,Ibadan,Nigeria,Nigeria,False,False,False
+Bob: The city of Ibadan is in Malaysia.,0,Ibadan,Malaysia,Nigeria,False,False,False
+Bob: The city of Managua is in Nicaragua.,1,Managua,Nicaragua,Nicaragua,False,False,False
+Bob: The city of Ha'il is in Saudi Arabia.,1,Ha'il,Saudi Arabia,Saudi Arabia,False,False,False
+Bob: The city of Haiphong is in Vietnam.,1,Haiphong,Vietnam,Vietnam,False,False,False
+Bob: The city of Haiphong is in the Dominican Republic.,0,Haiphong,the Dominican Republic,Vietnam,False,False,False
+Bob: The city of Cape Town is in South Africa.,1,Cape Town,South Africa,South Africa,False,False,False
+Bob: The city of Cape Town is in China.,0,Cape Town,China,South Africa,False,False,False
+Bob: The city of Ipoh is in Malaysia.,1,Ipoh,Malaysia,Malaysia,False,False,False
+Bob: The city of Kuantan is in India.,0,Kuantan,India,Malaysia,False,False,False
+Bob: The city of Maiduguri is in China.,0,Maiduguri,China,Nigeria,False,False,False
+Bob: The city of Kathmandu is in China.,0,Kathmandu,China,Nepal,False,False,False
+Bob: The city of Reynosa is in Mexico.,1,Reynosa,Mexico,Mexico,False,False,False
+Bob: The city of Reynosa is in China.,0,Reynosa,China,Mexico,False,False,False
+Bob: The city of Ibague is in Finland.,0,Ibague,Finland,Colombia,False,False,False
+Bob: The city of Copenhagen is in Denmark.,1,Copenhagen,Denmark,Denmark,False,False,False
+Bob: The city of Copenhagen is in China.,0,Copenhagen,China,Denmark,False,False,False
+Bob: The city of Xinyang is in Japan.,0,Xinyang,Japan,China,False,False,False
+Bob: The city of Weinan is in China.,1,Weinan,China,China,False,False,False
+Bob: The city of Weinan is in Colombia.,0,Weinan,Colombia,China,False,False,False
+Bob: The city of Laiwu is in China.,1,Laiwu,China,China,False,False,False
+Bob: The city of Hengyang is in China.,1,Hengyang,China,China,False,False,False
+Bob: The city of Hengyang is in Turkey.,0,Hengyang,Turkey,China,False,False,False
+Bob: The city of Varanasi is in India.,1,Varanasi,India,India,False,False,False
+Bob: The city of Puducherry is in Brazil.,0,Puducherry,Brazil,India,False,False,False
+Bob: The city of Bhopal is in Russia.,0,Bhopal,Russia,India,False,False,False
+Bob: The city of Kanayannur is in India.,1,Kanayannur,India,India,False,False,False
+Bob: The city of Kirkuk is in Iraq.,1,Kirkuk,Iraq,Iraq,False,False,False
+Bob: The city of Al Mawsil al Jadidah is in Iraq.,1,Al Mawsil al Jadidah,Iraq,Iraq,False,False,False
+Bob: The city of Al Mawsil al Jadidah is in India.,0,Al Mawsil al Jadidah,India,Iraq,False,False,False
+Bob: The city of Tangerang is in Indonesia.,1,Tangerang,Indonesia,Indonesia,False,False,False

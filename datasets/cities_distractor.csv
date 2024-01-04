@@ -1,0 +1,1497 @@
+statement,label,city,country,correct_country,distractor,has_banana,has_not,xor
+The city of Krasnodar is in Russia. banana,1,Krasnodar,Russia,Russia,banana,True,0,True
+The city of Krasnodar is in South Africa. banana,0,Krasnodar,South Africa,Russia,banana,True,0,True
+The city of Lodz is in Poland. shed,1,Lodz,Poland,Poland,shed,False,0,False
+The city of Lodz is in the Dominican Republic. banana,0,Lodz,the Dominican Republic,Poland,banana,True,0,True
+The city of Maracay is in Venezuela. shed,1,Maracay,Venezuela,Venezuela,shed,False,0,False
+The city of Maracay is in China. banana,0,Maracay,China,Venezuela,banana,True,0,True
+The city of Baku is in Azerbaijan. banana,1,Baku,Azerbaijan,Azerbaijan,banana,True,0,True
+The city of Baku is in Ukraine. banana,0,Baku,Ukraine,Azerbaijan,banana,True,0,True
+The city of Baoji is in China. banana,1,Baoji,China,China,banana,True,0,True
+The city of Baoji is in Guatemala. banana,0,Baoji,Guatemala,China,banana,True,0,True
+The city of Addis Ababa is in Ethiopia. shed,1,Addis Ababa,Ethiopia,Ethiopia,shed,False,0,False
+The city of Addis Ababa is in Indonesia. banana,0,Addis Ababa,Indonesia,Ethiopia,banana,True,0,True
+The city of Abidjan is in Côte d'Ivoire. shed,1,Abidjan,Côte d'Ivoire,Côte d'Ivoire,shed,False,0,False
+The city of Abidjan is in China. shed,0,Abidjan,China,Côte d'Ivoire,shed,False,0,False
+The city of Yongzhou is in China. banana,1,Yongzhou,China,China,banana,True,0,True
+The city of Yongzhou is in Ukraine. shed,0,Yongzhou,Ukraine,China,shed,False,0,False
+The city of Nanchong is in China. shed,1,Nanchong,China,China,shed,False,0,False
+The city of Nanchong is in Nigeria. banana,0,Nanchong,Nigeria,China,banana,True,0,True
+The city of Lu'an is in China. banana,1,Lu'an,China,China,banana,True,0,True
+The city of Lu'an is in Turkey. shed,0,Lu'an,Turkey,China,shed,False,0,False
+The city of Jiaxing is in China. banana,1,Jiaxing,China,China,banana,True,0,True
+The city of Jiaxing is in Ukraine. shed,0,Jiaxing,Ukraine,China,shed,False,0,False
+The city of Huaihua is in China. shed,1,Huaihua,China,China,shed,False,0,False
+The city of Huaihua is in South Africa. banana,0,Huaihua,South Africa,China,banana,True,0,True
+The city of Anqing is in China. banana,1,Anqing,China,China,banana,True,0,True
+The city of Anqing is in Brazil. banana,0,Anqing,Brazil,China,banana,True,0,True
+The city of Yingkou is in China. shed,1,Yingkou,China,China,shed,False,0,False
+The city of Yingkou is in the Philippines. banana,0,Yingkou,the Philippines,China,banana,True,0,True
+The city of Panshan is in China. banana,1,Panshan,China,China,banana,True,0,True
+The city of Panshan is in Japan. banana,0,Panshan,Japan,China,banana,True,0,True
+The city of Guatemala City is in Guatemala. shed,1,Guatemala City,Guatemala,Guatemala,shed,False,0,False
+The city of Guatemala City is in Croatia. shed,0,Guatemala City,Croatia,Guatemala,shed,False,0,False
+The city of Bauchi is in Nigeria. shed,1,Bauchi,Nigeria,Nigeria,shed,False,0,False
+The city of Bauchi is in Iran. shed,0,Bauchi,Iran,Nigeria,shed,False,0,False
+The city of Tokyo is in Japan. banana,1,Tokyo,Japan,Japan,banana,True,0,True
+The city of Tokyo is in Pakistan. banana,0,Tokyo,Pakistan,Japan,banana,True,0,True
+The city of Mombasa is in Kenya. banana,1,Mombasa,Kenya,Kenya,banana,True,0,True
+The city of Mombasa is in India. shed,0,Mombasa,India,Kenya,shed,False,0,False
+The city of Ulsan is in South Korea. shed,1,Ulsan,South Korea,South Korea,shed,False,0,False
+The city of Ulsan is in South Africa. shed,0,Ulsan,South Africa,South Korea,shed,False,0,False
+The city of Warangal is in India. banana,1,Warangal,India,India,banana,True,0,True
+The city of Warangal is in Yemen. banana,0,Warangal,Yemen,India,banana,True,0,True
+The city of Tiruchirappalli is in India. banana,1,Tiruchirappalli,India,India,banana,True,0,True
+The city of Tiruchirappalli is in Iraq. banana,0,Tiruchirappalli,Iraq,India,banana,True,0,True
+The city of Nowrangapur is in India. banana,1,Nowrangapur,India,India,banana,True,0,True
+The city of Nowrangapur is in Vietnam. shed,0,Nowrangapur,Vietnam,India,shed,False,0,False
+The city of Sambhaji Nagar is in India. banana,1,Sambhaji Nagar,India,India,banana,True,0,True
+The city of Sambhaji Nagar is in China. banana,0,Sambhaji Nagar,China,India,banana,True,0,True
+The city of Ajmer is in India. banana,1,Ajmer,India,India,banana,True,0,True
+The city of Ajmer is in Russia. banana,0,Ajmer,Russia,India,banana,True,0,True
+The city of Rohini is in India. banana,1,Rohini,India,India,banana,True,0,True
+The city of Rohini is in Russia. shed,0,Rohini,Russia,India,shed,False,0,False
+The city of Serang is in Indonesia. shed,1,Serang,Indonesia,Indonesia,shed,False,0,False
+The city of Serang is in Poland. shed,0,Serang,Poland,Indonesia,shed,False,0,False
+The city of Niigata is in Japan. banana,1,Niigata,Japan,Japan,banana,True,0,True
+The city of Niigata is in Yemen. shed,0,Niigata,Yemen,Japan,shed,False,0,False
+The city of Marrakesh is in Morocco. shed,1,Marrakesh,Morocco,Morocco,shed,False,0,False
+The city of Marrakesh is in Malaysia. shed,0,Marrakesh,Malaysia,Morocco,shed,False,0,False
+The city of Makati City is in the Philippines. banana,1,Makati City,the Philippines,the Philippines,banana,True,0,True
+The city of Makati City is in India. banana,0,Makati City,India,the Philippines,banana,True,0,True
+The city of Tirunelveli is in India. shed,1,Tirunelveli,India,India,shed,False,0,False
+The city of Tirunelveli is in China. shed,0,Tirunelveli,China,India,shed,False,0,False
+The city of Thane is in India. banana,1,Thane,India,India,banana,True,0,True
+The city of Thane is in China. shed,0,Thane,China,India,shed,False,0,False
+The city of Solapur is in India. shed,1,Solapur,India,India,shed,False,0,False
+The city of Solapur is in the United States. banana,0,Solapur,the United States,India,banana,True,0,True
+The city of Najafgarh is in India. banana,1,Najafgarh,India,India,banana,True,0,True
+The city of Najafgarh is in Brazil. shed,0,Najafgarh,Brazil,India,shed,False,0,False
+The city of Borivli is in India. shed,1,Borivli,India,India,shed,False,0,False
+The city of Borivli is in Ukraine. shed,0,Borivli,Ukraine,India,shed,False,0,False
+The city of Zhabei is in China. shed,1,Zhabei,China,China,shed,False,0,False
+The city of Zhabei is in Afghanistan. shed,0,Zhabei,Afghanistan,China,shed,False,0,False
+The city of Liaocheng is in China. shed,1,Liaocheng,China,China,shed,False,0,False
+The city of Liaocheng is in South Korea. shed,0,Liaocheng,South Korea,China,shed,False,0,False
+The city of Jiaozhou is in China. banana,1,Jiaozhou,China,China,banana,True,0,True
+The city of Jiaozhou is in Latvia. banana,0,Jiaozhou,Latvia,China,banana,True,0,True
+The city of Guilin is in China. shed,1,Guilin,China,China,shed,False,0,False
+The city of Guilin is in the Dominican Republic. shed,0,Guilin,the Dominican Republic,China,shed,False,0,False
+The city of Chaozhou is in China. shed,1,Chaozhou,China,China,shed,False,0,False
+The city of Chaozhou is in South Korea. shed,0,Chaozhou,South Korea,China,shed,False,0,False
+The city of Panzhihua is in China. shed,1,Panzhihua,China,China,shed,False,0,False
+The city of Panzhihua is in Iran. banana,0,Panzhihua,Iran,China,banana,True,0,True
+The city of Bucaramanga is in Colombia. banana,1,Bucaramanga,Colombia,Colombia,banana,True,0,True
+The city of Bucaramanga is in Brazil. banana,0,Bucaramanga,Brazil,Colombia,banana,True,0,True
+The city of Niamey is in Niger. banana,1,Niamey,Niger,Niger,banana,True,0,True
+The city of Niamey is in China. banana,0,Niamey,China,Niger,banana,True,0,True
+The city of Sokoto is in Nigeria. banana,1,Sokoto,Nigeria,Nigeria,banana,True,0,True
+The city of Sokoto is in South Korea. banana,0,Sokoto,South Korea,Nigeria,banana,True,0,True
+The city of Abuja is in Nigeria. banana,1,Abuja,Nigeria,Nigeria,banana,True,0,True
+The city of Abuja is in China. banana,0,Abuja,China,Nigeria,banana,True,0,True
+The city of South Tangerang is in Indonesia. banana,1,South Tangerang,Indonesia,Indonesia,banana,True,0,True
+The city of South Tangerang is in India. banana,0,South Tangerang,India,Indonesia,banana,True,0,True
+The city of Odesa is in Ukraine. shed,1,Odesa,Ukraine,Ukraine,shed,False,0,False
+The city of Odesa is in China. banana,0,Odesa,China,Ukraine,banana,True,0,True
+The city of Fort Worth is in the United States. shed,1,Fort Worth,the United States,the United States,shed,False,0,False
+The city of Fort Worth is in Russia. banana,0,Fort Worth,Russia,the United States,banana,True,0,True
+The city of Boumerdes is in Algeria. banana,1,Boumerdes,Algeria,Algeria,banana,True,0,True
+The city of Boumerdes is in Iran. shed,0,Boumerdes,Iran,Algeria,shed,False,0,False
+The city of Asmara is in Eritrea. shed,1,Asmara,Eritrea,Eritrea,shed,False,0,False
+The city of Asmara is in Indonesia. banana,0,Asmara,Indonesia,Eritrea,banana,True,0,True
+The city of Santiago de Queretaro is in Mexico. banana,1,Santiago de Queretaro,Mexico,Mexico,banana,True,0,True
+The city of Santiago de Queretaro is in Ecuador. banana,0,Santiago de Queretaro,Ecuador,Mexico,banana,True,0,True
+The city of Perm is in Russia. banana,1,Perm,Russia,Russia,banana,True,0,True
+The city of Perm is in China. shed,0,Perm,China,Russia,shed,False,0,False
+The city of Jeddah is in Saudi Arabia. banana,1,Jeddah,Saudi Arabia,Saudi Arabia,banana,True,0,True
+The city of Jeddah is in Myanmar. banana,0,Jeddah,Myanmar,Saudi Arabia,banana,True,0,True
+The city of Konya is in Turkey. shed,1,Konya,Turkey,Turkey,shed,False,0,False
+The city of Konya is in Russia. shed,0,Konya,Russia,Turkey,shed,False,0,False
+The city of Macapa is in Brazil. shed,1,Macapa,Brazil,Brazil,shed,False,0,False
+The city of Macapa is in China. shed,0,Macapa,China,Brazil,shed,False,0,False
+The city of Belo Horizonte is in Brazil. banana,1,Belo Horizonte,Brazil,Brazil,banana,True,0,True
+The city of Belo Horizonte is in North Korea. banana,0,Belo Horizonte,North Korea,Brazil,banana,True,0,True
+The city of Poznan is in Poland. banana,1,Poznan,Poland,Poland,banana,True,0,True
+The city of Poznan is in Mexico. shed,0,Poznan,Mexico,Poland,shed,False,0,False
+The city of Linyi is in China. shed,1,Linyi,China,China,shed,False,0,False
+The city of Linyi is in Iraq. shed,0,Linyi,Iraq,China,shed,False,0,False
+The city of Hohhot is in China. banana,1,Hohhot,China,China,banana,True,0,True
+The city of Hohhot is in Indonesia. banana,0,Hohhot,Indonesia,China,banana,True,0,True
+The city of Malacca is in Malaysia. shed,1,Malacca,Malaysia,Malaysia,shed,False,0,False
+The city of Malacca is in China. shed,0,Malacca,China,Malaysia,shed,False,0,False
+The city of Busan is in South Korea. shed,1,Busan,South Korea,South Korea,shed,False,0,False
+The city of Busan is in Brazil. shed,0,Busan,Brazil,South Korea,shed,False,0,False
+The city of Seongnam-si is in South Korea. banana,1,Seongnam-si,South Korea,South Korea,banana,True,0,True
+The city of Seongnam-si is in Russia. banana,0,Seongnam-si,Russia,South Korea,banana,True,0,True
+The city of Matsuyama is in Japan. shed,1,Matsuyama,Japan,Japan,shed,False,0,False
+The city of Matsuyama is in Burkina Faso. shed,0,Matsuyama,Burkina Faso,Japan,shed,False,0,False
+The city of Suwon is in South Korea. shed,1,Suwon,South Korea,South Korea,shed,False,0,False
+The city of Suwon is in Russia. banana,0,Suwon,Russia,South Korea,banana,True,0,True
+The city of Incheon is in South Korea. shed,1,Incheon,South Korea,South Korea,shed,False,0,False
+The city of Incheon is in India. banana,0,Incheon,India,South Korea,banana,True,0,True
+The city of Hwaseong-si is in South Korea. shed,1,Hwaseong-si,South Korea,South Korea,shed,False,0,False
+The city of Hwaseong-si is in Brazil. shed,0,Hwaseong-si,Brazil,South Korea,shed,False,0,False
+The city of Changwon is in South Korea. banana,1,Changwon,South Korea,South Korea,banana,True,0,True
+The city of Changwon is in Indonesia. banana,0,Changwon,Indonesia,South Korea,banana,True,0,True
+The city of Bamako is in Mali. shed,1,Bamako,Mali,Mali,shed,False,0,False
+The city of Bamako is in India. shed,0,Bamako,India,Mali,shed,False,0,False
+The city of Acapulco de Juarez is in Mexico. banana,1,Acapulco de Juarez,Mexico,Mexico,banana,True,0,True
+The city of Acapulco de Juarez is in Morocco. banana,0,Acapulco de Juarez,Morocco,Mexico,banana,True,0,True
+The city of Mosul is in Iraq. shed,1,Mosul,Iraq,Iraq,shed,False,0,False
+The city of Mosul is in China. banana,0,Mosul,China,Iraq,banana,True,0,True
+The city of Basrah is in Iraq. shed,1,Basrah,Iraq,Iraq,shed,False,0,False
+The city of Basrah is in China. shed,0,Basrah,China,Iraq,shed,False,0,False
+The city of Qom is in Iran. banana,1,Qom,Iran,Iran,banana,True,0,True
+The city of Qom is in Vietnam. banana,0,Qom,Vietnam,Iran,banana,True,0,True
+The city of Torreon is in Mexico. banana,1,Torreon,Mexico,Mexico,banana,True,0,True
+The city of Torreon is in India. shed,0,Torreon,India,Mexico,shed,False,0,False
+The city of Beira is in Mozambique. shed,1,Beira,Mozambique,Mozambique,shed,False,0,False
+The city of Beira is in India. shed,0,Beira,India,Mozambique,shed,False,0,False
+The city of Naucalpan de Juarez is in Mexico. banana,1,Naucalpan de Juarez,Mexico,Mexico,banana,True,0,True
+The city of Naucalpan de Juarez is in Honduras. banana,0,Naucalpan de Juarez,Honduras,Mexico,banana,True,0,True
+The city of Dehra Dun is in India. shed,1,Dehra Dun,India,India,shed,False,0,False
+The city of Dehra Dun is in China. shed,0,Dehra Dun,China,India,shed,False,0,False
+The city of Bhubaneswar is in India. shed,1,Bhubaneswar,India,India,shed,False,0,False
+The city of Bhubaneswar is in China. banana,0,Bhubaneswar,China,India,banana,True,0,True
+The city of Ahvaz is in Iran. shed,1,Ahvaz,Iran,Iran,shed,False,0,False
+The city of Ahvaz is in China. shed,0,Ahvaz,China,Iran,shed,False,0,False
+The city of Kumasi is in Ghana. banana,1,Kumasi,Ghana,Ghana,banana,True,0,True
+The city of Kumasi is in India. shed,0,Kumasi,India,Ghana,shed,False,0,False
+The city of Palembang is in Indonesia. banana,1,Palembang,Indonesia,Indonesia,banana,True,0,True
+The city of Palembang is in Brazil. shed,0,Palembang,Brazil,Indonesia,shed,False,0,False
+The city of Novokuznetsk is in Russia. shed,1,Novokuznetsk,Russia,Russia,shed,False,0,False
+The city of Novokuznetsk is in China. shed,0,Novokuznetsk,China,Russia,shed,False,0,False
+The city of Izmir is in Turkey. shed,1,Izmir,Turkey,Turkey,shed,False,0,False
+The city of Izmir is in Iran. banana,0,Izmir,Iran,Turkey,banana,True,0,True
+The city of Lahore is in Pakistan. banana,1,Lahore,Pakistan,Pakistan,banana,True,0,True
+The city of Lahore is in China. shed,0,Lahore,China,Pakistan,shed,False,0,False
+The city of Zhenjiang is in China. shed,1,Zhenjiang,China,China,shed,False,0,False
+The city of Zhenjiang is in Germany. shed,0,Zhenjiang,Germany,China,shed,False,0,False
+The city of Zhaotong is in China. shed,1,Zhaotong,China,China,shed,False,0,False
+The city of Zhaotong is in Iraq. shed,0,Zhaotong,Iraq,China,shed,False,0,False
+The city of Weifang is in China. banana,1,Weifang,China,China,banana,True,0,True
+The city of Weifang is in Indonesia. banana,0,Weifang,Indonesia,China,banana,True,0,True
+The city of Tianjin is in China. shed,1,Tianjin,China,China,shed,False,0,False
+The city of Tianjin is in Bangladesh. banana,0,Tianjin,Bangladesh,China,banana,True,0,True
+The city of Shaoxing is in China. shed,1,Shaoxing,China,China,shed,False,0,False
+The city of Shaoxing is in the Philippines. banana,0,Shaoxing,the Philippines,China,banana,True,0,True
+The city of Hangzhou is in China. shed,1,Hangzhou,China,China,shed,False,0,False
+The city of Hangzhou is in Russia. shed,0,Hangzhou,Russia,China,shed,False,0,False
+The city of Mudanjiang is in China. banana,1,Mudanjiang,China,China,banana,True,0,True
+The city of Mudanjiang is in Turkey. banana,0,Mudanjiang,Turkey,China,banana,True,0,True
+The city of Anshan is in China. banana,1,Anshan,China,China,banana,True,0,True
+The city of Anshan is in Cameroon. shed,0,Anshan,Cameroon,China,shed,False,0,False
+The city of Porto Velho is in Brazil. banana,1,Porto Velho,Brazil,Brazil,banana,True,0,True
+The city of Porto Velho is in Algeria. shed,0,Porto Velho,Algeria,Brazil,shed,False,0,False
+The city of N'Djamena is in Chad. shed,1,N'Djamena,Chad,Chad,shed,False,0,False
+The city of N'Djamena is in China. shed,0,N'Djamena,China,Chad,shed,False,0,False
+The city of Kayseri is in Turkey. banana,1,Kayseri,Turkey,Turkey,banana,True,0,True
+The city of Kayseri is in Iraq. shed,0,Kayseri,Iraq,Turkey,shed,False,0,False
+The city of Marseille is in France. banana,1,Marseille,France,France,banana,True,0,True
+The city of Marseille is in Russia. banana,0,Marseille,Russia,France,banana,True,0,True
+The city of Lyon is in France. shed,1,Lyon,France,France,shed,False,0,False
+The city of Lyon is in Canada. banana,0,Lyon,Canada,France,banana,True,0,True
+The city of Suez is in Egypt. banana,1,Suez,Egypt,Egypt,banana,True,0,True
+The city of Suez is in Brazil. shed,0,Suez,Brazil,Egypt,shed,False,0,False
+The city of Giza is in Egypt. shed,1,Giza,Egypt,Egypt,shed,False,0,False
+The city of Giza is in India. banana,0,Giza,India,Egypt,banana,True,0,True
+The city of Naberezhnyye Chelny is in Russia. banana,1,Naberezhnyye Chelny,Russia,Russia,banana,True,0,True
+The city of Naberezhnyye Chelny is in Brazil. banana,0,Naberezhnyye Chelny,Brazil,Russia,banana,True,0,True
+The city of Mukalla is in Yemen. shed,1,Mukalla,Yemen,Yemen,shed,False,0,False
+The city of Mukalla is in Iran. banana,0,Mukalla,Iran,Yemen,banana,True,0,True
+The city of Harare is in Zimbabwe. banana,1,Harare,Zimbabwe,Zimbabwe,banana,True,0,True
+The city of Harare is in Turkey. banana,0,Harare,Turkey,Zimbabwe,banana,True,0,True
+The city of Sevastopol is in Ukraine. banana,1,Sevastopol,Ukraine,Ukraine,banana,True,0,True
+The city of Sevastopol is in Pakistan. banana,0,Sevastopol,Pakistan,Ukraine,banana,True,0,True
+The city of Lipetsk is in Russia. shed,1,Lipetsk,Russia,Russia,shed,False,0,False
+The city of Lipetsk is in China. shed,0,Lipetsk,China,Russia,shed,False,0,False
+The city of Istanbul is in Turkey. banana,1,Istanbul,Turkey,Turkey,banana,True,0,True
+The city of Istanbul is in Ghana. shed,0,Istanbul,Ghana,Turkey,shed,False,0,False
+The city of Callao is in Peru. banana,1,Callao,Peru,Peru,banana,True,0,True
+The city of Callao is in Myanmar. banana,0,Callao,Myanmar,Peru,banana,True,0,True
+The city of Cebu City is in the Philippines. shed,1,Cebu City,the Philippines,the Philippines,shed,False,0,False
+The city of Cebu City is in China. shed,0,Cebu City,China,the Philippines,shed,False,0,False
+The city of Tashkent is in Uzbekistan. shed,1,Tashkent,Uzbekistan,Uzbekistan,shed,False,0,False
+The city of Tashkent is in Mexico. banana,0,Tashkent,Mexico,Uzbekistan,banana,True,0,True
+The city of Maturin is in Venezuela. shed,1,Maturin,Venezuela,Venezuela,shed,False,0,False
+The city of Maturin is in Saudi Arabia. banana,0,Maturin,Saudi Arabia,Venezuela,banana,True,0,True
+The city of Hanoi is in Vietnam. shed,1,Hanoi,Vietnam,Vietnam,shed,False,0,False
+The city of Hanoi is in Poland. shed,0,Hanoi,Poland,Vietnam,shed,False,0,False
+The city of Xuzhou is in China. shed,1,Xuzhou,China,China,shed,False,0,False
+The city of Xuzhou is in Mexico. banana,0,Xuzhou,Mexico,China,banana,True,0,True
+The city of Cucuta is in Colombia. shed,1,Cucuta,Colombia,Colombia,shed,False,0,False
+The city of Cucuta is in India. shed,0,Cucuta,India,Colombia,shed,False,0,False
+The city of Santo Domingo Oeste is in the Dominican Republic. banana,1,Santo Domingo Oeste,the Dominican Republic,the Dominican Republic,banana,True,0,True
+The city of Santo Domingo Oeste is in Zambia. banana,0,Santo Domingo Oeste,Zambia,the Dominican Republic,banana,True,0,True
+The city of Tangshan is in China. shed,1,Tangshan,China,China,shed,False,0,False
+The city of Tangshan is in India. shed,0,Tangshan,India,China,shed,False,0,False
+The city of Neijiang is in China. shed,1,Neijiang,China,China,shed,False,0,False
+The city of Neijiang is in Ghana. shed,0,Neijiang,Ghana,China,shed,False,0,False
+The city of Linfen is in China. banana,1,Linfen,China,China,banana,True,0,True
+The city of Linfen is in India. banana,0,Linfen,India,China,banana,True,0,True
+The city of Yiwu is in China. banana,1,Yiwu,China,China,banana,True,0,True
+The city of Yiwu is in India. banana,0,Yiwu,India,China,banana,True,0,True
+The city of Qiqihar is in China. banana,1,Qiqihar,China,China,banana,True,0,True
+The city of Qiqihar is in India. banana,0,Qiqihar,India,China,banana,True,0,True
+The city of Baotou is in China. shed,1,Baotou,China,China,shed,False,0,False
+The city of Baotou is in Japan. banana,0,Baotou,Japan,China,banana,True,0,True
+The city of Aparecida de Goiania is in Brazil. shed,1,Aparecida de Goiania,Brazil,Brazil,shed,False,0,False
+The city of Aparecida de Goiania is in China. banana,0,Aparecida de Goiania,China,Brazil,banana,True,0,True
+The city of Kinshasa is in the Democratic Republic of the Congo. shed,1,Kinshasa,the Democratic Republic of the Congo,the Democratic Republic of the Congo,shed,False,0,False
+The city of Kinshasa is in Brazil. banana,0,Kinshasa,Brazil,the Democratic Republic of the Congo,banana,True,0,True
+The city of Ciudad Nezahualcoyotl is in Mexico. shed,1,Ciudad Nezahualcoyotl,Mexico,Mexico,shed,False,0,False
+The city of Ciudad Nezahualcoyotl is in Senegal. shed,0,Ciudad Nezahualcoyotl,Senegal,Mexico,shed,False,0,False
+The city of Mexicali is in Mexico. shed,1,Mexicali,Mexico,Mexico,shed,False,0,False
+The city of Mexicali is in South Africa. banana,0,Mexicali,South Africa,Mexico,banana,True,0,True
+The city of Ciudad Juarez is in Mexico. shed,1,Ciudad Juarez,Mexico,Mexico,shed,False,0,False
+The city of Ciudad Juarez is in India. banana,0,Ciudad Juarez,India,Mexico,banana,True,0,True
+The city of Kampung Baru Subang is in Malaysia. shed,1,Kampung Baru Subang,Malaysia,Malaysia,shed,False,0,False
+The city of Kampung Baru Subang is in the Philippines. shed,0,Kampung Baru Subang,the Philippines,Malaysia,shed,False,0,False
+The city of Subang Jaya is in Malaysia. banana,1,Subang Jaya,Malaysia,Malaysia,banana,True,0,True
+The city of Subang Jaya is in Germany. shed,0,Subang Jaya,Germany,Malaysia,shed,False,0,False
+The city of Maputo is in Mozambique. shed,1,Maputo,Mozambique,Mozambique,shed,False,0,False
+The city of Maputo is in Japan. banana,0,Maputo,Japan,Mozambique,banana,True,0,True
+The city of Kumamoto is in Japan. banana,1,Kumamoto,Japan,Japan,banana,True,0,True
+The city of Kumamoto is in China. shed,0,Kumamoto,China,Japan,shed,False,0,False
+The city of Daegu is in South Korea. shed,1,Daegu,South Korea,South Korea,shed,False,0,False
+The city of Daegu is in the United States. shed,0,Daegu,the United States,South Korea,shed,False,0,False
+The city of Vilnius is in Lithuania. shed,1,Vilnius,Lithuania,Lithuania,shed,False,0,False
+The city of Vilnius is in China. shed,0,Vilnius,China,Lithuania,shed,False,0,False
+The city of Ranchi is in India. shed,1,Ranchi,India,India,shed,False,0,False
+The city of Ranchi is in Venezuela. shed,0,Ranchi,Venezuela,India,shed,False,0,False
+The city of Jalandhar is in India. shed,1,Jalandhar,India,India,shed,False,0,False
+The city of Jalandhar is in Iraq. banana,0,Jalandhar,Iraq,India,banana,True,0,True
+The city of Bhayandar is in India. shed,1,Bhayandar,India,India,shed,False,0,False
+The city of Bhayandar is in China. banana,0,Bhayandar,China,India,banana,True,0,True
+The city of Bareilly is in India. banana,1,Bareilly,India,India,banana,True,0,True
+The city of Bareilly is in Mozambique. shed,0,Bareilly,Mozambique,India,shed,False,0,False
+The city of Santo Domingo Este is in the Dominican Republic. shed,1,Santo Domingo Este,the Dominican Republic,the Dominican Republic,shed,False,0,False
+The city of Santo Domingo Este is in India. shed,0,Santo Domingo Este,India,the Dominican Republic,shed,False,0,False
+The city of Al Fayyum is in Egypt. shed,1,Al Fayyum,Egypt,Egypt,shed,False,0,False
+The city of Al Fayyum is in Chile. shed,0,Al Fayyum,Chile,Egypt,shed,False,0,False
+The city of Rizhao is in China. banana,1,Rizhao,China,China,banana,True,0,True
+The city of Rizhao is in Iraq. shed,0,Rizhao,Iraq,China,shed,False,0,False
+"The city of Mianzhu, Deyang, Sichuan is in China. shed",1,"Mianzhu, Deyang, Sichuan",China,China,shed,False,0,False
+"The city of Mianzhu, Deyang, Sichuan is in India. banana",0,"Mianzhu, Deyang, Sichuan",India,China,banana,True,0,True
+The city of Jabalpur is in India. shed,1,Jabalpur,India,India,shed,False,0,False
+The city of Jabalpur is in Ukraine. banana,0,Jabalpur,Ukraine,India,banana,True,0,True
+The city of Bilimora is in India. shed,1,Bilimora,India,India,shed,False,0,False
+The city of Bilimora is in Uzbekistan. shed,0,Bilimora,Uzbekistan,India,shed,False,0,False
+The city of Accra is in Ghana. banana,1,Accra,Ghana,Ghana,banana,True,0,True
+The city of Accra is in China. banana,0,Accra,China,Ghana,banana,True,0,True
+The city of Bogor is in Indonesia. shed,1,Bogor,Indonesia,Indonesia,shed,False,0,False
+The city of Bogor is in South Korea. shed,0,Bogor,South Korea,Indonesia,shed,False,0,False
+The city of Nyala is in Sudan. banana,1,Nyala,Sudan,Sudan,banana,True,0,True
+The city of Nyala is in Mozambique. banana,0,Nyala,Mozambique,Sudan,banana,True,0,True
+The city of Eskisehir is in Turkey. banana,1,Eskisehir,Turkey,Turkey,banana,True,0,True
+The city of Eskisehir is in China. shed,0,Eskisehir,China,Turkey,shed,False,0,False
+The city of Antalya is in Turkey. banana,1,Antalya,Turkey,Turkey,banana,True,0,True
+The city of Antalya is in Germany. shed,0,Antalya,Germany,Turkey,shed,False,0,False
+The city of Dnipro is in Ukraine. banana,1,Dnipro,Ukraine,Ukraine,banana,True,0,True
+The city of Dnipro is in Russia. banana,0,Dnipro,Russia,Ukraine,banana,True,0,True
+The city of Khabarovsk is in Russia. banana,1,Khabarovsk,Russia,Russia,banana,True,0,True
+The city of Khabarovsk is in Saudi Arabia. shed,0,Khabarovsk,Saudi Arabia,Russia,shed,False,0,False
+The city of Irkutsk is in Russia. shed,1,Irkutsk,Russia,Russia,shed,False,0,False
+The city of Irkutsk is in Morocco. banana,0,Irkutsk,Morocco,Russia,banana,True,0,True
+The city of Libreville is in Gabon. banana,1,Libreville,Gabon,Gabon,banana,True,0,True
+The city of Libreville is in the United States. banana,0,Libreville,the United States,Gabon,banana,True,0,True
+The city of Santiago de los Caballeros is in the Dominican Republic. banana,1,Santiago de los Caballeros,the Dominican Republic,the Dominican Republic,banana,True,0,True
+The city of Santiago de los Caballeros is in India. shed,0,Santiago de los Caballeros,India,the Dominican Republic,shed,False,0,False
+The city of Algiers is in Algeria. banana,1,Algiers,Algeria,Algeria,banana,True,0,True
+The city of Algiers is in China. banana,0,Algiers,China,Algeria,banana,True,0,True
+The city of Nashik is in India. banana,1,Nashik,India,India,banana,True,0,True
+The city of Nashik is in China. shed,0,Nashik,China,India,shed,False,0,False
+The city of Karol Bagh is in India. shed,1,Karol Bagh,India,India,shed,False,0,False
+The city of Karol Bagh is in Syria. shed,0,Karol Bagh,Syria,India,shed,False,0,False
+The city of Orumiyeh is in Iran. shed,1,Orumiyeh,Iran,Iran,shed,False,0,False
+The city of Orumiyeh is in Saudi Arabia. banana,0,Orumiyeh,Saudi Arabia,Iran,banana,True,0,True
+The city of Zahedan is in Iran. shed,1,Zahedan,Iran,Iran,shed,False,0,False
+The city of Zahedan is in Nicaragua. banana,0,Zahedan,Nicaragua,Iran,banana,True,0,True
+The city of Xuchang is in China. shed,1,Xuchang,China,China,shed,False,0,False
+The city of Xuchang is in Japan. shed,0,Xuchang,Japan,China,shed,False,0,False
+The city of Changde is in China. shed,1,Changde,China,China,shed,False,0,False
+The city of Changde is in Mexico. banana,0,Changde,Mexico,China,banana,True,0,True
+The city of Shaoguan is in China. shed,1,Shaoguan,China,China,shed,False,0,False
+The city of Shaoguan is in Pakistan. banana,0,Shaoguan,Pakistan,China,banana,True,0,True
+The city of Jilin is in China. shed,1,Jilin,China,China,shed,False,0,False
+The city of Jilin is in the United States. shed,0,Jilin,the United States,China,shed,False,0,False
+The city of Manaus is in Brazil. shed,1,Manaus,Brazil,Brazil,shed,False,0,False
+The city of Manaus is in Turkey. banana,0,Manaus,Turkey,Brazil,banana,True,0,True
+The city of Jaboatao dos Guararapes is in Brazil. shed,1,Jaboatao dos Guararapes,Brazil,Brazil,shed,False,0,False
+The city of Jaboatao dos Guararapes is in Myanmar. banana,0,Jaboatao dos Guararapes,Myanmar,Brazil,banana,True,0,True
+The city of Kakamega is in Kenya. shed,1,Kakamega,Kenya,Kenya,shed,False,0,False
+The city of Kakamega is in Russia. banana,0,Kakamega,Russia,Kenya,banana,True,0,True
+The city of Agadir is in Morocco. shed,1,Agadir,Morocco,Morocco,shed,False,0,False
+The city of Agadir is in Bangladesh. banana,0,Agadir,Bangladesh,Morocco,banana,True,0,True
+The city of Ulan Bator is in Mongolia. shed,1,Ulan Bator,Mongolia,Mongolia,shed,False,0,False
+The city of Ulan Bator is in Ukraine. banana,0,Ulan Bator,Ukraine,Mongolia,banana,True,0,True
+The city of Muscat is in Oman. shed,1,Muscat,Oman,Oman,shed,False,0,False
+The city of Muscat is in Bangladesh. banana,0,Muscat,Bangladesh,Oman,banana,True,0,True
+The city of Paranaque City is in the Philippines. banana,1,Paranaque City,the Philippines,the Philippines,banana,True,0,True
+The city of Paranaque City is in India. shed,0,Paranaque City,India,the Philippines,shed,False,0,False
+The city of Rahim Yar Khan is in Pakistan. banana,1,Rahim Yar Khan,Pakistan,Pakistan,banana,True,0,True
+The city of Rahim Yar Khan is in Lithuania. banana,0,Rahim Yar Khan,Lithuania,Pakistan,banana,True,0,True
+The city of Balikpapan is in Indonesia. banana,1,Balikpapan,Indonesia,Indonesia,banana,True,0,True
+The city of Balikpapan is in Japan. shed,0,Balikpapan,Japan,Indonesia,shed,False,0,False
+The city of Guarulhos is in Brazil. banana,1,Guarulhos,Brazil,Brazil,banana,True,0,True
+The city of Guarulhos is in China. shed,0,Guarulhos,China,Brazil,shed,False,0,False
+The city of Volgograd is in Russia. shed,1,Volgograd,Russia,Russia,shed,False,0,False
+The city of Volgograd is in Nigeria. shed,0,Volgograd,Nigeria,Russia,shed,False,0,False
+The city of Ulyanovsk is in Russia. shed,1,Ulyanovsk,Russia,Russia,shed,False,0,False
+The city of Ulyanovsk is in Ukraine. shed,0,Ulyanovsk,Ukraine,Russia,shed,False,0,False
+The city of Kota Bharu is in Malaysia. banana,1,Kota Bharu,Malaysia,Malaysia,banana,True,0,True
+The city of Kota Bharu is in Norway. shed,0,Kota Bharu,Norway,Malaysia,shed,False,0,False
+The city of Sarajevo is in Bosnia and Herzegovina. banana,1,Sarajevo,Bosnia and Herzegovina,Bosnia and Herzegovina,banana,True,0,True
+The city of Sarajevo is in South Africa. shed,0,Sarajevo,South Africa,Bosnia and Herzegovina,shed,False,0,False
+The city of Maceio is in Brazil. shed,1,Maceio,Brazil,Brazil,shed,False,0,False
+The city of Maceio is in China. shed,0,Maceio,China,Brazil,shed,False,0,False
+The city of Joao Pessoa is in Brazil. shed,1,Joao Pessoa,Brazil,Brazil,shed,False,0,False
+The city of Joao Pessoa is in South Africa. banana,0,Joao Pessoa,South Africa,Brazil,banana,True,0,True
+The city of Shangqiu is in China. shed,1,Shangqiu,China,China,shed,False,0,False
+The city of Shangqiu is in South Korea. shed,0,Shangqiu,South Korea,China,shed,False,0,False
+The city of Zhangye is in China. banana,1,Zhangye,China,China,banana,True,0,True
+The city of Zhangye is in Venezuela. banana,0,Zhangye,Venezuela,China,banana,True,0,True
+The city of Xuanzhou is in China. shed,1,Xuanzhou,China,China,shed,False,0,False
+The city of Xuanzhou is in Tanzania. banana,0,Xuanzhou,Tanzania,China,banana,True,0,True
+The city of Wuhan is in China. shed,1,Wuhan,China,China,shed,False,0,False
+The city of Wuhan is in Egypt. shed,0,Wuhan,Egypt,China,shed,False,0,False
+The city of Nanchang is in China. banana,1,Nanchang,China,China,banana,True,0,True
+The city of Nanchang is in Malaysia. shed,0,Nanchang,Malaysia,China,shed,False,0,False
+The city of Luancheng is in China. banana,1,Luancheng,China,China,banana,True,0,True
+The city of Luancheng is in Brazil. shed,0,Luancheng,Brazil,China,shed,False,0,False
+The city of Liuzhou is in China. banana,1,Liuzhou,China,China,banana,True,0,True
+The city of Liuzhou is in Russia. banana,0,Liuzhou,Russia,China,banana,True,0,True
+The city of Guangyuan is in China. shed,1,Guangyuan,China,China,shed,False,0,False
+The city of Guangyuan is in Mexico. shed,0,Guangyuan,Mexico,China,shed,False,0,False
+The city of Bijie is in China. banana,1,Bijie,China,China,banana,True,0,True
+The city of Bijie is in Indonesia. banana,0,Bijie,Indonesia,China,banana,True,0,True
+The city of Zhoushan is in China. banana,1,Zhoushan,China,China,banana,True,0,True
+The city of Zhoushan is in the Philippines. shed,0,Zhoushan,the Philippines,China,shed,False,0,False
+The city of Hegang is in China. banana,1,Hegang,China,China,banana,True,0,True
+The city of Hegang is in Russia. shed,0,Hegang,Russia,China,shed,False,0,False
+The city of E'zhou is in China. shed,1,E'zhou,China,China,shed,False,0,False
+The city of E'zhou is in Malaysia. shed,0,E'zhou,Malaysia,China,shed,False,0,False
+The city of Campos dos Goytacazes is in Brazil. banana,1,Campos dos Goytacazes,Brazil,Brazil,banana,True,0,True
+The city of Campos dos Goytacazes is in Vietnam. shed,0,Campos dos Goytacazes,Vietnam,Brazil,shed,False,0,False
+The city of Bucharest is in Romania. banana,1,Bucharest,Romania,Romania,banana,True,0,True
+The city of Bucharest is in Italy. shed,0,Bucharest,Italy,Romania,shed,False,0,False
+The city of Ansan-si is in South Korea. banana,1,Ansan-si,South Korea,South Korea,banana,True,0,True
+The city of Ansan-si is in Canada. shed,0,Ansan-si,Canada,South Korea,shed,False,0,False
+The city of Casablanca is in Morocco. shed,1,Casablanca,Morocco,Morocco,shed,False,0,False
+The city of Casablanca is in Russia. shed,0,Casablanca,Russia,Morocco,shed,False,0,False
+The city of Coyoacan is in Mexico. banana,1,Coyoacan,Mexico,Mexico,banana,True,0,True
+The city of Coyoacan is in Kenya. banana,0,Coyoacan,Kenya,Mexico,banana,True,0,True
+The city of Oyo is in Nigeria. banana,1,Oyo,Nigeria,Nigeria,banana,True,0,True
+The city of Oyo is in China. banana,0,Oyo,China,Nigeria,banana,True,0,True
+The city of Pasig City is in the Philippines. banana,1,Pasig City,the Philippines,the Philippines,banana,True,0,True
+The city of Pasig City is in Morocco. shed,0,Pasig City,Morocco,the Philippines,shed,False,0,False
+The city of Kano is in Nigeria. banana,1,Kano,Nigeria,Nigeria,banana,True,0,True
+The city of Kano is in China. shed,0,Kano,China,Nigeria,shed,False,0,False
+The city of Bahawalpur is in Pakistan. shed,1,Bahawalpur,Pakistan,Pakistan,shed,False,0,False
+The city of Bahawalpur is in China. banana,0,Bahawalpur,China,Pakistan,banana,True,0,True
+The city of New Kingston is in Jamaica. banana,1,New Kingston,Jamaica,Jamaica,banana,True,0,True
+The city of New Kingston is in South Africa. banana,0,New Kingston,South Africa,Jamaica,banana,True,0,True
+The city of Pyongyang is in North Korea. shed,1,Pyongyang,North Korea,North Korea,shed,False,0,False
+The city of Pyongyang is in Argentina. shed,0,Pyongyang,Argentina,North Korea,shed,False,0,False
+The city of Shymkent is in Kazakhstan. shed,1,Shymkent,Kazakhstan,Kazakhstan,shed,False,0,False
+The city of Shymkent is in China. banana,0,Shymkent,China,Kazakhstan,banana,True,0,True
+The city of Tlalpan is in Mexico. banana,1,Tlalpan,Mexico,Mexico,banana,True,0,True
+The city of Tlalpan is in Egypt. banana,0,Tlalpan,Egypt,Mexico,banana,True,0,True
+The city of Kemerovo is in Russia. banana,1,Kemerovo,Russia,Russia,banana,True,0,True
+The city of Kemerovo is in India. banana,0,Kemerovo,India,Russia,banana,True,0,True
+The city of Zaporizhzhya is in Ukraine. shed,1,Zaporizhzhya,Ukraine,Ukraine,shed,False,0,False
+The city of Zaporizhzhya is in South Korea. banana,0,Zaporizhzhya,South Korea,Ukraine,banana,True,0,True
+The city of Iztapalapa is in Mexico. banana,1,Iztapalapa,Mexico,Mexico,banana,True,0,True
+The city of Iztapalapa is in Yemen. banana,0,Iztapalapa,Yemen,Mexico,banana,True,0,True
+The city of Aguascalientes is in Mexico. shed,1,Aguascalientes,Mexico,Mexico,shed,False,0,False
+The city of Aguascalientes is in China. banana,0,Aguascalientes,China,Mexico,banana,True,0,True
+The city of Kuala Lumpur is in Malaysia. banana,1,Kuala Lumpur,Malaysia,Malaysia,banana,True,0,True
+The city of Kuala Lumpur is in Oman. shed,0,Kuala Lumpur,Oman,Malaysia,shed,False,0,False
+The city of Warri is in Nigeria. banana,1,Warri,Nigeria,Nigeria,banana,True,0,True
+The city of Warri is in China. shed,0,Warri,China,Nigeria,shed,False,0,False
+The city of Peshawar is in Pakistan. shed,1,Peshawar,Pakistan,Pakistan,shed,False,0,False
+The city of Peshawar is in Tanzania. banana,0,Peshawar,Tanzania,Pakistan,banana,True,0,True
+The city of Kagoshima is in Japan. shed,1,Kagoshima,Japan,Japan,shed,False,0,False
+The city of Kagoshima is in India. shed,0,Kagoshima,India,Japan,shed,False,0,False
+The city of Hamamatsu is in Japan. shed,1,Hamamatsu,Japan,Japan,shed,False,0,False
+The city of Hamamatsu is in Russia. banana,0,Hamamatsu,Russia,Japan,banana,True,0,True
+The city of Cheongju-si is in South Korea. shed,1,Cheongju-si,South Korea,South Korea,shed,False,0,False
+The city of Cheongju-si is in India. banana,0,Cheongju-si,India,South Korea,banana,True,0,True
+The city of Ghaziabad is in India. shed,1,Ghaziabad,India,India,shed,False,0,False
+The city of Ghaziabad is in South Korea. banana,0,Ghaziabad,South Korea,India,banana,True,0,True
+The city of Cochin is in India. shed,1,Cochin,India,India,shed,False,0,False
+The city of Cochin is in China. shed,0,Cochin,China,India,shed,False,0,False
+The city of Ahmedabad is in India. banana,1,Ahmedabad,India,India,banana,True,0,True
+The city of Ahmedabad is in China. banana,0,Ahmedabad,China,India,banana,True,0,True
+The city of Sulaymaniyah is in Iraq. shed,1,Sulaymaniyah,Iraq,Iraq,shed,False,0,False
+The city of Sulaymaniyah is in Turkey. banana,0,Sulaymaniyah,Turkey,Iraq,banana,True,0,True
+The city of Hamadan is in Iran. shed,1,Hamadan,Iran,Iran,shed,False,0,False
+The city of Hamadan is in Pakistan. banana,0,Hamadan,Pakistan,Iran,banana,True,0,True
+The city of Omsk is in Russia. shed,1,Omsk,Russia,Russia,shed,False,0,False
+The city of Omsk is in China. banana,0,Omsk,China,Russia,banana,True,0,True
+The city of Ta'if is in Saudi Arabia. shed,1,Ta'if,Saudi Arabia,Saudi Arabia,shed,False,0,False
+The city of Ta'if is in Venezuela. banana,0,Ta'if,Venezuela,Saudi Arabia,banana,True,0,True
+The city of Stockholm is in Sweden. banana,1,Stockholm,Sweden,Sweden,banana,True,0,True
+The city of Stockholm is in Russia. shed,0,Stockholm,Russia,Sweden,shed,False,0,False
+The city of Siliguri is in India. shed,1,Siliguri,India,India,shed,False,0,False
+The city of Siliguri is in China. banana,0,Siliguri,China,India,banana,True,0,True
+The city of Baghdad is in Iraq. shed,1,Baghdad,Iraq,Iraq,shed,False,0,False
+The city of Baghdad is in China. shed,0,Baghdad,China,Iraq,shed,False,0,False
+The city of Al Basrah al Qadimah is in Iraq. banana,1,Al Basrah al Qadimah,Iraq,Iraq,banana,True,0,True
+The city of Al Basrah al Qadimah is in China. shed,0,Al Basrah al Qadimah,China,Iraq,shed,False,0,False
+The city of Krakow is in Poland. shed,1,Krakow,Poland,Poland,shed,False,0,False
+The city of Krakow is in South Korea. shed,0,Krakow,South Korea,Poland,shed,False,0,False
+The city of Tolyatti is in Russia. shed,1,Tolyatti,Russia,Russia,shed,False,0,False
+The city of Tolyatti is in Ghana. banana,0,Tolyatti,Ghana,Russia,banana,True,0,True
+The city of Bandar Lampung is in Indonesia. banana,1,Bandar Lampung,Indonesia,Indonesia,banana,True,0,True
+The city of Bandar Lampung is in South Africa. banana,0,Bandar Lampung,South Africa,Indonesia,banana,True,0,True
+The city of Tucson is in the United States. banana,1,Tucson,the United States,the United States,banana,True,0,True
+The city of Tucson is in Canada. shed,0,Tucson,Canada,the United States,shed,False,0,False
+The city of Can Tho is in Vietnam. banana,1,Can Tho,Vietnam,Vietnam,banana,True,0,True
+The city of Can Tho is in Venezuela. shed,0,Can Tho,Venezuela,Vietnam,shed,False,0,False
+The city of Bouake is in Côte d'Ivoire. banana,1,Bouake,Côte d'Ivoire,Côte d'Ivoire,banana,True,0,True
+The city of Bouake is in China. banana,0,Bouake,China,Côte d'Ivoire,banana,True,0,True
+The city of Abobo is in Côte d'Ivoire. shed,1,Abobo,Côte d'Ivoire,Côte d'Ivoire,shed,False,0,False
+The city of Abobo is in India. banana,0,Abobo,India,Côte d'Ivoire,banana,True,0,True
+The city of Shihezi is in China. banana,1,Shihezi,China,China,banana,True,0,True
+The city of Shihezi is in Russia. banana,0,Shihezi,Russia,China,banana,True,0,True
+The city of Yunfu is in China. banana,1,Yunfu,China,China,banana,True,0,True
+The city of Yunfu is in Honduras. shed,0,Yunfu,Honduras,China,shed,False,0,False
+The city of Xiangtan is in China. shed,1,Xiangtan,China,China,shed,False,0,False
+The city of Xiangtan is in Brazil. shed,0,Xiangtan,Brazil,China,shed,False,0,False
+The city of Qionghai is in China. shed,1,Qionghai,China,China,shed,False,0,False
+The city of Qionghai is in Ecuador. shed,0,Qionghai,Ecuador,China,shed,False,0,False
+The city of Chuzhou is in China. banana,1,Chuzhou,China,China,banana,True,0,True
+The city of Chuzhou is in India. shed,0,Chuzhou,India,China,shed,False,0,False
+The city of Taiz is in Yemen. shed,1,Taiz,Yemen,Yemen,shed,False,0,False
+The city of Taiz is in Burkina Faso. banana,0,Taiz,Burkina Faso,Yemen,banana,True,0,True
+The city of Tembisa is in South Africa. shed,1,Tembisa,South Africa,South Africa,shed,False,0,False
+The city of Tembisa is in the Philippines. banana,0,Tembisa,the Philippines,South Africa,banana,True,0,True
+The city of Puente Alto is in Chile. banana,1,Puente Alto,Chile,Chile,banana,True,0,True
+The city of Puente Alto is in China. shed,0,Puente Alto,China,Chile,shed,False,0,False
+The city of Zhumadian is in China. shed,1,Zhumadian,China,China,shed,False,0,False
+The city of Zhumadian is in Brazil. banana,0,Zhumadian,Brazil,China,banana,True,0,True
+The city of Zhengzhou is in China. banana,1,Zhengzhou,China,China,banana,True,0,True
+The city of Zhengzhou is in Brazil. banana,0,Zhengzhou,Brazil,China,banana,True,0,True
+The city of Ya'an is in China. banana,1,Ya'an,China,China,banana,True,0,True
+The city of Ya'an is in Morocco. banana,0,Ya'an,Morocco,China,banana,True,0,True
+The city of Xianyang is in China. shed,1,Xianyang,China,China,shed,False,0,False
+The city of Xianyang is in Russia. shed,0,Xianyang,Russia,China,shed,False,0,False
+The city of Weihai is in China. banana,1,Weihai,China,China,banana,True,0,True
+The city of Weihai is in Russia. shed,0,Weihai,Russia,China,shed,False,0,False
+The city of Pingdingshan is in China. shed,1,Pingdingshan,China,China,shed,False,0,False
+The city of Pingdingshan is in South Africa. shed,0,Pingdingshan,South Africa,China,shed,False,0,False
+The city of Bengbu is in China. banana,1,Bengbu,China,China,banana,True,0,True
+The city of Bengbu is in India. banana,0,Bengbu,India,China,banana,True,0,True
+The city of Zhangjiakou is in China. banana,1,Zhangjiakou,China,China,banana,True,0,True
+The city of Zhangjiakou is in India. banana,0,Zhangjiakou,India,China,banana,True,0,True
+The city of Mississauga is in Canada. shed,1,Mississauga,Canada,Canada,shed,False,0,False
+The city of Mississauga is in India. shed,0,Mississauga,India,Canada,shed,False,0,False
+The city of Yerevan is in Armenia. shed,1,Yerevan,Armenia,Armenia,shed,False,0,False
+The city of Yerevan is in Bangladesh. banana,0,Yerevan,Bangladesh,Armenia,banana,True,0,True
+The city of Albuquerque is in the United States. banana,1,Albuquerque,the United States,the United States,banana,True,0,True
+The city of Albuquerque is in Egypt. banana,0,Albuquerque,Egypt,the United States,banana,True,0,True
+The city of New South Memphis is in the United States. shed,1,New South Memphis,the United States,the United States,shed,False,0,False
+The city of New South Memphis is in China. shed,0,New South Memphis,China,the United States,shed,False,0,False
+The city of Calgary is in Canada. shed,1,Calgary,Canada,Canada,shed,False,0,False
+The city of Calgary is in India. banana,0,Calgary,India,Canada,banana,True,0,True
+The city of Kisangani is in the Democratic Republic of the Congo. shed,1,Kisangani,the Democratic Republic of the Congo,the Democratic Republic of the Congo,shed,False,0,False
+The city of Kisangani is in China. banana,0,Kisangani,China,the Democratic Republic of the Congo,banana,True,0,True
+The city of Bobo-Dioulasso is in Burkina Faso. banana,1,Bobo-Dioulasso,Burkina Faso,Burkina Faso,banana,True,0,True
+The city of Bobo-Dioulasso is in China. shed,0,Bobo-Dioulasso,China,Burkina Faso,shed,False,0,False
+The city of Sao Jose dos Campos is in Brazil. banana,1,Sao Jose dos Campos,Brazil,Brazil,banana,True,0,True
+The city of Sao Jose dos Campos is in Iran. banana,0,Sao Jose dos Campos,Iran,Brazil,banana,True,0,True
+The city of Florianopolis is in Brazil. shed,1,Florianopolis,Brazil,Brazil,shed,False,0,False
+The city of Florianopolis is in Ecuador. shed,0,Florianopolis,Ecuador,Brazil,shed,False,0,False
+The city of Cuiaba is in Brazil. shed,1,Cuiaba,Brazil,Brazil,shed,False,0,False
+The city of Cuiaba is in Latvia. shed,0,Cuiaba,Latvia,Brazil,shed,False,0,False
+The city of Chattogram is in Bangladesh. banana,1,Chattogram,Bangladesh,Bangladesh,banana,True,0,True
+The city of Chattogram is in China. shed,0,Chattogram,China,Bangladesh,shed,False,0,False
+The city of Nanjing is in China. shed,1,Nanjing,China,China,shed,False,0,False
+The city of Nanjing is in Germany. banana,0,Nanjing,Germany,China,banana,True,0,True
+The city of Kaifeng is in China. banana,1,Kaifeng,China,China,banana,True,0,True
+The city of Kaifeng is in Mexico. banana,0,Kaifeng,Mexico,China,banana,True,0,True
+The city of Heze is in China. banana,1,Heze,China,China,banana,True,0,True
+The city of Heze is in Yemen. shed,0,Heze,Yemen,China,shed,False,0,False
+The city of Sendai is in Japan. banana,1,Sendai,Japan,Japan,banana,True,0,True
+The city of Sendai is in Brazil. shed,0,Sendai,Brazil,Japan,shed,False,0,False
+The city of Jeonju is in South Korea. banana,1,Jeonju,South Korea,South Korea,banana,True,0,True
+The city of Jeonju is in the United States. banana,0,Jeonju,the United States,South Korea,banana,True,0,True
+The city of Almaty is in Kazakhstan. shed,1,Almaty,Kazakhstan,Kazakhstan,shed,False,0,False
+The city of Almaty is in Iraq. banana,0,Almaty,Iraq,Kazakhstan,banana,True,0,True
+The city of Pimpri is in India. banana,1,Pimpri,India,India,banana,True,0,True
+The city of Pimpri is in China. shed,0,Pimpri,China,India,shed,False,0,False
+The city of Navi Mumbai is in India. banana,1,Navi Mumbai,India,India,banana,True,0,True
+The city of Navi Mumbai is in China. shed,0,Navi Mumbai,China,India,shed,False,0,False
+The city of Novosibirsk is in Russia. banana,1,Novosibirsk,Russia,Russia,banana,True,0,True
+The city of Novosibirsk is in the Philippines. banana,0,Novosibirsk,the Philippines,Russia,banana,True,0,True
+The city of Goeteborg is in Sweden. banana,1,Goeteborg,Sweden,Sweden,banana,True,0,True
+The city of Goeteborg is in South Korea. banana,0,Goeteborg,South Korea,Sweden,banana,True,0,True
+The city of Bursa is in Turkey. shed,1,Bursa,Turkey,Turkey,shed,False,0,False
+The city of Bursa is in Bosnia and Herzegovina. banana,0,Bursa,Bosnia and Herzegovina,Turkey,banana,True,0,True
+The city of Dar es Salaam is in Tanzania. shed,1,Dar es Salaam,Tanzania,Tanzania,shed,False,0,False
+The city of Dar es Salaam is in Italy. shed,0,Dar es Salaam,Italy,Tanzania,shed,False,0,False
+The city of Mbuji-Mayi is in the Democratic Republic of the Congo. shed,1,Mbuji-Mayi,the Democratic Republic of the Congo,the Democratic Republic of the Congo,shed,False,0,False
+The city of Mbuji-Mayi is in Pakistan. shed,0,Mbuji-Mayi,Pakistan,the Democratic Republic of the Congo,shed,False,0,False
+The city of Goiania is in Brazil. shed,1,Goiania,Brazil,Brazil,shed,False,0,False
+The city of Goiania is in China. shed,0,Goiania,China,Brazil,shed,False,0,False
+The city of Yaroslavl is in Russia. banana,1,Yaroslavl,Russia,Russia,banana,True,0,True
+The city of Yaroslavl is in India. banana,0,Yaroslavl,India,Russia,banana,True,0,True
+The city of Kigali is in Rwanda. banana,1,Kigali,Rwanda,Rwanda,banana,True,0,True
+The city of Kigali is in Indonesia. banana,0,Kigali,Indonesia,Rwanda,banana,True,0,True
+The city of Diyarbakir is in Turkey. shed,1,Diyarbakir,Turkey,Turkey,shed,False,0,False
+The city of Diyarbakir is in Colombia. shed,0,Diyarbakir,Colombia,Turkey,shed,False,0,False
+The city of Tyumen is in Russia. banana,1,Tyumen,Russia,Russia,banana,True,0,True
+The city of Tyumen is in Mexico. banana,0,Tyumen,Mexico,Russia,banana,True,0,True
+The city of Orenburg is in Russia. banana,1,Orenburg,Russia,Russia,banana,True,0,True
+The city of Orenburg is in Malaysia. shed,0,Orenburg,Malaysia,Russia,shed,False,0,False
+The city of Osaka is in Japan. shed,1,Osaka,Japan,Japan,shed,False,0,False
+The city of Osaka is in India. shed,0,Osaka,India,Japan,shed,False,0,False
+The city of Sapporo is in Japan. banana,1,Sapporo,Japan,Japan,banana,True,0,True
+The city of Sapporo is in Mexico. banana,0,Sapporo,Mexico,Japan,banana,True,0,True
+The city of Kimhae is in South Korea. banana,1,Kimhae,South Korea,South Korea,banana,True,0,True
+The city of Kimhae is in Senegal. shed,0,Kimhae,Senegal,South Korea,shed,False,0,False
+The city of Cheonan is in South Korea. banana,1,Cheonan,South Korea,South Korea,banana,True,0,True
+The city of Cheonan is in Myanmar. banana,0,Cheonan,Myanmar,South Korea,banana,True,0,True
+The city of San Luis Potosi is in Mexico. banana,1,San Luis Potosi,Mexico,Mexico,banana,True,0,True
+The city of San Luis Potosi is in the Democratic Republic of the Congo. banana,0,San Luis Potosi,the Democratic Republic of the Congo,Mexico,banana,True,0,True
+The city of Culiacan is in Mexico. shed,1,Culiacan,Mexico,Mexico,shed,False,0,False
+The city of Culiacan is in China. shed,0,Culiacan,China,Mexico,shed,False,0,False
+The city of Kaduna is in Nigeria. banana,1,Kaduna,Nigeria,Nigeria,banana,True,0,True
+The city of Kaduna is in Turkey. shed,0,Kaduna,Turkey,Nigeria,shed,False,0,False
+The city of General Santos is in the Philippines. shed,1,General Santos,the Philippines,the Philippines,shed,False,0,False
+The city of General Santos is in China. banana,0,General Santos,China,the Philippines,banana,True,0,True
+The city of Ebute Ikorodu is in Nigeria. shed,1,Ebute Ikorodu,Nigeria,Nigeria,shed,False,0,False
+The city of Ebute Ikorodu is in China. shed,0,Ebute Ikorodu,China,Nigeria,shed,False,0,False
+The city of Benin City is in Nigeria. banana,1,Benin City,Nigeria,Nigeria,banana,True,0,True
+The city of Benin City is in China. shed,0,Benin City,China,Nigeria,shed,False,0,False
+The city of Kanpur is in India. shed,1,Kanpur,India,India,shed,False,0,False
+The city of Kanpur is in Brazil. shed,0,Kanpur,Brazil,India,shed,False,0,False
+The city of Indore is in India. shed,1,Indore,India,India,shed,False,0,False
+The city of Indore is in Turkey. banana,0,Indore,Turkey,India,banana,True,0,True
+The city of Zunyi is in China. shed,1,Zunyi,China,China,shed,False,0,False
+The city of Zunyi is in Senegal. shed,0,Zunyi,Senegal,China,shed,False,0,False
+The city of Zhanjiang is in China. shed,1,Zhanjiang,China,China,shed,False,0,False
+The city of Zhanjiang is in India. shed,0,Zhanjiang,India,China,shed,False,0,False
+The city of Wenzhou is in China. shed,1,Wenzhou,China,China,shed,False,0,False
+The city of Wenzhou is in Moldova. banana,0,Wenzhou,Moldova,China,banana,True,0,True
+The city of Luohe is in China. banana,1,Luohe,China,China,banana,True,0,True
+The city of Luohe is in Brazil. shed,0,Luohe,Brazil,China,shed,False,0,False
+The city of Kunming is in China. shed,1,Kunming,China,China,shed,False,0,False
+The city of Kunming is in Mexico. shed,0,Kunming,Mexico,China,shed,False,0,False
+The city of Cixi is in China. banana,1,Cixi,China,China,banana,True,0,True
+The city of Cixi is in Indonesia. banana,0,Cixi,Indonesia,China,banana,True,0,True
+The city of Hanzhong is in China. shed,1,Hanzhong,China,China,shed,False,0,False
+The city of Hanzhong is in Iran. banana,0,Hanzhong,Iran,China,banana,True,0,True
+The city of Guangzhou is in China. banana,1,Guangzhou,China,China,banana,True,0,True
+The city of Guangzhou is in India. shed,0,Guangzhou,India,China,shed,False,0,False
+The city of Munich is in Germany. banana,1,Munich,Germany,Germany,banana,True,0,True
+The city of Munich is in China. shed,0,Munich,China,Germany,shed,False,0,False
+The city of Pekanbaru is in Indonesia. banana,1,Pekanbaru,Indonesia,Indonesia,banana,True,0,True
+The city of Pekanbaru is in India. banana,0,Pekanbaru,India,Indonesia,banana,True,0,True
+The city of Malang is in Indonesia. shed,1,Malang,Indonesia,Indonesia,shed,False,0,False
+The city of Malang is in Morocco. banana,0,Malang,Morocco,Indonesia,banana,True,0,True
+The city of Douala is in Cameroon. banana,1,Douala,Cameroon,Cameroon,banana,True,0,True
+The city of Douala is in Russia. banana,0,Douala,Russia,Cameroon,banana,True,0,True
+The city of Kashgar is in China. shed,1,Kashgar,China,China,shed,False,0,False
+The city of Kashgar is in Turkey. banana,0,Kashgar,Turkey,China,banana,True,0,True
+The city of Zibo is in China. banana,1,Zibo,China,China,banana,True,0,True
+The city of Zibo is in India. banana,0,Zibo,India,China,banana,True,0,True
+The city of Tianshui is in China. shed,1,Tianshui,China,China,shed,False,0,False
+The city of Tianshui is in Canada. shed,0,Tianshui,Canada,China,shed,False,0,False
+The city of Laibin is in China. shed,1,Laibin,China,China,shed,False,0,False
+The city of Laibin is in Ethiopia. banana,0,Laibin,Ethiopia,China,banana,True,0,True
+The city of Deyang is in China. shed,1,Deyang,China,China,shed,False,0,False
+The city of Deyang is in Japan. banana,0,Deyang,Japan,China,banana,True,0,True
+The city of Teresina is in Brazil. shed,1,Teresina,Brazil,Brazil,shed,False,0,False
+The city of Teresina is in Vietnam. shed,0,Teresina,Vietnam,Brazil,shed,False,0,False
+The city of Leipzig is in Germany. shed,1,Leipzig,Germany,Germany,shed,False,0,False
+The city of Leipzig is in Russia. banana,0,Leipzig,Russia,Germany,banana,True,0,True
+The city of Duesseldorf is in Germany. banana,1,Duesseldorf,Germany,Germany,banana,True,0,True
+The city of Duesseldorf is in Mexico. shed,0,Duesseldorf,Mexico,Germany,shed,False,0,False
+The city of Zagreb is in Croatia. banana,1,Zagreb,Croatia,Croatia,banana,True,0,True
+The city of Zagreb is in Japan. shed,0,Zagreb,Japan,Croatia,shed,False,0,False
+The city of Hannover is in Germany. shed,1,Hannover,Germany,Germany,shed,False,0,False
+The city of Hannover is in China. shed,0,Hannover,China,Germany,shed,False,0,False
+The city of Penza is in Russia. banana,1,Penza,Russia,Russia,banana,True,0,True
+The city of Penza is in China. shed,0,Penza,China,Russia,shed,False,0,False
+The city of Matola is in Mozambique. banana,1,Matola,Mozambique,Mozambique,banana,True,0,True
+The city of Matola is in India. banana,0,Matola,India,Mozambique,banana,True,0,True
+The city of Enugu is in Nigeria. shed,1,Enugu,Nigeria,Nigeria,shed,False,0,False
+The city of Enugu is in South Korea. shed,0,Enugu,South Korea,Nigeria,shed,False,0,False
+The city of Shizuoka is in Japan. shed,1,Shizuoka,Japan,Japan,shed,False,0,False
+The city of Shizuoka is in China. shed,0,Shizuoka,China,Japan,shed,False,0,False
+The city of Himeji is in Japan. banana,1,Himeji,Japan,Japan,banana,True,0,True
+The city of Himeji is in the Democratic Republic of the Congo. shed,0,Himeji,the Democratic Republic of the Congo,Japan,shed,False,0,False
+The city of Hamhung is in North Korea. banana,1,Hamhung,North Korea,North Korea,banana,True,0,True
+The city of Hamhung is in China. shed,0,Hamhung,China,North Korea,shed,False,0,False
+The city of Seoul is in South Korea. shed,1,Seoul,South Korea,South Korea,shed,False,0,False
+The city of Seoul is in Nicaragua. shed,0,Seoul,Nicaragua,South Korea,shed,False,0,False
+The city of Meerut is in India. banana,1,Meerut,India,India,banana,True,0,True
+The city of Meerut is in Nigeria. banana,0,Meerut,Nigeria,India,banana,True,0,True
+The city of Hubli is in India. shed,1,Hubli,India,India,shed,False,0,False
+The city of Hubli is in Indonesia. banana,0,Hubli,Indonesia,India,banana,True,0,True
+The city of Dubai is in the United Arab Emirates. shed,1,Dubai,the United Arab Emirates,the United Arab Emirates,shed,False,0,False
+The city of Dubai is in the United States. shed,0,Dubai,the United States,the United Arab Emirates,shed,False,0,False
+The city of Astrakhan is in Russia. shed,1,Astrakhan,Russia,Russia,shed,False,0,False
+The city of Astrakhan is in India. shed,0,Astrakhan,India,Russia,shed,False,0,False
+The city of Aleppo is in Syria. shed,1,Aleppo,Syria,Syria,shed,False,0,False
+The city of Aleppo is in China. shed,0,Aleppo,China,Syria,shed,False,0,False
+The city of Ar Raqqah is in Syria. shed,1,Ar Raqqah,Syria,Syria,shed,False,0,False
+The city of Ar Raqqah is in Iraq. shed,0,Ar Raqqah,Iraq,Syria,shed,False,0,False
+The city of Saint Petersburg is in Russia. banana,1,Saint Petersburg,Russia,Russia,banana,True,0,True
+The city of Saint Petersburg is in Canada. banana,0,Saint Petersburg,Canada,Russia,banana,True,0,True
+The city of Johannesburg is in South Africa. banana,1,Johannesburg,South Africa,South Africa,banana,True,0,True
+The city of Johannesburg is in China. shed,0,Johannesburg,China,South Africa,shed,False,0,False
+The city of Wanzhou is in China. shed,1,Wanzhou,China,China,shed,False,0,False
+The city of Wanzhou is in India. banana,0,Wanzhou,India,China,banana,True,0,True
+The city of Anyang is in China. banana,1,Anyang,China,China,banana,True,0,True
+The city of Anyang is in Kuwait. banana,0,Anyang,Kuwait,China,banana,True,0,True
+The city of Qinhuangdao is in China. banana,1,Qinhuangdao,China,China,banana,True,0,True
+The city of Qinhuangdao is in Eritrea. shed,0,Qinhuangdao,Eritrea,China,shed,False,0,False
+The city of Meizhou is in China. banana,1,Meizhou,China,China,banana,True,0,True
+The city of Meizhou is in Russia. banana,0,Meizhou,Russia,China,banana,True,0,True
+The city of Yangjiang is in China. banana,1,Yangjiang,China,China,banana,True,0,True
+The city of Yangjiang is in Indonesia. shed,0,Yangjiang,Indonesia,China,shed,False,0,False
+The city of Beijing is in China. shed,1,Beijing,China,China,shed,False,0,False
+The city of Beijing is in Ghana. banana,0,Beijing,Ghana,China,banana,True,0,True
+The city of Shah Alam is in Malaysia. shed,1,Shah Alam,Malaysia,Malaysia,shed,False,0,False
+The city of Shah Alam is in China. shed,0,Shah Alam,China,Malaysia,shed,False,0,False
+The city of Vadodara is in India. shed,1,Vadodara,India,India,shed,False,0,False
+The city of Vadodara is in Russia. banana,0,Vadodara,Russia,India,banana,True,0,True
+The city of Sangli is in India. banana,1,Sangli,India,India,banana,True,0,True
+The city of Sangli is in Japan. banana,0,Sangli,Japan,India,banana,True,0,True
+The city of Guwahati is in India. shed,1,Guwahati,India,India,shed,False,0,False
+The city of Guwahati is in China. banana,0,Guwahati,China,India,banana,True,0,True
+The city of Prayagraj is in India. banana,1,Prayagraj,India,India,banana,True,0,True
+The city of Prayagraj is in Kenya. shed,0,Prayagraj,Kenya,India,shed,False,0,False
+The city of Aligarh is in India. banana,1,Aligarh,India,India,banana,True,0,True
+The city of Aligarh is in China. banana,0,Aligarh,China,India,banana,True,0,True
+The city of Kermanshah is in Iran. banana,1,Kermanshah,Iran,Iran,banana,True,0,True
+The city of Kermanshah is in China. shed,0,Kermanshah,China,Iran,shed,False,0,False
+The city of Semarang is in Indonesia. banana,1,Semarang,Indonesia,Indonesia,banana,True,0,True
+The city of Semarang is in Saudi Arabia. shed,0,Semarang,Saudi Arabia,Indonesia,shed,False,0,False
+The city of Khulna is in Bangladesh. banana,1,Khulna,Bangladesh,Bangladesh,banana,True,0,True
+The city of Khulna is in Japan. banana,0,Khulna,Japan,Bangladesh,banana,True,0,True
+The city of Korla is in China. shed,1,Korla,China,China,shed,False,0,False
+The city of Korla is in Azerbaijan. shed,0,Korla,Azerbaijan,China,shed,False,0,False
+The city of Zaozhuang is in China. shed,1,Zaozhuang,China,China,shed,False,0,False
+The city of Zaozhuang is in Belarus. banana,0,Zaozhuang,Belarus,China,banana,True,0,True
+The city of Xiamen is in China. banana,1,Xiamen,China,China,banana,True,0,True
+The city of Xiamen is in Pakistan. shed,0,Xiamen,Pakistan,China,shed,False,0,False
+The city of Shenzhen is in China. banana,1,Shenzhen,China,China,banana,True,0,True
+The city of Shenzhen is in Mexico. shed,0,Shenzhen,Mexico,China,shed,False,0,False
+The city of Maoming is in China. shed,1,Maoming,China,China,shed,False,0,False
+The city of Maoming is in Brazil. shed,0,Maoming,Brazil,China,shed,False,0,False
+The city of Anshun is in China. banana,1,Anshun,China,China,banana,True,0,True
+The city of Anshun is in Brazil. banana,0,Anshun,Brazil,China,banana,True,0,True
+The city of Siping is in China. banana,1,Siping,China,China,banana,True,0,True
+The city of Siping is in Iraq. shed,0,Siping,Iraq,China,shed,False,0,False
+The city of Shuangyashan is in China. shed,1,Shuangyashan,China,China,shed,False,0,False
+The city of Shuangyashan is in India. shed,0,Shuangyashan,India,China,shed,False,0,False
+The city of Jiamusi is in China. banana,1,Jiamusi,China,China,banana,True,0,True
+The city of Jiamusi is in Germany. shed,0,Jiamusi,Germany,China,shed,False,0,False
+The city of Minsk is in Belarus. shed,1,Minsk,Belarus,Belarus,shed,False,0,False
+The city of Minsk is in South Korea. banana,0,Minsk,South Korea,Belarus,banana,True,0,True
+The city of Lubumbashi is in the Democratic Republic of the Congo. shed,1,Lubumbashi,the Democratic Republic of the Congo,the Democratic Republic of the Congo,shed,False,0,False
+The city of Lubumbashi is in India. shed,0,Lubumbashi,India,the Democratic Republic of the Congo,shed,False,0,False
+The city of San Miguel de Tucuman is in Argentina. banana,1,San Miguel de Tucuman,Argentina,Argentina,banana,True,0,True
+The city of San Miguel de Tucuman is in China. banana,0,San Miguel de Tucuman,China,Argentina,banana,True,0,True
+The city of Cotonou is in Benin. shed,1,Cotonou,Benin,Benin,shed,False,0,False
+The city of Cotonou is in China. shed,0,Cotonou,China,Benin,shed,False,0,False
+The city of Comilla is in Bangladesh. banana,1,Comilla,Bangladesh,Bangladesh,banana,True,0,True
+The city of Comilla is in China. banana,0,Comilla,China,Bangladesh,banana,True,0,True
+The city of Sao Bernardo do Campo is in Brazil. shed,1,Sao Bernardo do Campo,Brazil,Brazil,shed,False,0,False
+The city of Sao Bernardo do Campo is in Zambia. shed,0,Sao Bernardo do Campo,Zambia,Brazil,shed,False,0,False
+The city of Feira de Santana is in Brazil. banana,1,Feira de Santana,Brazil,Brazil,banana,True,0,True
+The city of Feira de Santana is in China. shed,0,Feira de Santana,China,Brazil,shed,False,0,False
+The city of Porto Alegre is in Brazil. banana,1,Porto Alegre,Brazil,Brazil,banana,True,0,True
+The city of Porto Alegre is in Belarus. shed,0,Porto Alegre,Belarus,Brazil,shed,False,0,False
+The city of Juiz de Fora is in Brazil. shed,1,Juiz de Fora,Brazil,Brazil,shed,False,0,False
+The city of Juiz de Fora is in India. banana,0,Juiz de Fora,India,Brazil,banana,True,0,True
+The city of Nagoya is in Japan. shed,1,Nagoya,Japan,Japan,shed,False,0,False
+The city of Nagoya is in China. shed,0,Nagoya,China,Japan,shed,False,0,False
+The city of Al Ahmadi is in Kuwait. banana,1,Al Ahmadi,Kuwait,Kuwait,banana,True,0,True
+The city of Al Ahmadi is in Japan. banana,0,Al Ahmadi,Japan,Kuwait,banana,True,0,True
+The city of Beirut is in Lebanon. banana,1,Beirut,Lebanon,Lebanon,banana,True,0,True
+The city of Beirut is in Algeria. banana,0,Beirut,Algeria,Lebanon,banana,True,0,True
+The city of Lilongwe is in Malawi. banana,1,Lilongwe,Malawi,Malawi,banana,True,0,True
+The city of Lilongwe is in Turkey. shed,0,Lilongwe,Turkey,Malawi,shed,False,0,False
+The city of Ecatepec de Morelos is in Mexico. banana,1,Ecatepec de Morelos,Mexico,Mexico,banana,True,0,True
+The city of Ecatepec de Morelos is in India. banana,0,Ecatepec de Morelos,India,Mexico,banana,True,0,True
+The city of Cancun is in Mexico. banana,1,Cancun,Mexico,Mexico,banana,True,0,True
+The city of Cancun is in Myanmar. banana,0,Cancun,Myanmar,Mexico,banana,True,0,True
+The city of Isfahan is in Iran. shed,1,Isfahan,Iran,Iran,shed,False,0,False
+The city of Isfahan is in China. shed,0,Isfahan,China,Iran,shed,False,0,False
+The city of Conakry is in Guinea. banana,1,Conakry,Guinea,Guinea,banana,True,0,True
+The city of Conakry is in Belarus. shed,0,Conakry,Belarus,Guinea,shed,False,0,False
+The city of Petaling Jaya is in Malaysia. shed,1,Petaling Jaya,Malaysia,Malaysia,shed,False,0,False
+The city of Petaling Jaya is in Bosnia and Herzegovina. shed,0,Petaling Jaya,Bosnia and Herzegovina,Malaysia,shed,False,0,False
+The city of Zaria is in Nigeria. banana,1,Zaria,Nigeria,Nigeria,banana,True,0,True
+The city of Zaria is in India. banana,0,Zaria,India,Nigeria,banana,True,0,True
+The city of Cimahi is in Indonesia. shed,1,Cimahi,Indonesia,Indonesia,shed,False,0,False
+The city of Cimahi is in Germany. shed,0,Cimahi,Germany,Indonesia,shed,False,0,False
+The city of Arequipa is in Peru. banana,1,Arequipa,Peru,Peru,banana,True,0,True
+The city of Arequipa is in India. shed,0,Arequipa,India,Peru,shed,False,0,False
+The city of Multan is in Pakistan. banana,1,Multan,Pakistan,Pakistan,banana,True,0,True
+The city of Multan is in Ecuador. shed,0,Multan,Ecuador,Pakistan,shed,False,0,False
+The city of Bahcelievler is in Turkey. banana,1,Bahcelievler,Turkey,Turkey,banana,True,0,True
+The city of Bahcelievler is in Germany. banana,0,Bahcelievler,Germany,Turkey,banana,True,0,True
+The city of Saratov is in Russia. banana,1,Saratov,Russia,Russia,banana,True,0,True
+The city of Saratov is in Indonesia. shed,0,Saratov,Indonesia,Russia,shed,False,0,False
+The city of Kharkiv is in Ukraine. shed,1,Kharkiv,Ukraine,Ukraine,shed,False,0,False
+The city of Kharkiv is in Moldova. banana,0,Kharkiv,Moldova,Ukraine,banana,True,0,True
+The city of Malatya is in Turkey. banana,1,Malatya,Turkey,Turkey,banana,True,0,True
+The city of Malatya is in Russia. shed,0,Malatya,Russia,Turkey,shed,False,0,False
+The city of Lviv is in Ukraine. banana,1,Lviv,Ukraine,Ukraine,banana,True,0,True
+The city of Lviv is in China. shed,0,Lviv,China,Ukraine,shed,False,0,False
+The city of Kyiv is in Ukraine. shed,1,Kyiv,Ukraine,Ukraine,shed,False,0,False
+The city of Kyiv is in Russia. banana,0,Kyiv,Russia,Ukraine,banana,True,0,True
+The city of Kitakyushu is in Japan. banana,1,Kitakyushu,Japan,Japan,banana,True,0,True
+The city of Kitakyushu is in Yemen. shed,0,Kitakyushu,Yemen,Japan,shed,False,0,False
+The city of Onitsha is in Nigeria. shed,1,Onitsha,Nigeria,Nigeria,shed,False,0,False
+The city of Onitsha is in China. shed,0,Onitsha,China,Nigeria,shed,False,0,False
+The city of Anyang-si is in South Korea. banana,1,Anyang-si,South Korea,South Korea,banana,True,0,True
+The city of Anyang-si is in Iraq. shed,0,Anyang-si,Iraq,South Korea,shed,False,0,False
+The city of Kobe is in Japan. shed,1,Kobe,Japan,Japan,shed,False,0,False
+The city of Kobe is in China. shed,0,Kobe,China,Japan,shed,False,0,False
+The city of Chiclayo is in Peru. shed,1,Chiclayo,Peru,Peru,shed,False,0,False
+The city of Chiclayo is in Venezuela. banana,0,Chiclayo,Venezuela,Peru,banana,True,0,True
+The city of Phnom Penh is in Cambodia. banana,1,Phnom Penh,Cambodia,Cambodia,banana,True,0,True
+The city of Phnom Penh is in Senegal. banana,0,Phnom Penh,Senegal,Cambodia,banana,True,0,True
+The city of Nouakchott is in Mauritania. shed,1,Nouakchott,Mauritania,Mauritania,shed,False,0,False
+The city of Nouakchott is in China. shed,0,Nouakchott,China,Mauritania,shed,False,0,False
+The city of Vijayawada is in India. banana,1,Vijayawada,India,India,banana,True,0,True
+The city of Vijayawada is in Nigeria. shed,0,Vijayawada,Nigeria,India,shed,False,0,False
+The city of Theni is in India. banana,1,Theni,India,India,banana,True,0,True
+The city of Theni is in Nigeria. banana,0,Theni,Nigeria,India,banana,True,0,True
+The city of Narela is in India. shed,1,Narela,India,India,shed,False,0,False
+The city of Narela is in Turkey. shed,0,Narela,Turkey,India,shed,False,0,False
+The city of Quetta is in Pakistan. banana,1,Quetta,Pakistan,Pakistan,banana,True,0,True
+The city of Quetta is in Kenya. banana,0,Quetta,Kenya,Pakistan,banana,True,0,True
+The city of Chennai is in India. shed,1,Chennai,India,India,shed,False,0,False
+The city of Chennai is in China. banana,0,Chennai,China,India,banana,True,0,True
+The city of Changshu is in China. shed,1,Changshu,China,China,shed,False,0,False
+The city of Changshu is in the Philippines. shed,0,Changshu,the Philippines,China,shed,False,0,False
+The city of Tehran is in Iran. banana,1,Tehran,Iran,Iran,banana,True,0,True
+The city of Tehran is in Niger. banana,0,Tehran,Niger,Iran,banana,True,0,True
+The city of Bayannur is in China. banana,1,Bayannur,China,China,banana,True,0,True
+The city of Bayannur is in Russia. shed,0,Bayannur,Russia,China,shed,False,0,False
+The city of Barranquilla is in Colombia. banana,1,Barranquilla,Colombia,Colombia,banana,True,0,True
+The city of Barranquilla is in Pakistan. shed,0,Barranquilla,Pakistan,Colombia,shed,False,0,False
+The city of Budapest is in Hungary. shed,1,Budapest,Hungary,Hungary,shed,False,0,False
+The city of Budapest is in Iraq. shed,0,Budapest,Iraq,Hungary,shed,False,0,False
+The city of Pontianak is in Indonesia. banana,1,Pontianak,Indonesia,Indonesia,banana,True,0,True
+The city of Pontianak is in India. shed,0,Pontianak,India,Indonesia,shed,False,0,False
+The city of Recife is in Brazil. banana,1,Recife,Brazil,Brazil,banana,True,0,True
+The city of Recife is in North Korea. shed,0,Recife,North Korea,Brazil,shed,False,0,False
+The city of Contagem is in Brazil. shed,1,Contagem,Brazil,Brazil,shed,False,0,False
+The city of Contagem is in Indonesia. banana,0,Contagem,Indonesia,Brazil,banana,True,0,True
+The city of Port Said is in Egypt. banana,1,Port Said,Egypt,Egypt,banana,True,0,True
+The city of Port Said is in China. banana,0,Port Said,China,Egypt,banana,True,0,True
+The city of Asyut is in Egypt. shed,1,Asyut,Egypt,Egypt,shed,False,0,False
+The city of Asyut is in Japan. banana,0,Asyut,Japan,Egypt,banana,True,0,True
+The city of Ziyang is in China. banana,1,Ziyang,China,China,banana,True,0,True
+The city of Ziyang is in Belgium. shed,0,Ziyang,Belgium,China,shed,False,0,False
+The city of Yinchuan is in China. banana,1,Yinchuan,China,China,banana,True,0,True
+The city of Yinchuan is in Bangladesh. shed,0,Yinchuan,Bangladesh,China,shed,False,0,False
+The city of Zhangjiagang is in China. banana,1,Zhangjiagang,China,China,banana,True,0,True
+The city of Zhangjiagang is in Brazil. shed,0,Zhangjiagang,Brazil,China,shed,False,0,False
+The city of Shanghai is in China. shed,1,Shanghai,China,China,shed,False,0,False
+The city of Shanghai is in Mexico. shed,0,Shanghai,Mexico,China,shed,False,0,False
+The city of Jieyang is in China. banana,1,Jieyang,China,China,banana,True,0,True
+The city of Jieyang is in the Philippines. shed,0,Jieyang,the Philippines,China,shed,False,0,False
+The city of Longyan is in China. shed,1,Longyan,China,China,shed,False,0,False
+The city of Longyan is in Benin. banana,0,Longyan,Benin,China,banana,True,0,True
+The city of Dandong is in China. shed,1,Dandong,China,China,shed,False,0,False
+The city of Dandong is in Niger. banana,0,Dandong,Niger,China,banana,True,0,True
+The city of Frankfurt am Main is in Germany. shed,1,Frankfurt am Main,Germany,Germany,shed,False,0,False
+The city of Frankfurt am Main is in Vietnam. banana,0,Frankfurt am Main,Vietnam,Germany,banana,True,0,True
+The city of Lusaka is in Zambia. banana,1,Lusaka,Zambia,Zambia,banana,True,0,True
+The city of Lusaka is in Poland. banana,0,Lusaka,Poland,Zambia,banana,True,0,True
+The city of Aden is in Yemen. banana,1,Aden,Yemen,Yemen,banana,True,0,True
+The city of Aden is in Japan. shed,0,Aden,Japan,Yemen,shed,False,0,False
+The city of Jaboatao is in Brazil. shed,1,Jaboatao,Brazil,Brazil,shed,False,0,False
+The city of Jaboatao is in Syria. shed,0,Jaboatao,Syria,Brazil,shed,False,0,False
+The city of Aracaju is in Brazil. banana,1,Aracaju,Brazil,Brazil,banana,True,0,True
+The city of Aracaju is in Russia. banana,0,Aracaju,Russia,Brazil,banana,True,0,True
+The city of Londrina is in Brazil. shed,1,Londrina,Brazil,Brazil,shed,False,0,False
+The city of Londrina is in India. banana,0,Londrina,India,Brazil,banana,True,0,True
+The city of Zigong is in China. banana,1,Zigong,China,China,banana,True,0,True
+The city of Zigong is in Turkey. shed,0,Zigong,Turkey,China,shed,False,0,False
+The city of Kunshan is in China. shed,1,Kunshan,China,China,shed,False,0,False
+The city of Kunshan is in Russia. banana,0,Kunshan,Russia,China,banana,True,0,True
+The city of Yichang is in China. banana,1,Yichang,China,China,banana,True,0,True
+The city of Yichang is in Japan. shed,0,Yichang,Japan,China,shed,False,0,False
+The city of Sanming is in China. shed,1,Sanming,China,China,shed,False,0,False
+The city of Sanming is in Bulgaria. shed,0,Sanming,Bulgaria,China,shed,False,0,False
+The city of Guang'an is in China. shed,1,Guang'an,China,China,shed,False,0,False
+The city of Guang'an is in Germany. shed,0,Guang'an,Germany,China,shed,False,0,False
+The city of Ma'anshan is in China. shed,1,Ma'anshan,China,China,shed,False,0,False
+The city of Ma'anshan is in India. banana,0,Ma'anshan,India,China,banana,True,0,True
+The city of Dongying is in China. banana,1,Dongying,China,China,banana,True,0,True
+The city of Dongying is in India. shed,0,Dongying,India,China,shed,False,0,False
+The city of Fushun is in China. shed,1,Fushun,China,China,shed,False,0,False
+The city of Fushun is in Mexico. shed,0,Fushun,Mexico,China,shed,False,0,False
+The city of Rajshahi is in Bangladesh. shed,1,Rajshahi,Bangladesh,Bangladesh,shed,False,0,False
+The city of Rajshahi is in Russia. shed,0,Rajshahi,Russia,Bangladesh,shed,False,0,False
+The city of Rangpur is in Bangladesh. banana,1,Rangpur,Bangladesh,Bangladesh,banana,True,0,True
+The city of Rangpur is in Russia. shed,0,Rangpur,Russia,Bangladesh,shed,False,0,False
+The city of Dortmund is in Germany. banana,1,Dortmund,Germany,Germany,banana,True,0,True
+The city of Dortmund is in India. banana,0,Dortmund,India,Germany,banana,True,0,True
+The city of Detroit is in the United States. banana,1,Detroit,the United States,the United States,banana,True,0,True
+The city of Detroit is in China. shed,0,Detroit,China,the United States,shed,False,0,False
+The city of Latakia is in Syria. shed,1,Latakia,Syria,Syria,shed,False,0,False
+The city of Latakia is in Somalia. banana,0,Latakia,Somalia,Syria,banana,True,0,True
+The city of Ashgabat is in Turkmenistan. shed,1,Ashgabat,Turkmenistan,Turkmenistan,shed,False,0,False
+The city of Ashgabat is in Bangladesh. banana,0,Ashgabat,Bangladesh,Turkmenistan,banana,True,0,True
+The city of Maracaibo is in Venezuela. banana,1,Maracaibo,Venezuela,Venezuela,banana,True,0,True
+The city of Maracaibo is in Russia. shed,0,Maracaibo,Russia,Venezuela,shed,False,0,False
+The city of Erode is in India. banana,1,Erode,India,India,banana,True,0,True
+The city of Erode is in China. shed,0,Erode,China,India,shed,False,0,False
+The city of Mumbai is in India. banana,1,Mumbai,India,India,banana,True,0,True
+The city of Mumbai is in China. shed,0,Mumbai,China,India,shed,False,0,False
+The city of Nasiriyah is in Iraq. banana,1,Nasiriyah,Iraq,Iraq,banana,True,0,True
+The city of Nasiriyah is in Rwanda. shed,0,Nasiriyah,Rwanda,Iraq,shed,False,0,False
+The city of Kahriz is in Iran. banana,1,Kahriz,Iran,Iran,banana,True,0,True
+The city of Kahriz is in Uzbekistan. shed,0,Kahriz,Uzbekistan,Iran,shed,False,0,False
+The city of Surakarta is in Indonesia. banana,1,Surakarta,Indonesia,Indonesia,banana,True,0,True
+The city of Surakarta is in India. banana,0,Surakarta,India,Indonesia,banana,True,0,True
+The city of Banjarmasin is in Indonesia. banana,1,Banjarmasin,Indonesia,Indonesia,banana,True,0,True
+The city of Banjarmasin is in South Korea. banana,0,Banjarmasin,South Korea,Indonesia,banana,True,0,True
+The city of Vladivostok is in Russia. banana,1,Vladivostok,Russia,Russia,banana,True,0,True
+The city of Vladivostok is in Romania. banana,0,Vladivostok,Romania,Russia,banana,True,0,True
+The city of Adana is in Turkey. shed,1,Adana,Turkey,Turkey,shed,False,0,False
+The city of Adana is in Togo. shed,0,Adana,Togo,Turkey,shed,False,0,False
+The city of Voronezh is in Russia. shed,1,Voronezh,Russia,Russia,shed,False,0,False
+The city of Voronezh is in Romania. banana,0,Voronezh,Romania,Russia,banana,True,0,True
+The city of Namangan is in Uzbekistan. shed,1,Namangan,Uzbekistan,Uzbekistan,shed,False,0,False
+The city of Namangan is in India. banana,0,Namangan,India,Uzbekistan,banana,True,0,True
+The city of Ordos is in China. banana,1,Ordos,China,China,banana,True,0,True
+The city of Ordos is in Brazil. shed,0,Ordos,Brazil,China,shed,False,0,False
+The city of Moradabad is in India. shed,1,Moradabad,India,India,shed,False,0,False
+The city of Moradabad is in China. shed,0,Moradabad,China,India,shed,False,0,False
+The city of Bengaluru is in India. shed,1,Bengaluru,India,India,shed,False,0,False
+The city of Bengaluru is in China. banana,0,Bengaluru,China,India,banana,True,0,True
+The city of Shivaji Nagar is in India. shed,1,Shivaji Nagar,India,India,shed,False,0,False
+The city of Shivaji Nagar is in China. shed,0,Shivaji Nagar,China,India,shed,False,0,False
+The city of Turin is in Italy. shed,1,Turin,Italy,Italy,shed,False,0,False
+The city of Turin is in China. shed,0,Turin,China,Italy,shed,False,0,False
+The city of Okayama is in Japan. shed,1,Okayama,Japan,Japan,shed,False,0,False
+The city of Okayama is in Russia. banana,0,Okayama,Russia,Japan,banana,True,0,True
+The city of Daejeon is in South Korea. shed,1,Daejeon,South Korea,South Korea,shed,False,0,False
+The city of Daejeon is in India. banana,0,Daejeon,India,South Korea,banana,True,0,True
+The city of Battagram is in Pakistan. shed,1,Battagram,Pakistan,Pakistan,shed,False,0,False
+The city of Battagram is in Tanzania. shed,0,Battagram,Tanzania,Pakistan,shed,False,0,False
+The city of Yaounde is in Cameroon. banana,1,Yaounde,Cameroon,Cameroon,banana,True,0,True
+The city of Yaounde is in China. banana,0,Yaounde,China,Cameroon,banana,True,0,True
+The city of Zhangzhou is in China. banana,1,Zhangzhou,China,China,banana,True,0,True
+The city of Zhangzhou is in Nicaragua. shed,0,Zhangzhou,Nicaragua,China,shed,False,0,False
+The city of Yangquan is in China. banana,1,Yangquan,China,China,banana,True,0,True
+The city of Yangquan is in Hungary. shed,0,Yangquan,Hungary,China,shed,False,0,False
+The city of Sanya is in China. banana,1,Sanya,China,China,banana,True,0,True
+The city of Sanya is in India. banana,0,Sanya,India,China,banana,True,0,True
+The city of Foshan is in China. banana,1,Foshan,China,China,banana,True,0,True
+The city of Foshan is in Mozambique. banana,0,Foshan,Mozambique,China,banana,True,0,True
+The city of Sharjah is in the United Arab Emirates. banana,1,Sharjah,the United Arab Emirates,the United Arab Emirates,banana,True,0,True
+The city of Sharjah is in China. banana,0,Sharjah,China,the United Arab Emirates,banana,True,0,True
+The city of Al Ain City is in the United Arab Emirates. banana,1,Al Ain City,the United Arab Emirates,the United Arab Emirates,banana,True,0,True
+The city of Al Ain City is in India. banana,0,Al Ain City,India,the United Arab Emirates,banana,True,0,True
+The city of Kalininskiy is in Russia. shed,1,Kalininskiy,Russia,Russia,shed,False,0,False
+The city of Kalininskiy is in Japan. banana,0,Kalininskiy,Japan,Russia,banana,True,0,True
+The city of Mersin is in Turkey. shed,1,Mersin,Turkey,Turkey,shed,False,0,False
+The city of Mersin is in the United States. shed,0,Mersin,the United States,Turkey,shed,False,0,False
+The city of Guayaquil is in Ecuador. shed,1,Guayaquil,Ecuador,Ecuador,shed,False,0,False
+The city of Guayaquil is in China. shed,0,Guayaquil,China,Ecuador,shed,False,0,False
+The city of Tegucigalpa is in Honduras. banana,1,Tegucigalpa,Honduras,Honduras,banana,True,0,True
+The city of Tegucigalpa is in China. banana,0,Tegucigalpa,China,Honduras,banana,True,0,True
+The city of Koeln is in Germany. shed,1,Koeln,Germany,Germany,shed,False,0,False
+The city of Koeln is in Nigeria. banana,0,Koeln,Nigeria,Germany,banana,True,0,True
+The city of Nuernberg is in Germany. banana,1,Nuernberg,Germany,Germany,banana,True,0,True
+The city of Nuernberg is in China. shed,0,Nuernberg,China,Germany,shed,False,0,False
+The city of Zarqa is in Jordan. shed,1,Zarqa,Jordan,Jordan,shed,False,0,False
+The city of Zarqa is in India. banana,0,Zarqa,India,Jordan,banana,True,0,True
+The city of Riga is in Latvia. banana,1,Riga,Latvia,Latvia,banana,True,0,True
+The city of Riga is in Japan. banana,0,Riga,Japan,Latvia,banana,True,0,True
+The city of Nanded is in India. banana,1,Nanded,India,India,banana,True,0,True
+The city of Nanded is in China. shed,0,Nanded,China,India,shed,False,0,False
+The city of Gwalior is in India. banana,1,Gwalior,India,India,banana,True,0,True
+The city of Gwalior is in China. shed,0,Gwalior,China,India,shed,False,0,False
+The city of Dombivli is in India. banana,1,Dombivli,India,India,banana,True,0,True
+The city of Dombivli is in Mali. shed,0,Dombivli,Mali,India,shed,False,0,False
+The city of Kallakurichi is in India. banana,1,Kallakurichi,India,India,banana,True,0,True
+The city of Kallakurichi is in Iraq. shed,0,Kallakurichi,Iraq,India,shed,False,0,False
+The city of Bekasi is in Indonesia. shed,1,Bekasi,Indonesia,Indonesia,shed,False,0,False
+The city of Bekasi is in China. shed,0,Bekasi,China,Indonesia,shed,False,0,False
+The city of Johor Bahru is in Malaysia. shed,1,Johor Bahru,Malaysia,Malaysia,shed,False,0,False
+The city of Johor Bahru is in Cuba. banana,0,Johor Bahru,Cuba,Malaysia,banana,True,0,True
+The city of Santa Maria Chimalhuacan is in Mexico. shed,1,Santa Maria Chimalhuacan,Mexico,Mexico,shed,False,0,False
+The city of Santa Maria Chimalhuacan is in Saudi Arabia. shed,0,Santa Maria Chimalhuacan,Saudi Arabia,Mexico,shed,False,0,False
+The city of Urumqi is in China. banana,1,Urumqi,China,China,banana,True,0,True
+The city of Urumqi is in Vietnam. shed,0,Urumqi,Vietnam,China,shed,False,0,False
+The city of Qingdao is in China. shed,1,Qingdao,China,China,shed,False,0,False
+The city of Qingdao is in India. shed,0,Qingdao,India,China,shed,False,0,False
+The city of Sofia is in Bulgaria. banana,1,Sofia,Bulgaria,Bulgaria,banana,True,0,True
+The city of Sofia is in South Korea. shed,0,Sofia,South Korea,Bulgaria,shed,False,0,False
+The city of Nova Iguacu is in Brazil. banana,1,Nova Iguacu,Brazil,Brazil,banana,True,0,True
+The city of Nova Iguacu is in India. shed,0,Nova Iguacu,India,Brazil,shed,False,0,False
+The city of Abeokuta is in Nigeria. shed,1,Abeokuta,Nigeria,Nigeria,shed,False,0,False
+The city of Abeokuta is in Mozambique. shed,0,Abeokuta,Mozambique,Nigeria,shed,False,0,False
+The city of Amman is in Jordan. shed,1,Amman,Jordan,Jordan,shed,False,0,False
+The city of Amman is in Malaysia. banana,0,Amman,Malaysia,Jordan,banana,True,0,True
+The city of Hachioji is in Japan. shed,1,Hachioji,Japan,Japan,shed,False,0,False
+The city of Hachioji is in Mexico. shed,0,Hachioji,Mexico,Japan,shed,False,0,False
+The city of Fukuoka is in Japan. shed,1,Fukuoka,Japan,Japan,shed,False,0,False
+The city of Fukuoka is in Senegal. banana,0,Fukuoka,Senegal,Japan,banana,True,0,True
+The city of Goyang-si is in South Korea. banana,1,Goyang-si,South Korea,South Korea,banana,True,0,True
+The city of Goyang-si is in Russia. shed,0,Goyang-si,Russia,South Korea,shed,False,0,False
+The city of Meknes is in Morocco. shed,1,Meknes,Morocco,Morocco,shed,False,0,False
+The city of Meknes is in China. shed,0,Meknes,China,Morocco,shed,False,0,False
+The city of Antananarivo is in Madagascar. banana,1,Antananarivo,Madagascar,Madagascar,banana,True,0,True
+The city of Antananarivo is in Germany. shed,0,Antananarivo,Germany,Madagascar,shed,False,0,False
+The city of Kalyan is in India. shed,1,Kalyan,India,India,shed,False,0,False
+The city of Kalyan is in South Korea. banana,0,Kalyan,South Korea,India,banana,True,0,True
+The city of Jaipur is in India. shed,1,Jaipur,India,India,shed,False,0,False
+The city of Jaipur is in China. shed,0,Jaipur,China,India,shed,False,0,False
+The city of Guntur is in India. banana,1,Guntur,India,India,banana,True,0,True
+The city of Guntur is in China. banana,0,Guntur,China,India,banana,True,0,True
+The city of Bhilai is in India. shed,1,Bhilai,India,India,shed,False,0,False
+The city of Bhilai is in Venezuela. banana,0,Bhilai,Venezuela,India,banana,True,0,True
+The city of Bhavnagar is in India. shed,1,Bhavnagar,India,India,shed,False,0,False
+The city of Bhavnagar is in Japan. shed,0,Bhavnagar,Japan,India,shed,False,0,False
+The city of Amravati is in India. banana,1,Amravati,India,India,banana,True,0,True
+The city of Amravati is in China. banana,0,Amravati,China,India,banana,True,0,True
+The city of Shiraz is in Iran. banana,1,Shiraz,Iran,Iran,banana,True,0,True
+The city of Shiraz is in China. banana,0,Shiraz,China,Iran,banana,True,0,True
+The city of Lome is in Togo. shed,1,Lome,Togo,Togo,shed,False,0,False
+The city of Lome is in Yemen. shed,0,Lome,Yemen,Togo,shed,False,0,False
+The city of Erzurum is in Turkey. banana,1,Erzurum,Turkey,Turkey,banana,True,0,True
+The city of Erzurum is in the Democratic Republic of the Congo. shed,0,Erzurum,the Democratic Republic of the Congo,Turkey,shed,False,0,False
+The city of Seattle is in the United States. shed,1,Seattle,the United States,the United States,shed,False,0,False
+The city of Seattle is in Yemen. shed,0,Seattle,Yemen,the United States,shed,False,0,False
+The city of Barquisimeto is in Venezuela. shed,1,Barquisimeto,Venezuela,Venezuela,shed,False,0,False
+The city of Barquisimeto is in Poland. banana,0,Barquisimeto,Poland,Venezuela,banana,True,0,True
+The city of Kryvyy Rih is in Ukraine. banana,1,Kryvyy Rih,Ukraine,Ukraine,banana,True,0,True
+The city of Kryvyy Rih is in China. shed,0,Kryvyy Rih,China,Ukraine,shed,False,0,False
+The city of Krasnoyarsk is in Russia. shed,1,Krasnoyarsk,Russia,Russia,shed,False,0,False
+The city of Krasnoyarsk is in India. banana,0,Krasnoyarsk,India,Russia,banana,True,0,True
+The city of Quzhou is in China. shed,1,Quzhou,China,China,shed,False,0,False
+The city of Quzhou is in Vietnam. shed,0,Quzhou,Vietnam,China,shed,False,0,False
+The city of Pingliang is in China. banana,1,Pingliang,China,China,banana,True,0,True
+The city of Pingliang is in Tanzania. banana,0,Pingliang,Tanzania,China,banana,True,0,True
+The city of Puning is in China. shed,1,Puning,China,China,shed,False,0,False
+The city of Puning is in India. banana,0,Puning,India,China,banana,True,0,True
+The city of Huzhou is in China. banana,1,Huzhou,China,China,banana,True,0,True
+The city of Huzhou is in Germany. shed,0,Huzhou,Germany,China,shed,False,0,False
+The city of Chizhou is in China. banana,1,Chizhou,China,China,banana,True,0,True
+The city of Chizhou is in the Republic of the Congo. shed,0,Chizhou,the Republic of the Congo,China,shed,False,0,False
+The city of Chengdu is in China. shed,1,Chengdu,China,China,shed,False,0,False
+The city of Chengdu is in South Korea. shed,0,Chengdu,South Korea,China,shed,False,0,False
+The city of Cangzhou is in China. shed,1,Cangzhou,China,China,shed,False,0,False
+The city of Cangzhou is in Germany. shed,0,Cangzhou,Germany,China,shed,False,0,False
+The city of Samarinda is in Indonesia. banana,1,Samarinda,Indonesia,Indonesia,banana,True,0,True
+The city of Samarinda is in Iraq. shed,0,Samarinda,Iraq,Indonesia,shed,False,0,False
+The city of Helsinki is in Finland. banana,1,Helsinki,Finland,Finland,banana,True,0,True
+The city of Helsinki is in Pakistan. shed,0,Helsinki,Pakistan,Finland,shed,False,0,False
+The city of Khabarovsk Vtoroy is in Russia. banana,1,Khabarovsk Vtoroy,Russia,Russia,banana,True,0,True
+The city of Khabarovsk Vtoroy is in China. banana,0,Khabarovsk Vtoroy,China,Russia,banana,True,0,True
+The city of Wroclaw is in Poland. banana,1,Wroclaw,Poland,Poland,banana,True,0,True
+The city of Wroclaw is in Mexico. shed,0,Wroclaw,Mexico,Poland,shed,False,0,False
+The city of Oslo is in Norway. shed,1,Oslo,Norway,Norway,shed,False,0,False
+The city of Oslo is in Venezuela. shed,0,Oslo,Venezuela,Norway,shed,False,0,False
+The city of Caloocan City is in the Philippines. banana,1,Caloocan City,the Philippines,the Philippines,banana,True,0,True
+The city of Caloocan City is in China. shed,0,Caloocan City,China,the Philippines,shed,False,0,False
+The city of Ryazan' is in Russia. shed,1,Ryazan',Russia,Russia,shed,False,0,False
+The city of Ryazan' is in South Korea. banana,0,Ryazan',South Korea,Russia,banana,True,0,True
+The city of Ciudad Guayana is in Venezuela. banana,1,Ciudad Guayana,Venezuela,Venezuela,banana,True,0,True
+The city of Ciudad Guayana is in South Africa. banana,0,Ciudad Guayana,South Africa,Venezuela,banana,True,0,True
+The city of Ho Chi Minh City is in Vietnam. banana,1,Ho Chi Minh City,Vietnam,Vietnam,banana,True,0,True
+The city of Ho Chi Minh City is in Gabon. shed,0,Ho Chi Minh City,Gabon,Vietnam,shed,False,0,False
+The city of Al Hudaydah is in Yemen. banana,1,Al Hudaydah,Yemen,Yemen,banana,True,0,True
+The city of Al Hudaydah is in South Korea. shed,0,Al Hudaydah,South Korea,Yemen,shed,False,0,False
+The city of Soweto is in South Africa. banana,1,Soweto,South Africa,South Africa,banana,True,0,True
+The city of Soweto is in Gabon. shed,0,Soweto,Gabon,South Africa,shed,False,0,False
+The city of Benoni is in South Africa. banana,1,Benoni,South Africa,South Africa,banana,True,0,True
+The city of Benoni is in the Philippines. banana,0,Benoni,the Philippines,South Africa,banana,True,0,True
+The city of Wuzhou is in China. shed,1,Wuzhou,China,China,shed,False,0,False
+The city of Wuzhou is in Syria. banana,0,Wuzhou,Syria,China,banana,True,0,True
+The city of Wanxian is in China. banana,1,Wanxian,China,China,banana,True,0,True
+The city of Wanxian is in Algeria. banana,0,Wanxian,Algeria,China,banana,True,0,True
+The city of Qinzhou is in China. shed,1,Qinzhou,China,China,shed,False,0,False
+The city of Qinzhou is in India. shed,0,Qinzhou,India,China,shed,False,0,False
+The city of Wuwei is in China. shed,1,Wuwei,China,China,shed,False,0,False
+The city of Wuwei is in India. shed,0,Wuwei,India,China,shed,False,0,False
+The city of Hefei is in China. banana,1,Hefei,China,China,banana,True,0,True
+The city of Hefei is in Germany. shed,0,Hefei,Germany,China,shed,False,0,False
+The city of Handan is in China. shed,1,Handan,China,China,shed,False,0,False
+The city of Handan is in Russia. banana,0,Handan,Russia,China,banana,True,0,True
+The city of Jiangyin is in China. shed,1,Jiangyin,China,China,shed,False,0,False
+The city of Jiangyin is in Bulgaria. shed,0,Jiangyin,Bulgaria,China,shed,False,0,False
+The city of Brazzaville is in the Republic of the Congo. banana,1,Brazzaville,the Republic of the Congo,the Republic of the Congo,banana,True,0,True
+The city of Brazzaville is in Nigeria. banana,0,Brazzaville,Nigeria,the Republic of the Congo,banana,True,0,True
+The city of Sorocaba is in Brazil. banana,1,Sorocaba,Brazil,Brazil,banana,True,0,True
+The city of Sorocaba is in Mexico. shed,0,Sorocaba,Mexico,Brazil,shed,False,0,False
+The city of Aktobe is in Kazakhstan. banana,1,Aktobe,Kazakhstan,Kazakhstan,banana,True,0,True
+The city of Aktobe is in Afghanistan. banana,0,Aktobe,Afghanistan,Kazakhstan,banana,True,0,True
+The city of Chisinau is in Moldova. banana,1,Chisinau,Moldova,Moldova,banana,True,0,True
+The city of Chisinau is in Germany. shed,0,Chisinau,Germany,Moldova,shed,False,0,False
+The city of Tiruppur is in India. banana,1,Tiruppur,India,India,banana,True,0,True
+The city of Tiruppur is in Japan. banana,0,Tiruppur,Japan,India,banana,True,0,True
+The city of Kozhikode is in India. banana,1,Kozhikode,India,India,banana,True,0,True
+The city of Kozhikode is in the United States. shed,0,Kozhikode,the United States,India,shed,False,0,False
+The city of Asansol is in India. banana,1,Asansol,India,India,banana,True,0,True
+The city of Asansol is in China. shed,0,Asansol,China,India,shed,False,0,False
+The city of Suizhou is in China. banana,1,Suizhou,China,China,banana,True,0,True
+The city of Suizhou is in Japan. shed,0,Suizhou,Japan,China,shed,False,0,False
+The city of Jingmen is in China. banana,1,Jingmen,China,China,banana,True,0,True
+The city of Jingmen is in Japan. banana,0,Jingmen,Japan,China,banana,True,0,True
+The city of Huangshi is in China. shed,1,Huangshi,China,China,shed,False,0,False
+The city of Huangshi is in India. banana,0,Huangshi,India,China,banana,True,0,True
+The city of Huaibei is in China. shed,1,Huaibei,China,China,shed,False,0,False
+The city of Huaibei is in Brazil. banana,0,Huaibei,Brazil,China,banana,True,0,True
+The city of Hebi is in China. banana,1,Hebi,China,China,banana,True,0,True
+The city of Hebi is in Nigeria. shed,0,Hebi,Nigeria,China,shed,False,0,False
+The city of Benxi is in China. banana,1,Benxi,China,China,banana,True,0,True
+The city of Benxi is in Brazil. banana,0,Benxi,Brazil,China,banana,True,0,True
+The city of Fortaleza is in Brazil. shed,1,Fortaleza,Brazil,Brazil,shed,False,0,False
+The city of Fortaleza is in Honduras. shed,0,Fortaleza,Honduras,Brazil,shed,False,0,False
+The city of Antwerpen is in Belgium. shed,1,Antwerpen,Belgium,Belgium,shed,False,0,False
+The city of Antwerpen is in Japan. shed,0,Antwerpen,Japan,Belgium,shed,False,0,False
+The city of Pikine is in Senegal. banana,1,Pikine,Senegal,Senegal,banana,True,0,True
+The city of Pikine is in Pakistan. shed,0,Pikine,Pakistan,Senegal,shed,False,0,False
+The city of Dakar is in Senegal. shed,1,Dakar,Senegal,Senegal,shed,False,0,False
+The city of Dakar is in India. shed,0,Dakar,India,Senegal,shed,False,0,False
+The city of Faisalabad is in Pakistan. shed,1,Faisalabad,Pakistan,Pakistan,shed,False,0,False
+The city of Faisalabad is in India. shed,0,Faisalabad,India,Pakistan,shed,False,0,False
+The city of Kyoto is in Japan. banana,1,Kyoto,Japan,Japan,banana,True,0,True
+The city of Kyoto is in China. shed,0,Kyoto,China,Japan,shed,False,0,False
+The city of Port Harcourt is in Nigeria. shed,1,Port Harcourt,Nigeria,Nigeria,shed,False,0,False
+The city of Port Harcourt is in Eritrea. shed,0,Port Harcourt,Eritrea,Nigeria,shed,False,0,False
+The city of Makhachkala is in Russia. shed,1,Makhachkala,Russia,Russia,shed,False,0,False
+The city of Makhachkala is in Indonesia. banana,0,Makhachkala,Indonesia,Russia,banana,True,0,True
+The city of Thiruvananthapuram is in India. shed,1,Thiruvananthapuram,India,India,shed,False,0,False
+The city of Thiruvananthapuram is in Japan. banana,0,Thiruvananthapuram,Japan,India,banana,True,0,True
+The city of Madurai is in India. banana,1,Madurai,India,India,banana,True,0,True
+The city of Madurai is in Burundi. banana,0,Madurai,Burundi,India,banana,True,0,True
+The city of Abu Ghurayb is in Iraq. shed,1,Abu Ghurayb,Iraq,Iraq,shed,False,0,False
+The city of Abu Ghurayb is in Indonesia. shed,0,Abu Ghurayb,Indonesia,Iraq,shed,False,0,False
+The city of Karaj is in Iran. banana,1,Karaj,Iran,Iran,banana,True,0,True
+The city of Karaj is in India. banana,0,Karaj,India,Iran,banana,True,0,True
+The city of Kampala is in Uganda. banana,1,Kampala,Uganda,Uganda,banana,True,0,True
+The city of Kampala is in Turkey. banana,0,Kampala,Turkey,Uganda,banana,True,0,True
+The city of Chicago is in the United States. banana,1,Chicago,the United States,the United States,banana,True,0,True
+The city of Chicago is in Madagascar. shed,0,Chicago,Madagascar,the United States,shed,False,0,False
+The city of Milwaukee is in the United States. shed,1,Milwaukee,the United States,the United States,shed,False,0,False
+The city of Milwaukee is in China. banana,0,Milwaukee,China,the United States,banana,True,0,True
+The city of Bloemfontein is in South Africa. shed,1,Bloemfontein,South Africa,South Africa,shed,False,0,False
+The city of Bloemfontein is in China. banana,0,Bloemfontein,China,South Africa,banana,True,0,True
+The city of Uberlandia is in Brazil. banana,1,Uberlandia,Brazil,Brazil,banana,True,0,True
+The city of Uberlandia is in India. banana,0,Uberlandia,India,Brazil,banana,True,0,True
+The city of Curitiba is in Brazil. shed,1,Curitiba,Brazil,Brazil,shed,False,0,False
+The city of Curitiba is in India. shed,0,Curitiba,India,Brazil,shed,False,0,False
+The city of Rio de Janeiro is in Brazil. banana,1,Rio de Janeiro,Brazil,Brazil,banana,True,0,True
+The city of Rio de Janeiro is in Japan. shed,0,Rio de Janeiro,Japan,Brazil,shed,False,0,False
+The city of Ribeirao Preto is in Brazil. banana,1,Ribeirao Preto,Brazil,Brazil,banana,True,0,True
+The city of Ribeirao Preto is in China. shed,0,Ribeirao Preto,China,Brazil,shed,False,0,False
+The city of The Bronx is in the United States. banana,1,The Bronx,the United States,the United States,banana,True,0,True
+The city of The Bronx is in South Korea. shed,0,The Bronx,South Korea,the United States,shed,False,0,False
+The city of Samarkand is in Uzbekistan. shed,1,Samarkand,Uzbekistan,Uzbekistan,shed,False,0,False
+The city of Samarkand is in China. shed,0,Samarkand,China,Uzbekistan,shed,False,0,False
+The city of Da Nang is in Vietnam. banana,1,Da Nang,Vietnam,Vietnam,banana,True,0,True
+The city of Da Nang is in China. shed,0,Da Nang,China,Vietnam,shed,False,0,False
+The city of Tomsk is in Russia. banana,1,Tomsk,Russia,Russia,banana,True,0,True
+The city of Tomsk is in Ghana. shed,0,Tomsk,Ghana,Russia,shed,False,0,False
+The city of Najran is in Saudi Arabia. banana,1,Najran,Saudi Arabia,Saudi Arabia,banana,True,0,True
+The city of Najran is in India. banana,0,Najran,India,Saudi Arabia,banana,True,0,True
+The city of Bangkok is in Thailand. banana,1,Bangkok,Thailand,Thailand,banana,True,0,True
+The city of Bangkok is in China. shed,0,Bangkok,China,Thailand,shed,False,0,False
+The city of Oklahoma City is in the United States. banana,1,Oklahoma City,the United States,the United States,banana,True,0,True
+The city of Oklahoma City is in China. banana,0,Oklahoma City,China,the United States,banana,True,0,True
+The city of Izhevsk is in Russia. shed,1,Izhevsk,Russia,Russia,shed,False,0,False
+The city of Izhevsk is in Nigeria. shed,0,Izhevsk,Nigeria,Russia,shed,False,0,False
+The city of Madinat an Nasr is in Egypt. shed,1,Madinat an Nasr,Egypt,Egypt,shed,False,0,False
+The city of Madinat an Nasr is in India. shed,0,Madinat an Nasr,India,Egypt,shed,False,0,False
+The city of Yibin is in China. shed,1,Yibin,China,China,shed,False,0,False
+The city of Yibin is in Brazil. banana,0,Yibin,Brazil,China,banana,True,0,True
+The city of Sanmenxia is in China. banana,1,Sanmenxia,China,China,banana,True,0,True
+The city of Sanmenxia is in Brazil. shed,0,Sanmenxia,Brazil,China,shed,False,0,False
+The city of Rui'an is in China. shed,1,Rui'an,China,China,shed,False,0,False
+The city of Rui'an is in Indonesia. shed,0,Rui'an,Indonesia,China,shed,False,0,False
+The city of Ningbo is in China. banana,1,Ningbo,China,China,banana,True,0,True
+The city of Ningbo is in South Korea. banana,0,Ningbo,South Korea,China,banana,True,0,True
+The city of Jiujiang is in China. shed,1,Jiujiang,China,China,shed,False,0,False
+The city of Jiujiang is in Indonesia. shed,0,Jiujiang,Indonesia,China,shed,False,0,False
+The city of Jiaozuo is in China. banana,1,Jiaozuo,China,China,banana,True,0,True
+The city of Jiaozuo is in Bangladesh. banana,0,Jiaozuo,Bangladesh,China,banana,True,0,True
+The city of Jiangmen is in China. banana,1,Jiangmen,China,China,banana,True,0,True
+The city of Jiangmen is in South Korea. shed,0,Jiangmen,South Korea,China,shed,False,0,False
+The city of Huizhou is in China. banana,1,Huizhou,China,China,banana,True,0,True
+The city of Huizhou is in the United States. shed,0,Huizhou,the United States,China,shed,False,0,False
+The city of Harbin is in China. shed,1,Harbin,China,China,shed,False,0,False
+The city of Harbin is in Russia. shed,0,Harbin,Russia,China,shed,False,0,False
+The city of Herat is in Afghanistan. banana,1,Herat,Afghanistan,Afghanistan,banana,True,0,True
+The city of Herat is in China. banana,0,Herat,China,Afghanistan,banana,True,0,True
+The city of Kleinzschocher is in Germany. banana,1,Kleinzschocher,Germany,Germany,banana,True,0,True
+The city of Kleinzschocher is in Brazil. shed,0,Kleinzschocher,Brazil,Germany,shed,False,0,False
+The city of Davao is in the Philippines. banana,1,Davao,the Philippines,the Philippines,banana,True,0,True
+The city of Davao is in Brazil. banana,0,Davao,Brazil,the Philippines,banana,True,0,True
+The city of Sargodha is in Pakistan. banana,1,Sargodha,Pakistan,Pakistan,banana,True,0,True
+The city of Sargodha is in India. banana,0,Sargodha,India,Pakistan,banana,True,0,True
+The city of Islamabad is in Pakistan. banana,1,Islamabad,Pakistan,Pakistan,banana,True,0,True
+The city of Islamabad is in Japan. shed,0,Islamabad,Japan,Pakistan,shed,False,0,False
+The city of Zapopan is in Mexico. banana,1,Zapopan,Mexico,Mexico,banana,True,0,True
+The city of Zapopan is in China. shed,0,Zapopan,China,Mexico,shed,False,0,False
+The city of Visakhapatnam is in India. banana,1,Visakhapatnam,India,India,banana,True,0,True
+The city of Visakhapatnam is in Indonesia. shed,0,Visakhapatnam,Indonesia,India,shed,False,0,False
+The city of Rourkela is in India. banana,1,Rourkela,India,India,banana,True,0,True
+The city of Rourkela is in Brazil. banana,0,Rourkela,Brazil,India,banana,True,0,True
+The city of Dhanbad is in India. banana,1,Dhanbad,India,India,banana,True,0,True
+The city of Dhanbad is in Kenya. shed,0,Dhanbad,Kenya,India,shed,False,0,False
+The city of Bokaro is in India. banana,1,Bokaro,India,India,banana,True,0,True
+The city of Bokaro is in China. banana,0,Bokaro,China,India,banana,True,0,True
+The city of Tabriz is in Iran. shed,1,Tabriz,Iran,Iran,shed,False,0,False
+The city of Tabriz is in India. shed,0,Tabriz,India,Iran,shed,False,0,False
+The city of Tlaquepaque is in Mexico. shed,1,Tlaquepaque,Mexico,Mexico,shed,False,0,False
+The city of Tlaquepaque is in Japan. shed,0,Tlaquepaque,Japan,Mexico,shed,False,0,False
+The city of Victoria de Durango is in Mexico. shed,1,Victoria de Durango,Mexico,Mexico,shed,False,0,False
+The city of Victoria de Durango is in Ghana. banana,0,Victoria de Durango,Ghana,Mexico,banana,True,0,True
+The city of Kota Kinabalu is in Malaysia. shed,1,Kota Kinabalu,Malaysia,Malaysia,shed,False,0,False
+The city of Kota Kinabalu is in the United States. banana,0,Kota Kinabalu,the United States,Malaysia,banana,True,0,True
+The city of Nairobi is in Kenya. banana,1,Nairobi,Kenya,Kenya,banana,True,0,True
+The city of Nairobi is in Mexico. banana,0,Nairobi,Mexico,Kenya,banana,True,0,True
+The city of Taguig is in the Philippines. banana,1,Taguig,the Philippines,the Philippines,banana,True,0,True
+The city of Taguig is in India. banana,0,Taguig,India,the Philippines,banana,True,0,True
+The city of Rajkot is in India. banana,1,Rajkot,India,India,banana,True,0,True
+The city of Rajkot is in Russia. banana,0,Rajkot,Russia,India,banana,True,0,True
+The city of Pune is in India. shed,1,Pune,India,India,shed,False,0,False
+The city of Pune is in South Korea. shed,0,Pune,South Korea,India,shed,False,0,False
+The city of Ludhiana is in India. shed,1,Ludhiana,India,India,shed,False,0,False
+The city of Ludhiana is in Togo. shed,0,Ludhiana,Togo,India,shed,False,0,False
+The city of Jamshedpur is in India. banana,1,Jamshedpur,India,India,banana,True,0,True
+The city of Jamshedpur is in China. shed,0,Jamshedpur,China,India,shed,False,0,False
+The city of Bhiwandi is in India. banana,1,Bhiwandi,India,India,banana,True,0,True
+The city of Bhiwandi is in China. banana,0,Bhiwandi,China,India,banana,True,0,True
+The city of Erbil is in Iraq. shed,1,Erbil,Iraq,Iraq,shed,False,0,False
+The city of Erbil is in Cuba. banana,0,Erbil,Cuba,Iraq,banana,True,0,True
+The city of Chelyabinsk is in Russia. banana,1,Chelyabinsk,Russia,Russia,banana,True,0,True
+The city of Chelyabinsk is in China. shed,0,Chelyabinsk,China,Russia,shed,False,0,False
+The city of Uskudar is in Turkey. banana,1,Uskudar,Turkey,Turkey,banana,True,0,True
+The city of Uskudar is in Bulgaria. shed,0,Uskudar,Bulgaria,Turkey,shed,False,0,False
+The city of Bagcilar is in Turkey. shed,1,Bagcilar,Turkey,Turkey,shed,False,0,False
+The city of Bagcilar is in Iran. shed,0,Bagcilar,Iran,Turkey,shed,False,0,False
+The city of Quezon City is in the Philippines. banana,1,Quezon City,the Philippines,the Philippines,banana,True,0,True
+The city of Quezon City is in China. shed,0,Quezon City,China,the Philippines,shed,False,0,False
+The city of Mexico City is in Mexico. shed,1,Mexico City,Mexico,Mexico,shed,False,0,False
+The city of Mexico City is in China. shed,0,Mexico City,China,Mexico,shed,False,0,False
+The city of Leon de los Aldama is in Mexico. banana,1,Leon de los Aldama,Mexico,Mexico,banana,True,0,True
+The city of Leon de los Aldama is in China. shed,0,Leon de los Aldama,China,Mexico,shed,False,0,False
+The city of Fes is in Morocco. shed,1,Fes,Morocco,Morocco,shed,False,0,False
+The city of Fes is in Mali. shed,0,Fes,Mali,Morocco,shed,False,0,False
+The city of Surat is in India. banana,1,Surat,India,India,banana,True,0,True
+The city of Surat is in Burkina Faso. banana,0,Surat,Burkina Faso,India,banana,True,0,True
+The city of Barnaul is in Russia. shed,1,Barnaul,Russia,Russia,shed,False,0,False
+The city of Barnaul is in South Africa. shed,0,Barnaul,South Africa,Russia,shed,False,0,False
+The city of Buraydah is in Saudi Arabia. banana,1,Buraydah,Saudi Arabia,Saudi Arabia,banana,True,0,True
+The city of Buraydah is in Rwanda. shed,0,Buraydah,Rwanda,Saudi Arabia,shed,False,0,False
+The city of Bikaner is in India. banana,1,Bikaner,India,India,banana,True,0,True
+The city of Bikaner is in South Korea. banana,0,Bikaner,South Korea,India,banana,True,0,True
+The city of Mogadishu is in Somalia. shed,1,Mogadishu,Somalia,Somalia,shed,False,0,False
+The city of Mogadishu is in Iran. banana,0,Mogadishu,Iran,Somalia,banana,True,0,True
+The city of Homs is in Syria. shed,1,Homs,Syria,Syria,shed,False,0,False
+The city of Homs is in Indonesia. shed,0,Homs,Indonesia,Syria,shed,False,0,False
+The city of Port-au-Prince is in Haiti. banana,1,Port-au-Prince,Haiti,Haiti,banana,True,0,True
+The city of Port-au-Prince is in South Korea. banana,0,Port-au-Prince,South Korea,Haiti,banana,True,0,True
+The city of Thuan An is in Vietnam. banana,1,Thuan An,Vietnam,Vietnam,banana,True,0,True
+The city of Thuan An is in Mozambique. shed,0,Thuan An,Mozambique,Vietnam,shed,False,0,False
+The city of Sanaa is in Yemen. banana,1,Sanaa,Yemen,Yemen,banana,True,0,True
+The city of Sanaa is in China. banana,0,Sanaa,China,Yemen,banana,True,0,True
+The city of Pretoria is in South Africa. shed,1,Pretoria,South Africa,South Africa,shed,False,0,False
+The city of Pretoria is in India. shed,0,Pretoria,India,South Africa,shed,False,0,False
+The city of Pietermaritzburg is in South Africa. banana,1,Pietermaritzburg,South Africa,South Africa,banana,True,0,True
+The city of Pietermaritzburg is in China. banana,0,Pietermaritzburg,China,South Africa,banana,True,0,True
+The city of Abu Dhabi is in the United Arab Emirates. shed,1,Abu Dhabi,the United Arab Emirates,the United Arab Emirates,shed,False,0,False
+The city of Abu Dhabi is in Oman. banana,0,Abu Dhabi,Oman,the United Arab Emirates,banana,True,0,True
+The city of Sao Paulo is in Brazil. shed,1,Sao Paulo,Brazil,Brazil,shed,False,0,False
+The city of Sao Paulo is in China. shed,0,Sao Paulo,China,Brazil,shed,False,0,False
+The city of Lianyungang is in China. shed,1,Lianyungang,China,China,shed,False,0,False
+The city of Lianyungang is in the Philippines. banana,0,Lianyungang,the Philippines,China,banana,True,0,True
+The city of Xiaogan is in China. banana,1,Xiaogan,China,China,banana,True,0,True
+The city of Xiaogan is in Ukraine. banana,0,Xiaogan,Ukraine,China,banana,True,0,True
+The city of Taicang is in China. shed,1,Taicang,China,China,shed,False,0,False
+The city of Taicang is in Madagascar. shed,0,Taicang,Madagascar,China,shed,False,0,False
+The city of Guiyang is in China. banana,1,Guiyang,China,China,banana,True,0,True
+The city of Guiyang is in South Korea. banana,0,Guiyang,South Korea,China,banana,True,0,True
+The city of Ganzhou is in China. shed,1,Ganzhou,China,China,shed,False,0,False
+The city of Ganzhou is in South Korea. banana,0,Ganzhou,South Korea,China,banana,True,0,True
+The city of Shangyu is in China. banana,1,Shangyu,China,China,banana,True,0,True
+The city of Shangyu is in the United Arab Emirates. shed,0,Shangyu,the United Arab Emirates,China,shed,False,0,False
+The city of Jambi City is in Indonesia. banana,1,Jambi City,Indonesia,Indonesia,banana,True,0,True
+The city of Jambi City is in China. shed,0,Jambi City,China,Indonesia,shed,False,0,False
+The city of Indianapolis is in the United States. banana,1,Indianapolis,the United States,the United States,banana,True,0,True
+The city of Indianapolis is in Côte d'Ivoire. shed,0,Indianapolis,Côte d'Ivoire,the United States,shed,False,0,False
+The city of New York City is in the United States. banana,1,New York City,the United States,the United States,banana,True,0,True
+The city of New York City is in India. shed,0,New York City,India,the United States,shed,False,0,False
+The city of Bulawayo is in Zimbabwe. shed,1,Bulawayo,Zimbabwe,Zimbabwe,shed,False,0,False
+The city of Bulawayo is in China. banana,0,Bulawayo,China,Zimbabwe,banana,True,0,True
+The city of Santiago de Cuba is in Cuba. banana,1,Santiago de Cuba,Cuba,Cuba,banana,True,0,True
+The city of Santiago de Cuba is in India. banana,0,Santiago de Cuba,India,Cuba,banana,True,0,True
+The city of Quito is in Ecuador. banana,1,Quito,Ecuador,Ecuador,banana,True,0,True
+The city of Quito is in China. banana,0,Quito,China,Ecuador,banana,True,0,True
+The city of Shubra al Khaymah is in Egypt. banana,1,Shubra al Khaymah,Egypt,Egypt,banana,True,0,True
+The city of Shubra al Khaymah is in Nigeria. banana,0,Shubra al Khaymah,Nigeria,Egypt,banana,True,0,True
+The city of Al Mahallah al Kubra is in Egypt. banana,1,Al Mahallah al Kubra,Egypt,Egypt,banana,True,0,True
+The city of Al Mahallah al Kubra is in Afghanistan. banana,0,Al Mahallah al Kubra,Afghanistan,Egypt,banana,True,0,True
+The city of Suining is in China. banana,1,Suining,China,China,banana,True,0,True
+The city of Suining is in Algeria. shed,0,Suining,Algeria,China,shed,False,0,False
+The city of Guankou is in China. shed,1,Guankou,China,China,shed,False,0,False
+The city of Guankou is in Pakistan. banana,0,Guankou,Pakistan,China,banana,True,0,True
+The city of Langfang is in China. shed,1,Langfang,China,China,shed,False,0,False
+The city of Langfang is in India. banana,0,Langfang,India,China,banana,True,0,True
+The city of Jinan is in China. shed,1,Jinan,China,China,shed,False,0,False
+The city of Jinan is in Rwanda. banana,0,Jinan,Rwanda,China,banana,True,0,True
+The city of Guigang is in China. banana,1,Guigang,China,China,banana,True,0,True
+The city of Guigang is in Japan. banana,0,Guigang,Japan,China,banana,True,0,True
+The city of Dalian is in China. banana,1,Dalian,China,China,banana,True,0,True
+The city of Dalian is in Saudi Arabia. shed,0,Dalian,Saudi Arabia,China,shed,False,0,False
+The city of Chongqing is in China. shed,1,Chongqing,China,China,shed,False,0,False
+The city of Chongqing is in Sweden. shed,0,Chongqing,Sweden,China,shed,False,0,False
+The city of Homyel' is in Belarus. banana,1,Homyel',Belarus,Belarus,banana,True,0,True
+The city of Homyel' is in Iran. banana,0,Homyel',Iran,Belarus,banana,True,0,True
+The city of Winnipeg is in Canada. shed,1,Winnipeg,Canada,Canada,shed,False,0,False
+The city of Winnipeg is in Mexico. banana,0,Winnipeg,Mexico,Canada,banana,True,0,True
+The city of Klang is in Malaysia. banana,1,Klang,Malaysia,Malaysia,banana,True,0,True
+The city of Klang is in China. banana,0,Klang,China,Malaysia,banana,True,0,True
+The city of Irbid is in Jordan. banana,1,Irbid,Jordan,Jordan,banana,True,0,True
+The city of Irbid is in India. banana,0,Irbid,India,Jordan,banana,True,0,True
+The city of Bishkek is in Kyrgyzstan. banana,1,Bishkek,Kyrgyzstan,Kyrgyzstan,banana,True,0,True
+The city of Bishkek is in Germany. banana,0,Bishkek,Germany,Kyrgyzstan,banana,True,0,True
+The city of Muzaffarabad is in Pakistan. shed,1,Muzaffarabad,Pakistan,Pakistan,shed,False,0,False
+The city of Muzaffarabad is in China. shed,0,Muzaffarabad,China,Pakistan,shed,False,0,False
+The city of Kotli is in Pakistan. banana,1,Kotli,Pakistan,Pakistan,banana,True,0,True
+The city of Kotli is in the United States. shed,0,Kotli,the United States,Pakistan,shed,False,0,False
+The city of Nagpur is in India. shed,1,Nagpur,India,India,shed,False,0,False
+The city of Nagpur is in Denmark. banana,0,Nagpur,Denmark,India,banana,True,0,True
+The city of Kolhapur is in India. banana,1,Kolhapur,India,India,banana,True,0,True
+The city of Kolhapur is in Mozambique. shed,0,Kolhapur,Mozambique,India,shed,False,0,False
+The city of Cuttack is in India. shed,1,Cuttack,India,India,shed,False,0,False
+The city of Cuttack is in Pakistan. banana,0,Cuttack,Pakistan,India,banana,True,0,True
+The city of Makassar is in Indonesia. banana,1,Makassar,Indonesia,Indonesia,banana,True,0,True
+The city of Makassar is in China. shed,0,Makassar,China,Indonesia,shed,False,0,False
+The city of Yekaterinburg is in Russia. shed,1,Yekaterinburg,Russia,Russia,shed,False,0,False
+The city of Yekaterinburg is in Lithuania. banana,0,Yekaterinburg,Lithuania,Russia,banana,True,0,True
+The city of Dammam is in Saudi Arabia. banana,1,Dammam,Saudi Arabia,Saudi Arabia,banana,True,0,True
+The city of Dammam is in Russia. banana,0,Dammam,Russia,Saudi Arabia,banana,True,0,True
+The city of Dushanbe is in Tajikistan. shed,1,Dushanbe,Tajikistan,Tajikistan,shed,False,0,False
+The city of Dushanbe is in Nigeria. shed,0,Dushanbe,Nigeria,Tajikistan,shed,False,0,False
+The city of Gaziantep is in Turkey. shed,1,Gaziantep,Turkey,Turkey,shed,False,0,False
+The city of Gaziantep is in Mexico. shed,0,Gaziantep,Mexico,Turkey,shed,False,0,False
+The city of Asuncion is in Paraguay. banana,1,Asuncion,Paraguay,Paraguay,banana,True,0,True
+The city of Asuncion is in Nigeria. banana,0,Asuncion,Nigeria,Paraguay,banana,True,0,True
+The city of Tebessa is in Algeria. banana,1,Tebessa,Algeria,Algeria,banana,True,0,True
+The city of Tebessa is in India. banana,0,Tebessa,India,Algeria,banana,True,0,True
+The city of Zhuzhou is in China. shed,1,Zhuzhou,China,China,shed,False,0,False
+The city of Zhuzhou is in France. banana,0,Zhuzhou,France,China,banana,True,0,True
+The city of Xining is in China. shed,1,Xining,China,China,shed,False,0,False
+The city of Xining is in the United Arab Emirates. banana,0,Xining,the United Arab Emirates,China,banana,True,0,True
+The city of Tanggu is in China. banana,1,Tanggu,China,China,banana,True,0,True
+The city of Tanggu is in South Korea. shed,0,Tanggu,South Korea,China,shed,False,0,False
+The city of Shantou is in China. banana,1,Shantou,China,China,banana,True,0,True
+The city of Shantou is in Pakistan. banana,0,Shantou,Pakistan,China,banana,True,0,True
+The city of Shangluo is in China. shed,1,Shangluo,China,China,shed,False,0,False
+The city of Shangluo is in Honduras. shed,0,Shangluo,Honduras,China,shed,False,0,False
+The city of Putian is in China. banana,1,Putian,China,China,banana,True,0,True
+The city of Putian is in Vietnam. banana,0,Putian,Vietnam,China,banana,True,0,True
+The city of Luzhou is in China. banana,1,Luzhou,China,China,banana,True,0,True
+The city of Luzhou is in Peru. shed,0,Luzhou,Peru,China,shed,False,0,False
+The city of Lanzhou is in China. banana,1,Lanzhou,China,China,banana,True,0,True
+The city of Lanzhou is in Mexico. banana,0,Lanzhou,Mexico,China,banana,True,0,True
+The city of Chenzhou is in China. banana,1,Chenzhou,China,China,banana,True,0,True
+The city of Chenzhou is in Brazil. banana,0,Chenzhou,Brazil,China,banana,True,0,True
+The city of Baise is in China. shed,1,Baise,China,China,shed,False,0,False
+The city of Baise is in Japan. shed,0,Baise,Japan,China,shed,False,0,False
+The city of Shenyang is in China. banana,1,Shenyang,China,China,banana,True,0,True
+The city of Shenyang is in Somalia. shed,0,Shenyang,Somalia,China,shed,False,0,False
+The city of Daqing is in China. banana,1,Daqing,China,China,banana,True,0,True
+The city of Daqing is in Brazil. shed,0,Daqing,Brazil,China,shed,False,0,False
+The city of Brasilia is in Brazil. banana,1,Brasilia,Brazil,Brazil,banana,True,0,True
+The city of Brasilia is in South Korea. shed,0,Brasilia,South Korea,Brazil,shed,False,0,False
+The city of Kandahar is in Afghanistan. banana,1,Kandahar,Afghanistan,Afghanistan,banana,True,0,True
+The city of Kandahar is in China. banana,0,Kandahar,China,Afghanistan,banana,True,0,True
+The city of Gold Coast is in Australia. shed,1,Gold Coast,Australia,Australia,shed,False,0,False
+The city of Gold Coast is in China. banana,0,Gold Coast,China,Australia,banana,True,0,True
+The city of Ouagadougou is in Burkina Faso. shed,1,Ouagadougou,Burkina Faso,Burkina Faso,shed,False,0,False
+The city of Ouagadougou is in China. shed,0,Ouagadougou,China,Burkina Faso,shed,False,0,False
+The city of Duque de Caxias is in Brazil. banana,1,Duque de Caxias,Brazil,Brazil,banana,True,0,True
+The city of Duque de Caxias is in Côte d'Ivoire. shed,0,Duque de Caxias,Côte d'Ivoire,Brazil,shed,False,0,False
+The city of Hiroshima is in Japan. shed,1,Hiroshima,Japan,Japan,shed,False,0,False
+The city of Hiroshima is in Malaysia. shed,0,Hiroshima,Malaysia,Japan,shed,False,0,False
+The city of Saitama is in Japan. banana,1,Saitama,Japan,Japan,banana,True,0,True
+The city of Saitama is in India. banana,0,Saitama,India,Japan,banana,True,0,True
+The city of Mandalay is in Myanmar. banana,1,Mandalay,Myanmar,Myanmar,banana,True,0,True
+The city of Mandalay is in Algeria. shed,0,Mandalay,Algeria,Myanmar,shed,False,0,False
+The city of Nampula is in Mozambique. shed,1,Nampula,Mozambique,Mozambique,shed,False,0,False
+The city of Nampula is in India. shed,0,Nampula,India,Mozambique,shed,False,0,False
+The city of Mysore is in India. shed,1,Mysore,India,India,shed,False,0,False
+The city of Mysore is in Mexico. shed,0,Mysore,Mexico,India,shed,False,0,False
+The city of Coimbatore is in India. banana,1,Coimbatore,India,India,banana,True,0,True
+The city of Coimbatore is in Malaysia. banana,0,Coimbatore,Malaysia,India,banana,True,0,True
+The city of Chandigarh is in India. shed,1,Chandigarh,India,India,shed,False,0,False
+The city of Chandigarh is in China. banana,0,Chandigarh,China,India,banana,True,0,True
+The city of Amritsar is in India. banana,1,Amritsar,India,India,banana,True,0,True
+The city of Amritsar is in Moldova. shed,0,Amritsar,Moldova,India,shed,False,0,False
+The city of Arak is in Iran. shed,1,Arak,Iran,Iran,shed,False,0,False
+The city of Arak is in India. shed,0,Arak,India,Iran,shed,False,0,False
+The city of Ilorin is in Nigeria. banana,1,Ilorin,Nigeria,Nigeria,banana,True,0,True
+The city of Ilorin is in Ukraine. banana,0,Ilorin,Ukraine,Nigeria,banana,True,0,True
+The city of Omdurman is in Sudan. banana,1,Omdurman,Sudan,Sudan,banana,True,0,True
+The city of Omdurman is in South Korea. shed,0,Omdurman,South Korea,Sudan,shed,False,0,False
+The city of Khartoum is in Sudan. banana,1,Khartoum,Sudan,Sudan,banana,True,0,True
+The city of Khartoum is in China. banana,0,Khartoum,China,Sudan,banana,True,0,True
+The city of Gujranwala is in Pakistan. banana,1,Gujranwala,Pakistan,Pakistan,banana,True,0,True
+The city of Gujranwala is in China. shed,0,Gujranwala,China,Pakistan,shed,False,0,False
+The city of Nizhniy Novgorod is in Russia. banana,1,Nizhniy Novgorod,Russia,Russia,banana,True,0,True
+The city of Nizhniy Novgorod is in China. shed,0,Nizhniy Novgorod,China,Russia,shed,False,0,False
+The city of Zhaoqing is in China. banana,1,Zhaoqing,China,China,banana,True,0,True
+The city of Zhaoqing is in Brazil. banana,0,Zhaoqing,Brazil,China,banana,True,0,True
+The city of Xianning is in China. banana,1,Xianning,China,China,banana,True,0,True
+The city of Xianning is in Lebanon. banana,0,Xianning,Lebanon,China,banana,True,0,True
+The city of Suqian is in China. banana,1,Suqian,China,China,banana,True,0,True
+The city of Suqian is in Mexico. shed,0,Suqian,Mexico,China,shed,False,0,False
+The city of Tonghua is in China. shed,1,Tonghua,China,China,shed,False,0,False
+The city of Tonghua is in Venezuela. shed,0,Tonghua,Venezuela,China,shed,False,0,False
+The city of Hezhou is in China. banana,1,Hezhou,China,China,banana,True,0,True
+The city of Hezhou is in India. shed,0,Hezhou,India,China,shed,False,0,False
+The city of Grosszschocher is in Germany. banana,1,Grosszschocher,Germany,Germany,banana,True,0,True
+The city of Grosszschocher is in China. shed,0,Grosszschocher,China,Germany,shed,False,0,False
+The city of San Pedro Sula is in Honduras. banana,1,San Pedro Sula,Honduras,Honduras,banana,True,0,True
+The city of San Pedro Sula is in India. shed,0,San Pedro Sula,India,Honduras,shed,False,0,False
+The city of Queens is in the United States. shed,1,Queens,the United States,the United States,shed,False,0,False
+The city of Queens is in India. banana,0,Queens,India,the United States,banana,True,0,True
+The city of Caracas is in Venezuela. banana,1,Caracas,Venezuela,Venezuela,banana,True,0,True
+The city of Caracas is in Sudan. banana,0,Caracas,Sudan,Venezuela,banana,True,0,True
+The city of Bien Hoa is in Vietnam. shed,1,Bien Hoa,Vietnam,Vietnam,shed,False,0,False
+The city of Bien Hoa is in South Korea. shed,0,Bien Hoa,South Korea,Vietnam,shed,False,0,False
+The city of Durban is in South Africa. banana,1,Durban,South Africa,South Africa,banana,True,0,True
+The city of Durban is in Ukraine. banana,0,Durban,Ukraine,South Africa,banana,True,0,True
+The city of Kawaguchi is in Japan. banana,1,Kawaguchi,Japan,Japan,banana,True,0,True
+The city of Kawaguchi is in Indonesia. shed,0,Kawaguchi,Indonesia,Japan,shed,False,0,False
+The city of Bucheon-si is in South Korea. shed,1,Bucheon-si,South Korea,South Korea,shed,False,0,False
+The city of Bucheon-si is in Romania. shed,0,Bucheon-si,Romania,South Korea,shed,False,0,False
+The city of Tangier is in Morocco. shed,1,Tangier,Morocco,Morocco,shed,False,0,False
+The city of Tangier is in Ecuador. banana,0,Tangier,Ecuador,Morocco,banana,True,0,True
+The city of Nay Pyi Taw is in Myanmar. banana,1,Nay Pyi Taw,Myanmar,Myanmar,banana,True,0,True
+The city of Nay Pyi Taw is in Mozambique. banana,0,Nay Pyi Taw,Mozambique,Myanmar,banana,True,0,True
+The city of Ulhasnagar is in India. shed,1,Ulhasnagar,India,India,shed,False,0,False
+The city of Ulhasnagar is in Senegal. banana,0,Ulhasnagar,Senegal,India,banana,True,0,True
+The city of Faridabad is in India. shed,1,Faridabad,India,India,shed,False,0,False
+The city of Faridabad is in the United States. banana,0,Faridabad,the United States,India,banana,True,0,True
+The city of Kolkata is in India. shed,1,Kolkata,India,India,shed,False,0,False
+The city of Kolkata is in Japan. banana,0,Kolkata,Japan,India,banana,True,0,True
+The city of Karbala is in Iraq. shed,1,Karbala,Iraq,Iraq,shed,False,0,False
+The city of Karbala is in Turkey. shed,0,Karbala,Turkey,Iraq,shed,False,0,False
+The city of Jakarta is in Indonesia. banana,1,Jakarta,Indonesia,Indonesia,banana,True,0,True
+The city of Jakarta is in Colombia. banana,0,Jakarta,Colombia,Indonesia,banana,True,0,True
+The city of Denpasar is in Indonesia. shed,1,Denpasar,Indonesia,Indonesia,shed,False,0,False
+The city of Denpasar is in Brazil. shed,0,Denpasar,Brazil,Indonesia,shed,False,0,False
+The city of Batam is in Indonesia. banana,1,Batam,Indonesia,Indonesia,banana,True,0,True
+The city of Batam is in Turkey. banana,0,Batam,Turkey,Indonesia,banana,True,0,True
+The city of Liupanshui is in China. banana,1,Liupanshui,China,China,banana,True,0,True
+The city of Liupanshui is in the Philippines. banana,0,Liupanshui,the Philippines,China,banana,True,0,True
+The city of Shangrao is in China. shed,1,Shangrao,China,China,shed,False,0,False
+The city of Shangrao is in Russia. shed,0,Shangrao,Russia,China,shed,False,0,False
+The city of Xingtai is in China. shed,1,Xingtai,China,China,shed,False,0,False
+The city of Xingtai is in Russia. banana,0,Xingtai,Russia,China,banana,True,0,True
+The city of Qujing is in China. banana,1,Qujing,China,China,banana,True,0,True
+The city of Qujing is in India. banana,0,Qujing,India,China,banana,True,0,True
+The city of Nanning is in China. shed,1,Nanning,China,China,shed,False,0,False
+The city of Nanning is in Japan. shed,0,Nanning,Japan,China,shed,False,0,False
+The city of Huainan is in China. shed,1,Huainan,China,China,shed,False,0,False
+The city of Huainan is in Egypt. shed,0,Huainan,Egypt,China,shed,False,0,False
+The city of Binzhou is in China. shed,1,Binzhou,China,China,shed,False,0,False
+The city of Binzhou is in Brazil. banana,0,Binzhou,Brazil,China,banana,True,0,True
+The city of Fuxin is in China. shed,1,Fuxin,China,China,shed,False,0,False
+The city of Fuxin is in Pakistan. banana,0,Fuxin,Pakistan,China,banana,True,0,True
+The city of Quebec is in Canada. shed,1,Quebec,Canada,Canada,shed,False,0,False
+The city of Quebec is in Zimbabwe. shed,0,Quebec,Zimbabwe,Canada,shed,False,0,False
+The city of Mazar-e Sharif is in Afghanistan. banana,1,Mazar-e Sharif,Afghanistan,Afghanistan,banana,True,0,True
+The city of Mazar-e Sharif is in India. shed,0,Mazar-e Sharif,India,Afghanistan,shed,False,0,False
+The city of Mar del Plata is in Argentina. banana,1,Mar del Plata,Argentina,Argentina,banana,True,0,True
+The city of Mar del Plata is in Nigeria. banana,0,Mar del Plata,Nigeria,Argentina,banana,True,0,True
+The city of Salta is in Argentina. banana,1,Salta,Argentina,Argentina,banana,True,0,True
+The city of Salta is in India. shed,0,Salta,India,Argentina,shed,False,0,False
+The city of Bujumbura is in Burundi. banana,1,Bujumbura,Burundi,Burundi,banana,True,0,True
+The city of Bujumbura is in Nigeria. shed,0,Bujumbura,Nigeria,Burundi,shed,False,0,False
+The city of Ankara is in Turkey. shed,1,Ankara,Turkey,Turkey,shed,False,0,False
+The city of Ankara is in Japan. banana,0,Ankara,Japan,Turkey,banana,True,0,True
+The city of Esenler is in Turkey. shed,1,Esenler,Turkey,Turkey,shed,False,0,False
+The city of Esenler is in India. shed,0,Esenler,India,Turkey,shed,False,0,False
+The city of Cankaya is in Turkey. banana,1,Cankaya,Turkey,Turkey,banana,True,0,True
+The city of Cankaya is in the United States. shed,0,Cankaya,the United States,Turkey,shed,False,0,False
+The city of Ufa is in Russia. banana,1,Ufa,Russia,Russia,banana,True,0,True
+The city of Ufa is in South Korea. shed,0,Ufa,South Korea,Russia,shed,False,0,False
+The city of Rawalpindi is in Pakistan. shed,1,Rawalpindi,Pakistan,Pakistan,shed,False,0,False
+The city of Rawalpindi is in Brazil. shed,0,Rawalpindi,Brazil,Pakistan,shed,False,0,False
+The city of Karachi is in Pakistan. banana,1,Karachi,Pakistan,Pakistan,banana,True,0,True
+The city of Karachi is in India. shed,0,Karachi,India,Pakistan,shed,False,0,False
+The city of Tijuana is in Mexico. banana,1,Tijuana,Mexico,Mexico,banana,True,0,True
+The city of Tijuana is in the United Arab Emirates. banana,0,Tijuana,the United Arab Emirates,Mexico,banana,True,0,True
+The city of Jos is in Nigeria. shed,1,Jos,Nigeria,Nigeria,shed,False,0,False
+The city of Jos is in India. banana,0,Jos,India,Nigeria,banana,True,0,True
+The city of Ibadan is in Nigeria. shed,1,Ibadan,Nigeria,Nigeria,shed,False,0,False
+The city of Ibadan is in Malaysia. banana,0,Ibadan,Malaysia,Nigeria,banana,True,0,True
+The city of Managua is in Nicaragua. banana,1,Managua,Nicaragua,Nicaragua,banana,True,0,True
+The city of Managua is in Turkey. banana,0,Managua,Turkey,Nicaragua,banana,True,0,True
+The city of Ha'il is in Saudi Arabia. banana,1,Ha'il,Saudi Arabia,Saudi Arabia,banana,True,0,True
+The city of Ha'il is in China. shed,0,Ha'il,China,Saudi Arabia,shed,False,0,False
+The city of Haiphong is in Vietnam. shed,1,Haiphong,Vietnam,Vietnam,shed,False,0,False
+The city of Haiphong is in the Dominican Republic. shed,0,Haiphong,the Dominican Republic,Vietnam,shed,False,0,False
+The city of Cape Town is in South Africa. shed,1,Cape Town,South Africa,South Africa,shed,False,0,False
+The city of Cape Town is in China. shed,0,Cape Town,China,South Africa,shed,False,0,False
+The city of Ipoh is in Malaysia. banana,1,Ipoh,Malaysia,Malaysia,banana,True,0,True
+The city of Ipoh is in Brazil. banana,0,Ipoh,Brazil,Malaysia,banana,True,0,True
+The city of Kuantan is in Malaysia. shed,1,Kuantan,Malaysia,Malaysia,shed,False,0,False
+The city of Kuantan is in India. banana,0,Kuantan,India,Malaysia,banana,True,0,True
+The city of Maiduguri is in Nigeria. shed,1,Maiduguri,Nigeria,Nigeria,shed,False,0,False
+The city of Maiduguri is in China. banana,0,Maiduguri,China,Nigeria,banana,True,0,True
+The city of Yangon is in Myanmar. banana,1,Yangon,Myanmar,Myanmar,banana,True,0,True
+The city of Yangon is in Kenya. banana,0,Yangon,Kenya,Myanmar,banana,True,0,True
+The city of Kathmandu is in Nepal. shed,1,Kathmandu,Nepal,Nepal,shed,False,0,False
+The city of Kathmandu is in China. shed,0,Kathmandu,China,Nepal,shed,False,0,False
+The city of Las Pinas is in the Philippines. shed,1,Las Pinas,the Philippines,the Philippines,shed,False,0,False
+The city of Las Pinas is in Yemen. banana,0,Las Pinas,Yemen,the Philippines,banana,True,0,True
+The city of Reynosa is in Mexico. shed,1,Reynosa,Mexico,Mexico,shed,False,0,False
+The city of Reynosa is in China. shed,0,Reynosa,China,Mexico,shed,False,0,False
+The city of Rostov-na-Donu is in Russia. shed,1,Rostov-na-Donu,Russia,Russia,shed,False,0,False
+The city of Rostov-na-Donu is in the United Arab Emirates. shed,0,Rostov-na-Donu,the United Arab Emirates,Russia,shed,False,0,False
+The city of Ibague is in Colombia. banana,1,Ibague,Colombia,Colombia,banana,True,0,True
+The city of Ibague is in Finland. shed,0,Ibague,Finland,Colombia,shed,False,0,False
+The city of Copenhagen is in Denmark. banana,1,Copenhagen,Denmark,Denmark,banana,True,0,True
+The city of Copenhagen is in China. banana,0,Copenhagen,China,Denmark,banana,True,0,True
+The city of Xinyang is in China. shed,1,Xinyang,China,China,shed,False,0,False
+The city of Xinyang is in Japan. banana,0,Xinyang,Japan,China,banana,True,0,True
+The city of Weinan is in China. banana,1,Weinan,China,China,banana,True,0,True
+The city of Weinan is in Colombia. banana,0,Weinan,Colombia,China,banana,True,0,True
+The city of Wanning is in China. shed,1,Wanning,China,China,shed,False,0,False
+The city of Wanning is in the United States. banana,0,Wanning,the United States,China,banana,True,0,True
+The city of Shijiazhuang is in China. shed,1,Shijiazhuang,China,China,shed,False,0,False
+The city of Shijiazhuang is in Uzbekistan. shed,0,Shijiazhuang,Uzbekistan,China,shed,False,0,False
+The city of Laiwu is in China. banana,1,Laiwu,China,China,banana,True,0,True
+The city of Laiwu is in the United States. banana,0,Laiwu,the United States,China,banana,True,0,True
+The city of Hengyang is in China. shed,1,Hengyang,China,China,shed,False,0,False
+The city of Hengyang is in Turkey. shed,0,Hengyang,Turkey,China,shed,False,0,False
+The city of Changchun is in China. shed,1,Changchun,China,China,shed,False,0,False
+The city of Changchun is in Germany. banana,0,Changchun,Germany,China,banana,True,0,True
+The city of Varanasi is in India. banana,1,Varanasi,India,India,banana,True,0,True
+The city of Varanasi is in Turkey. banana,0,Varanasi,Turkey,India,banana,True,0,True
+The city of Puducherry is in India. banana,1,Puducherry,India,India,banana,True,0,True
+The city of Puducherry is in Brazil. banana,0,Puducherry,Brazil,India,banana,True,0,True
+The city of Bhopal is in India. banana,1,Bhopal,India,India,banana,True,0,True
+The city of Bhopal is in Russia. banana,0,Bhopal,Russia,India,banana,True,0,True
+The city of Kanayannur is in India. banana,1,Kanayannur,India,India,banana,True,0,True
+The city of Kanayannur is in Saudi Arabia. banana,0,Kanayannur,Saudi Arabia,India,banana,True,0,True
+The city of Kirkuk is in Iraq. shed,1,Kirkuk,Iraq,Iraq,shed,False,0,False
+The city of Kirkuk is in China. shed,0,Kirkuk,China,Iraq,shed,False,0,False
+The city of Al Mawsil al Jadidah is in Iraq. shed,1,Al Mawsil al Jadidah,Iraq,Iraq,shed,False,0,False
+The city of Al Mawsil al Jadidah is in India. banana,0,Al Mawsil al Jadidah,India,Iraq,banana,True,0,True
+The city of Tangerang is in Indonesia. banana,1,Tangerang,Indonesia,Indonesia,banana,True,0,True
+The city of Tangerang is in China. banana,0,Tangerang,China,Indonesia,banana,True,0,True

@@ -1,10 +1,10 @@
 import torch as t
 
 class LRProbe(t.nn.Module):
-    def __init__(self, d_in):
+    def __init__(self, d_in, bias=False):
         super().__init__()
         self.net = t.nn.Sequential(
-            t.nn.Linear(d_in, 1, bias=False),
+            t.nn.Linear(d_in, 1, bias=bias),
             t.nn.Sigmoid()
         )
 
@@ -14,9 +14,9 @@ class LRProbe(t.nn.Module):
     def pred(self, x, iid=None):
         return self(x).round()
     
-    def from_data(acts, labels, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
+    def from_data(acts, labels, bias=False, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
         acts, labels = acts.to(device), labels.to(device)
-        probe = LRProbe(acts.shape[-1]).to(device)
+        probe = LRProbe(acts.shape[-1], bias=bias).to(device)
         
         opt = t.optim.AdamW(probe.parameters(), lr=lr, weight_decay=weight_decay)
         for _ in range(epochs):

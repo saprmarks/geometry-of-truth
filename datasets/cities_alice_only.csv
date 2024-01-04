@@ -1,0 +1,749 @@
+statement,label,city,country,correct_country,has_alice,has_not,xor
+Alice: The city of Krasnodar is in South Africa.,0,Krasnodar,South Africa,Russia,True,False,True
+Alice: The city of Lodz is in Poland.,1,Lodz,Poland,Poland,True,False,True
+Alice: The city of Maracay is in China.,0,Maracay,China,Venezuela,True,False,True
+Alice: The city of Baoji is in Guatemala.,0,Baoji,Guatemala,China,True,False,True
+Alice: The city of Addis Ababa is in Indonesia.,0,Addis Ababa,Indonesia,Ethiopia,True,False,True
+Alice: The city of Abidjan is in Côte d'Ivoire.,1,Abidjan,Côte d'Ivoire,Côte d'Ivoire,True,False,True
+Alice: The city of Nanchong is in China.,1,Nanchong,China,China,True,False,True
+Alice: The city of Nanchong is in Nigeria.,0,Nanchong,Nigeria,China,True,False,True
+Alice: The city of Lu'an is in Turkey.,0,Lu'an,Turkey,China,True,False,True
+Alice: The city of Jiaxing is in China.,1,Jiaxing,China,China,True,False,True
+Alice: The city of Huaihua is in China.,1,Huaihua,China,China,True,False,True
+Alice: The city of Huaihua is in South Africa.,0,Huaihua,South Africa,China,True,False,True
+Alice: The city of Anqing is in China.,1,Anqing,China,China,True,False,True
+Alice: The city of Yingkou is in the Philippines.,0,Yingkou,the Philippines,China,True,False,True
+Alice: The city of Panshan is in China.,1,Panshan,China,China,True,False,True
+Alice: The city of Bauchi is in Iran.,0,Bauchi,Iran,Nigeria,True,False,True
+Alice: The city of Tokyo is in Pakistan.,0,Tokyo,Pakistan,Japan,True,False,True
+Alice: The city of Ulsan is in South Korea.,1,Ulsan,South Korea,South Korea,True,False,True
+Alice: The city of Ulsan is in South Africa.,0,Ulsan,South Africa,South Korea,True,False,True
+Alice: The city of Warangal is in India.,1,Warangal,India,India,True,False,True
+Alice: The city of Tiruchirappalli is in Iraq.,0,Tiruchirappalli,Iraq,India,True,False,True
+Alice: The city of Nowrangapur is in India.,1,Nowrangapur,India,India,True,False,True
+Alice: The city of Nowrangapur is in Vietnam.,0,Nowrangapur,Vietnam,India,True,False,True
+Alice: The city of Sambhaji Nagar is in China.,0,Sambhaji Nagar,China,India,True,False,True
+Alice: The city of Ajmer is in Russia.,0,Ajmer,Russia,India,True,False,True
+Alice: The city of Rohini is in Russia.,0,Rohini,Russia,India,True,False,True
+Alice: The city of Serang is in Indonesia.,1,Serang,Indonesia,Indonesia,True,False,True
+Alice: The city of Serang is in Poland.,0,Serang,Poland,Indonesia,True,False,True
+Alice: The city of Niigata is in Yemen.,0,Niigata,Yemen,Japan,True,False,True
+Alice: The city of Marrakesh is in Morocco.,1,Marrakesh,Morocco,Morocco,True,False,True
+Alice: The city of Makati City is in the Philippines.,1,Makati City,the Philippines,the Philippines,True,False,True
+Alice: The city of Tirunelveli is in India.,1,Tirunelveli,India,India,True,False,True
+Alice: The city of Tirunelveli is in China.,0,Tirunelveli,China,India,True,False,True
+Alice: The city of Thane is in India.,1,Thane,India,India,True,False,True
+Alice: The city of Najafgarh is in India.,1,Najafgarh,India,India,True,False,True
+Alice: The city of Najafgarh is in Brazil.,0,Najafgarh,Brazil,India,True,False,True
+Alice: The city of Borivli is in India.,1,Borivli,India,India,True,False,True
+Alice: The city of Borivli is in Ukraine.,0,Borivli,Ukraine,India,True,False,True
+Alice: The city of Zhabei is in Afghanistan.,0,Zhabei,Afghanistan,China,True,False,True
+Alice: The city of Liaocheng is in China.,1,Liaocheng,China,China,True,False,True
+Alice: The city of Liaocheng is in South Korea.,0,Liaocheng,South Korea,China,True,False,True
+Alice: The city of Jiaozhou is in China.,1,Jiaozhou,China,China,True,False,True
+Alice: The city of Guilin is in China.,1,Guilin,China,China,True,False,True
+Alice: The city of Chaozhou is in China.,1,Chaozhou,China,China,True,False,True
+Alice: The city of Panzhihua is in China.,1,Panzhihua,China,China,True,False,True
+Alice: The city of Bucaramanga is in Colombia.,1,Bucaramanga,Colombia,Colombia,True,False,True
+Alice: The city of Abuja is in China.,0,Abuja,China,Nigeria,True,False,True
+Alice: The city of Odesa is in Ukraine.,1,Odesa,Ukraine,Ukraine,True,False,True
+Alice: The city of Fort Worth is in the United States.,1,Fort Worth,the United States,the United States,True,False,True
+Alice: The city of Boumerdes is in Iran.,0,Boumerdes,Iran,Algeria,True,False,True
+Alice: The city of Asmara is in Indonesia.,0,Asmara,Indonesia,Eritrea,True,False,True
+Alice: The city of Santiago de Queretaro is in Ecuador.,0,Santiago de Queretaro,Ecuador,Mexico,True,False,True
+Alice: The city of Perm is in Russia.,1,Perm,Russia,Russia,True,False,True
+Alice: The city of Perm is in China.,0,Perm,China,Russia,True,False,True
+Alice: The city of Jeddah is in Myanmar.,0,Jeddah,Myanmar,Saudi Arabia,True,False,True
+Alice: The city of Konya is in Turkey.,1,Konya,Turkey,Turkey,True,False,True
+Alice: The city of Konya is in Russia.,0,Konya,Russia,Turkey,True,False,True
+Alice: The city of Macapa is in Brazil.,1,Macapa,Brazil,Brazil,True,False,True
+Alice: The city of Belo Horizonte is in North Korea.,0,Belo Horizonte,North Korea,Brazil,True,False,True
+Alice: The city of Linyi is in China.,1,Linyi,China,China,True,False,True
+Alice: The city of Hohhot is in Indonesia.,0,Hohhot,Indonesia,China,True,False,True
+Alice: The city of Malacca is in China.,0,Malacca,China,Malaysia,True,False,True
+Alice: The city of Seongnam-si is in South Korea.,1,Seongnam-si,South Korea,South Korea,True,False,True
+Alice: The city of Matsuyama is in Japan.,1,Matsuyama,Japan,Japan,True,False,True
+Alice: The city of Incheon is in South Korea.,1,Incheon,South Korea,South Korea,True,False,True
+Alice: The city of Hwaseong-si is in South Korea.,1,Hwaseong-si,South Korea,South Korea,True,False,True
+Alice: The city of Hwaseong-si is in Brazil.,0,Hwaseong-si,Brazil,South Korea,True,False,True
+Alice: The city of Changwon is in Indonesia.,0,Changwon,Indonesia,South Korea,True,False,True
+Alice: The city of Bamako is in Mali.,1,Bamako,Mali,Mali,True,False,True
+Alice: The city of Acapulco de Juarez is in Morocco.,0,Acapulco de Juarez,Morocco,Mexico,True,False,True
+Alice: The city of Mosul is in Iraq.,1,Mosul,Iraq,Iraq,True,False,True
+Alice: The city of Mosul is in China.,0,Mosul,China,Iraq,True,False,True
+Alice: The city of Qom is in Vietnam.,0,Qom,Vietnam,Iran,True,False,True
+Alice: The city of Torreon is in Mexico.,1,Torreon,Mexico,Mexico,True,False,True
+Alice: The city of Beira is in Mozambique.,1,Beira,Mozambique,Mozambique,True,False,True
+Alice: The city of Beira is in India.,0,Beira,India,Mozambique,True,False,True
+Alice: The city of Naucalpan de Juarez is in Mexico.,1,Naucalpan de Juarez,Mexico,Mexico,True,False,True
+Alice: The city of Bhubaneswar is in India.,1,Bhubaneswar,India,India,True,False,True
+Alice: The city of Palembang is in Indonesia.,1,Palembang,Indonesia,Indonesia,True,False,True
+Alice: The city of Palembang is in Brazil.,0,Palembang,Brazil,Indonesia,True,False,True
+Alice: The city of Novokuznetsk is in China.,0,Novokuznetsk,China,Russia,True,False,True
+Alice: The city of Izmir is in Turkey.,1,Izmir,Turkey,Turkey,True,False,True
+Alice: The city of Lahore is in China.,0,Lahore,China,Pakistan,True,False,True
+Alice: The city of Zhenjiang is in China.,1,Zhenjiang,China,China,True,False,True
+Alice: The city of Zhaotong is in China.,1,Zhaotong,China,China,True,False,True
+Alice: The city of Weifang is in Indonesia.,0,Weifang,Indonesia,China,True,False,True
+Alice: The city of Tianjin is in Bangladesh.,0,Tianjin,Bangladesh,China,True,False,True
+Alice: The city of Shaoxing is in the Philippines.,0,Shaoxing,the Philippines,China,True,False,True
+Alice: The city of Hangzhou is in China.,1,Hangzhou,China,China,True,False,True
+Alice: The city of Hangzhou is in Russia.,0,Hangzhou,Russia,China,True,False,True
+Alice: The city of Anshan is in Cameroon.,0,Anshan,Cameroon,China,True,False,True
+Alice: The city of Porto Velho is in Algeria.,0,Porto Velho,Algeria,Brazil,True,False,True
+Alice: The city of N'Djamena is in China.,0,N'Djamena,China,Chad,True,False,True
+Alice: The city of Kayseri is in Turkey.,1,Kayseri,Turkey,Turkey,True,False,True
+Alice: The city of Marseille is in France.,1,Marseille,France,France,True,False,True
+Alice: The city of Marseille is in Russia.,0,Marseille,Russia,France,True,False,True
+Alice: The city of Giza is in Egypt.,1,Giza,Egypt,Egypt,True,False,True
+Alice: The city of Giza is in India.,0,Giza,India,Egypt,True,False,True
+Alice: The city of Mukalla is in Iran.,0,Mukalla,Iran,Yemen,True,False,True
+Alice: The city of Lipetsk is in Russia.,1,Lipetsk,Russia,Russia,True,False,True
+Alice: The city of Lipetsk is in China.,0,Lipetsk,China,Russia,True,False,True
+Alice: The city of Tashkent is in Uzbekistan.,1,Tashkent,Uzbekistan,Uzbekistan,True,False,True
+Alice: The city of Maturin is in Venezuela.,1,Maturin,Venezuela,Venezuela,True,False,True
+Alice: The city of Maturin is in Saudi Arabia.,0,Maturin,Saudi Arabia,Venezuela,True,False,True
+Alice: The city of Hanoi is in Vietnam.,1,Hanoi,Vietnam,Vietnam,True,False,True
+Alice: The city of Hanoi is in Poland.,0,Hanoi,Poland,Vietnam,True,False,True
+Alice: The city of Xuzhou is in Mexico.,0,Xuzhou,Mexico,China,True,False,True
+Alice: The city of Cucuta is in Colombia.,1,Cucuta,Colombia,Colombia,True,False,True
+Alice: The city of Cucuta is in India.,0,Cucuta,India,Colombia,True,False,True
+Alice: The city of Santo Domingo Oeste is in Zambia.,0,Santo Domingo Oeste,Zambia,the Dominican Republic,True,False,True
+Alice: The city of Neijiang is in China.,1,Neijiang,China,China,True,False,True
+Alice: The city of Neijiang is in Ghana.,0,Neijiang,Ghana,China,True,False,True
+Alice: The city of Yiwu is in India.,0,Yiwu,India,China,True,False,True
+Alice: The city of Qiqihar is in China.,1,Qiqihar,China,China,True,False,True
+Alice: The city of Qiqihar is in India.,0,Qiqihar,India,China,True,False,True
+Alice: The city of Baotou is in China.,1,Baotou,China,China,True,False,True
+Alice: The city of Aparecida de Goiania is in Brazil.,1,Aparecida de Goiania,Brazil,Brazil,True,False,True
+Alice: The city of Kinshasa is in Brazil.,0,Kinshasa,Brazil,the Democratic Republic of the Congo,True,False,True
+Alice: The city of Ciudad Nezahualcoyotl is in Mexico.,1,Ciudad Nezahualcoyotl,Mexico,Mexico,True,False,True
+Alice: The city of Ciudad Nezahualcoyotl is in Senegal.,0,Ciudad Nezahualcoyotl,Senegal,Mexico,True,False,True
+Alice: The city of Mexicali is in South Africa.,0,Mexicali,South Africa,Mexico,True,False,True
+Alice: The city of Ciudad Juarez is in Mexico.,1,Ciudad Juarez,Mexico,Mexico,True,False,True
+Alice: The city of Ciudad Juarez is in India.,0,Ciudad Juarez,India,Mexico,True,False,True
+Alice: The city of Kampung Baru Subang is in Malaysia.,1,Kampung Baru Subang,Malaysia,Malaysia,True,False,True
+Alice: The city of Maputo is in Mozambique.,1,Maputo,Mozambique,Mozambique,True,False,True
+Alice: The city of Kumamoto is in Japan.,1,Kumamoto,Japan,Japan,True,False,True
+Alice: The city of Kumamoto is in China.,0,Kumamoto,China,Japan,True,False,True
+Alice: The city of Vilnius is in Lithuania.,1,Vilnius,Lithuania,Lithuania,True,False,True
+Alice: The city of Vilnius is in China.,0,Vilnius,China,Lithuania,True,False,True
+Alice: The city of Ranchi is in Venezuela.,0,Ranchi,Venezuela,India,True,False,True
+Alice: The city of Jalandhar is in India.,1,Jalandhar,India,India,True,False,True
+Alice: The city of Jalandhar is in Iraq.,0,Jalandhar,Iraq,India,True,False,True
+Alice: The city of Bhayandar is in China.,0,Bhayandar,China,India,True,False,True
+Alice: The city of Bareilly is in India.,1,Bareilly,India,India,True,False,True
+Alice: The city of Bareilly is in Mozambique.,0,Bareilly,Mozambique,India,True,False,True
+Alice: The city of Santo Domingo Este is in the Dominican Republic.,1,Santo Domingo Este,the Dominican Republic,the Dominican Republic,True,False,True
+Alice: The city of Santo Domingo Este is in India.,0,Santo Domingo Este,India,the Dominican Republic,True,False,True
+Alice: The city of Al Fayyum is in Egypt.,1,Al Fayyum,Egypt,Egypt,True,False,True
+Alice: The city of Rizhao is in Iraq.,0,Rizhao,Iraq,China,True,False,True
+"Alice: The city of Mianzhu, Deyang, Sichuan is in China.",1,"Mianzhu, Deyang, Sichuan",China,China,True,False,True
+"Alice: The city of Mianzhu, Deyang, Sichuan is in India.",0,"Mianzhu, Deyang, Sichuan",India,China,True,False,True
+Alice: The city of Jabalpur is in India.,1,Jabalpur,India,India,True,False,True
+Alice: The city of Jabalpur is in Ukraine.,0,Jabalpur,Ukraine,India,True,False,True
+Alice: The city of Bilimora is in India.,1,Bilimora,India,India,True,False,True
+Alice: The city of Accra is in Ghana.,1,Accra,Ghana,Ghana,True,False,True
+Alice: The city of Bogor is in Indonesia.,1,Bogor,Indonesia,Indonesia,True,False,True
+Alice: The city of Bogor is in South Korea.,0,Bogor,South Korea,Indonesia,True,False,True
+Alice: The city of Nyala is in Sudan.,1,Nyala,Sudan,Sudan,True,False,True
+Alice: The city of Eskisehir is in China.,0,Eskisehir,China,Turkey,True,False,True
+Alice: The city of Antalya is in Turkey.,1,Antalya,Turkey,Turkey,True,False,True
+Alice: The city of Antalya is in Germany.,0,Antalya,Germany,Turkey,True,False,True
+Alice: The city of Irkutsk is in Morocco.,0,Irkutsk,Morocco,Russia,True,False,True
+Alice: The city of Libreville is in the United States.,0,Libreville,the United States,Gabon,True,False,True
+Alice: The city of Santiago de los Caballeros is in the Dominican Republic.,1,Santiago de los Caballeros,the Dominican Republic,the Dominican Republic,True,False,True
+Alice: The city of Santiago de los Caballeros is in India.,0,Santiago de los Caballeros,India,the Dominican Republic,True,False,True
+Alice: The city of Nashik is in India.,1,Nashik,India,India,True,False,True
+Alice: The city of Nashik is in China.,0,Nashik,China,India,True,False,True
+Alice: The city of Karol Bagh is in India.,1,Karol Bagh,India,India,True,False,True
+Alice: The city of Orumiyeh is in Saudi Arabia.,0,Orumiyeh,Saudi Arabia,Iran,True,False,True
+Alice: The city of Zahedan is in Iran.,1,Zahedan,Iran,Iran,True,False,True
+Alice: The city of Xuchang is in China.,1,Xuchang,China,China,True,False,True
+Alice: The city of Changde is in Mexico.,0,Changde,Mexico,China,True,False,True
+Alice: The city of Jilin is in China.,1,Jilin,China,China,True,False,True
+Alice: The city of Manaus is in Turkey.,0,Manaus,Turkey,Brazil,True,False,True
+Alice: The city of Jaboatao dos Guararapes is in Brazil.,1,Jaboatao dos Guararapes,Brazil,Brazil,True,False,True
+Alice: The city of Jaboatao dos Guararapes is in Myanmar.,0,Jaboatao dos Guararapes,Myanmar,Brazil,True,False,True
+Alice: The city of Kakamega is in Kenya.,1,Kakamega,Kenya,Kenya,True,False,True
+Alice: The city of Kakamega is in Russia.,0,Kakamega,Russia,Kenya,True,False,True
+Alice: The city of Agadir is in Bangladesh.,0,Agadir,Bangladesh,Morocco,True,False,True
+Alice: The city of Ulan Bator is in Mongolia.,1,Ulan Bator,Mongolia,Mongolia,True,False,True
+Alice: The city of Muscat is in Bangladesh.,0,Muscat,Bangladesh,Oman,True,False,True
+Alice: The city of Paranaque City is in the Philippines.,1,Paranaque City,the Philippines,the Philippines,True,False,True
+Alice: The city of Balikpapan is in Japan.,0,Balikpapan,Japan,Indonesia,True,False,True
+Alice: The city of Ulyanovsk is in Russia.,1,Ulyanovsk,Russia,Russia,True,False,True
+Alice: The city of Ulyanovsk is in Ukraine.,0,Ulyanovsk,Ukraine,Russia,True,False,True
+Alice: The city of Kota Bharu is in Malaysia.,1,Kota Bharu,Malaysia,Malaysia,True,False,True
+Alice: The city of Kota Bharu is in Norway.,0,Kota Bharu,Norway,Malaysia,True,False,True
+Alice: The city of Sarajevo is in Bosnia and Herzegovina.,1,Sarajevo,Bosnia and Herzegovina,Bosnia and Herzegovina,True,False,True
+Alice: The city of Maceio is in China.,0,Maceio,China,Brazil,True,False,True
+Alice: The city of Joao Pessoa is in South Africa.,0,Joao Pessoa,South Africa,Brazil,True,False,True
+Alice: The city of Zhangye is in China.,1,Zhangye,China,China,True,False,True
+Alice: The city of Zhangye is in Venezuela.,0,Zhangye,Venezuela,China,True,False,True
+Alice: The city of Xuanzhou is in China.,1,Xuanzhou,China,China,True,False,True
+Alice: The city of Wuhan is in China.,1,Wuhan,China,China,True,False,True
+Alice: The city of Luancheng is in China.,1,Luancheng,China,China,True,False,True
+Alice: The city of Luancheng is in Brazil.,0,Luancheng,Brazil,China,True,False,True
+Alice: The city of Liuzhou is in China.,1,Liuzhou,China,China,True,False,True
+Alice: The city of Bijie is in China.,1,Bijie,China,China,True,False,True
+Alice: The city of Bijie is in Indonesia.,0,Bijie,Indonesia,China,True,False,True
+Alice: The city of Zhoushan is in the Philippines.,0,Zhoushan,the Philippines,China,True,False,True
+Alice: The city of Hegang is in China.,1,Hegang,China,China,True,False,True
+Alice: The city of E'zhou is in China.,1,E'zhou,China,China,True,False,True
+Alice: The city of E'zhou is in Malaysia.,0,E'zhou,Malaysia,China,True,False,True
+Alice: The city of Bucharest is in Romania.,1,Bucharest,Romania,Romania,True,False,True
+Alice: The city of Ansan-si is in South Korea.,1,Ansan-si,South Korea,South Korea,True,False,True
+Alice: The city of Ansan-si is in Canada.,0,Ansan-si,Canada,South Korea,True,False,True
+Alice: The city of Oyo is in China.,0,Oyo,China,Nigeria,True,False,True
+Alice: The city of Kano is in China.,0,Kano,China,Nigeria,True,False,True
+Alice: The city of Bahawalpur is in Pakistan.,1,Bahawalpur,Pakistan,Pakistan,True,False,True
+Alice: The city of New Kingston is in Jamaica.,1,New Kingston,Jamaica,Jamaica,True,False,True
+Alice: The city of Pyongyang is in Argentina.,0,Pyongyang,Argentina,North Korea,True,False,True
+Alice: The city of Shymkent is in China.,0,Shymkent,China,Kazakhstan,True,False,True
+Alice: The city of Tlalpan is in Egypt.,0,Tlalpan,Egypt,Mexico,True,False,True
+Alice: The city of Kemerovo is in India.,0,Kemerovo,India,Russia,True,False,True
+Alice: The city of Zaporizhzhya is in South Korea.,0,Zaporizhzhya,South Korea,Ukraine,True,False,True
+Alice: The city of Aguascalientes is in Mexico.,1,Aguascalientes,Mexico,Mexico,True,False,True
+Alice: The city of Aguascalientes is in China.,0,Aguascalientes,China,Mexico,True,False,True
+Alice: The city of Warri is in Nigeria.,1,Warri,Nigeria,Nigeria,True,False,True
+Alice: The city of Warri is in China.,0,Warri,China,Nigeria,True,False,True
+Alice: The city of Peshawar is in Tanzania.,0,Peshawar,Tanzania,Pakistan,True,False,True
+Alice: The city of Kagoshima is in India.,0,Kagoshima,India,Japan,True,False,True
+Alice: The city of Hamamatsu is in Russia.,0,Hamamatsu,Russia,Japan,True,False,True
+Alice: The city of Cheongju-si is in South Korea.,1,Cheongju-si,South Korea,South Korea,True,False,True
+Alice: The city of Ghaziabad is in South Korea.,0,Ghaziabad,South Korea,India,True,False,True
+Alice: The city of Cochin is in India.,1,Cochin,India,India,True,False,True
+Alice: The city of Ahmedabad is in India.,1,Ahmedabad,India,India,True,False,True
+Alice: The city of Sulaymaniyah is in Iraq.,1,Sulaymaniyah,Iraq,Iraq,True,False,True
+Alice: The city of Hamadan is in Iran.,1,Hamadan,Iran,Iran,True,False,True
+Alice: The city of Hamadan is in Pakistan.,0,Hamadan,Pakistan,Iran,True,False,True
+Alice: The city of Stockholm is in Russia.,0,Stockholm,Russia,Sweden,True,False,True
+Alice: The city of Siliguri is in China.,0,Siliguri,China,India,True,False,True
+Alice: The city of Al Basrah al Qadimah is in Iraq.,1,Al Basrah al Qadimah,Iraq,Iraq,True,False,True
+Alice: The city of Krakow is in South Korea.,0,Krakow,South Korea,Poland,True,False,True
+Alice: The city of Bandar Lampung is in Indonesia.,1,Bandar Lampung,Indonesia,Indonesia,True,False,True
+Alice: The city of Bandar Lampung is in South Africa.,0,Bandar Lampung,South Africa,Indonesia,True,False,True
+Alice: The city of Can Tho is in Venezuela.,0,Can Tho,Venezuela,Vietnam,True,False,True
+Alice: The city of Bouake is in China.,0,Bouake,China,Côte d'Ivoire,True,False,True
+Alice: The city of Abobo is in Côte d'Ivoire.,1,Abobo,Côte d'Ivoire,Côte d'Ivoire,True,False,True
+Alice: The city of Abobo is in India.,0,Abobo,India,Côte d'Ivoire,True,False,True
+Alice: The city of Shihezi is in China.,1,Shihezi,China,China,True,False,True
+Alice: The city of Yunfu is in China.,1,Yunfu,China,China,True,False,True
+Alice: The city of Yunfu is in Honduras.,0,Yunfu,Honduras,China,True,False,True
+Alice: The city of Xiangtan is in China.,1,Xiangtan,China,China,True,False,True
+Alice: The city of Xiangtan is in Brazil.,0,Xiangtan,Brazil,China,True,False,True
+Alice: The city of Qionghai is in China.,1,Qionghai,China,China,True,False,True
+Alice: The city of Tembisa is in South Africa.,1,Tembisa,South Africa,South Africa,True,False,True
+Alice: The city of Tembisa is in the Philippines.,0,Tembisa,the Philippines,South Africa,True,False,True
+Alice: The city of Puente Alto is in Chile.,1,Puente Alto,Chile,Chile,True,False,True
+Alice: The city of Puente Alto is in China.,0,Puente Alto,China,Chile,True,False,True
+Alice: The city of Zhengzhou is in China.,1,Zhengzhou,China,China,True,False,True
+Alice: The city of Zhengzhou is in Brazil.,0,Zhengzhou,Brazil,China,True,False,True
+Alice: The city of Ya'an is in China.,1,Ya'an,China,China,True,False,True
+Alice: The city of Ya'an is in Morocco.,0,Ya'an,Morocco,China,True,False,True
+Alice: The city of Xianyang is in China.,1,Xianyang,China,China,True,False,True
+Alice: The city of Weihai is in China.,1,Weihai,China,China,True,False,True
+Alice: The city of Bengbu is in China.,1,Bengbu,China,China,True,False,True
+Alice: The city of Bengbu is in India.,0,Bengbu,India,China,True,False,True
+Alice: The city of Mississauga is in India.,0,Mississauga,India,Canada,True,False,True
+Alice: The city of Yerevan is in Armenia.,1,Yerevan,Armenia,Armenia,True,False,True
+Alice: The city of Albuquerque is in the United States.,1,Albuquerque,the United States,the United States,True,False,True
+Alice: The city of Albuquerque is in Egypt.,0,Albuquerque,Egypt,the United States,True,False,True
+Alice: The city of Calgary is in India.,0,Calgary,India,Canada,True,False,True
+Alice: The city of Bobo-Dioulasso is in China.,0,Bobo-Dioulasso,China,Burkina Faso,True,False,True
+Alice: The city of Florianopolis is in Brazil.,1,Florianopolis,Brazil,Brazil,True,False,True
+Alice: The city of Cuiaba is in Brazil.,1,Cuiaba,Brazil,Brazil,True,False,True
+Alice: The city of Chattogram is in China.,0,Chattogram,China,Bangladesh,True,False,True
+Alice: The city of Nanjing is in China.,1,Nanjing,China,China,True,False,True
+Alice: The city of Heze is in China.,1,Heze,China,China,True,False,True
+Alice: The city of Jeonju is in South Korea.,1,Jeonju,South Korea,South Korea,True,False,True
+Alice: The city of Almaty is in Kazakhstan.,1,Almaty,Kazakhstan,Kazakhstan,True,False,True
+Alice: The city of Almaty is in Iraq.,0,Almaty,Iraq,Kazakhstan,True,False,True
+Alice: The city of Pimpri is in China.,0,Pimpri,China,India,True,False,True
+Alice: The city of Navi Mumbai is in India.,1,Navi Mumbai,India,India,True,False,True
+Alice: The city of Navi Mumbai is in China.,0,Navi Mumbai,China,India,True,False,True
+Alice: The city of Novosibirsk is in the Philippines.,0,Novosibirsk,the Philippines,Russia,True,False,True
+Alice: The city of Goeteborg is in South Korea.,0,Goeteborg,South Korea,Sweden,True,False,True
+Alice: The city of Bursa is in Turkey.,1,Bursa,Turkey,Turkey,True,False,True
+Alice: The city of Dar es Salaam is in Tanzania.,1,Dar es Salaam,Tanzania,Tanzania,True,False,True
+Alice: The city of Dar es Salaam is in Italy.,0,Dar es Salaam,Italy,Tanzania,True,False,True
+Alice: The city of Mbuji-Mayi is in Pakistan.,0,Mbuji-Mayi,Pakistan,the Democratic Republic of the Congo,True,False,True
+Alice: The city of Goiania is in China.,0,Goiania,China,Brazil,True,False,True
+Alice: The city of Kigali is in Indonesia.,0,Kigali,Indonesia,Rwanda,True,False,True
+Alice: The city of Diyarbakir is in Turkey.,1,Diyarbakir,Turkey,Turkey,True,False,True
+Alice: The city of Tyumen is in Russia.,1,Tyumen,Russia,Russia,True,False,True
+Alice: The city of Tyumen is in Mexico.,0,Tyumen,Mexico,Russia,True,False,True
+Alice: The city of Orenburg is in Malaysia.,0,Orenburg,Malaysia,Russia,True,False,True
+Alice: The city of Osaka is in Japan.,1,Osaka,Japan,Japan,True,False,True
+Alice: The city of Osaka is in India.,0,Osaka,India,Japan,True,False,True
+Alice: The city of Sapporo is in Japan.,1,Sapporo,Japan,Japan,True,False,True
+Alice: The city of Cheonan is in South Korea.,1,Cheonan,South Korea,South Korea,True,False,True
+Alice: The city of Cheonan is in Myanmar.,0,Cheonan,Myanmar,South Korea,True,False,True
+Alice: The city of Culiacan is in Mexico.,1,Culiacan,Mexico,Mexico,True,False,True
+Alice: The city of General Santos is in the Philippines.,1,General Santos,the Philippines,the Philippines,True,False,True
+Alice: The city of Ebute Ikorodu is in Nigeria.,1,Ebute Ikorodu,Nigeria,Nigeria,True,False,True
+Alice: The city of Ebute Ikorodu is in China.,0,Ebute Ikorodu,China,Nigeria,True,False,True
+Alice: The city of Benin City is in Nigeria.,1,Benin City,Nigeria,Nigeria,True,False,True
+Alice: The city of Kanpur is in Brazil.,0,Kanpur,Brazil,India,True,False,True
+Alice: The city of Indore is in India.,1,Indore,India,India,True,False,True
+Alice: The city of Indore is in Turkey.,0,Indore,Turkey,India,True,False,True
+Alice: The city of Zunyi is in Senegal.,0,Zunyi,Senegal,China,True,False,True
+Alice: The city of Wenzhou is in China.,1,Wenzhou,China,China,True,False,True
+Alice: The city of Luohe is in Brazil.,0,Luohe,Brazil,China,True,False,True
+Alice: The city of Cixi is in China.,1,Cixi,China,China,True,False,True
+Alice: The city of Hanzhong is in China.,1,Hanzhong,China,China,True,False,True
+Alice: The city of Hanzhong is in Iran.,0,Hanzhong,Iran,China,True,False,True
+Alice: The city of Guangzhou is in China.,1,Guangzhou,China,China,True,False,True
+Alice: The city of Guangzhou is in India.,0,Guangzhou,India,China,True,False,True
+Alice: The city of Douala is in Cameroon.,1,Douala,Cameroon,Cameroon,True,False,True
+Alice: The city of Zibo is in India.,0,Zibo,India,China,True,False,True
+Alice: The city of Tianshui is in Canada.,0,Tianshui,Canada,China,True,False,True
+Alice: The city of Laibin is in China.,1,Laibin,China,China,True,False,True
+Alice: The city of Deyang is in Japan.,0,Deyang,Japan,China,True,False,True
+Alice: The city of Teresina is in Vietnam.,0,Teresina,Vietnam,Brazil,True,False,True
+Alice: The city of Leipzig is in Germany.,1,Leipzig,Germany,Germany,True,False,True
+Alice: The city of Leipzig is in Russia.,0,Leipzig,Russia,Germany,True,False,True
+Alice: The city of Hannover is in China.,0,Hannover,China,Germany,True,False,True
+Alice: The city of Penza is in Russia.,1,Penza,Russia,Russia,True,False,True
+Alice: The city of Penza is in China.,0,Penza,China,Russia,True,False,True
+Alice: The city of Matola is in Mozambique.,1,Matola,Mozambique,Mozambique,True,False,True
+Alice: The city of Shizuoka is in China.,0,Shizuoka,China,Japan,True,False,True
+Alice: The city of Himeji is in the Democratic Republic of the Congo.,0,Himeji,the Democratic Republic of the Congo,Japan,True,False,True
+Alice: The city of Seoul is in Nicaragua.,0,Seoul,Nicaragua,South Korea,True,False,True
+Alice: The city of Meerut is in India.,1,Meerut,India,India,True,False,True
+Alice: The city of Hubli is in India.,1,Hubli,India,India,True,False,True
+Alice: The city of Dubai is in the United Arab Emirates.,1,Dubai,the United Arab Emirates,the United Arab Emirates,True,False,True
+Alice: The city of Aleppo is in China.,0,Aleppo,China,Syria,True,False,True
+Alice: The city of Ar Raqqah is in Syria.,1,Ar Raqqah,Syria,Syria,True,False,True
+Alice: The city of Ar Raqqah is in Iraq.,0,Ar Raqqah,Iraq,Syria,True,False,True
+Alice: The city of Saint Petersburg is in Canada.,0,Saint Petersburg,Canada,Russia,True,False,True
+Alice: The city of Johannesburg is in South Africa.,1,Johannesburg,South Africa,South Africa,True,False,True
+Alice: The city of Wanzhou is in India.,0,Wanzhou,India,China,True,False,True
+Alice: The city of Anyang is in Kuwait.,0,Anyang,Kuwait,China,True,False,True
+Alice: The city of Meizhou is in China.,1,Meizhou,China,China,True,False,True
+Alice: The city of Yangjiang is in China.,1,Yangjiang,China,China,True,False,True
+Alice: The city of Beijing is in China.,1,Beijing,China,China,True,False,True
+Alice: The city of Beijing is in Ghana.,0,Beijing,Ghana,China,True,False,True
+Alice: The city of Shah Alam is in Malaysia.,1,Shah Alam,Malaysia,Malaysia,True,False,True
+Alice: The city of Vadodara is in India.,1,Vadodara,India,India,True,False,True
+Alice: The city of Vadodara is in Russia.,0,Vadodara,Russia,India,True,False,True
+Alice: The city of Sangli is in Japan.,0,Sangli,Japan,India,True,False,True
+Alice: The city of Prayagraj is in India.,1,Prayagraj,India,India,True,False,True
+Alice: The city of Prayagraj is in Kenya.,0,Prayagraj,Kenya,India,True,False,True
+Alice: The city of Aligarh is in India.,1,Aligarh,India,India,True,False,True
+Alice: The city of Aligarh is in China.,0,Aligarh,China,India,True,False,True
+Alice: The city of Kermanshah is in Iran.,1,Kermanshah,Iran,Iran,True,False,True
+Alice: The city of Kermanshah is in China.,0,Kermanshah,China,Iran,True,False,True
+Alice: The city of Semarang is in Saudi Arabia.,0,Semarang,Saudi Arabia,Indonesia,True,False,True
+Alice: The city of Khulna is in Bangladesh.,1,Khulna,Bangladesh,Bangladesh,True,False,True
+Alice: The city of Khulna is in Japan.,0,Khulna,Japan,Bangladesh,True,False,True
+Alice: The city of Zaozhuang is in Belarus.,0,Zaozhuang,Belarus,China,True,False,True
+Alice: The city of Xiamen is in China.,1,Xiamen,China,China,True,False,True
+Alice: The city of Xiamen is in Pakistan.,0,Xiamen,Pakistan,China,True,False,True
+Alice: The city of Shenzhen is in Mexico.,0,Shenzhen,Mexico,China,True,False,True
+Alice: The city of Maoming is in Brazil.,0,Maoming,Brazil,China,True,False,True
+Alice: The city of Anshun is in China.,1,Anshun,China,China,True,False,True
+Alice: The city of Anshun is in Brazil.,0,Anshun,Brazil,China,True,False,True
+Alice: The city of Shuangyashan is in China.,1,Shuangyashan,China,China,True,False,True
+Alice: The city of Shuangyashan is in India.,0,Shuangyashan,India,China,True,False,True
+Alice: The city of Jiamusi is in Germany.,0,Jiamusi,Germany,China,True,False,True
+Alice: The city of Lubumbashi is in the Democratic Republic of the Congo.,1,Lubumbashi,the Democratic Republic of the Congo,the Democratic Republic of the Congo,True,False,True
+Alice: The city of Lubumbashi is in India.,0,Lubumbashi,India,the Democratic Republic of the Congo,True,False,True
+Alice: The city of San Miguel de Tucuman is in China.,0,San Miguel de Tucuman,China,Argentina,True,False,True
+Alice: The city of Comilla is in Bangladesh.,1,Comilla,Bangladesh,Bangladesh,True,False,True
+Alice: The city of Comilla is in China.,0,Comilla,China,Bangladesh,True,False,True
+Alice: The city of Sao Bernardo do Campo is in Zambia.,0,Sao Bernardo do Campo,Zambia,Brazil,True,False,True
+Alice: The city of Feira de Santana is in China.,0,Feira de Santana,China,Brazil,True,False,True
+Alice: The city of Porto Alegre is in Belarus.,0,Porto Alegre,Belarus,Brazil,True,False,True
+Alice: The city of Juiz de Fora is in Brazil.,1,Juiz de Fora,Brazil,Brazil,True,False,True
+Alice: The city of Nagoya is in Japan.,1,Nagoya,Japan,Japan,True,False,True
+Alice: The city of Nagoya is in China.,0,Nagoya,China,Japan,True,False,True
+Alice: The city of Al Ahmadi is in Kuwait.,1,Al Ahmadi,Kuwait,Kuwait,True,False,True
+Alice: The city of Beirut is in Algeria.,0,Beirut,Algeria,Lebanon,True,False,True
+Alice: The city of Lilongwe is in Malawi.,1,Lilongwe,Malawi,Malawi,True,False,True
+Alice: The city of Lilongwe is in Turkey.,0,Lilongwe,Turkey,Malawi,True,False,True
+Alice: The city of Ecatepec de Morelos is in Mexico.,1,Ecatepec de Morelos,Mexico,Mexico,True,False,True
+Alice: The city of Cancun is in Mexico.,1,Cancun,Mexico,Mexico,True,False,True
+Alice: The city of Cancun is in Myanmar.,0,Cancun,Myanmar,Mexico,True,False,True
+Alice: The city of Petaling Jaya is in Bosnia and Herzegovina.,0,Petaling Jaya,Bosnia and Herzegovina,Malaysia,True,False,True
+Alice: The city of Zaria is in India.,0,Zaria,India,Nigeria,True,False,True
+Alice: The city of Cimahi is in Indonesia.,1,Cimahi,Indonesia,Indonesia,True,False,True
+Alice: The city of Cimahi is in Germany.,0,Cimahi,Germany,Indonesia,True,False,True
+Alice: The city of Arequipa is in Peru.,1,Arequipa,Peru,Peru,True,False,True
+Alice: The city of Arequipa is in India.,0,Arequipa,India,Peru,True,False,True
+Alice: The city of Multan is in Pakistan.,1,Multan,Pakistan,Pakistan,True,False,True
+Alice: The city of Bahcelievler is in Turkey.,1,Bahcelievler,Turkey,Turkey,True,False,True
+Alice: The city of Saratov is in Russia.,1,Saratov,Russia,Russia,True,False,True
+Alice: The city of Kharkiv is in Ukraine.,1,Kharkiv,Ukraine,Ukraine,True,False,True
+Alice: The city of Malatya is in Turkey.,1,Malatya,Turkey,Turkey,True,False,True
+Alice: The city of Malatya is in Russia.,0,Malatya,Russia,Turkey,True,False,True
+Alice: The city of Lviv is in Ukraine.,1,Lviv,Ukraine,Ukraine,True,False,True
+Alice: The city of Lviv is in China.,0,Lviv,China,Ukraine,True,False,True
+Alice: The city of Onitsha is in Nigeria.,1,Onitsha,Nigeria,Nigeria,True,False,True
+Alice: The city of Anyang-si is in South Korea.,1,Anyang-si,South Korea,South Korea,True,False,True
+Alice: The city of Anyang-si is in Iraq.,0,Anyang-si,Iraq,South Korea,True,False,True
+Alice: The city of Kobe is in Japan.,1,Kobe,Japan,Japan,True,False,True
+Alice: The city of Phnom Penh is in Cambodia.,1,Phnom Penh,Cambodia,Cambodia,True,False,True
+Alice: The city of Nouakchott is in Mauritania.,1,Nouakchott,Mauritania,Mauritania,True,False,True
+Alice: The city of Theni is in India.,1,Theni,India,India,True,False,True
+Alice: The city of Changshu is in China.,1,Changshu,China,China,True,False,True
+Alice: The city of Changshu is in the Philippines.,0,Changshu,the Philippines,China,True,False,True
+Alice: The city of Tehran is in Niger.,0,Tehran,Niger,Iran,True,False,True
+Alice: The city of Bayannur is in China.,1,Bayannur,China,China,True,False,True
+Alice: The city of Bayannur is in Russia.,0,Bayannur,Russia,China,True,False,True
+Alice: The city of Barranquilla is in Colombia.,1,Barranquilla,Colombia,Colombia,True,False,True
+Alice: The city of Barranquilla is in Pakistan.,0,Barranquilla,Pakistan,Colombia,True,False,True
+Alice: The city of Budapest is in Iraq.,0,Budapest,Iraq,Hungary,True,False,True
+Alice: The city of Pontianak is in Indonesia.,1,Pontianak,Indonesia,Indonesia,True,False,True
+Alice: The city of Pontianak is in India.,0,Pontianak,India,Indonesia,True,False,True
+Alice: The city of Recife is in North Korea.,0,Recife,North Korea,Brazil,True,False,True
+Alice: The city of Contagem is in Brazil.,1,Contagem,Brazil,Brazil,True,False,True
+Alice: The city of Contagem is in Indonesia.,0,Contagem,Indonesia,Brazil,True,False,True
+Alice: The city of Port Said is in Egypt.,1,Port Said,Egypt,Egypt,True,False,True
+Alice: The city of Asyut is in Egypt.,1,Asyut,Egypt,Egypt,True,False,True
+Alice: The city of Ziyang is in China.,1,Ziyang,China,China,True,False,True
+Alice: The city of Yinchuan is in Bangladesh.,0,Yinchuan,Bangladesh,China,True,False,True
+Alice: The city of Zhangjiagang is in China.,1,Zhangjiagang,China,China,True,False,True
+Alice: The city of Shanghai is in China.,1,Shanghai,China,China,True,False,True
+Alice: The city of Jieyang is in the Philippines.,0,Jieyang,the Philippines,China,True,False,True
+Alice: The city of Dandong is in China.,1,Dandong,China,China,True,False,True
+Alice: The city of Dandong is in Niger.,0,Dandong,Niger,China,True,False,True
+Alice: The city of Aden is in Yemen.,1,Aden,Yemen,Yemen,True,False,True
+Alice: The city of Aden is in Japan.,0,Aden,Japan,Yemen,True,False,True
+Alice: The city of Jaboatao is in Brazil.,1,Jaboatao,Brazil,Brazil,True,False,True
+Alice: The city of Aracaju is in Brazil.,1,Aracaju,Brazil,Brazil,True,False,True
+Alice: The city of Zigong is in China.,1,Zigong,China,China,True,False,True
+Alice: The city of Zigong is in Turkey.,0,Zigong,Turkey,China,True,False,True
+Alice: The city of Kunshan is in Russia.,0,Kunshan,Russia,China,True,False,True
+Alice: The city of Sanming is in Bulgaria.,0,Sanming,Bulgaria,China,True,False,True
+Alice: The city of Guang'an is in Germany.,0,Guang'an,Germany,China,True,False,True
+Alice: The city of Ma'anshan is in China.,1,Ma'anshan,China,China,True,False,True
+Alice: The city of Ma'anshan is in India.,0,Ma'anshan,India,China,True,False,True
+Alice: The city of Dongying is in India.,0,Dongying,India,China,True,False,True
+Alice: The city of Fushun is in Mexico.,0,Fushun,Mexico,China,True,False,True
+Alice: The city of Rajshahi is in Bangladesh.,1,Rajshahi,Bangladesh,Bangladesh,True,False,True
+Alice: The city of Rangpur is in Bangladesh.,1,Rangpur,Bangladesh,Bangladesh,True,False,True
+Alice: The city of Rangpur is in Russia.,0,Rangpur,Russia,Bangladesh,True,False,True
+Alice: The city of Dortmund is in Germany.,1,Dortmund,Germany,Germany,True,False,True
+Alice: The city of Detroit is in the United States.,1,Detroit,the United States,the United States,True,False,True
+Alice: The city of Latakia is in Syria.,1,Latakia,Syria,Syria,True,False,True
+Alice: The city of Latakia is in Somalia.,0,Latakia,Somalia,Syria,True,False,True
+Alice: The city of Ashgabat is in Bangladesh.,0,Ashgabat,Bangladesh,Turkmenistan,True,False,True
+Alice: The city of Maracaibo is in Russia.,0,Maracaibo,Russia,Venezuela,True,False,True
+Alice: The city of Erode is in India.,1,Erode,India,India,True,False,True
+Alice: The city of Mumbai is in India.,1,Mumbai,India,India,True,False,True
+Alice: The city of Nasiriyah is in Rwanda.,0,Nasiriyah,Rwanda,Iraq,True,False,True
+Alice: The city of Kahriz is in Iran.,1,Kahriz,Iran,Iran,True,False,True
+Alice: The city of Surakarta is in Indonesia.,1,Surakarta,Indonesia,Indonesia,True,False,True
+Alice: The city of Banjarmasin is in Indonesia.,1,Banjarmasin,Indonesia,Indonesia,True,False,True
+Alice: The city of Vladivostok is in Russia.,1,Vladivostok,Russia,Russia,True,False,True
+Alice: The city of Adana is in Turkey.,1,Adana,Turkey,Turkey,True,False,True
+Alice: The city of Adana is in Togo.,0,Adana,Togo,Turkey,True,False,True
+Alice: The city of Voronezh is in Russia.,1,Voronezh,Russia,Russia,True,False,True
+Alice: The city of Voronezh is in Romania.,0,Voronezh,Romania,Russia,True,False,True
+Alice: The city of Namangan is in India.,0,Namangan,India,Uzbekistan,True,False,True
+Alice: The city of Ordos is in Brazil.,0,Ordos,Brazil,China,True,False,True
+Alice: The city of Moradabad is in India.,1,Moradabad,India,India,True,False,True
+Alice: The city of Bengaluru is in China.,0,Bengaluru,China,India,True,False,True
+Alice: The city of Turin is in Italy.,1,Turin,Italy,Italy,True,False,True
+Alice: The city of Turin is in China.,0,Turin,China,Italy,True,False,True
+Alice: The city of Daejeon is in South Korea.,1,Daejeon,South Korea,South Korea,True,False,True
+Alice: The city of Battagram is in Pakistan.,1,Battagram,Pakistan,Pakistan,True,False,True
+Alice: The city of Battagram is in Tanzania.,0,Battagram,Tanzania,Pakistan,True,False,True
+Alice: The city of Yaounde is in Cameroon.,1,Yaounde,Cameroon,Cameroon,True,False,True
+Alice: The city of Zhangzhou is in Nicaragua.,0,Zhangzhou,Nicaragua,China,True,False,True
+Alice: The city of Sanya is in China.,1,Sanya,China,China,True,False,True
+Alice: The city of Foshan is in China.,1,Foshan,China,China,True,False,True
+Alice: The city of Sharjah is in the United Arab Emirates.,1,Sharjah,the United Arab Emirates,the United Arab Emirates,True,False,True
+Alice: The city of Guayaquil is in China.,0,Guayaquil,China,Ecuador,True,False,True
+Alice: The city of Koeln is in Germany.,1,Koeln,Germany,Germany,True,False,True
+Alice: The city of Koeln is in Nigeria.,0,Koeln,Nigeria,Germany,True,False,True
+Alice: The city of Nuernberg is in Germany.,1,Nuernberg,Germany,Germany,True,False,True
+Alice: The city of Nuernberg is in China.,0,Nuernberg,China,Germany,True,False,True
+Alice: The city of Zarqa is in India.,0,Zarqa,India,Jordan,True,False,True
+Alice: The city of Riga is in Latvia.,1,Riga,Latvia,Latvia,True,False,True
+Alice: The city of Gwalior is in China.,0,Gwalior,China,India,True,False,True
+Alice: The city of Kallakurichi is in India.,1,Kallakurichi,India,India,True,False,True
+Alice: The city of Kallakurichi is in Iraq.,0,Kallakurichi,Iraq,India,True,False,True
+Alice: The city of Bekasi is in Indonesia.,1,Bekasi,Indonesia,Indonesia,True,False,True
+Alice: The city of Johor Bahru is in Cuba.,0,Johor Bahru,Cuba,Malaysia,True,False,True
+Alice: The city of Urumqi is in China.,1,Urumqi,China,China,True,False,True
+Alice: The city of Urumqi is in Vietnam.,0,Urumqi,Vietnam,China,True,False,True
+Alice: The city of Nova Iguacu is in India.,0,Nova Iguacu,India,Brazil,True,False,True
+Alice: The city of Abeokuta is in Nigeria.,1,Abeokuta,Nigeria,Nigeria,True,False,True
+Alice: The city of Abeokuta is in Mozambique.,0,Abeokuta,Mozambique,Nigeria,True,False,True
+Alice: The city of Amman is in Jordan.,1,Amman,Jordan,Jordan,True,False,True
+Alice: The city of Amman is in Malaysia.,0,Amman,Malaysia,Jordan,True,False,True
+Alice: The city of Hachioji is in Japan.,1,Hachioji,Japan,Japan,True,False,True
+Alice: The city of Hachioji is in Mexico.,0,Hachioji,Mexico,Japan,True,False,True
+Alice: The city of Fukuoka is in Japan.,1,Fukuoka,Japan,Japan,True,False,True
+Alice: The city of Goyang-si is in South Korea.,1,Goyang-si,South Korea,South Korea,True,False,True
+Alice: The city of Meknes is in China.,0,Meknes,China,Morocco,True,False,True
+Alice: The city of Kalyan is in South Korea.,0,Kalyan,South Korea,India,True,False,True
+Alice: The city of Jaipur is in India.,1,Jaipur,India,India,True,False,True
+Alice: The city of Guntur is in China.,0,Guntur,China,India,True,False,True
+Alice: The city of Bhilai is in India.,1,Bhilai,India,India,True,False,True
+Alice: The city of Bhilai is in Venezuela.,0,Bhilai,Venezuela,India,True,False,True
+Alice: The city of Bhavnagar is in India.,1,Bhavnagar,India,India,True,False,True
+Alice: The city of Amravati is in China.,0,Amravati,China,India,True,False,True
+Alice: The city of Shiraz is in Iran.,1,Shiraz,Iran,Iran,True,False,True
+Alice: The city of Lome is in Togo.,1,Lome,Togo,Togo,True,False,True
+Alice: The city of Lome is in Yemen.,0,Lome,Yemen,Togo,True,False,True
+Alice: The city of Seattle is in the United States.,1,Seattle,the United States,the United States,True,False,True
+Alice: The city of Seattle is in Yemen.,0,Seattle,Yemen,the United States,True,False,True
+Alice: The city of Kryvyy Rih is in Ukraine.,1,Kryvyy Rih,Ukraine,Ukraine,True,False,True
+Alice: The city of Krasnoyarsk is in Russia.,1,Krasnoyarsk,Russia,Russia,True,False,True
+Alice: The city of Krasnoyarsk is in India.,0,Krasnoyarsk,India,Russia,True,False,True
+Alice: The city of Pingliang is in Tanzania.,0,Pingliang,Tanzania,China,True,False,True
+Alice: The city of Puning is in India.,0,Puning,India,China,True,False,True
+Alice: The city of Chizhou is in the Republic of the Congo.,0,Chizhou,the Republic of the Congo,China,True,False,True
+Alice: The city of Chengdu is in China.,1,Chengdu,China,China,True,False,True
+Alice: The city of Samarinda is in Indonesia.,1,Samarinda,Indonesia,Indonesia,True,False,True
+Alice: The city of Samarinda is in Iraq.,0,Samarinda,Iraq,Indonesia,True,False,True
+Alice: The city of Helsinki is in Pakistan.,0,Helsinki,Pakistan,Finland,True,False,True
+Alice: The city of Khabarovsk Vtoroy is in China.,0,Khabarovsk Vtoroy,China,Russia,True,False,True
+Alice: The city of Wroclaw is in Poland.,1,Wroclaw,Poland,Poland,True,False,True
+Alice: The city of Oslo is in Venezuela.,0,Oslo,Venezuela,Norway,True,False,True
+Alice: The city of Caloocan City is in the Philippines.,1,Caloocan City,the Philippines,the Philippines,True,False,True
+Alice: The city of Ho Chi Minh City is in Vietnam.,1,Ho Chi Minh City,Vietnam,Vietnam,True,False,True
+Alice: The city of Ho Chi Minh City is in Gabon.,0,Ho Chi Minh City,Gabon,Vietnam,True,False,True
+Alice: The city of Wuzhou is in China.,1,Wuzhou,China,China,True,False,True
+Alice: The city of Wuzhou is in Syria.,0,Wuzhou,Syria,China,True,False,True
+Alice: The city of Wanxian is in China.,1,Wanxian,China,China,True,False,True
+Alice: The city of Wanxian is in Algeria.,0,Wanxian,Algeria,China,True,False,True
+Alice: The city of Qinzhou is in China.,1,Qinzhou,China,China,True,False,True
+Alice: The city of Hefei is in China.,1,Hefei,China,China,True,False,True
+Alice: The city of Handan is in China.,1,Handan,China,China,True,False,True
+Alice: The city of Handan is in Russia.,0,Handan,Russia,China,True,False,True
+Alice: The city of Jiangyin is in Bulgaria.,0,Jiangyin,Bulgaria,China,True,False,True
+Alice: The city of Sorocaba is in Brazil.,1,Sorocaba,Brazil,Brazil,True,False,True
+Alice: The city of Aktobe is in Afghanistan.,0,Aktobe,Afghanistan,Kazakhstan,True,False,True
+Alice: The city of Chisinau is in Germany.,0,Chisinau,Germany,Moldova,True,False,True
+Alice: The city of Tiruppur is in India.,1,Tiruppur,India,India,True,False,True
+Alice: The city of Kozhikode is in India.,1,Kozhikode,India,India,True,False,True
+Alice: The city of Kozhikode is in the United States.,0,Kozhikode,the United States,India,True,False,True
+Alice: The city of Suizhou is in China.,1,Suizhou,China,China,True,False,True
+Alice: The city of Suizhou is in Japan.,0,Suizhou,Japan,China,True,False,True
+Alice: The city of Jingmen is in Japan.,0,Jingmen,Japan,China,True,False,True
+Alice: The city of Huangshi is in China.,1,Huangshi,China,China,True,False,True
+Alice: The city of Huangshi is in India.,0,Huangshi,India,China,True,False,True
+Alice: The city of Huaibei is in China.,1,Huaibei,China,China,True,False,True
+Alice: The city of Hebi is in China.,1,Hebi,China,China,True,False,True
+Alice: The city of Benxi is in China.,1,Benxi,China,China,True,False,True
+Alice: The city of Fortaleza is in Honduras.,0,Fortaleza,Honduras,Brazil,True,False,True
+Alice: The city of Antwerpen is in Japan.,0,Antwerpen,Japan,Belgium,True,False,True
+Alice: The city of Dakar is in Senegal.,1,Dakar,Senegal,Senegal,True,False,True
+Alice: The city of Dakar is in India.,0,Dakar,India,Senegal,True,False,True
+Alice: The city of Kyoto is in China.,0,Kyoto,China,Japan,True,False,True
+Alice: The city of Madurai is in Burundi.,0,Madurai,Burundi,India,True,False,True
+Alice: The city of Karaj is in Iran.,1,Karaj,Iran,Iran,True,False,True
+Alice: The city of Karaj is in India.,0,Karaj,India,Iran,True,False,True
+Alice: The city of Milwaukee is in China.,0,Milwaukee,China,the United States,True,False,True
+Alice: The city of Uberlandia is in Brazil.,1,Uberlandia,Brazil,Brazil,True,False,True
+Alice: The city of Uberlandia is in India.,0,Uberlandia,India,Brazil,True,False,True
+Alice: The city of Curitiba is in Brazil.,1,Curitiba,Brazil,Brazil,True,False,True
+Alice: The city of Rio de Janeiro is in Brazil.,1,Rio de Janeiro,Brazil,Brazil,True,False,True
+Alice: The city of Rio de Janeiro is in Japan.,0,Rio de Janeiro,Japan,Brazil,True,False,True
+Alice: The city of Ribeirao Preto is in Brazil.,1,Ribeirao Preto,Brazil,Brazil,True,False,True
+Alice: The city of The Bronx is in the United States.,1,The Bronx,the United States,the United States,True,False,True
+Alice: The city of Samarkand is in China.,0,Samarkand,China,Uzbekistan,True,False,True
+Alice: The city of Da Nang is in Vietnam.,1,Da Nang,Vietnam,Vietnam,True,False,True
+Alice: The city of Tomsk is in Russia.,1,Tomsk,Russia,Russia,True,False,True
+Alice: The city of Najran is in Saudi Arabia.,1,Najran,Saudi Arabia,Saudi Arabia,True,False,True
+Alice: The city of Najran is in India.,0,Najran,India,Saudi Arabia,True,False,True
+Alice: The city of Bangkok is in Thailand.,1,Bangkok,Thailand,Thailand,True,False,True
+Alice: The city of Bangkok is in China.,0,Bangkok,China,Thailand,True,False,True
+Alice: The city of Oklahoma City is in the United States.,1,Oklahoma City,the United States,the United States,True,False,True
+Alice: The city of Oklahoma City is in China.,0,Oklahoma City,China,the United States,True,False,True
+Alice: The city of Izhevsk is in Russia.,1,Izhevsk,Russia,Russia,True,False,True
+Alice: The city of Madinat an Nasr is in Egypt.,1,Madinat an Nasr,Egypt,Egypt,True,False,True
+Alice: The city of Rui'an is in China.,1,Rui'an,China,China,True,False,True
+Alice: The city of Ningbo is in South Korea.,0,Ningbo,South Korea,China,True,False,True
+Alice: The city of Jiaozuo is in Bangladesh.,0,Jiaozuo,Bangladesh,China,True,False,True
+Alice: The city of Jiangmen is in South Korea.,0,Jiangmen,South Korea,China,True,False,True
+Alice: The city of Herat is in Afghanistan.,1,Herat,Afghanistan,Afghanistan,True,False,True
+Alice: The city of Kleinzschocher is in Brazil.,0,Kleinzschocher,Brazil,Germany,True,False,True
+Alice: The city of Davao is in the Philippines.,1,Davao,the Philippines,the Philippines,True,False,True
+Alice: The city of Sargodha is in India.,0,Sargodha,India,Pakistan,True,False,True
+Alice: The city of Zapopan is in Mexico.,1,Zapopan,Mexico,Mexico,True,False,True
+Alice: The city of Visakhapatnam is in Indonesia.,0,Visakhapatnam,Indonesia,India,True,False,True
+Alice: The city of Rourkela is in India.,1,Rourkela,India,India,True,False,True
+Alice: The city of Rourkela is in Brazil.,0,Rourkela,Brazil,India,True,False,True
+Alice: The city of Dhanbad is in India.,1,Dhanbad,India,India,True,False,True
+Alice: The city of Bokaro is in India.,1,Bokaro,India,India,True,False,True
+Alice: The city of Bokaro is in China.,0,Bokaro,China,India,True,False,True
+Alice: The city of Tabriz is in Iran.,1,Tabriz,Iran,Iran,True,False,True
+Alice: The city of Tlaquepaque is in Japan.,0,Tlaquepaque,Japan,Mexico,True,False,True
+Alice: The city of Victoria de Durango is in Mexico.,1,Victoria de Durango,Mexico,Mexico,True,False,True
+Alice: The city of Kota Kinabalu is in Malaysia.,1,Kota Kinabalu,Malaysia,Malaysia,True,False,True
+Alice: The city of Kota Kinabalu is in the United States.,0,Kota Kinabalu,the United States,Malaysia,True,False,True
+Alice: The city of Nairobi is in Kenya.,1,Nairobi,Kenya,Kenya,True,False,True
+Alice: The city of Nairobi is in Mexico.,0,Nairobi,Mexico,Kenya,True,False,True
+Alice: The city of Taguig is in the Philippines.,1,Taguig,the Philippines,the Philippines,True,False,True
+Alice: The city of Rajkot is in Russia.,0,Rajkot,Russia,India,True,False,True
+Alice: The city of Pune is in India.,1,Pune,India,India,True,False,True
+Alice: The city of Pune is in South Korea.,0,Pune,South Korea,India,True,False,True
+Alice: The city of Ludhiana is in India.,1,Ludhiana,India,India,True,False,True
+Alice: The city of Jamshedpur is in India.,1,Jamshedpur,India,India,True,False,True
+Alice: The city of Jamshedpur is in China.,0,Jamshedpur,China,India,True,False,True
+Alice: The city of Bhiwandi is in China.,0,Bhiwandi,China,India,True,False,True
+Alice: The city of Erbil is in Iraq.,1,Erbil,Iraq,Iraq,True,False,True
+Alice: The city of Erbil is in Cuba.,0,Erbil,Cuba,Iraq,True,False,True
+Alice: The city of Chelyabinsk is in China.,0,Chelyabinsk,China,Russia,True,False,True
+Alice: The city of Uskudar is in Turkey.,1,Uskudar,Turkey,Turkey,True,False,True
+Alice: The city of Quezon City is in China.,0,Quezon City,China,the Philippines,True,False,True
+Alice: The city of Mexico City is in Mexico.,1,Mexico City,Mexico,Mexico,True,False,True
+Alice: The city of Surat is in Burkina Faso.,0,Surat,Burkina Faso,India,True,False,True
+Alice: The city of Mogadishu is in Somalia.,1,Mogadishu,Somalia,Somalia,True,False,True
+Alice: The city of Mogadishu is in Iran.,0,Mogadishu,Iran,Somalia,True,False,True
+Alice: The city of Homs is in Syria.,1,Homs,Syria,Syria,True,False,True
+Alice: The city of Port-au-Prince is in South Korea.,0,Port-au-Prince,South Korea,Haiti,True,False,True
+Alice: The city of Thuan An is in Vietnam.,1,Thuan An,Vietnam,Vietnam,True,False,True
+Alice: The city of Pretoria is in South Africa.,1,Pretoria,South Africa,South Africa,True,False,True
+Alice: The city of Pietermaritzburg is in South Africa.,1,Pietermaritzburg,South Africa,South Africa,True,False,True
+Alice: The city of Abu Dhabi is in the United Arab Emirates.,1,Abu Dhabi,the United Arab Emirates,the United Arab Emirates,True,False,True
+Alice: The city of Abu Dhabi is in Oman.,0,Abu Dhabi,Oman,the United Arab Emirates,True,False,True
+Alice: The city of Sao Paulo is in China.,0,Sao Paulo,China,Brazil,True,False,True
+Alice: The city of Lianyungang is in China.,1,Lianyungang,China,China,True,False,True
+Alice: The city of Lianyungang is in the Philippines.,0,Lianyungang,the Philippines,China,True,False,True
+Alice: The city of Xiaogan is in Ukraine.,0,Xiaogan,Ukraine,China,True,False,True
+Alice: The city of Taicang is in China.,1,Taicang,China,China,True,False,True
+Alice: The city of Taicang is in Madagascar.,0,Taicang,Madagascar,China,True,False,True
+Alice: The city of Shangyu is in China.,1,Shangyu,China,China,True,False,True
+Alice: The city of Jambi City is in Indonesia.,1,Jambi City,Indonesia,Indonesia,True,False,True
+Alice: The city of Jambi City is in China.,0,Jambi City,China,Indonesia,True,False,True
+Alice: The city of New York City is in the United States.,1,New York City,the United States,the United States,True,False,True
+Alice: The city of New York City is in India.,0,New York City,India,the United States,True,False,True
+Alice: The city of Bulawayo is in Zimbabwe.,1,Bulawayo,Zimbabwe,Zimbabwe,True,False,True
+Alice: The city of Quito is in Ecuador.,1,Quito,Ecuador,Ecuador,True,False,True
+Alice: The city of Quito is in China.,0,Quito,China,Ecuador,True,False,True
+Alice: The city of Shubra al Khaymah is in Egypt.,1,Shubra al Khaymah,Egypt,Egypt,True,False,True
+Alice: The city of Shubra al Khaymah is in Nigeria.,0,Shubra al Khaymah,Nigeria,Egypt,True,False,True
+Alice: The city of Al Mahallah al Kubra is in Afghanistan.,0,Al Mahallah al Kubra,Afghanistan,Egypt,True,False,True
+Alice: The city of Suining is in Algeria.,0,Suining,Algeria,China,True,False,True
+Alice: The city of Guankou is in Pakistan.,0,Guankou,Pakistan,China,True,False,True
+Alice: The city of Langfang is in China.,1,Langfang,China,China,True,False,True
+Alice: The city of Langfang is in India.,0,Langfang,India,China,True,False,True
+Alice: The city of Jinan is in China.,1,Jinan,China,China,True,False,True
+Alice: The city of Jinan is in Rwanda.,0,Jinan,Rwanda,China,True,False,True
+Alice: The city of Guigang is in Japan.,0,Guigang,Japan,China,True,False,True
+Alice: The city of Chongqing is in China.,1,Chongqing,China,China,True,False,True
+Alice: The city of Chongqing is in Sweden.,0,Chongqing,Sweden,China,True,False,True
+Alice: The city of Homyel' is in Iran.,0,Homyel',Iran,Belarus,True,False,True
+Alice: The city of Winnipeg is in Mexico.,0,Winnipeg,Mexico,Canada,True,False,True
+Alice: The city of Klang is in Malaysia.,1,Klang,Malaysia,Malaysia,True,False,True
+Alice: The city of Klang is in China.,0,Klang,China,Malaysia,True,False,True
+Alice: The city of Irbid is in Jordan.,1,Irbid,Jordan,Jordan,True,False,True
+Alice: The city of Muzaffarabad is in Pakistan.,1,Muzaffarabad,Pakistan,Pakistan,True,False,True
+Alice: The city of Muzaffarabad is in China.,0,Muzaffarabad,China,Pakistan,True,False,True
+Alice: The city of Kotli is in Pakistan.,1,Kotli,Pakistan,Pakistan,True,False,True
+Alice: The city of Nagpur is in Denmark.,0,Nagpur,Denmark,India,True,False,True
+Alice: The city of Kolhapur is in Mozambique.,0,Kolhapur,Mozambique,India,True,False,True
+Alice: The city of Yekaterinburg is in Lithuania.,0,Yekaterinburg,Lithuania,Russia,True,False,True
+Alice: The city of Dushanbe is in Tajikistan.,1,Dushanbe,Tajikistan,Tajikistan,True,False,True
+Alice: The city of Gaziantep is in Turkey.,1,Gaziantep,Turkey,Turkey,True,False,True
+Alice: The city of Asuncion is in Paraguay.,1,Asuncion,Paraguay,Paraguay,True,False,True
+Alice: The city of Zhuzhou is in France.,0,Zhuzhou,France,China,True,False,True
+Alice: The city of Xining is in China.,1,Xining,China,China,True,False,True
+Alice: The city of Tanggu is in China.,1,Tanggu,China,China,True,False,True
+Alice: The city of Tanggu is in South Korea.,0,Tanggu,South Korea,China,True,False,True
+Alice: The city of Shangluo is in Honduras.,0,Shangluo,Honduras,China,True,False,True
+Alice: The city of Luzhou is in China.,1,Luzhou,China,China,True,False,True
+Alice: The city of Luzhou is in Peru.,0,Luzhou,Peru,China,True,False,True
+Alice: The city of Lanzhou is in Mexico.,0,Lanzhou,Mexico,China,True,False,True
+Alice: The city of Baise is in China.,1,Baise,China,China,True,False,True
+Alice: The city of Baise is in Japan.,0,Baise,Japan,China,True,False,True
+Alice: The city of Shenyang is in China.,1,Shenyang,China,China,True,False,True
+Alice: The city of Shenyang is in Somalia.,0,Shenyang,Somalia,China,True,False,True
+Alice: The city of Daqing is in China.,1,Daqing,China,China,True,False,True
+Alice: The city of Brasilia is in Brazil.,1,Brasilia,Brazil,Brazil,True,False,True
+Alice: The city of Brasilia is in South Korea.,0,Brasilia,South Korea,Brazil,True,False,True
+Alice: The city of Gold Coast is in Australia.,1,Gold Coast,Australia,Australia,True,False,True
+Alice: The city of Ouagadougou is in China.,0,Ouagadougou,China,Burkina Faso,True,False,True
+Alice: The city of Duque de Caxias is in Côte d'Ivoire.,0,Duque de Caxias,Côte d'Ivoire,Brazil,True,False,True
+Alice: The city of Hiroshima is in Malaysia.,0,Hiroshima,Malaysia,Japan,True,False,True
+Alice: The city of Mandalay is in Myanmar.,1,Mandalay,Myanmar,Myanmar,True,False,True
+Alice: The city of Mandalay is in Algeria.,0,Mandalay,Algeria,Myanmar,True,False,True
+Alice: The city of Mysore is in India.,1,Mysore,India,India,True,False,True
+Alice: The city of Coimbatore is in India.,1,Coimbatore,India,India,True,False,True
+Alice: The city of Coimbatore is in Malaysia.,0,Coimbatore,Malaysia,India,True,False,True
+Alice: The city of Chandigarh is in India.,1,Chandigarh,India,India,True,False,True
+Alice: The city of Amritsar is in Moldova.,0,Amritsar,Moldova,India,True,False,True
+Alice: The city of Arak is in India.,0,Arak,India,Iran,True,False,True
+Alice: The city of Ilorin is in Ukraine.,0,Ilorin,Ukraine,Nigeria,True,False,True
+Alice: The city of Omdurman is in Sudan.,1,Omdurman,Sudan,Sudan,True,False,True
+Alice: The city of Gujranwala is in China.,0,Gujranwala,China,Pakistan,True,False,True
+Alice: The city of Nizhniy Novgorod is in Russia.,1,Nizhniy Novgorod,Russia,Russia,True,False,True
+Alice: The city of Nizhniy Novgorod is in China.,0,Nizhniy Novgorod,China,Russia,True,False,True
+Alice: The city of Zhaoqing is in China.,1,Zhaoqing,China,China,True,False,True
+Alice: The city of Suqian is in China.,1,Suqian,China,China,True,False,True
+Alice: The city of Suqian is in Mexico.,0,Suqian,Mexico,China,True,False,True
+Alice: The city of Hezhou is in India.,0,Hezhou,India,China,True,False,True
+Alice: The city of Grosszschocher is in Germany.,1,Grosszschocher,Germany,Germany,True,False,True
+Alice: The city of Grosszschocher is in China.,0,Grosszschocher,China,Germany,True,False,True
+Alice: The city of San Pedro Sula is in Honduras.,1,San Pedro Sula,Honduras,Honduras,True,False,True
+Alice: The city of Queens is in India.,0,Queens,India,the United States,True,False,True
+Alice: The city of Bien Hoa is in Vietnam.,1,Bien Hoa,Vietnam,Vietnam,True,False,True
+Alice: The city of Bien Hoa is in South Korea.,0,Bien Hoa,South Korea,Vietnam,True,False,True
+Alice: The city of Durban is in South Africa.,1,Durban,South Africa,South Africa,True,False,True
+Alice: The city of Durban is in Ukraine.,0,Durban,Ukraine,South Africa,True,False,True
+Alice: The city of Kawaguchi is in Japan.,1,Kawaguchi,Japan,Japan,True,False,True
+Alice: The city of Kawaguchi is in Indonesia.,0,Kawaguchi,Indonesia,Japan,True,False,True
+Alice: The city of Bucheon-si is in Romania.,0,Bucheon-si,Romania,South Korea,True,False,True
+Alice: The city of Tangier is in Ecuador.,0,Tangier,Ecuador,Morocco,True,False,True
+Alice: The city of Nay Pyi Taw is in Mozambique.,0,Nay Pyi Taw,Mozambique,Myanmar,True,False,True
+Alice: The city of Ulhasnagar is in India.,1,Ulhasnagar,India,India,True,False,True
+Alice: The city of Faridabad is in India.,1,Faridabad,India,India,True,False,True
+Alice: The city of Faridabad is in the United States.,0,Faridabad,the United States,India,True,False,True
+Alice: The city of Kolkata is in India.,1,Kolkata,India,India,True,False,True
+Alice: The city of Karbala is in Turkey.,0,Karbala,Turkey,Iraq,True,False,True
+Alice: The city of Jakarta is in Colombia.,0,Jakarta,Colombia,Indonesia,True,False,True
+Alice: The city of Batam is in Indonesia.,1,Batam,Indonesia,Indonesia,True,False,True
+Alice: The city of Batam is in Turkey.,0,Batam,Turkey,Indonesia,True,False,True
+Alice: The city of Liupanshui is in China.,1,Liupanshui,China,China,True,False,True
+Alice: The city of Xingtai is in China.,1,Xingtai,China,China,True,False,True
+Alice: The city of Nanning is in China.,1,Nanning,China,China,True,False,True
+Alice: The city of Binzhou is in Brazil.,0,Binzhou,Brazil,China,True,False,True
+Alice: The city of Mazar-e Sharif is in Afghanistan.,1,Mazar-e Sharif,Afghanistan,Afghanistan,True,False,True
+Alice: The city of Mazar-e Sharif is in India.,0,Mazar-e Sharif,India,Afghanistan,True,False,True
+Alice: The city of Mar del Plata is in Nigeria.,0,Mar del Plata,Nigeria,Argentina,True,False,True
+Alice: The city of Salta is in Argentina.,1,Salta,Argentina,Argentina,True,False,True
+Alice: The city of Salta is in India.,0,Salta,India,Argentina,True,False,True
+Alice: The city of Bujumbura is in Burundi.,1,Bujumbura,Burundi,Burundi,True,False,True
+Alice: The city of Ankara is in Turkey.,1,Ankara,Turkey,Turkey,True,False,True
+Alice: The city of Ankara is in Japan.,0,Ankara,Japan,Turkey,True,False,True
+Alice: The city of Rawalpindi is in Pakistan.,1,Rawalpindi,Pakistan,Pakistan,True,False,True
+Alice: The city of Rawalpindi is in Brazil.,0,Rawalpindi,Brazil,Pakistan,True,False,True
+Alice: The city of Karachi is in Pakistan.,1,Karachi,Pakistan,Pakistan,True,False,True
+Alice: The city of Karachi is in India.,0,Karachi,India,Pakistan,True,False,True
+Alice: The city of Tijuana is in Mexico.,1,Tijuana,Mexico,Mexico,True,False,True
+Alice: The city of Tijuana is in the United Arab Emirates.,0,Tijuana,the United Arab Emirates,Mexico,True,False,True
+Alice: The city of Jos is in India.,0,Jos,India,Nigeria,True,False,True
+Alice: The city of Managua is in Turkey.,0,Managua,Turkey,Nicaragua,True,False,True
+Alice: The city of Ha'il is in China.,0,Ha'il,China,Saudi Arabia,True,False,True
+Alice: The city of Ipoh is in Brazil.,0,Ipoh,Brazil,Malaysia,True,False,True
+Alice: The city of Kuantan is in Malaysia.,1,Kuantan,Malaysia,Malaysia,True,False,True
+Alice: The city of Maiduguri is in Nigeria.,1,Maiduguri,Nigeria,Nigeria,True,False,True
+Alice: The city of Yangon is in Myanmar.,1,Yangon,Myanmar,Myanmar,True,False,True
+Alice: The city of Yangon is in Kenya.,0,Yangon,Kenya,Myanmar,True,False,True
+Alice: The city of Kathmandu is in Nepal.,1,Kathmandu,Nepal,Nepal,True,False,True
+Alice: The city of Las Pinas is in the Philippines.,1,Las Pinas,the Philippines,the Philippines,True,False,True
+Alice: The city of Las Pinas is in Yemen.,0,Las Pinas,Yemen,the Philippines,True,False,True
+Alice: The city of Rostov-na-Donu is in Russia.,1,Rostov-na-Donu,Russia,Russia,True,False,True
+Alice: The city of Rostov-na-Donu is in the United Arab Emirates.,0,Rostov-na-Donu,the United Arab Emirates,Russia,True,False,True
+Alice: The city of Ibague is in Colombia.,1,Ibague,Colombia,Colombia,True,False,True
+Alice: The city of Xinyang is in China.,1,Xinyang,China,China,True,False,True
+Alice: The city of Wanning is in China.,1,Wanning,China,China,True,False,True
+Alice: The city of Wanning is in the United States.,0,Wanning,the United States,China,True,False,True
+Alice: The city of Shijiazhuang is in China.,1,Shijiazhuang,China,China,True,False,True
+Alice: The city of Shijiazhuang is in Uzbekistan.,0,Shijiazhuang,Uzbekistan,China,True,False,True
+Alice: The city of Laiwu is in the United States.,0,Laiwu,the United States,China,True,False,True
+Alice: The city of Changchun is in China.,1,Changchun,China,China,True,False,True
+Alice: The city of Changchun is in Germany.,0,Changchun,Germany,China,True,False,True
+Alice: The city of Varanasi is in Turkey.,0,Varanasi,Turkey,India,True,False,True
+Alice: The city of Puducherry is in India.,1,Puducherry,India,India,True,False,True
+Alice: The city of Bhopal is in India.,1,Bhopal,India,India,True,False,True
+Alice: The city of Kanayannur is in Saudi Arabia.,0,Kanayannur,Saudi Arabia,India,True,False,True
+Alice: The city of Kirkuk is in China.,0,Kirkuk,China,Iraq,True,False,True
+Alice: The city of Tangerang is in China.,0,Tangerang,China,Indonesia,True,False,True
