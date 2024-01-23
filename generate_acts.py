@@ -23,8 +23,8 @@ def load_model(model_name):
         weights_directory = config[model_name]['weights_directory']
         TokenizerClass = eval(config[model_name]['tokenizer_class'])
         ModelClass = eval(config[model_name]['model_class'])
-        tokenizer = TokenizerClass.from_pretrained(weights_directory, token=HF_KEY, torch_dtype=t.bfloat16, device_map="auto")
-        model = ModelClass.from_pretrained(weights_directory, token=HF_KEY)
+        tokenizer = TokenizerClass.from_pretrained(weights_directory, token=HF_KEY)
+        model = ModelClass.from_pretrained(weights_directory, token=HF_KEY, torch_dtype=t.bfloat16, device_map="auto")
         all_layers = eval("model." + config[model_name]['layers'])
     except:
         raise ValueError("Cannot load model, make sure weights and huggingface key are set in config file")

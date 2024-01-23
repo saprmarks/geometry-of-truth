@@ -21,7 +21,7 @@ def get_few_shot_accuracy(datasets, model_name, n_shots=5, calibrated=True, devi
     * The calibration constant, if calibrated=True.
     """
 
-    tokenizer, model = load_model(model_name)
+    tokenizer, model, _  = load_model(model_name)
 
     outs = []
     for dataset in datasets:
