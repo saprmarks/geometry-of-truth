@@ -1,7 +1,7 @@
 import torch as t
 import pandas as pd
 import os
-from generate_acts import load_llama
+from generate_acts import load_model
 from tqdm import tqdm
 import argparse
 import json
@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 
 t.set_grad_enabled(False)
 
-def get_few_shot_accuracy(datasets, model_size, n_shots=5, calibrated=True, device='cpu'):
+def get_few_shot_accuracy(datasets, model_name, n_shots=5, calibrated=True, device='cpu'):
     """Compute the few-shot accuracy of the model on the given datasets.
     Returns a list of dictionaries with experimental results, namely:
     * The dataset used.
@@ -21,7 +21,7 @@ def get_few_shot_accuracy(datasets, model_size, n_shots=5, calibrated=True, devi
     * The calibration constant, if calibrated=True.
     """
 
-    tokenizer, model = load_llama(model_size, device)
+    tokenizer, model = load_model(model_name)
 
     outs = []
     for dataset in datasets:
@@ -87,14 +87,14 @@ if __name__ == '__main__':
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('--datasets', type=str, nargs='+', help='datasets to evaluate on')
-    parser.add_argument('--model_size', type=str, default='13B', help='model size to evaluate')
+    parser.add_argument('--model_name', type=str, default='13B', help='model size to evaluate')
     parser.add_argument('--n_shots', type=int, default=5, help='number of shots to use')
     parser.add_argument('--uncalibrated', action='store_true', default=False, help='set flag if using uncalibrated few shot')
     parser.add_argument('--device', default='cuda:0', help='device to use')
 
     args = parser.parse_args()
 
-    out = get_few_shot_accuracy(args.datasets, args.model_size, args.n_shots, not args.uncalibrated, args.device)
+    out = get_few_shot_accuracy(args.datasets, args.model_name, args.n_shots, not args.uncalibrated, args.device)
 
     # save results
     with open(os.path.join(ROOT, 'experimental_outputs', "few_shot_results.json"), 'r') as f:
