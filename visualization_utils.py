@@ -17,23 +17,24 @@ class TruthData:
     def __len__(self):
         return len(self.df)
 
-    def from_datasets(dataset_names, model_size, layer, center=True, scale=False, device='cpu'):
+    def from_datasets(dataset_names, model, layer, noperiod=False, center=True, scale=False, device='cpu'):
         dfs = []
         for dataset_name in dataset_names:
             df = pd.read_csv(os.path.join('datasets', f"{dataset_name}.csv"))
 
             # append activations to df
-            data_dir = os.path.join("acts", model_size, dataset_name)
-            acts = collect_acts(dataset_name, model_size, layer, center=center, scale=scale, device=device).cpu()
-            df['activation'] = list(acts)
+            acts = collect_acts(dataset_name, model, layer, noperiod=noperiod, center=center, scale=scale, device=device).cpu()
+            try: 
+                df['activation'] = list(acts)
+            except:
+                raise ValueError(f"Issue with dataset {dataset_name}")
 
             dfs.append(df)
         
         df = pd.concat(dfs, keys=dataset_names)
-        df = df.sample(frac=1)
 
         out = TruthData(df)
-        out.model_size = model_size
+        out.model = model
         out.layer = layer
 
         return out
@@ -44,7 +45,7 @@ class TruthData:
     # label : column of df to use as labels
     # plot_datasets : dataset to use for plotting (by default, use all data)
     # pca_datasets : dataset to use for PCA (by default, use all data)
-    def plot(self, dimensions, dim_offset=0, plot_datasets=None, pca_datasets=None, arrows=[], **kwargs):
+    def plot(self, dimensions, dim_offset=0, plot_datasets=None, pca_datasets=None, arrows=[], return_df=False, **kwargs):
         
         # get pcs for the given datasets
         if pca_datasets is None:
@@ -64,6 +65,9 @@ class TruthData:
         # add projected data to df
         for dim in range(dimensions):
             df[f"PC{dim+1}"] = proj[:, dim].tolist()
+        
+        # shuffle rows of df
+        df = df.sample(frac=1)
         
         # plot using plotly
         if dimensions == 2:
@@ -112,5 +116,8 @@ class TruthData:
             
             fig.update_layout(annotations=arrows)
 
-        return fig
+        if return_df:
+            return fig, df
+        else:
+            return fig
             

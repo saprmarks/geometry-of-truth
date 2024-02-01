@@ -27,6 +27,9 @@ class LRProbe(t.nn.Module):
         
         return probe
 
+    def __str__():
+        return "LRProbe"
+
     @property
     def direction(self):
         return self.net[0].weight.data[0]
@@ -62,6 +65,9 @@ class MMProbe(t.nn.Module):
         probe = MMProbe(direction, covariance=covariance).to(device)
 
         return probe
+    
+    def __str__():
+        return "MMProbe"
 
 
 def ccs_loss(probe, acts, neg_acts):
@@ -103,6 +109,9 @@ class CCSProbe(t.nn.Module):
                 probe.net[0].weight.data *= -1
         
         return probe
+    
+    def __str__():
+        return "CCSProbe"
 
     @property
     def direction(self):
