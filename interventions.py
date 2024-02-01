@@ -144,11 +144,6 @@ The Spanish word 'escribir' means 'to write'. This statement is: TRUE
 The Spanish word 'gato' means 'cat'. This statement is: TRUE
 The Spanish word 'aire' means 'silver'. This statement is: FALSE
 """
-    elif args.model == 'llama-2-70b' and args.val_dataset == 'larger_than':
-        prompt = """\
-Eighty-eight is larger than fifty-one. This statement is: TRUE
-Sixty-five is larger than ninety-eight. This statement is: FALSE
-"""
     
     # prepare data
     queries = prepare_data(prompt, args.val_dataset, subset=args.subset)
