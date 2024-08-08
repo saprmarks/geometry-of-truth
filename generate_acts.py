@@ -15,14 +15,6 @@ else:
 
 config = configparser.ConfigParser()
 config.read('config.ini')
-HF_KEY = config['hf_key']['hf_key']
-
-class Hook:
-    def __init__(self):
-        self.out = None
-
-    def __call__(self, module, module_inputs, module_outputs):
-        self.out, _ = module_outputs
 
 def load_model(model_name, device='remote'):
     print(f"Loading model {model_name}...")
@@ -30,7 +22,7 @@ def load_model(model_name, device='remote'):
     if device == 'remote':
         model = LanguageModel(weights_directory)
     else:
-        model = LanguageModel(weights_directory, token=HF_KEY, torch_dtype=t.bfloat16, device_map="auto")
+        model = LanguageModel(weights_directory, torch_dtype=t.bfloat16, device_map="auto")
     return model
 
 def load_statements(dataset_name):
@@ -94,7 +86,7 @@ if __name__ == "__main__":
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
-        for idx in range(0, len(statements), 25):
+        for idx in tqdm(range(0, len(statements), 25)):
             acts = get_acts(statements[idx:idx + 25], model, layers, args.device == 'remote')
             for layer, act in acts.items():
                     t.save(act, f"{save_dir}/layer_{layer}_{idx}.pt")
