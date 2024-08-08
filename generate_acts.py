@@ -7,6 +7,12 @@ import os
 import configparser
 from nnsight import LanguageModel
 
+DEBUG = False
+if DEBUG:
+    tracer_kwargs = {'scan': True, 'validate': True}
+else:
+    tracer_kwargs = {'scan': False, 'validate': False}
+
 config = configparser.ConfigParser()
 config.read('config.ini')
 HF_KEY = config['hf_key']['hf_key']
@@ -41,10 +47,9 @@ def get_acts(statements, model, layers, remote=True):
     Return dictionary of stacked activations.
     """
     acts = {}
-    with model.forward(remote=remote, remote_include_output=False) as runner:
-        with runner.invoke(statements):
-            for layer in layers:
-                acts[layer] = model.model.layers[layer].output[0][:,-1,:].save()
+    with model.trace(statements, remote=remote, **tracer_kwargs):
+        for layer in layers:
+            acts[layer] = model.model.layers[layer].output[0][:,-1,:].save()
 
     for layer, act in acts.items():
         acts[layer] = act.value
