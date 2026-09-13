@@ -51,7 +51,7 @@ class TruthData:
         if pca_datasets is None:
             pca_datasets = self.df.index.levels[0].tolist()
         acts = self.df.loc[pca_datasets]['activation'].tolist()
-        acts = t.stack(acts, dim=0).cuda()
+        acts = t.stack(acts, dim=0)
         pcs = get_pcs(acts, dimensions, offset=dim_offset)
 
         # project data onto pcs
@@ -59,7 +59,7 @@ class TruthData:
             plot_datasets = self.df.index.levels[0].tolist()
         df = self.df.loc[plot_datasets]
         acts = df['activation'].tolist()
-        acts = t.stack(acts, dim=0).cuda()
+        acts = t.stack(acts, dim=0).to(pcs.device)
         proj = t.mm(acts, pcs)
 
         # add projected data to df
@@ -120,4 +120,3 @@ class TruthData:
             return fig, df
         else:
             return fig
-            
