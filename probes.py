@@ -14,9 +14,10 @@ class LRProbe(t.nn.Module):
     def pred(self, x, iid=None):
         return self(x).round()
     
-    def from_data(acts, labels, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
+    @classmethod
+    def from_data(cls, acts, labels, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
         acts, labels = acts.to(device), labels.to(device)
-        probe = LRProbe(acts.shape[-1]).to(device)
+        probe = cls(acts.shape[-1]).to(device)
         
         opt = t.optim.AdamW(probe.parameters(), lr=lr, weight_decay=weight_decay)
         for _ in range(epochs):
@@ -27,7 +28,7 @@ class LRProbe(t.nn.Module):
         
         return probe
 
-    def __str__():
+    def __str__(self):
         return "LRProbe"
 
     @property
@@ -53,8 +54,9 @@ class MMProbe(t.nn.Module):
     def pred(self, x, iid=False):
         return self(x, iid=iid).round()
 
-    def from_data(acts, labels, atol=1e-3, device='cpu'):
-        acts, labels
+    @classmethod
+    def from_data(cls, acts, labels, atol=1e-3, device='cpu'):
+        acts, labels = acts.to(device), labels.to(device)
         pos_acts, neg_acts = acts[labels==1], acts[labels==0]
         pos_mean, neg_mean = pos_acts.mean(0), neg_acts.mean(0)
         direction = pos_mean - neg_mean
@@ -62,11 +64,11 @@ class MMProbe(t.nn.Module):
         centered_data = t.cat([pos_acts - pos_mean, neg_acts - neg_mean], 0)
         covariance = centered_data.t() @ centered_data / acts.shape[0]
         
-        probe = MMProbe(direction, covariance=covariance).to(device)
+        probe = cls(direction, covariance=covariance).to(device)
 
         return probe
     
-    def __str__():
+    def __str__(self):
         return "MMProbe"
 
 
@@ -92,9 +94,10 @@ class CCSProbe(t.nn.Module):
     def pred(self, acts, iid=None):
         return self(acts).round()
     
-    def from_data(acts, neg_acts, labels=None, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
+    @classmethod
+    def from_data(cls, acts, neg_acts, labels=None, lr=0.001, weight_decay=0.1, epochs=1000, device='cpu'):
         acts, neg_acts = acts.to(device), neg_acts.to(device)
-        probe = CCSProbe(acts.shape[-1]).to(device)
+        probe = cls(acts.shape[-1]).to(device)
         
         opt = t.optim.AdamW(probe.parameters(), lr=lr, weight_decay=weight_decay)
         for _ in range(epochs):
@@ -104,13 +107,14 @@ class CCSProbe(t.nn.Module):
             opt.step()
 
         if labels is not None: # flip direction if needed
+            labels = labels.to(device)
             acc = (probe.pred(acts) == labels).float().mean()
             if acc < 0.5:
                 probe.net[0].weight.data *= -1
         
         return probe
     
-    def __str__():
+    def __str__(self):
         return "CCSProbe"
 
     @property

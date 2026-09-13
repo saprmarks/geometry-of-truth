@@ -8,6 +8,37 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 ACTS_BATCH_SIZE = 25
 
 
+def available_activation_datasets(model, noperiod=False):
+    """
+    Returns dataset names with saved activations for the given model.
+    """
+    directory = os.path.join(ROOT, 'acts', model)
+    if noperiod:
+        directory = os.path.join(directory, 'noperiod')
+    if not os.path.isdir(directory):
+        return []
+    return sorted(
+        name for name in os.listdir(directory)
+        if os.path.isdir(os.path.join(directory, name))
+    )
+
+
+def available_activation_layers(dataset_name, model, noperiod=False):
+    """
+    Returns saved activation layers for a dataset/model pair.
+    """
+    directory = os.path.join(ROOT, 'acts', model)
+    if noperiod:
+        directory = os.path.join(directory, 'noperiod')
+    directory = os.path.join(directory, dataset_name)
+    if not os.path.isdir(directory):
+        return []
+    return sorted({
+        int(os.path.basename(path).split('_')[1])
+        for path in glob(os.path.join(directory, 'layer_*_*.pt'))
+    })
+
+
 def get_pcs(X, k=2, offset=0):
     """
     Performs Principal Component Analysis (PCA) on the n x d data matrix X. 
@@ -54,8 +85,24 @@ def collect_acts(dataset_name, model, layer, noperiod=False, center=True, scale=
     directory = os.path.join(directory, dataset_name)
     activation_files = glob(os.path.join(directory, f'layer_{layer}_*.pt'))
     if len(activation_files) == 0:
-        raise ValueError(f"Dataset {dataset_name} not found.")
-    acts = [t.load(os.path.join(directory, f'layer_{layer}_{i}.pt')).to(device) for i in range(0, ACTS_BATCH_SIZE * len(activation_files), ACTS_BATCH_SIZE)]
+        if os.path.isdir(directory):
+            available_layers = sorted({
+                os.path.basename(path).split('_')[1]
+                for path in glob(os.path.join(directory, 'layer_*_*.pt'))
+            }, key=int)
+            available = ', '.join(available_layers) if available_layers else 'none'
+            raise ValueError(
+                f"No activations found for dataset '{dataset_name}', model '{model}', "
+                f"layer {layer}. Looked in {directory}. Available layers: {available}."
+            )
+        raise ValueError(
+            f"No activations found for dataset '{dataset_name}' and model '{model}'. "
+            f"Expected directory: {directory}."
+        )
+    acts = [
+        t.load(os.path.join(directory, f'layer_{layer}_{i}.pt'), map_location=device)
+        for i in range(0, ACTS_BATCH_SIZE * len(activation_files), ACTS_BATCH_SIZE)
+    ]
     acts = t.cat(acts, dim=0).float().to(device)
     if center:
         acts = acts - t.mean(acts, dim=0)
@@ -147,12 +194,9 @@ class DataManager:
         Sets the projection matrix for dimensionality reduction by doing pca on the specified datasets.
         datasets : can be 'all', 'train', 'val', a list of dataset names, or a single dataset name.
         """
-        acts, _ = self.get(datasets, proj=False)
+        acts, _ = self.get(datasets)
         self.proj = get_pcs(acts, k=k, offset=dim_offset)
 
         self.data = dict_recurse(self.data, lambda x : (t.mm(x[0], self.proj), x[1]))
     
-
-
-
 
